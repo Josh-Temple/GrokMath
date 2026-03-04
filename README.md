@@ -102,6 +102,15 @@ Each unit should eventually include:
 
 ---
 
+
+## Current Content Structure
+
+- `content/index.md` — starter curriculum index and unit-level placeholders.
+- `content/lesson-template.md` — canonical markdown template for all lessons.
+- `content/units/` — destination folder for per-unit lesson files.
+
+---
+
 ## Repository Standards
 
 - Keep structure and naming consistent.

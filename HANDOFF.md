@@ -33,3 +33,12 @@
 - [ ] Updated HANDOFF.md
 - [ ] All new content in English
 - [ ] Verified markdown rendering
+
+### Session 2026-03-04
+
+- **What changed**: Standardized the content skeleton to `content/units/`, `content/index.md`, and `content/lesson-template.md`; replaced legacy `content/curriculum-index.md` and `content/templates/lesson-template.md` with the new canonical files.
+- **Decisions made**: Kept kebab-case paths, fixed scope to a 10-unit starter index, adopted a Markdown-only lesson format (no MDX/components yet), and continued to defer frontend stack decisions.
+- **What’s next**: Populate the first 1–2 lessons for Unit 1 or Unit 2, decide a minimal Next.js/React + MDX path for Vercel, and add lightweight content linting rules.
+- **Blockers / Risks**: None today. Risk: the template may need minor iteration after drafting the first complete lesson.
+- **Suggested next prompt**: "Draft the first two complete lessons for Unit 1 using `content/lesson-template.md`, then propose a minimal Next.js + MDX scaffold for Vercel delivery."
+- **Concrete instructions for next session**: Use `content/index.md` and `content/lesson-template.md` as the single source of truth, add only lesson content under `content/units/`, and append a new dated section to this file at the end of the session.
