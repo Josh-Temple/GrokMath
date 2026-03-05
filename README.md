@@ -103,6 +103,41 @@ Each unit should eventually include:
 ---
 
 
+
+## Vercel Deployment Baseline
+
+A minimal Next.js App Router scaffold is included so the repository can be deployed directly on Vercel.
+
+### Local development
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+3. Open `http://localhost:3000`.
+
+### Production check
+
+```bash
+npm run build
+npm run start
+```
+
+### Vercel deployment
+
+- Import this repository in Vercel.
+- Framework preset: **Next.js** (auto-detected).
+- Build command: `npm run build`.
+- Output setting: default Next.js output.
+
+Current web output is intentionally minimal and will be expanded as lesson rendering is implemented.
+
+---
+
 ## Current Content Structure
 
 - `content/index.md` — starter curriculum index and unit-level placeholders.
