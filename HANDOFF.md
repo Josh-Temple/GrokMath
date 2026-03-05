@@ -42,3 +42,17 @@
 - **Blockers / Risks**: None today. Risk: the template may need minor iteration after drafting the first complete lesson.
 - **Suggested next prompt**: "Draft the first two complete lessons for Unit 1 using `content/lesson-template.md`, then propose a minimal Next.js + MDX scaffold for Vercel delivery."
 - **Concrete instructions for next session**: Use `content/index.md` and `content/lesson-template.md` as the single source of truth, add only lesson content under `content/units/`, and append a new dated section to this file at the end of the session.
+
+### Session 2026-03-05
+- **What changed**: Updated content/index.md with finalized 10-unit starter curriculum; created first placeholder lesson file content/units/unit-1-whole-numbers-and-place-value.md
+- **Decisions made**: Adopted concrete 10-unit spine focused on elementary-to-early-high-school progression; kept Markdown-only; deferred frontend stack
+- **What’s next**: Draft first real content for Unit 1 (at least 1–2 sections: intuitive explanation + one worked example); consider minimal Next.js/MDX skeleton only after first lesson feels solid
+- **Blockers / Risks**: Low — template may need small tweaks after real content is written (expected and safe)
+- **Suggested next prompt**: “Populate first sections of unit-1-whole-numbers-and-place-value.md with intuitive explanation, one worked example, and one quick check question. Keep formal layer and exercises empty for now.”
+
+### Session 2026-03-05 (Vercel Preparation)
+- **What changed**: Added a minimal Next.js App Router scaffold (`app/`, `package.json`, `tsconfig.json`, `next.config.mjs`, `next-env.d.ts`, `.gitignore`) so the repo can be deployed on Vercel immediately.
+- **Decisions made**: Kept lesson content in `content/` as the source of truth; shipped a lightweight temporary homepage listing starter units; deferred markdown/MDX rendering implementation to a focused follow-up.
+- **What’s next**: Implement markdown lesson rendering from `content/` into route pages; add navigation from unit index to lesson files; evaluate MDX support once initial render flow is stable.
+- **Blockers / Risks**: Low — no blocker for deployment, but content is not yet dynamically rendered from markdown.
+- **Suggested next prompt**: "Build content routes that read markdown files from `content/`, render unit pages, and link from the home page. Keep the structure Vercel-compatible."
