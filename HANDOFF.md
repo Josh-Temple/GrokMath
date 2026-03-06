@@ -56,3 +56,20 @@
 - **What’s next**: Implement markdown lesson rendering from `content/` into route pages; add navigation from unit index to lesson files; evaluate MDX support once initial render flow is stable.
 - **Blockers / Risks**: Low — no blocker for deployment, but content is not yet dynamically rendered from markdown.
 - **Suggested next prompt**: "Build content routes that read markdown files from `content/`, render unit pages, and link from the home page. Keep the structure Vercel-compatible."
+
+### Session 2026-03-06
+- **What changed**:
+  - Populated `content/units/unit-1-whole-numbers-and-place-value.md` with the first complete starter lesson, including learning goals, intuitive explanation, formal language, worked examples, misconceptions, quick checks with answers, graded exercises, and summary.
+  - Added `content/units/unit-2-operations-with-whole-numbers.md` with short placeholder lesson queue entries for continuity.
+- **Decisions made**:
+  - Followed the existing lesson template flow in practice (intuitive -> formal -> examples -> checks -> exercises -> summary) without changing template files.
+  - Kept content markdown-only, English-only, and at a late-elementary readability level while preserving mathematical precision in the formal section.
+  - Deferred any frontend/content rendering work to keep this session content-focused.
+- **What’s next**:
+  - Implement markdown rendering in Next.js so Unit 1 content can be viewed in the web app.
+  - Draft the first full lesson for Unit 2 (operations with whole numbers) using the same structure.
+- **Blockers / Risks**:
+  - No blocking issues found.
+  - Possible future risk: once multiple full lessons exist, we may want a stricter consistency checklist (voice, difficulty pacing, and exercise labeling).
+- **Suggested next prompt for Grok**:
+  - "Render `content/units/unit-1-whole-numbers-and-place-value.md` in the Next.js app with a simple route and navigation from the homepage, without introducing MDX yet."
