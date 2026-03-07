@@ -73,3 +73,26 @@
   - Possible future risk: once multiple full lessons exist, we may want a stricter consistency checklist (voice, difficulty pacing, and exercise labeling).
 - **Suggested next prompt for Grok**:
   - "Render `content/units/unit-1-whole-numbers-and-place-value.md` in the Next.js app with a simple route and navigation from the homepage, without introducing MDX yet."
+
+### **Session 2026-03-07**
+
+- **What changed**:
+  - Added `app/units/[unitSlug]/page.tsx` to implement dynamic unit lesson routing with server-side file reads from `content/units/<slug>.md` and markdown-to-HTML conversion.
+  - Added `app/units/page.tsx` as a simple unit index page linking to the first lesson.
+  - Updated `app/page.tsx` to provide navigation links from homepage to `/units` and directly to Unit 1.
+  - Updated `app/globals.css` with basic readable styling for rendered lesson content.
+  - Updated `README.md` to reflect the new route flow and current rendered output.
+- **Decisions made**:
+  - Kept content markdown-only and avoided MDX to stay aligned with current scope.
+  - Used a lightweight in-repo markdown renderer for headings, paragraphs, lists, inline code, emphasis, and bold to avoid introducing dependency risk in this environment.
+  - Kept rendering server-side in App Router route handlers using Node `fs` to avoid client-side file access.
+- **What’s next**:
+  1. Add robust markdown parsing via `remark`/`gray-matter` once package install policy allows.
+  2. Add KaTeX support for clearer mathematical notation rendering.
+  3. Expand `/units` index generation to automatically discover all files in `content/units/`.
+  4. Draft the first full Unit 2 lesson content.
+- **Blockers / Risks**:
+  - Environment package policy currently blocks installing new npm dependencies (403 from registry), so markdown parsing is intentionally basic for now.
+  - Current parser does not support advanced markdown constructs (tables, nested lists, blockquotes, fenced code blocks) yet.
+- **Suggested next prompt for Grok**:
+  - "Upgrade the markdown rendering layer to use remark + gray-matter with graceful fallback, auto-generate the units index from content/units, and add KaTeX support for math blocks while keeping Vercel compatibility."

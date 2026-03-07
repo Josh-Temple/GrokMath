@@ -134,7 +134,11 @@ npm run start
 - Build command: `npm run build`.
 - Output setting: default Next.js output.
 
-Current web output is intentionally minimal and will be expanded as lesson rendering is implemented.
+Current web output now includes a basic unit navigation flow and server-side markdown rendering for Unit 1 via App Router routes.
+
+- `/` — homepage with links to unit navigation
+- `/units` — unit index (currently listing Unit 1)
+- `/units/unit-1-whole-numbers-and-place-value` — rendered lesson page from `content/units/unit-1-whole-numbers-and-place-value.md`
 
 ---
 
