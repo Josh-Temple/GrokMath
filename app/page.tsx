@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const units = [
   "Whole Numbers and Place Value",
   "Addition and Subtraction",
@@ -8,7 +10,7 @@ const units = [
   "Geometry Foundations",
   "Ratio, Proportion and Percent",
   "Linear Relationships and Functions",
-  "Introduction to Data and Probability"
+  "Introduction to Data and Probability",
 ];
 
 export default function HomePage() {
@@ -22,6 +24,18 @@ export default function HomePage() {
         Curriculum source files remain in <code>content/</code>. This page is a
         temporary launch surface while lessons are drafted.
       </p>
+
+      <h2>Start Learning</h2>
+      <ul>
+        <li>
+          <Link href="/units">Open Unit Index</Link>
+        </li>
+        <li>
+          <Link href="/units/unit-1-whole-numbers-and-place-value">
+            Open Unit 1 Lesson
+          </Link>
+        </li>
+      </ul>
 
       <h2>Starter Units</h2>
       <ol>
