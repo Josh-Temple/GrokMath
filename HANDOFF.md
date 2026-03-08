@@ -96,3 +96,27 @@
   - Current parser does not support advanced markdown constructs (tables, nested lists, blockquotes, fenced code blocks) yet.
 - **Suggested next prompt for Grok**:
   - "Upgrade the markdown rendering layer to use remark + gray-matter with graceful fallback, auto-generate the units index from content/units, and add KaTeX support for math blocks while keeping Vercel compatibility."
+
+### Session 2026-03-08
+- **What changed**:
+  - Reviewed `README.md` and `HANDOFF.md` before any edits.
+  - Added a new **Current Challenges** section to `README.md` to make active delivery risks and pending technical work visible.
+  - Recorded this session handoff update for continuity.
+- **Decisions made**:
+  - Keep the short-term priority focused on delivery infrastructure improvements (parser robustness, math rendering, auto-indexing) before broad content expansion.
+  - Keep documentation explicit about known risks so Grok/Codex instructions can be generated with better prioritization.
+- **What’s next**:
+  1. Replace the temporary markdown parser with a robust pipeline (`remark` + frontmatter handling) with graceful fallback behavior.
+  2. Add KaTeX-based rendering for inline/block math in lesson pages.
+  3. Auto-generate `/units` entries by scanning `content/units/`.
+  4. Draft the first full lesson for Unit 2 using `content/lesson-template.md`.
+- **Blockers / Risks**:
+  - Environment/package registry constraints may still affect dependency installation.
+  - Parser migration can introduce formatting regressions; verify Unit 1 rendering before rollout.
+- **Suggested next prompt for Grok**:
+  - "Implement robust markdown rendering with remark and frontmatter support, integrate KaTeX, auto-generate the units index from `content/units/`, and validate that Unit 1 output remains stable. Then update README and HANDOFF accordingly."
+- **Concrete instructions for next session**:
+  - Start by re-reading `README.md` and `HANDOFF.md`.
+  - Prioritize infrastructure tasks in this order: parser upgrade -> math rendering -> units auto-index.
+  - Run at least one production-level verification (`npm run build`) after implementation.
+  - Append a new dated section to `HANDOFF.md` at session end.

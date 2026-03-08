@@ -166,3 +166,12 @@ Build a reliable daily production loop where each session improves both:
 1. the learning product itself, and
 2. the quality of the process (planning, verification, handoff).
 
+---
+
+## Current Challenges
+
+- Markdown rendering is still using a temporary lightweight parser; migration to a robust parser pipeline is pending.
+- Math typesetting support (KaTeX or equivalent) is not yet integrated.
+- The `/units` page should be generated from `content/units/` automatically instead of relying on manual links.
+- Unit 2 still needs a fully drafted lesson aligned with the Unit 1 quality level.
+- Dependency-install reliability remains a risk factor when introducing parser/rendering upgrades.
