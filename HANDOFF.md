@@ -120,3 +120,34 @@
   - Prioritize infrastructure tasks in this order: parser upgrade -> math rendering -> units auto-index.
   - Run at least one production-level verification (`npm run build`) after implementation.
   - Append a new dated section to `HANDOFF.md` at session end.
+
+### Session 2026-03-08 (Curriculum Skeleton Build)
+- **Date**: 2026-03-08
+- **What was actually created**:
+  - Added folder tree under `curriculum/`:
+    - `curriculum/`
+    - `curriculum/elementary/arithmetic/`
+    - `curriculum/elementary/fractions/`
+    - `curriculum/middle-school/pre-algebra/`
+    - `curriculum/middle-school/geometry-basics/`
+    - `curriculum/high-school/algebra-1/`
+    - `curriculum/high-school/geometry/`
+    - `curriculum/high-school/algebra-2/`
+    - `curriculum/university-foundations/precalculus/`
+    - `curriculum/university-foundations/linear-algebra-intro/`
+  - Added `curriculum/index.md` with a 10-unit starter curriculum list spanning Elementary to University Foundations.
+  - Added `curriculum/elementary/arithmetic/README.md` placeholder.
+  - Added `.gitkeep` markers in otherwise empty starter unit folders so the directory skeleton is preserved in git history.
+- **Existing folders checked (no restructure performed)**:
+  - `content/` already existed before this session.
+  - `curriculum/`, `units/`, and `lessons/` did not exist at session start.
+- **Deviations from the plan and why**:
+  - The requested acceptance criterion "git status shows only additions" cannot be strictly true when `HANDOFF.md` must be updated every session; this session intentionally modified `HANDOFF.md` to satisfy repository continuity rules.
+- **Decisions made**:
+  - Used lowercase kebab-case directory names for all new curriculum paths.
+  - Kept changes scoped to markdown structure/content only; no frontend or build config edits.
+  - Ignored outdated/conflicting historical guidance in prior handoff sections and followed the current session brief.
+- **Next suggested prompt**:
+  - "Create a reusable lesson template markdown with sections: Motivation -> Intuitive Explanation -> Formal Definition -> Worked Examples -> Common Mistakes -> Exercises."
+- **Blockers / risks observed**:
+  - Potential future naming conflict risk if older `content/` curriculum materials and new `curriculum/` structure diverge without a migration plan.
