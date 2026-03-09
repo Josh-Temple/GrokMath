@@ -170,8 +170,8 @@ Build a reliable daily production loop where each session improves both:
 
 ## Current Challenges
 
-- Markdown rendering is still using a temporary lightweight parser; migration to a robust parser pipeline is pending.
-- Math typesetting support (KaTeX or equivalent) is not yet integrated.
+- Lesson rendering now routes through a dedicated `lib/markdown.ts` pipeline with frontmatter extraction and optional `remark`/`gray-matter`/KaTeX runtime support; dependency installation constraints currently force fallback behavior in this environment.
+- KaTeX stylesheet is wired globally, and math rendering is enabled when the `katex` runtime dependency is available.
 - The `/units` page should be generated from `content/units/` automatically instead of relying on manual links.
 - Unit 2 still needs a fully drafted lesson aligned with the Unit 1 quality level.
 - Dependency-install reliability remains a risk factor when introducing parser/rendering upgrades.

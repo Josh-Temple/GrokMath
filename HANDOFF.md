@@ -151,3 +151,25 @@
   - "Create a reusable lesson template markdown with sections: Motivation -> Intuitive Explanation -> Formal Definition -> Worked Examples -> Common Mistakes -> Exercises."
 - **Blockers / risks observed**:
   - Potential future naming conflict risk if older `content/` curriculum materials and new `curriculum/` structure diverge without a migration plan.
+
+### Session 2026-03-09
+- **What changed**:
+  - Updated `package.json` to declare `remark`, `remark-html`, `gray-matter`, `katex`, and `@types/katex` as requested dependencies.
+  - Added `lib/markdown.ts` with a new `renderLesson(slug)` API that reads `content/units/<slug>.md`, extracts frontmatter, and renders lesson HTML.
+  - Refactored `app/units/[unitSlug]/page.tsx` to consume `renderLesson` and keep route-level behavior stable.
+  - Updated `app/layout.tsx` to include global KaTeX stylesheet loading.
+  - Updated `README.md` challenge notes to reflect the new markdown pipeline status and current install constraints.
+- **Decisions made**:
+  - Chose a remark-oriented rendering path with graceful runtime fallback so Unit 1 remains stable even when registry policy blocks package installation.
+  - Kept markdown files in `content/` as the source-of-truth and avoided MDX migration.
+  - Kept lesson rendering server-side in App Router to avoid client-only markdown processing.
+- **What’s next**:
+  1. Auto-generate `/units` index entries by scanning `content/units/` so links stay in sync with lesson files.
+  2. Draft full Unit 2 lesson content aligned to the existing Unit 1 quality bar.
+  3. When package policy allows, run `npm install` to fully activate `remark` + `gray-matter` + KaTeX server rendering in production.
+- **Blockers / risks**:
+  - `npm install` currently fails with npm registry 403 responses for requested packages, which prevents lockfile generation and full dependency activation.
+  - If CDN-hosted KaTeX CSS is blocked by a strict network policy, math visuals may degrade.
+  - Parser output differences between fallback and full remark stack should be re-verified once dependencies become installable.
+- **Suggested next prompt**:
+  - "Auto-generate the `/units` page from a filesystem scan of `content/units/`, then draft Unit 2 (`content/units/unit-2-...md`) using the lesson template while preserving Unit 1 rendering stability and updating HANDOFF.md."

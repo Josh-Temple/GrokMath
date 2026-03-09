@@ -3,16 +3,23 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "GrokMath",
-  description: "A continuously improving math curriculum."
+  description: "A continuously improving math curriculum.",
 };
 
 export default function RootLayout({
-  children
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
