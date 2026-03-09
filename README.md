@@ -174,4 +174,5 @@ Build a reliable daily production loop where each session improves both:
 - KaTeX stylesheet is wired globally, and math rendering is enabled when the `katex` runtime dependency is available.
 - The `/units` page should be generated from `content/units/` automatically instead of relying on manual links.
 - Unit 2 still needs a fully drafted lesson aligned with the Unit 1 quality level.
+- Next.js is now pinned to `15.2.4` in `package.json` to satisfy Vercel's CVE-2025-66478 enforcement.
 - Dependency-install reliability remains a risk factor when introducing parser/rendering upgrades.
