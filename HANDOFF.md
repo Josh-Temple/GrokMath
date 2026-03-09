@@ -173,3 +173,17 @@
   - Parser output differences between fallback and full remark stack should be re-verified once dependencies become installable.
 - **Suggested next prompt**:
   - "Auto-generate the `/units` page from a filesystem scan of `content/units/`, then draft Unit 2 (`content/units/unit-2-...md`) using the lesson template while preserving Unit 1 rendering stability and updating HANDOFF.md."
+
+### Session 2026-03-09 (Vercel CVE Build Fix)
+- **What changed**:
+  - Updated `package.json` to pin `next` from `15.2.0` to `15.2.4` so Vercel no longer blocks builds for CVE-2025-66478.
+  - Updated `README.md` Current Challenges to document the Next.js version pin and deployment rationale.
+  - Ran a local production build check (`npm run build`) to confirm app compilation remains healthy in this environment.
+- **Decisions made**:
+  - Use an explicit pinned patch version (`15.2.4`) rather than a broad range so deployment behavior is deterministic.
+- **What’s next**:
+  1. Run a fresh dependency install in CI/Vercel (or a registry-permitted local environment) to ensure lockfile and runtime actually resolve to Next.js 15.2.4.
+  2. Redeploy on Vercel and confirm the CVE gate no longer triggers.
+  3. Optionally commit `package-lock.json` after successful install for reproducible deploys.
+- **Blockers / Risks**:
+  - This environment currently cannot complete `npm install` due registry policy (`403` on `@types/katex`), so local `node_modules` still reports Next.js 15.2.0 until install can run elsewhere.
