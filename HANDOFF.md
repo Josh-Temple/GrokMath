@@ -187,3 +187,36 @@
   3. Optionally commit `package-lock.json` after successful install for reproducible deploys.
 - **Blockers / Risks**:
   - This environment currently cannot complete `npm install` due registry policy (`403` on `@types/katex`), so local `node_modules` still reports Next.js 15.2.0 until install can run elsewhere.
+
+### Session 2026-03-10
+- **What changed**:
+  - Replaced static `/units` link data with filesystem-driven index generation in `app/units/page.tsx`.
+  - Added unit discovery logic that reads `content/units/*.md`, extracts title from frontmatter or first `#` heading, falls back to humanized slug, and sorts unit links deterministically.
+  - Rewrote `content/units/unit-2-operations-with-whole-numbers.md` as a full lesson with motivation, intuitive/formal sections, worked examples, exercises with solutions, quick checks, and summary.
+  - Updated `README.md` to reflect that `/units` is now auto-generated and Unit 2 is available.
+- **Decisions made**:
+  - Kept existing slug style (`unit-<n>-...`) for compatibility with current routes/content naming.
+  - Implemented title extraction without new dependencies to avoid install-policy risk.
+  - Sorting rule for unit index: alphabetical by resolved title for predictable navigation output.
+- **What’s next (1–2 priorities)**:
+  1. Draft Unit 3 at the same quality level and verify progression continuity from Units 1–2.
+  2. Improve unit index UX (brief descriptions, level badges, or ordering metadata such as `order:` in frontmatter).
+- **Blockers / risks**:
+  - Title and order quality depend on markdown/frontmatter consistency; missing metadata can reduce index clarity.
+  - Optional dependency constraints may still limit full remark/KaTeX runtime features in some environments.
+- **Suggested next prompt for Grok**:
+  - "Create Unit 3 lesson content at Unit 1–2 quality, add optional `order` frontmatter support to `/units` sorting (fallback to title), and update README/HANDOFF with validation results."
+
+### Session 2026-03-10 (Vercel CVE Gate Follow-up)
+- **What changed**:
+  - Updated `package.json` to move `next` from an explicitly vulnerable blocked pin (`15.2.4`) to a patched semver range (`^15.2.5`).
+  - Updated `README.md` Current Challenges to reflect the new Next.js versioning policy for CVE-2025-66478 compliance.
+- **Decisions made**:
+  - Chose a patched range instead of another fixed vulnerable-prone pin so deploys can automatically pick newer security patches within major version 15.
+- **What’s next**:
+  1. Re-run Vercel deployment and confirm the security scanner no longer flags Next.js.
+  2. Commit a lockfile from a registry-permitted environment to make resolved secure versions reproducible.
+- **Blockers / risks**:
+  - This environment may still block fresh `npm install` for some packages, which can limit local lockfile refresh validation.
+- **Suggested next prompt for Grok**:
+  - "Verify the Vercel deployment now passes CVE scanning with the updated Next.js range, then lock the resolved secure version and document the exact version in README/HANDOFF."
