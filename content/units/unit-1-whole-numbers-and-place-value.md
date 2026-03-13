@@ -1,3 +1,9 @@
+---
+title: Unit 1: Whole Numbers and Place Value
+order: 1
+description: Understanding whole numbers, place value, comparison, and rounding fundamentals.
+---
+
 # Unit 1: Whole Numbers and Place Value
 
 ## Learning Goals

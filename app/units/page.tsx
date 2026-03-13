@@ -5,6 +5,12 @@ import Link from "next/link";
 type UnitLink = {
   slug: string;
   title: string;
+  order: number | null;
+};
+
+type FrontmatterFields = {
+  title: string | null;
+  order: number | null;
 };
 
 function humanizeSlug(slug: string) {
@@ -14,17 +20,21 @@ function humanizeSlug(slug: string) {
     .join(" ");
 }
 
-function extractFrontmatterTitle(raw: string) {
+function extractFrontmatter(raw: string): FrontmatterFields {
   if (!raw.startsWith("---\n")) {
-    return null;
+    return { title: null, order: null };
   }
 
   const closingIndex = raw.indexOf("\n---\n", 4);
   if (closingIndex === -1) {
-    return null;
+    return { title: null, order: null };
   }
 
   const frontmatterBlock = raw.slice(4, closingIndex);
+
+  let title: string | null = null;
+  let order: number | null = null;
+
   for (const line of frontmatterBlock.split("\n")) {
     const separatorIndex = line.indexOf(":");
     if (separatorIndex === -1) {
@@ -32,16 +42,22 @@ function extractFrontmatterTitle(raw: string) {
     }
 
     const key = line.slice(0, separatorIndex).trim();
-    if (key !== "title") {
-      continue;
-    }
-
     const rawValue = line.slice(separatorIndex + 1).trim();
     const unquotedValue = rawValue.replace(/^['\"]|['\"]$/g, "").trim();
-    return unquotedValue || null;
+
+    if (key === "title" && unquotedValue) {
+      title = unquotedValue;
+    }
+
+    if (key === "order") {
+      const parsedOrder = Number(unquotedValue);
+      if (Number.isFinite(parsedOrder)) {
+        order = parsedOrder;
+      }
+    }
   }
 
-  return null;
+  return { title, order };
 }
 
 function extractHeadingTitle(raw: string) {
@@ -61,17 +77,32 @@ async function getUnitLinks(): Promise<UnitLink[]> {
       const filePath = path.join(unitsDirectoryPath, fileName);
       const rawMarkdown = await fs.readFile(filePath, "utf8");
 
-      const frontmatterTitle = extractFrontmatterTitle(rawMarkdown);
+      const frontmatter = extractFrontmatter(rawMarkdown);
       const headingTitle = extractHeadingTitle(rawMarkdown);
 
       return {
         slug,
-        title: frontmatterTitle ?? headingTitle ?? humanizeSlug(slug),
+        title: frontmatter.title ?? headingTitle ?? humanizeSlug(slug),
+        order: frontmatter.order,
       };
     }),
   );
 
-  return units.sort((a, b) => a.title.localeCompare(b.title));
+  return units.sort((a, b) => {
+    if (a.order !== null && b.order !== null && a.order !== b.order) {
+      return a.order - b.order;
+    }
+
+    if (a.order !== null && b.order === null) {
+      return -1;
+    }
+
+    if (a.order === null && b.order !== null) {
+      return 1;
+    }
+
+    return a.title.localeCompare(b.title);
+  });
 }
 
 export default async function UnitsPage() {

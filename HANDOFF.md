@@ -220,3 +220,24 @@
   - This environment may still block fresh `npm install` for some packages, which can limit local lockfile refresh validation.
 - **Suggested next prompt for Grok**:
   - "Verify the Vercel deployment now passes CVE scanning with the updated Next.js range, then lock the resolved secure version and document the exact version in README/HANDOFF."
+
+
+### Session 2026-03-12
+- **What changed**:
+  - Added `content/units/unit-3-addition-and-subtraction.md` with a complete foundational lesson aligned to the current lesson-template flow (motivation, intuition, formal properties, worked examples, pitfalls, exercises, quick checks, summary).
+  - Added frontmatter ordering metadata to Unit 1 and Unit 2 content files (`order: 1`, `order: 2`) and standardized Unit 2 metadata.
+  - Updated `app/units/page.tsx` index logic to parse optional frontmatter `order` and sort units by `order` ascending with title-based fallback.
+  - Updated `README.md` navigation notes to document Unit 3 availability and order-aware unit index behavior.
+- **Decisions made**:
+  - Confirmed continued use of markdown lesson template structure and English-only content authoring.
+  - Adopted order-first sorting for `/units` navigation to prevent filename-driven sequencing issues.
+  - Kept frontmatter parsing dependency-free in index logic to avoid npm-install blocker impact.
+- **What’s next**:
+  1. Review Unit 3 pedagogy and difficulty progression, then draft Unit 4 (Multiplication Concepts).
+  2. Add a lightweight concept map placeholder section pattern to the lesson template for future units.
+  3. Re-attempt dependency and lockfile verification in a registry-permitted environment.
+- **Blockers / risks**:
+  - npm registry `403` constraints still prevent reliable lockfile/dependency refresh in this environment.
+  - KaTeX rendering remains partly dependent on runtime dependency availability/network policy.
+- **Suggested next prompt**:
+  - "Review Unit 3 quality; draft Unit 4 (Multiplication Concepts); implement basic concept map placeholder in lesson template."
