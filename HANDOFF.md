@@ -241,3 +241,24 @@
   - KaTeX rendering remains partly dependent on runtime dependency availability/network policy.
 - **Suggested next prompt**:
   - "Review Unit 3 quality; draft Unit 4 (Multiplication Concepts); implement basic concept map placeholder in lesson template."
+
+## Session 2026-03-13
+- **What changed**:
+  - Added `content/units/unit-4-multiplication-and-division.md` as a complete lesson using the canonical template order, with frontmatter (`title`, `order: 4`, `level`, `tags`), learning goals, intuitive/formal sections, worked examples, graded exercises (A1–A10), misconceptions, quick checks, summary, and next-lesson guidance.
+  - Updated `README.md` unit-route list to include Unit 4 so project documentation matches current content coverage.
+- **Decisions made**:
+  - Preserved template compatibility by keeping the exact top-level section sequence from `content/lesson-template.md` and embedding richer instructional elements (Learning Goals, graded tiers, inline quick-check answers) as substructure for extensibility.
+  - Kept scope to content and documentation only; no routing/rendering/component changes were introduced.
+- **What’s next**:
+  1. Draft Unit 5 on fractions (parts of a whole, equivalent fractions, number-line representation) with the same template-first structure.
+  2. Optionally run a consistency polish pass on Unit 3 headings/wording to align with Unit 4 section tone.
+- **Blockers/risks**:
+  - `content/lesson-template.md` is intentionally concise, so richer lessons require consistent subheading conventions to avoid style drift across authors.
+  - KaTeX-heavy content should continue to be smoke-tested in local dev because dependency/environment differences can affect rendering behavior.
+- **Suggested next prompt**:
+  - "Create Unit 5 (Fractions Introduction) in the same template order as Unit 4, including 10 graded exercises and a stronger visual-model explanation section."
+
+- [x] README reviewed and updated for current unit coverage.
+- [x] HANDOFF updated with decisions, risks, and next-session prompt.
+- [x] Changes kept content-focused with no app/lib/routing modifications.
+- [x] Validation commands executed before handoff.
