@@ -1,5 +1,7 @@
 ---
 title: Unit 2: Operations with Whole Numbers
+order: 2
+description: Applying the four operations with estimation, inverse checks, and word problems.
 level: elementary
 unit: 2
 slug: unit-2-operations-with-whole-numbers
