@@ -262,3 +262,20 @@
 - [x] HANDOFF updated with decisions, risks, and next-session prompt.
 - [x] Changes kept content-focused with no app/lib/routing modifications.
 - [x] Validation commands executed before handoff.
+
+### Session 2026-03-14
+- **What changed**:
+  - Created `content/units/unit-5-introduction-to-fractions.md` as a complete Unit 5 lesson using the canonical lesson template flow.
+  - Added full content for: frontmatter, learning goals, intuitive explanation, formal definitions, worked examples, graded exercises with answers, common misconceptions, quick checks, summary, and next-lesson guidance.
+- **Decisions made**:
+  - Followed the existing template section order exactly while embedding the requested layered pedagogy (intuitive → formal → examples → checks/exercises → summary).
+  - Kept scope content-only and did not modify code or routing.
+  - Did not update `content/index.md` because Units 5–8 already include one-sentence descriptions, so the optional task was already satisfied.
+- **What’s next**:
+  1. Draft `unit-6-fraction-operations` (addition/subtraction of like denominators, visual models, and early simplification).
+  2. Run a consistency pass across Units 4–5 for wording/style alignment and difficulty calibration.
+- **Blockers/risks**:
+  - No content blockers encountered.
+  - KaTeX rendering should continue to be smoke-tested in local preview for each newly added lesson.
+- **Suggested next prompt**:
+  - "Create Unit 6 (Fraction Operations Basics) using the same template order as Unit 5, including visual models, 10 graded exercises, and misconception-focused quick checks."
