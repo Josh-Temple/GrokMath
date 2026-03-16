@@ -1,28 +1,24 @@
 # GrokMath Curriculum Index
 
-Starter set of 8–12 foundational units. More units and lessons will be added incrementally.
+This starter index defines the first 10 core units from elementary arithmetic to early secondary foundations. It is intentionally lightweight so it can evolve as new lesson files are added.
 
-## Starter Units
+## GrokMath Starter Curriculum – 10 Core Units
 
-1. **Whole Numbers and Place Value**  
-   Build fluency with whole numbers, place value, comparing numbers, and rounding. This unit anchors number sense that students need before operations become more abstract.
-2. **Addition and Subtraction**  
-   Develop conceptual and procedural understanding of addition and subtraction with whole numbers and multi-step contexts. It belongs early because these operations power almost every later topic.
-3. **Multiplication and Division**  
-   Introduce multiplication and division as related operations, including factors, multiples, and basic problem solving. This prepares learners for fractions, ratios, and algebraic reasoning.
-4. **Fractions and Decimals**  
-   Connect part-whole reasoning to equivalent fractions, decimal notation, and simple operations. This unit is essential for transitioning from counting-based math to proportional thinking.
-5. **Negative Numbers and Integers**  
-   Expand the number system to include negatives and model them on number lines and real contexts. This is a key bridge from arithmetic into pre-algebra and coordinate reasoning.
-6. **Expressions, Equations and Inequalities**  
-   Introduce variables, simplify expressions, and solve one-step to multi-step equations and inequalities. This unit establishes core algebra tools for secondary-level mathematics.
-7. **Geometry Foundations**  
-   Cover shapes, angle relationships, perimeter, area, and volume with clear visual reasoning. Geometry broadens mathematical thinking beyond numbers and supports measurement literacy.
-8. **Ratio, Proportion and Percent**  
-   Build flexible understanding of multiplicative comparison through ratios, rates, proportions, and percent applications. This is central for real-world numeracy and later function work.
-9. **Linear Relationships and Functions**  
-   Develop intuition for patterns, slope, linear equations, tables, and graphs. This unit marks the transition into high-school style function thinking.
-10. **Introduction to Data and Probability**  
-    Introduce data displays, summary measures, basic probability, and interpretation of uncertainty. It rounds out foundational math by connecting computation to evidence-based reasoning.
+| Unit | Title | Audience / Grade Band | Description | Status |
+|---|---|---|---|---|
+| 1 | Whole Numbers and Place Value | Grades 1–3 | Builds number sense, place-value fluency, comparison, and rounding as the base for all later arithmetic. | Started |
+| 2 | Operations with Whole Numbers | Grades 2–4 | Introduces and connects the four operations with whole numbers through meaning, models, and multi-step problem contexts. | Started |
+| 3 | Addition and Subtraction | Grades 2–5 | Develops procedural fluency and reasoning for addition/subtraction strategies, including regrouping and word problems. | Started |
+| 4 | Multiplication and Division | Grades 3–6 | Establishes multiplication and division as inverse operations and prepares learners for factors, ratios, and proportional thinking. | Started |
+| 5 | Introduction to Fractions | Grades 4–6 | Introduces fractions as numbers, part-whole models, equivalence, and number-line interpretation. | Started |
+| 6 | Introduction to Algebra (Expressions, Equations, Linear Thinking) | Grades 6–8 | Introduces variables, expressions, and linear equations to bridge arithmetic reasoning into symbolic mathematics. | Planned |
+| 7 | Geometry Foundations (Shapes, Area, Volume, Pythagoras) | Grades 6–9 | Covers 2D/3D geometry, measurement formulas, and introductory geometric reasoning with visual structure. | Planned |
+| 8 | Proportional Reasoning and Percentages | Grades 6–9 | Builds ratios, rates, proportions, and percentage applications for real-world numeracy and model-based reasoning. | Planned |
+| 9 | Functions and Basic Graphing | Grades 8–10 | Develops function thinking through tables, rules, coordinate graphs, slope, and linear representations. | Planned |
+| 10 | Elementary Probability and Statistics | Grades 7–10 | Introduces uncertainty, data summaries, and basic inferential habits using simple probability and descriptive statistics. | Planned |
 
-Units 1–10 form the minimal viable spine from late elementary through early high-school foundations. Future units will extend into trigonometry, calculus basics, etc.
+## Notes
+
+- Units 1–5 align with existing lesson files in `content/units/`.
+- Units 6–10 define immediate authoring targets and should be added as markdown lesson files in future sessions.
+- Status meanings: `Started` = at least one lesson file exists, `Planned` = roadmap only.

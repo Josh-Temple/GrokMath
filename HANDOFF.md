@@ -295,3 +295,23 @@
   - No functional blockers; however, markdown rendering behavior can differ if optional runtime dependencies are missing, so route-level smoke tests should continue each session.
 - **Suggested next prompt**:
   - "Create Unit 6 (Fraction Operations Basics) with the same lesson structure as Unit 5, then standardize frontmatter fields across Units 1–5 and verify `/units` ordering/rendering."
+
+### Session 2026-03-16 (Curriculum Index + Template Audit)
+- **What changed**:
+  - Reworked `content/index.md` into a structured 10-unit starter curriculum table with title, audience/grade band, description, and explicit status fields.
+  - Ensured Units 1–5 in the index align with existing lesson files under `content/units/`.
+  - Rebuilt `content/lesson-template.md` to include canonical frontmatter and the full pedagogical flow: intuitive introduction → core concept → worked examples → mistakes → practice tiers → quick check with hidden answers → summary/connections.
+  - Updated `README.md` content-structure note so `content/index.md` documentation reflects the new audience/status tracking format.
+- **Decisions made**:
+  - Kept all changes content/documentation-only; no app/router/lib/package modifications.
+  - Used only existing frontmatter fields requested for the template (`title`, `unit`, `slug`, `level`, `prerequisites`, `tags`) to preserve parsing simplicity.
+  - Kept Units 6–10 as planned roadmap targets while marking Units 1–5 as started.
+- **What’s next**:
+  1. Create placeholder markdown unit files for Units 6–10 in `content/units/` with consistent filename/slug conventions.
+  2. Draft the first full Unit 6 lesson (negative numbers and integers) directly from the updated lesson template.
+  3. Run a consistency pass to align frontmatter style and section naming across Units 1–5 with the updated template language.
+- **Blockers / risks**:
+  - No blockers for content updates.
+  - Risk: index entries can drift from actual filenames/slugs as new units are added; mitigate by updating index and unit files in the same session.
+- **Suggested next prompt**:
+  - "Review README.md and HANDOFF.md, then create placeholder unit files for Units 6–10 and draft the first Unit 6 lesson (negative numbers and integers) using `content/lesson-template.md`."

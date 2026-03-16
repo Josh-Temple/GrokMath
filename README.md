@@ -148,7 +148,7 @@ Current web output now includes a basic unit navigation flow and server-side mar
 
 ## Current Content Structure
 
-- `content/index.md` — starter curriculum index and unit-level placeholders.
+- `content/index.md` — starter curriculum index with audience guidance and status tracking for Units 1–10.
 - `content/lesson-template.md` — canonical markdown template for all lessons.
 - `content/units/` — destination folder for per-unit lesson files.
 
