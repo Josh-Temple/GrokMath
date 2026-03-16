@@ -279,3 +279,19 @@
   - KaTeX rendering should continue to be smoke-tested in local preview for each newly added lesson.
 - **Suggested next prompt**:
   - "Create Unit 6 (Fraction Operations Basics) using the same template order as Unit 5, including visual models, 10 graded exercises, and misconception-focused quick checks."
+
+### Session 2026-03-16
+- **What changed**:
+  - Normalized Unit 5 metadata in `content/units/unit-5-introduction-to-fractions.md` by adding `status: ready` and a clear `description`, and standardizing `level` to `elementary`.
+  - Updated Unit 5 math delimiters from `\(...\)` / `\[...\]` to `$...$` / `$$...$$` for better compatibility with the current markdown/Katex fallback renderer.
+  - Updated `README.md` route documentation to include Unit 5 and refreshed the content-expansion note from Units 1–4 to Units 1–5.
+- **Decisions made**:
+  - Treated the latest Grok instruction as a quality/consistency pass (not a new Unit 5 creation) because Unit 5 already existed.
+  - Preferred renderer-compatible math delimiters to avoid raw LaTeX leakage when optional remark/katex runtime dependencies are unavailable.
+- **What’s next**:
+  1. Draft `content/units/unit-6-fraction-operations.md` (same-denominator addition/subtraction, simplification, and model-based reasoning).
+  2. Run a consistency pass across Units 1–5 for frontmatter fields (`title`, `order`, `level`, `status`, `description`) and section wording.
+- **Blockers / risks**:
+  - No functional blockers; however, markdown rendering behavior can differ if optional runtime dependencies are missing, so route-level smoke tests should continue each session.
+- **Suggested next prompt**:
+  - "Create Unit 6 (Fraction Operations Basics) with the same lesson structure as Unit 5, then standardize frontmatter fields across Units 1–5 and verify `/units` ordering/rendering."
