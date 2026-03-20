@@ -145,6 +145,7 @@ Current web output now includes a basic unit navigation flow and server-side mar
 - `/units/unit-5-introduction-to-fractions` — rendered lesson page from `content/units/unit-5-introduction-to-fractions.md`
 - `/units/unit-6-introduction-to-algebra` — rendered lesson page from `content/units/unit-6-introduction-to-algebra.md`
 - `/units/unit-7-geometry-foundations` — rendered lesson page from `content/units/unit-7-geometry-foundations.md`
+- `/units/unit-8-proportional-reasoning-and-percentages` — rendered lesson page from `content/units/unit-8-proportional-reasoning-and-percentages.md`
 
 ---
 
@@ -179,6 +180,7 @@ Build a reliable daily production loop where each session improves both:
 - Lesson rendering now routes through a dedicated `lib/markdown.ts` pipeline with frontmatter extraction and optional `remark`/`gray-matter`/KaTeX runtime support; dependency installation constraints currently force fallback behavior in this environment.
 - KaTeX stylesheet is wired globally, and math rendering is enabled when the `katex` runtime dependency is available.
 - Keep `/units` auto-generation aligned with filename/frontmatter conventions as new lessons are added.
-- Expand beyond Units 1–7 while maintaining the same pedagogical quality bar and markdown structure consistency.
+- Expand beyond Units 1–8 while maintaining the same pedagogical quality bar and markdown structure consistency.
 - Next.js now uses a patched `^15.2.5` range in `package.json` to stay above the CVE-2025-66478 blocked release while allowing security patch uptake.
 - Dependency-install reliability remains a risk factor when introducing parser/rendering upgrades.
+- ESLint configuration is now checked into the repo, but environments without `npm install` on the new lint packages may need `next.config.mjs`'s build-time lint bypass until dependencies are materialized.
