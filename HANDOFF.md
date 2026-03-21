@@ -410,3 +410,31 @@
 
 ### Suggested next prompt (phrased as a ready-to-use instruction for the next Grok run)
 "Review the newly added Unit 8 for pedagogy and consistency, create Unit 9 on Functions and Basic Graphing at the same quality level, then install and validate the ESLint toolchain in a registry-permitted environment. Update README.md and HANDOFF.md with findings and verification results."
+
+
+## Session 2026-03-21 (PWA Implementation)
+### What changed
+- Verified the app was not previously configured as a Progressive Web App: there was no manifest, no registered service worker, and no install metadata in the root layout.
+- Added `app/manifest.ts` to generate installable web app metadata with standalone display settings, theme colors, and icon declarations.
+- Added `app/components/service-worker-registration.tsx` and wired it into `app/layout.tsx` so supported browsers register `public/sw.js` on the client.
+- Added `public/sw.js` with a baseline offline caching strategy that pre-caches `/` and `/units`, caches same-origin GET responses at runtime, and falls back to cached content when offline.
+- Added `public/icons/icon-192.svg`, `public/icons/icon-512.svg`, and `public/icons/icon-maskable.svg` for install surfaces.
+- Refreshed `app/page.tsx` and `app/globals.css` to surface the new PWA capability on the landing page.
+- Updated `README.md` to document the new PWA baseline and its current limitations.
+
+### Decisions made
+- Implemented a framework-native PWA baseline without adding extra npm dependencies, keeping the change compatible with the repo's existing environment constraints.
+- Limited pre-caching to the home page and unit index for a safe first pass; lesson-page caching can be expanded later after deciding how aggressively curriculum updates should invalidate offline data.
+- Used SVG icons for standard and maskable install surfaces to avoid introducing binary-asset tooling during this session.
+
+### What's next
+1. Decide whether lesson routes should also be pre-cached for deeper offline study.
+2. Consider adding an offline fallback page or UI hint when a requested lesson has not been cached yet.
+3. If install UX becomes a focus, add browser-specific prompts or onboarding copy explaining how to install the app.
+
+### Blockers / risks
+- The current service worker uses a simple network-first strategy for same-origin GET requests, so content freshness and offline depth should be revisited before broadening the cache scope.
+- Some install surfaces prefer PNG icons even though modern browsers support SVG manifest icons; if a target device shows compatibility issues, add generated PNG variants later.
+
+### Suggested next prompt
+- "Review the new PWA baseline, decide whether lesson pages should be available offline, and implement a user-facing offline fallback experience without breaking current curriculum routes."

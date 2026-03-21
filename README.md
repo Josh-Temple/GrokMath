@@ -134,7 +134,7 @@ npm run start
 - Build command: `npm run build`.
 - Output setting: default Next.js output.
 
-Current web output now includes a basic unit navigation flow and server-side markdown rendering for Unit 1 via App Router routes.
+Current web output now includes a basic unit navigation flow, server-side markdown rendering for Unit 1 via App Router routes, and baseline Progressive Web App (PWA) support through a manifest, installable metadata, custom icons, and a service worker that caches the home page and unit index for offline revisits.
 
 - `/` — homepage with links to unit navigation
 - `/units` — unit index (auto-generated from `content/units/`, sorted by optional frontmatter `order` then title fallback)
@@ -146,6 +146,17 @@ Current web output now includes a basic unit navigation flow and server-side mar
 - `/units/unit-6-introduction-to-algebra` — rendered lesson page from `content/units/unit-6-introduction-to-algebra.md`
 - `/units/unit-7-geometry-foundations` — rendered lesson page from `content/units/unit-7-geometry-foundations.md`
 - `/units/unit-8-proportional-reasoning-and-percentages` — rendered lesson page from `content/units/unit-8-proportional-reasoning-and-percentages.md`
+
+## PWA Support
+
+The Next.js app is now configured as a baseline installable PWA:
+
+- `app/manifest.ts` generates the web app manifest consumed by supported browsers.
+- `public/sw.js` registers an offline-first service worker for same-origin GET requests, pre-caching `/` and `/units`.
+- `public/icons/` contains app icons for standard and maskable install surfaces.
+- `app/layout.tsx` exposes manifest, icon, Apple web app, and theme-color metadata while registering the service worker on the client.
+
+This is a pragmatic first PWA pass focused on installability plus offline access to the home page and unit index; deeper lesson-page pre-caching can be added later if desired.
 
 ---
 
@@ -184,3 +195,4 @@ Build a reliable daily production loop where each session improves both:
 - Next.js now uses a patched `^15.2.5` range in `package.json` to stay above the CVE-2025-66478 blocked release while allowing security patch uptake.
 - Dependency-install reliability remains a risk factor when introducing parser/rendering upgrades.
 - ESLint configuration is now checked into the repo, but environments without `npm install` on the new lint packages may need `next.config.mjs`'s build-time lint bypass until dependencies are materialized.
+- The current service worker intentionally pre-caches only `/` and `/units`; if offline lesson reading becomes a product requirement, expand the caching strategy carefully to avoid serving stale curriculum updates.

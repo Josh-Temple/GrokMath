@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">GrokMath maskable icon</title>
+  <desc id="desc">Mask-safe blue icon with centered GrokMath monogram.</desc>
+  <rect width="512" height="512" fill="#1e3a8a" />
+  <rect x="64" y="64" width="384" height="384" rx="96" fill="#2563eb" />
+  <circle cx="256" cy="256" r="144" fill="#1d4ed8" />
+  <path d="M171.33 277.33c0-52 34.67-90.67 88-90.67 33.33 0 61.33 14.67 80 40l-38.67 26.67c-9.33-13.33-22.67-20-38.67-20-25.33 0-42.67 18.67-42.67 44s17.33 44 42.67 44c16 0 29.33-6.67 38.67-20l38.67 26.67c-18.67 25.33-46.67 40-80 40-53.33 0-88-38.67-88-90.67ZM362.67 200H410l28 49.33L466 200h47.33l-51.33 88 51.33 88H466l-28-49.33L410 376h-47.33l51.33-88-51.33-88Z" fill="#eff6ff" />
+</svg>
