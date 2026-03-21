@@ -438,3 +438,26 @@
 
 ### Suggested next prompt
 - "Review the new PWA baseline, decide whether lesson pages should be available offline, and implement a user-facing offline fallback experience without breaking current curriculum routes."
+
+### Session 2026-03-21
+- **What changed**:
+  - Rewrote `curriculum/index.md` so it now functions as a planning-layer curriculum roadmap instead of an outdated standalone starter list.
+  - Added `curriculum/_templates/lesson-template.md` as a lightweight planning template while explicitly preserving `content/lesson-template.md` as the canonical lesson-authoring template.
+  - Updated `README.md` to document the distinct roles of `content/` and `curriculum/` so future sessions do not confuse roadmap scaffolding with publishable lesson content.
+- **Decisions made**:
+  - Treated the incoming Grok handoff as partially outdated because the repository already contains a Next.js/Vercel app, published lesson content, and an existing `curriculum/` directory.
+  - Kept `content/` as the source of truth for rendered lessons and `curriculum/` as the roadmap/taxonomy layer.
+  - Avoided introducing a competing lesson standard by making the new curriculum template planning-only.
+- **What’s next**:
+  1. Reconcile long-term `curriculum/` subfolder structure with the currently published Unit 1–8 lesson spine.
+  2. Decide whether Units 9–10 should be authored next in `content/units/` or whether the roadmap should first expand into a fuller elementary-to-university taxonomy.
+  3. If curriculum planning continues, add per-strand roadmap notes under `curriculum/` without duplicating lesson content.
+- **Blockers / risks**:
+  - Main risk is documentation drift if `content/index.md`, `curriculum/index.md`, and published lesson slugs stop describing the same sequence.
+  - A second risk is template drift if authors mistakenly treat the planning template as the lesson-authoring template.
+- **Suggested next prompt**:
+  - "Align `curriculum/` subfolders with the published Unit 1–8 lesson sequence, then propose the next two authoring targets in `content/units/` without changing the frontend routing model."
+- **Concrete instructions for next session**:
+  - Re-read `README.md`, `HANDOFF.md`, `content/index.md`, and `curriculum/index.md` before editing.
+  - Preserve the rule that `content/lesson-template.md` is canonical for lessons.
+  - Update both roadmap docs and handoff notes whenever curriculum sequencing changes.
