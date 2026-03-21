@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">GrokMath app icon</title>
+  <desc id="desc">Blue rounded square with math-inspired GM monogram.</desc>
+  <rect width="512" height="512" rx="112" fill="#2563eb" />
+  <circle cx="256" cy="256" r="166" fill="#1d4ed8" />
+  <path d="M154.67 277.33c0-58.67 37.33-101.33 96-101.33 37.33 0 69.33 16 90.67 45.33l-42.67 29.33c-10.67-16-26.67-24-45.33-24-29.33 0-48 21.33-48 50.67S224 328 253.33 328c18.67 0 34.67-8 45.33-24l42.67 29.33C320 362.67 288 378.67 250.67 378.67c-58.67 0-96-42.67-96-101.33ZM378.67 208h53.33l32 56 32-56h53.33l-58.67 101.33 58.67 101.33H496l-32-56-32 56h-53.33l58.67-101.33L378.67 208Z" fill="#eff6ff" />
+</svg>

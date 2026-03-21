@@ -16,14 +16,26 @@ const units = [
 export default function HomePage() {
   return (
     <main className="container">
+      <span className="eyebrow">Installable PWA</span>
       <h1>GrokMath</h1>
       <p className="lead">
-        Vercel deployment baseline is now ready with a minimal Next.js scaffold.
+        GrokMath now ships with a web app manifest, installable metadata, app
+        icons, and an offline-capable service worker for the home page and unit
+        index.
       </p>
       <p>
         Curriculum source files remain in <code>content/</code>. This page is a
-        temporary launch surface while lessons are drafted.
+        lightweight launch surface while lessons continue to expand.
       </p>
+
+      <section className="callout">
+        <h2>PWA Highlights</h2>
+        <ul>
+          <li>Install the app from supported browsers for a standalone experience.</li>
+          <li>Revisit the home page and unit index even after losing connectivity.</li>
+          <li>Use the same curriculum routes on mobile and desktop with themed app chrome.</li>
+        </ul>
+      </section>
 
       <h2>Start Learning</h2>
       <ul>
