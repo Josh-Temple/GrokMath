@@ -164,7 +164,9 @@ This is a pragmatic first PWA pass focused on installability plus offline access
 
 - `content/index.md` — starter curriculum index with audience guidance and status tracking for Units 1–10.
 - `content/lesson-template.md` — canonical markdown template for all lessons.
-- `content/units/` — destination folder for per-unit lesson files.
+- `content/units/` — destination folder for per-unit lesson files that feed the Next.js routes.
+- `curriculum/index.md` — planning-layer curriculum roadmap used to track broader sequencing and future expansion.
+- `curriculum/_templates/lesson-template.md` — lightweight planning template for roadmap/unit design notes; not a replacement for the canonical lesson template in `content/`.
 
 ---
 
