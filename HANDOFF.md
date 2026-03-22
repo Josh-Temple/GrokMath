@@ -461,3 +461,23 @@
   - Re-read `README.md`, `HANDOFF.md`, `content/index.md`, and `curriculum/index.md` before editing.
   - Preserve the rule that `content/lesson-template.md` is canonical for lessons.
   - Update both roadmap docs and handoff notes whenever curriculum sequencing changes.
+
+## Session 2026-03-22
+- **What changed**:
+  - Reviewed `README.md` and `HANDOFF.md` before editing, then updated both planning documents to reflect the repository's current layered structure.
+  - Revised `README.md` to clarify the distinction between publishable lesson content in `content/` and planning material in `curriculum/`.
+  - Updated `curriculum/index.md` so the roadmap aligns with the existing 10-unit starter spine while explicitly reserving `curriculum/` for sequencing and expansion work.
+  - Expanded `curriculum/_templates/lesson-template.md` as a planning-only template and refreshed `content/lesson-template.md` as the canonical lesson-authoring template.
+- **Decisions made**:
+  - Keep `content/` as the single source of truth for publishable lessons and `curriculum/` as the planning layer.
+  - Avoid adding another top-level lesson template under `curriculum/` to prevent template drift.
+  - Preserve existing naming conventions such as `middle-school` and the current Units 1–10 starter spine unless a future session intentionally re-baselines the curriculum.
+- **What’s next**:
+  1. Review Units 1–8 against the refreshed canonical template and note any structural gaps.
+  2. Choose whether Unit 9 or a proof-basics bridge unit should be authored next, then align both `content/index.md` and `curriculum/index.md` with that choice.
+  3. If content authoring begins next session, use `content/lesson-template.md` directly and keep planning notes in `curriculum/_templates/` only.
+- **Blockers / risks**:
+  - `content/index.md` and `curriculum/index.md` are aligned at a high level, but future sessions should keep them synchronized if unit names or sequencing change.
+  - The historical top section of `HANDOFF.md` is stale relative to the current repository state; later cleanup could condense legacy notes without losing continuity.
+- **Suggested next prompt for Grok**:
+  - "Audit Units 1–8 against `content/lesson-template.md`, list the strongest and weakest structural matches, then draft the next missing unit while keeping `content/` as the publishable source of truth and `curriculum/` as planning only."
