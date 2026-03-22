@@ -1,11 +1,13 @@
 ---
 title: "[Lesson Title]"
-unit: "[Unit Name]"
+unit: "[Unit Number + Name]"
 slug: "[kebab-case-lesson-slug]"
-level: "[elementary|middle-school|high-school|pre-college]"
+level: "[elementary|middle-school|high-school|university-foundations]"
+status: "draft"
 prerequisites:
   - "[Prerequisite 1]"
-  - "[Prerequisite 2]"
+next:
+  - "[Next Lesson or Unit]"
 tags:
   - "[tag-1]"
   - "[tag-2]"
@@ -13,13 +15,21 @@ tags:
 
 # [Unit Name] – Lesson [Number]: [Lesson Title]
 
+## Core Idea
+
+[Give a 1–2 sentence intuitive summary of the main mathematical idea before introducing formal language.]
+
+## Visual / Real-World Anchor
+
+[Connect the concept to a picture, pattern, model, story, measurement context, or familiar situation.]
+
 ## Intuitive Introduction
 
-[Start with a story, concrete context, or visual idea that makes the concept feel natural before formal notation.]
+[Explain why the idea makes sense informally. Build comfort first, then prepare learners for formal structure.]
 
-## Core Concept
+## Formal Statement / Definition
 
-[Provide a semi-formal explanation with key vocabulary and relationships. Introduce notation carefully.]
+[State the precise rule, definition, relationship, or theorem using careful mathematical language.]
 
 Example inline math: $a + b = b + a$  
 Example display math:
@@ -30,71 +40,60 @@ $$
 
 ## Worked Examples
 
-### Example 1 (Guided)
+### Example 1 – Basic Case
 
-[Easy, fully scaffolded example with reasoning steps.]
+[Use a fully guided example with explicit reasoning steps.]
 
-### Example 2 (Intermediate)
+### Example 2 – Common Variation
 
-[Medium-difficulty example showing a common variation.]
+[Show a slightly different form that learners are likely to encounter in regular practice.]
 
-### Example 3 (Challenge)
+### Example 3 – Edge or Extension Case
 
-[Harder example that extends the idea or combines skills.]
+[Use a richer example that reveals a subtlety, limitation, or useful extension of the idea.]
 
-## Common Mistakes & Pitfalls
+## Common Mistakes & How to Avoid Them
 
 - **Mistake 1:** [Typical misconception].  
-  **Fix:** [Short correction strategy].
+  **Fix:** [Short correction strategy.]
 - **Mistake 2:** [Another misconception].  
-  **Fix:** [Short correction strategy].
+  **Fix:** [Short correction strategy.]
 
-## Practice Exercises
+## Graded Exercises
 
-### A) Guided Practice
+### Level 1 – Warm-up
 
-1. [Problem A1]
-2. [Problem A2]
-3. [Problem A3]
+1. [Problem 1]
+2. [Problem 2]
+3. [Problem 3]
 
-### B) Medium Practice
+### Level 2 – Standard
 
-1. [Problem B1]
-2. [Problem B2]
-3. [Problem B3]
+1. [Problem 1]
+2. [Problem 2]
+3. [Problem 3]
+4. [Problem 4]
+5. [Problem 5]
 
-### C) Challenge Practice
+### Level 3 – Challenge
 
-1. [Problem C1]
-2. [Problem C2]
+1. [Problem 1]
+2. [Problem 2]
 
-## Quick Check / Self-Assessment
+## Quick Check / Self-Quiz
 
 1. [Quick-check question 1]
 2. [Quick-check question 2]
 3. [Quick-check question 3]
 
-<details>
-<summary>Answers</summary>
-
-1. [Answer 1]
-2. [Answer 2]
-3. [Answer 3]
-
-</details>
-
-## Summary & Connections
+## Summary Card
 
 - [Key takeaway 1]
 - [Key takeaway 2]
-- [Connection to previous unit]
-- [Connection to next unit]
+- [Connection to previous learning]
+- [Connection to next learning]
 
-## Optional: Concept Map Placeholder
-
-[Add concept map nodes/links when available.]
-
-## Optional: Further Reading
+## References / Further Reading
 
 - [Reference 1]
 - [Reference 2]

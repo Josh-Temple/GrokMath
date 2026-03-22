@@ -102,8 +102,6 @@ Each unit should eventually include:
 
 ---
 
-
-
 ## Vercel Deployment Baseline
 
 A minimal Next.js App Router scaffold is included so the repository can be deployed directly on Vercel.
@@ -163,10 +161,20 @@ This is a pragmatic first PWA pass focused on installability plus offline access
 ## Current Content Structure
 
 - `content/index.md` — starter curriculum index with audience guidance and status tracking for Units 1–10.
-- `content/lesson-template.md` — canonical markdown template for all lessons.
+- `content/lesson-template.md` — canonical markdown template for all lesson authoring.
 - `content/units/` — destination folder for per-unit lesson files that feed the Next.js routes.
-- `curriculum/index.md` — planning-layer curriculum roadmap used to track broader sequencing and future expansion.
+- `curriculum/index.md` — planning-layer curriculum roadmap used to track sequencing, level bands, and future expansion.
 - `curriculum/_templates/lesson-template.md` — lightweight planning template for roadmap/unit design notes; not a replacement for the canonical lesson template in `content/`.
+
+### Planning Layer Alignment
+
+To avoid template drift and duplicated sources of truth:
+
+- keep `content/` as the publishable lesson layer,
+- keep `curriculum/` as the roadmap and sequencing layer,
+- update `content/lesson-template.md` when lesson-authoring standards change,
+- use `curriculum/_templates/lesson-template.md` only for planning notes before a full lesson is drafted,
+- and avoid introducing additional top-level lesson templates unless the repository structure itself changes.
 
 ---
 
@@ -185,6 +193,8 @@ Build a reliable daily production loop where each session improves both:
 
 1. the learning product itself, and
 2. the quality of the process (planning, verification, handoff).
+
+Near-term curriculum work should preserve alignment between the publishable `content/` layer and the planning-oriented `curriculum/` layer before adding new roadmap branches or alternate templates.
 
 ---
 
