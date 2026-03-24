@@ -1,3 +1,43 @@
+## Session 2026-03-24 (Template + Starter Spine Alignment Pass)
+- **What changed**:
+  - Updated `content/lesson-template.md` to the canonical pedagogical order: Concept Map -> Intuitive Explanation -> Formal Definition -> Worked Examples -> Common Mistakes -> Quick Checks -> Graded Exercises -> Summary -> Next Steps.
+  - Added a commented `Quality Gates` checklist at the bottom of `content/lesson-template.md` to enforce section completeness, progression, exercise counts, and KaTeX delimiter correctness.
+  - Updated `curriculum/index.md` with an explicit `Starter Spine (Units 1-10)` and sequencing rationale.
+  - Updated `content/index.md` to match the same 10-unit spine and rationale notes, including Unit 10 as `Proof Basics and Mathematical Reasoning`.
+  - Verified the app still builds successfully with `npm run build`; existing Units 1-9 files remain unchanged.
+- **Decisions made**:
+  - Adopted `Proof Basics and Mathematical Reasoning` as the Unit 10 bridge topic and synchronized this name across `content/index.md` and `curriculum/index.md` in one pass to avoid drift.
+  - Kept scope limited to documentation/content standards only; no routing, folder structure, or dependency changes were made.
+  - Retained `content/` as publishable source-of-truth and `curriculum/` as planning layer.
+- **What’s next**:
+  1. Run a full audit of Units 1-8 against the updated `content/lesson-template.md` headings and quality gates.
+  2. Draft a Unit 10 placeholder lesson file (`content/units/unit-10-proof-basics-and-mathematical-reasoning.md`) using the canonical template.
+  3. Decide status upgrades (`Started`/`Ready`) for Units 3-9 after audit evidence is captured.
+- **Blockers / risks**:
+  - Risk of template drift remains if future lesson drafts skip the canonical section order.
+  - Historical handoff entries include legacy curriculum snapshots; always follow the latest dated section first.
+- **Suggested next prompt**:
+  - "Audit Units 1-8 against `content/lesson-template.md` and produce a pass/fail checklist per unit, then draft `content/units/unit-10-proof-basics-and-mathematical-reasoning.md` as a placeholder lesson that follows every canonical section and update index statuses accordingly."
+
+## Session 2026-03-24 (Plan Validation and Execution Plan)
+- **What changed**:
+  - Re-reviewed `README.md`, `HANDOFF.md`, `content/lesson-template.md`, `curriculum/index.md`, and `content/index.md` to validate the latest Grok instruction block against repository reality.
+  - Added this planning handoff section to lock an execution-ready scope for the next implementation pass.
+- **Decisions made**:
+  - The Grok plan is **mostly valid** and safely scoped (template + index alignment only, no routing or folder changes).
+  - One adjustment is required for consistency with current repo direction: Unit 10 should remain **Elementary Probability and Statistics** unless a deliberate roadmap pivot to **Proof Basics and Mathematical Reasoning** is approved in both `content/index.md` and `curriculum/index.md` simultaneously.
+  - Keep `content/` as publishable source-of-truth and `curriculum/` as planning layer; sync both indexes in the same session to avoid drift.
+- **What’s next**:
+  1. Refine `content/lesson-template.md` to the required pedagogical sequence (Concept Map -> Intuitive -> Formal -> Worked Examples -> Mistakes -> Quick Checks -> Graded Exercises -> Summary -> Next Steps) and append a commented Quality Gates checklist.
+  2. Update `curriculum/index.md` with an explicit "Starter Spine (Units 1–10)" and sequencing rationale.
+  3. Mirror the same spine text in `content/index.md` (minimal sync) to prevent content/curriculum divergence.
+  4. Run `npm run dev` (or `npm run build` fallback) and verify `/units` still resolves with existing Unit 1–9 content unchanged.
+- **Blockers / risks**:
+  - Primary risk is index drift if Unit 10 naming differs between `content/index.md` and `curriculum/index.md`.
+  - Historical sections in this file include legacy snapshots; rely on the newest dated section for active guidance.
+- **Suggested next prompt**:
+  - "Implement the validated template-and-index alignment pass: update `content/lesson-template.md`, `curriculum/index.md`, and `content/index.md` (if needed) with a synchronized 10-unit starter spine, keep routing untouched, run a local build/dev check, and append a new HANDOFF section summarizing edits and risks."
+
 ## Session 2026-03-24
 - **What changed**:
   - Added `content/units/unit-9-functions-and-basic-graphing.md` as a new draft lesson covering function rules, tables, ordered pairs, slope, intercepts, proportional functions, worked examples, graded exercises, quick checks, and summary.

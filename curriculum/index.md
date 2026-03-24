@@ -3,8 +3,8 @@
 This file is the planning-layer curriculum map for GrokMath.
 
 - `content/` remains the source of truth for publishable lesson markdown and rendered site content.
-- `curriculum/` exists to capture the broader scope, sequencing, and future expansion path for the curriculum.
-- When the two areas overlap, keep lesson-ready detail in `content/` and keep roadmap, taxonomy, and sequencing detail here.
+- `curriculum/` captures broader scope, sequencing, and expansion planning.
+- Keep lesson-ready detail in `content/`; keep roadmap and progression logic in `curriculum/`.
 
 ## Curriculum Philosophy
 
@@ -18,61 +18,61 @@ Progressive layering:
 
 Every mature unit should eventually include:
 
-- motivation and real-world relevance,
+- concept map,
 - explanation layers from intuitive to formal,
 - worked examples,
 - common pitfalls,
 - graded practice,
-- quick checks and summaries,
+- quick checks and summary,
 - clear links to prerequisite and next-step topics.
 
 ## Planning Guardrails
 
 - Do not duplicate the canonical lesson template inside `curriculum/`.
 - Use `content/lesson-template.md` for full lesson drafting.
-- Use `curriculum/_templates/lesson-template.md` for sequencing notes, scope sketches, and pre-authoring decisions.
-- Keep naming aligned with the published lesson inventory in `content/index.md` whenever possible.
+- Use `curriculum/_templates/lesson-template.md` for sequencing notes and scope sketches.
+- Keep naming aligned with the published lesson inventory in `content/index.md`.
 
-## Current Starter Spine (aligned with `content/index.md`)
+## Starter Spine (Units 1-10)
 
-### Elementary
 1. Whole Numbers and Place Value
 2. Operations with Whole Numbers
 3. Addition and Subtraction
 4. Multiplication and Division
 5. Introduction to Fractions
-
-### Middle School
 6. Introduction to Algebra
 7. Geometry Foundations
 8. Proportional Reasoning and Percentages
-
-### High School Bridge
 9. Functions and Basic Graphing
-10. Elementary Probability and Statistics
+10. Proof Basics and Mathematical Reasoning
+
+## Sequencing Rationale
+
+- Units 1-5 build arithmetic fluency and number sense.
+- Units 6-8 shift learners into algebraic, geometric, and proportional structures.
+- Unit 9 introduces function representation and graph interpretation as a bridge into secondary mathematics.
+- Unit 10 introduces proof language and reasoning habits needed before deeper university-foundation topics.
 
 ## Longer-Term Expansion Candidates
 
-Once the current 10-unit starter spine is stable, likely next additions include:
+After stabilizing the starter spine, likely next additions include:
 
 - exponents, roots, and scientific notation,
 - linear and quadratic functions,
-- proof basics and mathematical logic,
 - precalculus function analysis,
-- and introductory statistics beyond descriptive summaries.
+- introductory statistics beyond descriptive summaries,
+- and foundational calculus concepts.
 
 ## Role of Subfolders
 
 - `elementary/` -> long-term roadmap space for elementary-level strands
 - `middle-school/` -> roadmap space for pre-algebra and middle-school topics
-- `high-school/` -> roadmap space for algebra, geometry, functions, and later secondary topics
+- `high-school/` -> roadmap space for algebra, geometry, and secondary function topics
 - `university-foundations/` -> bridge topics such as precalculus, proof basics, linear algebra, and calculus foundations
 - `_templates/` -> planning templates that support curriculum design without replacing the canonical lesson template in `content/`
 
 ## Near-Term Planning Notes
 
-- Unit 9 entry: Functions and Basic Graphing — status: Draft.
-- Preserve alignment between roadmap names here and lesson/unit names in `content/`.
-- Expand the roadmap only when it helps sequence upcoming authored lessons.
-- Avoid introducing a second competing lesson-authoring standard.
-- If future sessions add new planning files, they should clarify scope and progression rather than duplicate publishable lesson content.
+- Keep `content/index.md` and this roadmap synchronized for starter-spine naming.
+- Run periodic audits of Units 1-8 against the canonical lesson template to prevent drift.
+- Add Unit 10 as a lesson file only after the template-alignment pass is complete.

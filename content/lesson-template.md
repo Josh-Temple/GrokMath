@@ -1,99 +1,113 @@
 ---
 title: "[Lesson Title]"
-unit: "[Unit Number + Name]"
-slug: "[kebab-case-lesson-slug]"
+order: 1
 level: "[elementary|middle-school|high-school|university-foundations]"
 status: "draft"
-prerequisites:
-  - "[Prerequisite 1]"
-next:
-  - "[Next Lesson or Unit]"
+description: "[One-sentence lesson description]"
 tags:
   - "[tag-1]"
   - "[tag-2]"
 ---
 
-# [Unit Name] – Lesson [Number]: [Lesson Title]
+# [Unit Name] - [Lesson Title]
 
-## Core Idea
+## Concept Map
 
-[Give a 1–2 sentence intuitive summary of the main mathematical idea before introducing formal language.]
+- [Core concept]
+- [Supporting concept]
+- [Connection to prerequisite]
+- [Connection to next topic]
 
-## Visual / Real-World Anchor
+## Intuitive Explanation
 
-[Connect the concept to a picture, pattern, model, story, measurement context, or familiar situation.]
+[Explain the idea in everyday language first. Start from a concrete or familiar context before symbols.]
 
-## Intuitive Introduction
+## Formal Definition
 
-[Explain why the idea makes sense informally. Build comfort first, then prepare learners for formal structure.]
+[State the exact mathematical definition, property, or rule with precise language.]
 
-## Formal Statement / Definition
+Example inline math: $f(x) = 2x + 1$
 
-[State the precise rule, definition, relationship, or theorem using careful mathematical language.]
-
-Example inline math: $a + b = b + a$  
 Example display math:
 
 $$
-\frac{a}{b} = \frac{ka}{kb}, \quad b \neq 0,\ k \neq 0
+f(a + b) = f(a) + f(b)
 $$
 
 ## Worked Examples
 
-### Example 1 – Basic Case
+### Example 1 - Foundational
 
-[Use a fully guided example with explicit reasoning steps.]
+1. [Step 1]
+2. [Step 2]
+3. [Step 3]
 
-### Example 2 – Common Variation
+### Example 2 - Standard Variation
 
-[Show a slightly different form that learners are likely to encounter in regular practice.]
+1. [Step 1]
+2. [Step 2]
+3. [Step 3]
 
-### Example 3 – Edge or Extension Case
+### Example 3 - Extension / Edge Case
 
-[Use a richer example that reveals a subtlety, limitation, or useful extension of the idea.]
+1. [Step 1]
+2. [Step 2]
+3. [Step 3]
 
-## Common Mistakes & How to Avoid Them
+## Common Mistakes and How to Avoid Them
 
-- **Mistake 1:** [Typical misconception].  
-  **Fix:** [Short correction strategy.]
-- **Mistake 2:** [Another misconception].  
-  **Fix:** [Short correction strategy.]
+- **Mistake:** [Common misconception].
+  **How to avoid it:** [Correction strategy].
+- **Mistake:** [Second misconception].
+  **How to avoid it:** [Correction strategy].
+
+## Quick Checks
+
+1. [Question 1]
+   - **Answer:** [Short answer]
+2. [Question 2]
+   - **Answer:** [Short answer]
+3. [Question 3]
+   - **Answer:** [Short answer]
 
 ## Graded Exercises
 
-### Level 1 – Warm-up
+### Level 1 - Warm-up
 
-1. [Problem 1]
-2. [Problem 2]
-3. [Problem 3]
+1. [Exercise 1]
+2. [Exercise 2]
+3. [Exercise 3]
 
-### Level 2 – Standard
+### Level 2 - Core Practice
 
-1. [Problem 1]
-2. [Problem 2]
-3. [Problem 3]
-4. [Problem 4]
-5. [Problem 5]
+4. [Exercise 4]
+5. [Exercise 5]
+6. [Exercise 6]
+7. [Exercise 7]
 
-### Level 3 – Challenge
+### Level 3 - Challenge
 
-1. [Problem 1]
-2. [Problem 2]
+8. [Exercise 8]
+9. [Exercise 9]
+10. [Exercise 10]
 
-## Quick Check / Self-Quiz
+## Summary and Key Takeaways
 
-1. [Quick-check question 1]
-2. [Quick-check question 2]
-3. [Quick-check question 3]
+- [Key idea 1]
+- [Key idea 2]
+- [Key idea 3]
 
-## Summary Card
+## Next Steps / Connections
 
-- [Key takeaway 1]
-- [Key takeaway 2]
-- [Connection to previous learning]
-- [Connection to next learning]
+- [How this lesson connects to the next lesson]
+- [Optional extension topic]
 
-## References / Further Reading
-
-- [Reference 1]
-- [Reference 2]
+<!-- Quality Gates
+- [ ] Headings match the canonical section order exactly.
+- [ ] Intuitive explanation appears before formal definition.
+- [ ] Worked examples include at least 3 step-by-step examples.
+- [ ] Quick Checks include 3-5 formative questions with answers.
+- [ ] Graded Exercises include 8-12 items with increasing difficulty.
+- [ ] At least one math expression uses correct KaTeX delimiters ($...$ or $$...$$).
+- [ ] English-only text and frontmatter are valid markdown/YAML.
+-->
