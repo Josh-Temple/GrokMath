@@ -71,6 +71,7 @@ Once the current 10-unit starter spine is stable, likely next additions include:
 
 ## Near-Term Planning Notes
 
+- Unit 9 entry: Functions and Basic Graphing — status: Draft.
 - Preserve alignment between roadmap names here and lesson/unit names in `content/`.
 - Expand the roadmap only when it helps sequence upcoming authored lessons.
 - Avoid introducing a second competing lesson-authoring standard.

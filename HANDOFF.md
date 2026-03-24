@@ -1,3 +1,21 @@
+## Session 2026-03-24
+- **What changed**:
+  - Added `content/units/unit-9-functions-and-basic-graphing.md` as a new draft lesson covering function rules, tables, ordered pairs, slope, intercepts, proportional functions, worked examples, graded exercises, quick checks, and summary.
+  - Updated `content/index.md`, `curriculum/index.md`, and `README.md` so Unit 9 is tracked consistently as `Functions and Basic Graphing` with draft status and a published lesson route.
+  - Re-read `README.md` and `HANDOFF.md` before editing, then recorded this session for continuity.
+- **Decisions made**:
+  - Followed the validated implementation plan from the prior session and kept Unit 9 aligned with the existing roadmap title `Functions and Basic Graphing` instead of replacing it with a variables-only unit.
+  - Kept `content/` as the publishable lesson layer and `curriculum/` as the planning layer, with a matching one-line Unit 9 status note in both index files.
+  - Kept the change additive only: no routing structure, package dependencies, or existing unit lesson files were modified.
+- **What’s next**:
+  1. Review Unit 9 against `content/lesson-template.md` for any remaining structure gaps and decide whether its status should move from `Draft` to `Ready`.
+  2. Draft Unit 10 (`Elementary Probability and Statistics`) with the same template-first quality bar and keep index/handoff documents synchronized in the same session.
+- **Blockers / risks**:
+  - `npm run lint` still fails because the current environment cannot resolve the `next/core-web-vitals` ESLint config referenced by `.eslintrc.cjs`.
+  - The Unit 9 lesson renders correctly in local dev and build checks, but future pedagogy review may still tighten difficulty pacing for the transition from proportionality to slope and graphing.
+- **Suggested next prompt**:
+  - "Review Unit 9 (`content/units/unit-9-functions-and-basic-graphing.md`) against `content/lesson-template.md`, promote it to `Ready` if it passes review, then draft Unit 10 (`Elementary Probability and Statistics`) and sync `README.md`, `content/index.md`, `curriculum/index.md`, and `HANDOFF.md`."
+
 # HANDOFF
 
 ## Session Summary
