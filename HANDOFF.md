@@ -1,3 +1,24 @@
+
+## Session 2026-03-27 (Unit 10 Draft Delivery + Index Sync)
+- **What changed**:
+  - Created `content/units/unit-10-elementary-probability-and-statistics.md` as a complete draft lesson using the canonical template sections (concept map, intuitive/formal layers, worked examples, mistakes, quick checks, graded exercises with solutions, summary, and next steps).
+  - Updated `content/index.md` so Unit 10 status is `Draft` and notes now reflect Units 1–10 as existing lesson files.
+  - Updated `curriculum/index.md` near-term planning notes to reflect that Unit 10 is now drafted and should move to consistency review/polish.
+  - Updated `README.md` route documentation to include the Unit 10 lesson URL and adjusted content-expansion wording from Units 1–9 to Units 1–10.
+- **Decisions made**:
+  - Kept scope strictly incremental: content/unit drafting plus minimal documentation synchronization only; no dependency, routing, or schema changes.
+  - Chose practical probability contexts (dice, coins, marbles, spinners, surveys) and outlier-sensitive statistics examples to balance intuition with formal notation at the middle-to-high level.
+  - Set Unit 10 lesson frontmatter status to `Draft` pending a dedicated quality-review pass before promotion to `Ready`.
+- **What’s next**:
+  1. Run a full consistency audit of Units 1–9 against canonical heading names/order and quality gates.
+  2. Perform a focused polish pass on Unit 10 pacing and exercise wording, then decide whether to promote it from `Draft` to `Ready`.
+  3. Validate KaTeX rendering edge cases across all units with mixed inline/display formulas.
+- **Blockers / risks**:
+  - Potential pacing variance for learners new to probability vocabulary (sample space/event vs data summaries) may require small wording refinements.
+  - KaTeX rendering should be monitored for any environment-specific markdown/plugin drift.
+- **Suggested next prompt**:
+  - "Audit Units 1–9 for exact canonical template heading alignment, then polish Unit 10 (`content/units/unit-10-elementary-probability-and-statistics.md`) for pacing and promote to `Ready` only if all quality gates pass."
+
 ## Session 2026-03-26 (Unit 9 Template Audit + Index Sync)
 - **What changed**:
   - Audited and upgraded `content/units/unit-9-functions-and-basic-graphing.md` to align major headings and section order with `content/lesson-template.md`.

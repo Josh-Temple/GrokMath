@@ -15,7 +15,7 @@ This starter index defines the first 10 core units from elementary arithmetic to
 | 7 | Geometry Foundations | Grades 6-9 | Covers 2D/3D geometry, measurement formulas, and introductory geometric reasoning with visual structure. | Started |
 | 8 | Proportional Reasoning and Percentages | Grades 6-9 | Builds ratios, rates, proportions, and percentage applications for real-world numeracy and model-based reasoning. | Ready |
 | 9 | Functions and Basic Graphing | Grades 8-10 | Develops function thinking through tables, rules, coordinate graphs, slope, and linear representations. | Ready |
-| 10 | Elementary Probability and Statistics | Grades 8-11 | Introduces chance models, data summaries, and introductory statistical reasoning as the bridge after function graph literacy. | Placeholder |
+| 10 | Elementary Probability and Statistics | Grades 8-11 | Introduces chance models, data summaries, and introductory statistical reasoning as the bridge after function graph literacy. | Draft |
 
 ## Sequencing Rationale
 
@@ -26,6 +26,6 @@ This starter index defines the first 10 core units from elementary arithmetic to
 
 ## Notes
 
-- Units 1-9 align with existing lesson files in `content/units/`.
-- Unit 10 is currently a placeholder and should be drafted in a future session.
+- Units 1-10 align with existing lesson files in `content/units/`.
+- Unit 10 now has a full draft lesson and is ready for review/polish before promotion to Ready.
 - Status meanings: `Ready` = lesson file exists and is publishable, `Started` = partial progress, `Draft` = lesson file exists but may still need review, `Placeholder` = roadmap placeholder only.
