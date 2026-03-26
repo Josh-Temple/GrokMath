@@ -75,4 +75,4 @@ After stabilizing the starter spine, likely next additions include:
 
 - Keep `content/index.md` and this roadmap synchronized for starter-spine naming.
 - Run periodic audits of Units 1-8 against the canonical lesson template to prevent drift.
-- Add Unit 10 as a lesson file only after the template-alignment pass is complete.
+- Unit 10 is now drafted; next planning step is consistency review and potential promotion to Ready.
