@@ -1,3 +1,23 @@
+## Session 2026-03-26 (Unit 9 Template Audit + Index Sync)
+- **What changed**:
+  - Audited and upgraded `content/units/unit-9-functions-and-basic-graphing.md` to align major headings and section order with `content/lesson-template.md`.
+  - Added missing canonical structure and formatting consistency: `Concept Map`, `Intuitive Explanation`, `Formal Definition`, `Common Mistakes and How to Avoid Them`, `Quick Checks` with inline answers, `Summary and Key Takeaways`, and `Next Steps / Connections`.
+  - Tightened pacing for the transition from proportional reasoning to slope/graphing with an explicit pacing note.
+  - Updated Unit 9 status from `Draft` to `Ready` in lesson frontmatter and `content/index.md`.
+  - Synced Unit 10 placeholder in both index layers to `Elementary Probability and Statistics` (order 10, middle-to-high band, placeholder status in publishable index table).
+- **Decisions made**:
+  - Promoted Unit 9 to `Ready` because it now satisfies the canonical template gates (intuitive before formal, >=3 worked examples, 3-5 quick checks with answers, progressive graded exercises, and summary/next-step continuity).
+  - Resolved the Unit 10 naming drift by synchronizing both index files in the same session.
+  - Kept scope incremental: no folder moves, no routing changes, no dependency changes.
+- **What’s next**:
+  1. Draft full Unit 10 (`Elementary Probability and Statistics`) using the refined canonical template and quality gates.
+  2. Run a consistency pass across Units 1-8 for exact heading-name alignment to reduce future template drift.
+- **Blockers / risks**:
+  - Minor pacing risk remains in Unit 9 for learners who struggle to move from tables to coordinate-plane interpretation; monitor with future exercise telemetry/review.
+  - Existing ESLint environment noise may still appear in environments missing the configured lint stack.
+- **Suggested next prompt**:
+  - "Draft `content/units/unit-10-elementary-probability-and-statistics.md` using `content/lesson-template.md`, include at least 3 worked examples, 3-5 quick checks with answers, and 8-12 graded exercises with solutions; then sync `content/index.md`, `curriculum/index.md`, and `HANDOFF.md`, and run build verification."
+
 ## Session 2026-03-24 (Template + Starter Spine Alignment Pass)
 - **What changed**:
   - Updated `content/lesson-template.md` to the canonical pedagogical order: Concept Map -> Intuitive Explanation -> Formal Definition -> Worked Examples -> Common Mistakes -> Quick Checks -> Graded Exercises -> Summary -> Next Steps.

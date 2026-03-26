@@ -2,7 +2,7 @@
 title: Functions and Basic Graphing
 order: 9
 level: high-school
-status: draft
+status: Ready
 description: Build function thinking through input-output rules, tables, coordinate graphs, slope, and linear patterns.
 prerequisites:
   - Proportional Reasoning and Percentages
@@ -17,238 +17,165 @@ tags:
 
 # Unit 9: Functions and Basic Graphing
 
-## Core Idea
-A function is a rule that matches each input with exactly one output. Graphs, tables, and equations are different ways to show the same relationship, so learning to move between them helps you see patterns clearly.
+## Concept Map
 
-## Visual / Real-World Anchor
-Imagine a taxi ride with a fixed starting fee plus the same cost for each mile. If the starting fee is 4 dollars and each mile costs 2 dollars, then the total cost changes in a predictable way as the number of miles changes. A table can list possible fares, an equation can describe the rule, and a graph can show the pattern at a glance.
+- **Function rule:** each input maps to exactly one output.
+- **Representations:** table, equation, ordered pairs, and graph all describe the same relationship.
+- **Linear structure:** constant rate of change gives a straight-line graph.
+- **Slope and intercepts:** slope shows how fast output changes; intercepts show key starting/crossing points.
+- **Bridge from Unit 8:** proportional models $y = kx$ are a special case of linear functions.
 
-## Intuitive Introduction
-Earlier units focused on single calculations: one ratio, one percent, one answer. Functions shift the focus from one answer to a whole pattern. Instead of asking only, "What is 30% of 50?" we now ask, "What rule tells me the output for any input?"
+## Intuitive Explanation
 
-An **input-output machine** is a helpful mental model. You put a value in, the rule acts on it, and exactly one output comes out. For example, if the rule is "double the input and add 1," then input 3 gives output 7, input 5 gives output 11, and input 10 gives output 21.
+In Unit 8, you often solved one proportion at a time. In Unit 9, you study a full pattern that works for many inputs.
 
-Tables help us organize repeated inputs and outputs. Graphs help us see how quickly outputs change. Equations help us write the rule compactly. When a pattern changes at a constant rate, we often get a straight-line graph, which is why linear functions are the natural first step.
+A function is like an input-output machine: you put in one input, the rule processes it, and one output comes out. If the rule is "double and add 1," then 3 becomes 7, 5 becomes 11, and 10 becomes 21.
 
-A coordinate graph is like a map for number pairs. The first coordinate tells how far to move left or right, and the second coordinate tells how far to move up or down. Plotting many input-output pairs lets us see the overall shape of a relationship.
+To understand a function deeply, use four connected views:
 
-## Formal Statement / Definition
-- A **function** is a rule that assigns each input exactly one output.
-- The set of input values is the **domain**.
-- The set of possible output values is the **range**.
-- An **ordered pair** $(x, y)$ shows one input and its output.
+1. **Words:** the situation and meaning.
+2. **Table:** repeated input-output values.
+3. **Equation:** the compact rule.
+4. **Graph:** the visual trend.
+
+### Pacing Note: From proportionality to slope and graphing
+
+A smooth progression is:
+
+1. Start with ratio tables you already know.
+2. Notice when output changes by the same amount for each equal input step.
+3. Name that constant change the **slope**.
+4. Then graph points to see why constant slope makes a straight line.
+
+This pacing helps avoid jumping too quickly from arithmetic tables to formal graph equations.
+
+## Formal Definition
+
+- A **function** assigns each input exactly one output.
+- The set of inputs is the **domain**; the possible outputs form the **range**.
+- An **ordered pair** $(x, y)$ records one input-output match.
 - The **graph** of a function is the set of all ordered pairs that satisfy the rule.
-- A **linear function** has the form:
+- A **linear function** has form
 
 $$
 y = mx + b
 $$
 
-where $m$ is the **slope** and $b$ is the **$y$-intercept**.
+where $m$ is the slope (rate of change) and $b$ is the $y$-intercept.
 
-- The **slope** measures rate of change:
+- For two points $(x_1, y_1)$ and $(x_2, y_2)$ with $x_1 \ne x_2$, slope is
 
 $$
-m = \frac{\text{change in } y}{\text{change in } x} = \frac{y_2 - y_1}{x_2 - x_1}
+m = \frac{y_2 - y_1}{x_2 - x_1}
 $$
 
-when $x_2 \ne x_1$.
-
-- A proportional relationship is a special linear function with equation:
+- A **proportional relationship** is linear with $b = 0$, so
 
 $$
 y = kx
 $$
 
-In this case the graph passes through the origin $(0, 0)$.
+and the graph passes through $(0, 0)$.
 
 ## Worked Examples
-### Example 1 – Use a Rule to Find Outputs
-Suppose a function is defined by:
 
-$$
-y = 2x + 1
-$$
+### Example 1 - Foundational: Evaluate a Function Rule
 
-Find the output when $x = 0$, $x = 3$, and $x = 5$.
+Given $y = 2x + 1$, find outputs for $x = 0, 3, 5$.
 
-Step 1: Substitute each input into the rule.
+1. Substitute each input.
+2. Compute outputs: $1, 7, 11$.
+3. Write ordered pairs: $(0,1)$, $(3,7)$, $(5,11)$.
 
-For $x = 0$:
+### Example 2 - Standard Variation: Build a Linear Table
 
-$$
-y = 2(0) + 1 = 1
-$$
+A pattern starts at 4 and increases by 3 for each step of $x$.
 
-For $x = 3$:
+1. Use $x = 0,1,2,3$.
+2. Compute outputs: $4,7,10,13$.
+3. Conclude constant change is 3, so an equation is $y = 3x + 4$.
 
-$$
-y = 2(3) + 1 = 7
-$$
+### Example 3 - Standard Variation: Compute Slope from Two Points
 
-For $x = 5$:
+Find slope through $(2,5)$ and $(6,13)$.
 
-$$
-y = 2(5) + 1 = 11
-$$
+1. Apply slope formula: $m = \frac{13-5}{6-2}$.
+2. Simplify to $m = \frac{8}{4} = 2$.
+3. Interpret: when $x$ increases by 1, $y$ increases by 2.
 
-So the ordered pairs are $(0, 1)$, $(3, 7)$, and $(5, 11)$.
+### Example 4 - Extension: Interpret Intercept in Context
 
-### Example 2 – Build a Table and Decide if the Pattern Is Linear
-A rule is given by "start at 4 and add 3 each time the input increases by 1." Complete a table for $x = 0, 1, 2, 3$.
+Phone cost: base fee 15 dollars plus 8 dollars per extra GB.
 
-| $x$ | 0 | 1 | 2 | 3 |
-|---|---:|---:|---:|---:|
-| $y$ | 4 | 7 | 10 | 13 |
+1. Let $x$ = extra GB, $y$ = total cost.
+2. Equation: $y = 8x + 15$.
+3. Interpret $b=15$: cost is 15 dollars even when $x=0$.
 
-The outputs increase by 3 each time, so the rate of change is constant. This means the relationship is linear. One equation is:
+## Common Mistakes and How to Avoid Them
 
-$$
-y = 3x + 4
-$$
+- **Mistake:** Reversing ordered pairs.
+  **How to avoid it:** Always read $(x, y)$ as input first, output second.
+- **Mistake:** Calling every table linear.
+  **How to avoid it:** Check equal input steps; output must change by a constant amount.
+- **Mistake:** Confusing slope and intercept.
+  **How to avoid it:** Slope = change rate; intercept = output when input is 0.
+- **Mistake:** Thinking every linear function is proportional.
+  **How to avoid it:** Proportional means $b=0$ and graph goes through origin.
 
-### Example 3 – Find the Slope from Two Points
-Find the slope of the line passing through $(2, 5)$ and $(6, 13)$.
+## Quick Checks
 
-Use the slope formula:
-
-$$
-m = \frac{13 - 5}{6 - 2} = \frac{8}{4} = 2
-$$
-
-So the slope is **2**. This means that for each increase of 1 in $x$, the value of $y$ increases by 2.
-
-### Example 4 – Identify the $y$-Intercept and Interpret It
-A phone plan costs 15 dollars per month plus 8 dollars for each gigabyte of extra data. Write an equation and interpret the intercept.
-
-Let $x$ be the number of gigabytes and $y$ be the total cost.
-
-$$
-y = 8x + 15
-$$
-
-The slope is 8 because each extra gigabyte adds 8 dollars.
-
-The $y$-intercept is 15. This means that when $x = 0$, the cost is still 15 dollars because of the monthly base fee.
-
-### Example 5 – Recognize a Proportional Function from a Table
-Consider the table:
-
-| $x$ | 1 | 2 | 4 | 6 |
-|---|---:|---:|---:|---:|
-| $y$ | 5 | 10 | 20 | 30 |
-
-Check whether the ratio $\frac{y}{x}$ stays constant:
-
-$$
-\frac{5}{1} = 5, \quad \frac{10}{2} = 5, \quad \frac{20}{4} = 5, \quad \frac{30}{6} = 5
-$$
-
-The ratio is always 5, so the relationship is proportional.
-
-Its equation is:
-
-$$
-y = 5x
-$$
-
-The graph would be a straight line through the origin.
-
-### Example 6 – Plot Points and Describe the Graph
-For the function:
-
-$$
-y = -x + 4
-$$
-
-find three points and describe the graph.
-
-Choose convenient inputs.
-
-If $x = 0$, then $y = 4$, so one point is $(0, 4)$.
-
-If $x = 1$, then $y = 3$, so another point is $(1, 3)$.
-
-If $x = 4$, then $y = 0$, so another point is $(4, 0)$.
-
-These points lie on a straight line. Because the slope is $-1$, the graph goes downward from left to right.
-
-## Common Mistakes & How to Avoid Them
-- **Mistake 1:** Mixing up input and output.  
-  **Fix:** In an ordered pair $(x, y)$, the first number is always the input and the second is the output.
-- **Mistake 2:** Thinking every table shows a linear function.  
-  **Fix:** Check whether the change in $y$ is constant when $x$ increases by equal amounts.
-- **Mistake 3:** Confusing slope with the $y$-intercept.  
-  **Fix:** The slope tells how fast the line changes; the intercept tells where the graph crosses the $y$-axis.
-- **Mistake 4:** Assuming every linear function is proportional.  
-  **Fix:** Only equations of the form $y = kx$ are proportional; if $b \ne 0$ in $y = mx + b$, the relationship is not proportional.
+1. What does slope measure?
+   - **Answer:** It measures the rate of change: how much $y$ changes for each 1-unit change in $x$.
+2. Which is proportional: $y=5x$ or $y=5x+2$?
+   - **Answer:** $y=5x$.
+3. Find slope through $(0,1)$ and $(3,7)$.
+   - **Answer:** $m = \frac{7-1}{3-0} = 2$.
+4. For $y=-2x+6$, find output when $x=2$.
+   - **Answer:** $y = -2(2)+6 = 2$.
 
 ## Graded Exercises
-### Level 1 – Warm-up
-1. For $y = x + 6$, find the output when $x = 2$.
-2. Write the ordered pair produced by input $4$ for the rule $y = 3x$.
-3. In the ordered pair $(5, 12)$, which number is the input?
-4. Does the table below represent a linear pattern?
 
-| $x$ | 0 | 1 | 2 |
-|---|---:|---:|---:|
-| $y$ | 7 | 10 | 13 |
+### Level 1 - Warm-up
 
-### Level 2 – Standard
-1. Complete the table for $y = 2x - 1$ when $x = 0, 1, 2, 3$.
-2. Find the slope of the line through $(1, 4)$ and $(5, 12)$.
-3. A streaming service charges 9 dollars per month plus 2 dollars for each movie rental. Write a linear equation for the total cost $y$ in terms of the number of rentals $x$.
-4. Is the function $y = 4x$ proportional? Explain briefly.
-5. Find the $y$-intercept of $y = 6x + 3$ and explain what it means.
+1. For $y=x+6$, find the output when $x=2$.
+2. For $y=3x$, write the ordered pair when input is 4.
+3. In $(5,12)$, identify the input.
 
-### Level 3 – Challenge
-1. A plant is 10 cm tall at the start and grows 1.5 cm each week. Write an equation for its height after $w$ weeks, then find the height after 8 weeks.
-2. A table shows points $(0, 2)$, $(2, 6)$, $(4, 10)$, and $(6, 14)$. Determine whether the relationship is linear, find the slope, and write an equation.
-3. Compare the functions $y = 3x$ and $y = 3x + 5$. How are their graphs similar, and how are they different?
+### Level 2 - Core Practice
 
-### Exercise Answers
-<details>
-<summary>Show answers</summary>
+4. Complete a table for $y=2x-1$ when $x=0,1,2,3$.
+5. Find slope through $(1,4)$ and $(5,12)$.
+6. A service charges 9 dollars monthly plus 2 dollars per rental. Write $y$ in terms of rentals $x$.
+7. Is $y=4x$ proportional? Explain in one sentence.
 
-#### Level 1
-1. $y = 2 + 6 = 8$.
-2. Input $4$ gives $y = 12$, so the ordered pair is $(4, 12)$.
-3. The input is **5**.
-4. Yes. The outputs increase by 3 each time, so the pattern is linear.
+### Level 3 - Challenge
 
-#### Level 2
-1. The outputs are $-1, 1, 3, 5$.
-2. $m = \frac{12 - 4}{5 - 1} = \frac{8}{4} = 2$.
-3. $y = 2x + 9$.
-4. Yes. It has the form $y = kx$, so it is proportional.
-5. The $y$-intercept is 3. It means the output is 3 when $x = 0$.
+8. A plant starts at 10 cm and grows 1.5 cm/week. Write a height equation and compute height after 8 weeks.
+9. For points $(0,2),(2,6),(4,10),(6,14)$, decide linear/nonlinear, find slope, and write an equation.
+10. Compare $y=3x$ and $y=3x+5$ (similarities and differences in graphs).
 
-#### Level 3
-1. $h = 1.5w + 10$. After 8 weeks, $h = 1.5(8) + 10 = 22$ cm.
-2. Yes, it is linear. The slope is $\frac{6 - 2}{2 - 0} = 2$, and one equation is $y = 2x + 2$.
-3. Both graphs are straight lines with slope 3, so they are parallel. The graph of $y = 3x + 5$ is shifted upward by 5 units and does not pass through the origin.
+### Solutions
 
-</details>
+1. $8$
+2. $(4,12)$
+3. $5$
+4. Outputs: $-1,1,3,5$
+5. $m=2$
+6. $y=2x+9$
+7. Yes, because it has form $y=kx$.
+8. $h=1.5w+10$, so $h(8)=22$ cm.
+9. Linear; slope $2$; equation $y=2x+2$.
+10. Same slope (parallel lines); $y=3x+5$ is shifted up by 5.
 
-## Quick Check / Self-Quiz
-1. What does the slope of a line measure?
-2. Which equation is proportional: $y = 5x$ or $y = 5x + 2$?
-3. Find the slope of the line through $(0, 1)$ and $(3, 7)$.
-4. For $y = -2x + 6$, what is the output when $x = 2$?
+## Summary and Key Takeaways
 
-### Quick Check Answers
-1. The slope measures the rate of change: how much $y$ changes when $x$ changes.
-2. $y = 5x$ is proportional because it has no added constant term.
-3. $m = \frac{7 - 1}{3 - 0} = \frac{6}{3} = 2$.
-4. $y = -2(2) + 6 = 2$.
+- Functions describe complete input-output patterns, not just single calculations.
+- Tables, equations, and graphs should agree with one another.
+- Linear functions have constant rate of change and straight-line graphs.
+- Slope explains how fast output changes; intercept explains where the graph starts/crosses.
+- Proportional relationships are linear functions with zero intercept.
 
-## Summary Card
-- A function assigns each input exactly one output.
-- Tables, equations, ordered pairs, and graphs are connected ways to describe the same relationship.
-- Linear functions have a constant rate of change and graph as straight lines.
-- The slope tells how fast a line changes, and the $y$-intercept tells where it starts on the vertical axis.
-- Proportional relationships are special linear functions of the form $y = kx$ and connect directly to Unit 8.
+## Next Steps / Connections
 
-## References / Further Reading
-- Review Unit 8 on proportional reasoning to see how $y = kx$ grows from ratio tables.
-- In the next unit, statistics will organize and interpret data rather than model one rule for all inputs.
+- Next unit focus: **Elementary Probability and Statistics** to analyze uncertain events and data summaries.
+- Keep using function thinking when modeling expected values and trend lines in later units.
