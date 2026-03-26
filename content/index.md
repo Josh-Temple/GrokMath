@@ -14,18 +14,18 @@ This starter index defines the first 10 core units from elementary arithmetic to
 | 6 | Introduction to Algebra | Grades 6-8 | Introduces variables, expressions, and equations to bridge arithmetic reasoning into symbolic mathematics. | Started |
 | 7 | Geometry Foundations | Grades 6-9 | Covers 2D/3D geometry, measurement formulas, and introductory geometric reasoning with visual structure. | Started |
 | 8 | Proportional Reasoning and Percentages | Grades 6-9 | Builds ratios, rates, proportions, and percentage applications for real-world numeracy and model-based reasoning. | Ready |
-| 9 | Functions and Basic Graphing | Grades 8-10 | Develops function thinking through tables, rules, coordinate graphs, slope, and linear representations. | Draft |
-| 10 | Proof Basics and Mathematical Reasoning | Grades 9-12 | Introduces claims, examples vs. counterexamples, direct reasoning patterns, and foundational proof language for advanced study. | Planned |
+| 9 | Functions and Basic Graphing | Grades 8-10 | Develops function thinking through tables, rules, coordinate graphs, slope, and linear representations. | Ready |
+| 10 | Elementary Probability and Statistics | Grades 8-11 | Introduces chance models, data summaries, and introductory statistical reasoning as the bridge after function graph literacy. | Placeholder |
 
 ## Sequencing Rationale
 
 - Units 1-5 establish arithmetic fluency and number sense.
 - Units 6-8 transition learners from arithmetic to structural reasoning through algebra, geometry, and proportionality.
 - Unit 9 introduces function-based modeling and graph interpretation as a high-school bridge.
-- Unit 10 formalizes mathematical argument habits so learners can transition to university-foundation topics with stronger reasoning skills.
+- Unit 10 shifts from deterministic function rules to uncertainty, data interpretation, and early statistical reasoning.
 
 ## Notes
 
 - Units 1-9 align with existing lesson files in `content/units/`.
-- Unit 10 is currently a planned bridge placeholder and should be drafted in a future session.
-- Status meanings: `Ready` = lesson file exists and is publishable, `Started` = partial progress, `Draft` = lesson file exists but may still need review, `Planned` = roadmap only.
+- Unit 10 is currently a placeholder and should be drafted in a future session.
+- Status meanings: `Ready` = lesson file exists and is publishable, `Started` = partial progress, `Draft` = lesson file exists but may still need review, `Placeholder` = roadmap placeholder only.

@@ -44,14 +44,14 @@ Every mature unit should eventually include:
 7. Geometry Foundations
 8. Proportional Reasoning and Percentages
 9. Functions and Basic Graphing
-10. Proof Basics and Mathematical Reasoning
+10. Elementary Probability and Statistics
 
 ## Sequencing Rationale
 
 - Units 1-5 build arithmetic fluency and number sense.
 - Units 6-8 shift learners into algebraic, geometric, and proportional structures.
 - Unit 9 introduces function representation and graph interpretation as a bridge into secondary mathematics.
-- Unit 10 introduces proof language and reasoning habits needed before deeper university-foundation topics.
+- Unit 10 introduces uncertainty models, descriptive statistics, and foundational data interpretation.
 
 ## Longer-Term Expansion Candidates
 
