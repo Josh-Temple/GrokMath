@@ -2,7 +2,7 @@
 title: Elementary Probability and Statistics
 order: 10
 level: middle-to-high
-status: Draft
+status: Ready
 description: Introduces probability, data summaries, and interpretation of uncertainty through real-world contexts.
 prerequisites:
   - Functions and Basic Graphing
@@ -40,6 +40,8 @@ So this unit has two connected goals:
 2. Use statistics to summarize and interpret data.
 
 Together, these ideas prepare you for more advanced modeling, scientific reasoning, and data-informed decisions.
+
+A helpful bridge from Unit 9 is this: function graphs describe predictable relationships, while probability models describe likely outcomes when exact prediction is not possible.
 
 ## Formal Definition
 
@@ -138,6 +140,8 @@ $$
   **How to avoid it:** Mean uses all values and arithmetic; median uses order and the middle position.
 - **Mistake:** Assuming short-run outcomes must match probability exactly.
   **How to avoid it:** Remember probability predicts long-run tendency, not guaranteed short-run results.
+- **Mistake:** Treating dependent events as if they were independent (for example, drawing two marbles without replacement).
+  **How to avoid it:** Ask whether the first outcome changes the second event's sample space; if it does, update probabilities after each step.
 
 ## Quick Checks
 
@@ -180,13 +184,13 @@ $$
 1. $\frac{3}{6}=\frac{1}{2}$
 2. $\frac{3}{8}$
 3. $\frac{2+5+7+10}{4}=6$
-4. $\frac{3}{4}$
+4. Sample space: $\{HH,HT,TH,TT\}$, so $P(\text{at least one head})=1-P(TT)=1-\frac14=\frac34$.
 5. Multiples of 3 are $3,6$, so $\frac{2}{8}=\frac{1}{4}$
 6. Sorted: $2,4,5,5,8,9$ so median $=\frac{5+5}{2}=5$, range $=9-2=7$
 7. Mode $=6$, mean $=\frac{3+3+5+6+6+6+8}{7}=\frac{37}{7}\approx 5.29$
-8. $\frac{15}{20}=0.75$
+8. Experimental probability $=\frac{15}{20}=0.75$ (or 75%).
 9. Mean $=\frac{125}{6}\approx 20.83$, median $=16.5$; median is more typical because 45 is an outlier.
-10. Experimental: $\frac{6}{60}=0.10$, theoretical: $\frac{1}{6}\approx 0.167$; random variation in limited trials can cause differences.
+10. Experimental: $\frac{6}{60}=0.10$, theoretical: $\frac{1}{6}\approx 0.167$; random variation in limited trials can cause differences, and 60 trials may still be too small for close agreement.
 11. Favorable pairs: $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$, so $\frac{6}{36}=\frac{1}{6}$
 12. Mean increases noticeably because 40 is far above current average; median may stay similar unless middle positions shift.
 

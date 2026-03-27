@@ -1,4 +1,43 @@
 
+## Session 2026-03-27 (Unit 10 Quality Polish + Ready Promotion)
+- **What changed**:
+  - Polished `content/units/unit-10-elementary-probability-and-statistics.md` to tighten intuitive-to-formal flow, strengthen mistake coverage, and deepen selected exercise solutions.
+  - Aligned Unit 10 status to `Ready` in lesson frontmatter after a template/gate review pass.
+  - Synced Unit 10 status notes in `content/index.md` and `curriculum/index.md` to keep publishable/planning layers consistent.
+- **Decisions made**:
+  - Kept edits incremental and content-only: no filename changes, no routing changes, no dependency or stack changes.
+  - Promoted Unit 10 to `Ready` because the file now satisfies canonical section structure and expected exercise/check density with clear answers/solutions.
+  - Added a specific common-mistake guardrail for independent vs dependent events to reduce a frequent learner error early.
+- **What’s next**:
+  1. Run a consistency audit of Units 1–8 against canonical heading names/order in `content/lesson-template.md`.
+  2. Record per-unit pass/fail notes for quality gates (worked examples, quick checks, graded exercises, and progression).
+  3. Apply only minimal corrective edits where drift is found, then re-sync any impacted index notes.
+- **Blockers / risks**:
+  - Minor KaTeX edge cases may still appear in probability notation depending on environment plugin resolution.
+  - A few units may have pacing variance even when headings match; audit should capture this separately from structure checks.
+- **Suggested next prompt**:
+  - "Audit Units 1–8 for exact `content/lesson-template.md` heading alignment and quality-gate completeness; produce a concise pass/fail checklist per unit, apply minimal fixes only where needed, run `npm run build`, and append a new dated `HANDOFF.md` section with decisions, risks, and follow-up actions."
+
+## Session 2026-03-27 (Instruction Validity Review + Execution Plan)
+- **What changed**:
+  - Re-checked `README.md` and `HANDOFF.md` before planning, then validated the newly provided Grok instruction block against the current repository state.
+  - Added an execution-ready, scope-locked implementation plan for Unit 10 polish and status promotion workflow.
+- **Decisions made**:
+  - The proposed scope is **valid** and aligned with the current handoff trajectory: focus only on Unit 10 quality polish + index status sync, with no structural/frontend/dependency changes.
+  - Keep status upgrade to `Ready` conditional on explicit quality-gate pass (template completeness, exercise depth, quick-check clarity, pedagogical flow).
+  - Add `HANDOFF.md` update as a required deliverable in the same implementation session to preserve continuity and avoid process drift.
+- **What’s next**:
+  1. Audit `content/units/unit-10-elementary-probability-and-statistics.md` against `content/lesson-template.md` heading-by-heading.
+  2. Apply incremental pedagogical polish (worked examples, common mistakes, quick checks, graded exercises/solutions, transitions from intuitive to formal).
+  3. Promote Unit 10 frontmatter `status` to `Ready` **only if** all gates pass.
+  4. Minimally sync Unit 10 status/description in `content/index.md` and `curriculum/index.md`.
+  5. Run `npm run dev` smoke check + `npm run build` verification, then append a new same-day handoff section summarizing actual edits and residual risks.
+- **Blockers / risks**:
+  - Main risk is over-editing tone or pacing while polishing; mitigate by strict template alignment and incremental edits only.
+  - Secondary risk is minor KaTeX rendering regressions in probability notation; mitigate with local route-level smoke checks.
+- **Suggested next prompt**:
+  - "Execute a focused Unit 10 polish pass: align `content/units/unit-10-elementary-probability-and-statistics.md` to `content/lesson-template.md`, strengthen examples/checks/exercises, promote status to `Ready` only if quality gates pass, minimally sync `content/index.md` + `curriculum/index.md`, run `npm run build`, and append a dated `HANDOFF.md` session summary with decisions/risks/next steps."
+
 ## Session 2026-03-27 (Unit 10 Draft Delivery + Index Sync)
 - **What changed**:
   - Created `content/units/unit-10-elementary-probability-and-statistics.md` as a complete draft lesson using the canonical template sections (concept map, intuitive/formal layers, worked examples, mistakes, quick checks, graded exercises with solutions, summary, and next steps).
