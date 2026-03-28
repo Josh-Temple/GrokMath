@@ -9,14 +9,14 @@ slug: unit-2-operations-with-whole-numbers
 
 # Unit 2: Operations with Whole Numbers
 
-## Learning Goals
+## Concept Map
 - Use addition, subtraction, multiplication, and division with whole numbers accurately.
 - Explain how each operation changes quantity and when each operation is appropriate.
 - Solve one-step and multi-step word problems with clear equations and units.
 - Estimate answers before calculating and check whether exact answers are reasonable.
 - Connect operations through inverse relationships, such as subtraction as the inverse of addition.
 
-## Motivation / Intro
+## Intuitive Explanation
 Operations are the tools we use to answer everyday questions about quantity. If we combine groups, we add. If we compare groups or remove items, we subtract. If we have equal groups, we multiply. If we split a total equally or count how many equal groups fit, we divide.
 
 Think about a school event:
@@ -27,7 +27,7 @@ Think about a school event:
 
 Before doing any detailed calculation, we can estimate. For example, if we compute \(398 + 205\), we can estimate \(400 + 200 = 600\). If an exact answer is far from 600, we should re-check our work.
 
-## Intuitive Explanation
+### Operation Meanings and Inverse Relationships
 Each operation answers a different kind of question.
 
 1. **Addition** asks: "How many in all?"
@@ -44,7 +44,7 @@ If \(8 \times 6 = 48\), then \(48 \div 6 = 8\).
 
 These inverse relationships help us check answers quickly.
 
-## Formal Language / Precise Rules
+## Formal Definition
 Let \(a\), \(b\), and \(c\) be whole numbers.
 
 - **Addition:** \(a + b = c\) means combining \(a\) and \(b\) gives total \(c\).
@@ -137,18 +137,30 @@ $$
 157 \div 12 = 13 \text{ remainder } 1
 $$
 
-## Common Mistakes
+## Common Mistakes and How to Avoid Them
 - **Using the wrong operation in word problems.**  
-  Fix: Ask what the question is really asking: combine, compare, equal groups, or sharing.
+  **How to avoid it:** Ask what the question is really asking: combine, compare, equal groups, or sharing.
 
 - **Forgetting regrouping/carrying.**  
-  Fix: Write carries and regrouped values clearly above the place-value columns.
+  **How to avoid it:** Write carries and regrouped values clearly above the place-value columns.
 
 - **Treating multiplication as repeated addition without recognizing place value.**  
-  Fix: In multi-digit multiplication, track tens and hundreds carefully.
+  **How to avoid it:** In multi-digit multiplication, track tens and hundreds carefully.
 
 - **Ignoring remainders in context.**  
-  Fix: Decide whether to keep remainder, round up, or convert based on the real situation.
+  **How to avoid it:** Decide whether to keep remainder, round up, or convert based on the real situation.
+
+## Quick Checks
+1. Which operation fits: "equal groups of 9"?
+2. True or false: if \(64 - 19 = 45\), then \(45 + 19 = 64\).
+3. Estimate \(5{,}098 + 2{,}941\) to the nearest hundred before finding the exact sum.
+4. Compute \(84 \div 7\).
+
+**Quick Check Answers**
+1. Multiplication
+2. True
+3. Estimate: \(5{,}100 + 2{,}900 = 8{,}000\); exact: \(8{,}039\)
+4. 12
 
 ## Graded Exercises
 1. **Easy:** Compute \(2{,}459 + 3{,}786\).
@@ -166,21 +178,13 @@ $$
 5. \(126 \div 8 = 15\) remainder \(6\): 15 full boxes, 6 pencils remain
 6. \((24 \times 7) + (15 \times 3) = 168 + 45 = 213\), total \(\$213\)
 
-## Quick Checks
-1. Which operation fits: "equal groups of 9"?
-2. True or false: if \(64 - 19 = 45\), then \(45 + 19 = 64\).
-3. Estimate \(5{,}098 + 2{,}941\) to the nearest hundred before finding the exact sum.
-4. Compute \(84 \div 7\).
-
-**Quick Check Answers**
-1. Multiplication
-2. True
-3. Estimate: \(5{,}100 + 2{,}900 = 8{,}000\); exact: \(8{,}039\)
-4. 12
-
-## Summary
+## Summary and Key Takeaways
 - Choose operations based on the meaning of the situation.
 - Use place value carefully when regrouping in addition and subtraction.
 - Use properties like distributive property to simplify multiplication.
 - Use inverse operations and estimation to verify answers.
 - Interpret division remainders in context, not just as a leftover number.
+
+## Next Steps / Connections
+- Next, deepen operation fluency by focusing on addition and subtraction structure in Unit 3.
+- Keep using inverse operations and estimation because these habits transfer directly to algebraic equation checks later.

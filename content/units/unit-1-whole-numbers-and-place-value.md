@@ -6,14 +6,14 @@ description: Understanding whole numbers, place value, comparison, and rounding 
 
 # Unit 1: Whole Numbers and Place Value
 
-## Learning Goals
+## Concept Map
 - Read and write whole numbers up to the millions in standard, word, and expanded form.
 - Explain the value of a digit based on its place, not just the digit itself.
 - Compare and order whole numbers using place value and symbols (`>`, `<`, `=`).
 - Round whole numbers to a given place (nearest 10, 100, or 1,000) using clear reasoning.
 - Check whether an answer makes sense by estimating with place value.
 
-## Intuitive Introduction
+## Intuitive Explanation
 Think of place value like seats in a stadium. If one person sits in the “ones” seat, that is just 1. But if one person sits in the “thousands” seat, that same one now represents 1,000. The digit stays the same, but the seat (the place) changes its value.
 
 You can also think of money. One dollar bill and one hundred-dollar bill both show a “1,” but they are not worth the same amount. In numbers, place value works the same way. In the number 4,582, the digit 5 means 500 because it is in the hundreds place. The digit 8 means 80 because it is in the tens place.
@@ -24,7 +24,7 @@ Place value also helps us compare numbers quickly. If two numbers have different
 
 Finally, place value makes rounding useful. When we round, we decide which place is most important right now, then look one place to the right to choose whether to keep or increase the digit. Rounding helps us estimate and check if detailed answers are reasonable.
 
-## Formal Definition / Precise Language
+## Formal Definition
 A **whole number** is a number in the set `{0, 1, 2, 3, ...}`.
 
 In base-10, each place value is 10 times the place to its right:
@@ -98,7 +98,7 @@ Round 48,650 to the nearest thousand.
 **Answer:**
 - `48,650 ≈ 49,000` (to the nearest thousand)
 
-## Common Mistakes & Misconceptions
+## Common Mistakes and How to Avoid Them
 - **Mistake 1: “A bigger digit always means a bigger number.”**  
   Why it is wrong: Place matters more than digit size in smaller places.  
   Correction: Compare from the leftmost (greatest) place first.
@@ -139,9 +139,13 @@ Round 48,650 to the nearest thousand.
 7. **Hard:** Create a 6-digit number where the digit 7 has value 70,000 and the digit 3 has value 30. Write your number in expanded form.
 8. **Hard:** Two numbers both have 5 in the ten-thousands place and 2 in the hundreds place. Make one number greater than the other by changing only the tens and ones digits.
 
-## Summary / Key Takeaways
+## Summary and Key Takeaways
 - A digit’s value depends on its place, not only on the digit itself.
 - Base-10 place values grow by factors of 10 as you move left.
 - Expanded form shows the true value of each digit clearly.
 - To compare whole numbers, start at the greatest place and move right.
 - To round correctly, look one place to the right of the target place.
+
+## Next Steps / Connections
+- Next, connect place-value fluency to multi-step operation work in Unit 2.
+- Continue using estimation as a reasonableness check before and after exact calculations.

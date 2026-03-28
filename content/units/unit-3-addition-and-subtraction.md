@@ -6,12 +6,19 @@ description: Building fluency with addition and subtraction, including regroupin
 
 # Unit 3: Addition and Subtraction of Whole Numbers
 
-## Motivation / Why This Matters
+## Concept Map
+- Combine quantities -> Addition.
+- Compare quantities or find what remains -> Subtraction.
+- Regrouping relies on place-value exchanges.
+- Inverse operations provide built-in answer checks.
+- This unit supports later multiplication, division, and algebra balancing.
+
+## Intuitive Explanation
 Addition and subtraction are the core tools for tracking change. We use them when we combine quantities, compare amounts, and decide what remains after something is removed. Whether we plan a budget, count inventory, or solve a story problem, we rely on these two operations every day.
 
 Strong addition and subtraction skills also support later topics. Multi-digit multiplication uses repeated addition ideas, and algebra depends on balancing by adding or subtracting the same amount on both sides.
 
-## Intuitive Understanding
+### Place-Value View
 Think about a school fundraiser.
 - If Class A raised $248 and Class B raised $176, we **add** to find the total raised.
 - If the total money is $500 and $289 was spent, we **subtract** to find what is left.
@@ -24,7 +31,7 @@ Regrouping (sometimes called carrying/borrowing) is just exchanging place values
 
 So when a column is too large in addition, we regroup up. When a column is too small in subtraction, we regroup down.
 
-## Formal Definition & Properties
+## Formal Definition
 For whole numbers $a$, $b$, and $c$:
 
 - **Addition:** $a + b = c$ means the total of $a$ and $b$ is $c$.
@@ -116,20 +123,34 @@ $$
 
 The exact answer $3{,}422$ is close to $3{,}400$, so it is reasonable.
 
-## Common Mistakes & Pitfalls
+## Common Mistakes and How to Avoid Them
 - **Misaligned place values** (for example, writing tens under hundreds).
-  - Fix: Always line up digits by place before calculating.
+  - **How to avoid it:** Always line up digits by place before calculating.
 
 - **Forgetting carried digits in addition**.
-  - Fix: Write carry marks clearly above the next column.
+  - **How to avoid it:** Write carry marks clearly above the next column.
 
 - **Incorrect borrowing/regrouping in subtraction across zeros**.
-  - Fix: Regroup one column at a time and rewrite each changed digit.
+  - **How to avoid it:** Regroup one column at a time and rewrite each changed digit.
 
 - **Using subtraction when addition is needed in word problems**.
-  - Fix: Ask whether the situation is combining amounts, finding a difference, or finding what remains.
+  - **How to avoid it:** Ask whether the situation is combining amounts, finding a difference, or finding what remains.
 
-## Practice Exercises
+## Quick Checks
+1. Which operation matches: "How many more stickers does Mia have than Leo"?
+2. True or false: If $734 + 268 = 1{,}002$, then $1{,}002 - 268 = 734$.
+3. Compute mentally: $450 + 250$.
+4. Compute mentally: $1{,}000 - 470$.
+5. Estimate first: Is $3{,}192 + 4{,}806$ closer to $7{,}000$, $8{,}000$, or $9{,}000$?
+
+**Quick Check Answers**
+1. Subtraction.
+2. True.
+3. $700$.
+4. $530$.
+5. $8{,}000$.
+
+## Graded Exercises
 1. Compute $2{,}748 + 1{,}569$.
 2. Compute $4{,}906 + 2{,}187$.
 3. Compute $8{,}403 - 2{,}978$.
@@ -157,23 +178,13 @@ The exact answer $3{,}422$ is close to $3{,}400$, so it is reasonable.
 11. $x = 2{,}241$
 12. $y = 4{,}435$
 
-## Quick Checks
-1. Which operation matches: "How many more stickers does Mia have than Leo"?
-2. True or false: If $734 + 268 = 1{,}002$, then $1{,}002 - 268 = 734$.
-3. Compute mentally: $450 + 250$.
-4. Compute mentally: $1{,}000 - 470$.
-5. Estimate first: Is $3{,}192 + 4{,}806$ closer to $7{,}000$, $8{,}000$, or $9{,}000$?
-
-**Quick Check Answers**
-1. Subtraction.
-2. True.
-3. $700$.
-4. $530$.
-5. $8{,}000$.
-
-## Summary & Connections
+## Summary and Key Takeaways
 - Addition combines quantities; subtraction finds differences or what remains.
 - Place-value alignment is essential for accurate multi-digit computation.
 - Regrouping is an exchange of place values, not a trick.
 - Estimation helps catch mistakes quickly.
 - Addition and subtraction are inverse operations and support later algebraic thinking.
+
+## Next Steps / Connections
+- Next, extend these place-value and inverse-operation habits into multiplication and division strategies.
+- These same balancing ideas directly support equation solving in introductory algebra.

@@ -1,3 +1,57 @@
+## Session 2026-03-28 (Units 1-8 Consistency Audit + Minimal Fix Pass)
+- **What changed**:
+  - Audited Units 1-8 against canonical `content/lesson-template.md` headings/order and recorded a per-unit pass/fail checklist.
+  - Applied minimal heading/section-order corrective edits to three highest-priority drift files:
+    - `content/units/unit-1-whole-numbers-and-place-value.md`
+    - `content/units/unit-2-operations-with-whole-numbers.md`
+    - `content/units/unit-3-addition-and-subtraction.md`
+  - Standardized heading names and order in those three units to canonical sequence, and added missing `Next Steps / Connections` sections.
+  - Ran local verification (`npm run build`) and a short `npm run dev` startup smoke check.
+- **Checklist summary (Units 1-8 canonical heading alignment)**:
+  - Unit 1: **PASS** (after minimal fixes)
+  - Unit 2: **PASS** (after minimal fixes)
+  - Unit 3: **PASS** (after minimal fixes)
+  - Unit 4: **FAIL** (legacy heading schema still present; deferred)
+  - Unit 5: **FAIL** (legacy heading schema still present; deferred)
+  - Unit 6: **FAIL** (legacy heading schema still present; deferred)
+  - Unit 7: **FAIL** (legacy heading schema still present; deferred)
+  - Unit 8: **FAIL** (partial alignment; deferred)
+- **Decisions made**:
+  - Applied the strict minimal-edit rule and capped content edits to three units this session because drift is widespread in Units 4-8.
+  - Chose heading normalization/reordering only (plus short bridge bullets where required), avoiding full pedagogical rewrites.
+  - Deferred deeper harmonization for Units 4-8 to a targeted follow-up pass to avoid scope creep.
+- **What’s next**:
+  1. Run a second minimal-fix pass on Units 4-6 to migrate them to canonical headings/order without rewriting core explanatory content.
+  2. Run a third minimal-fix pass on Units 7-8 and complete full Unit 1-8 heading alignment.
+  3. After all Units 1-8 pass, consider light quality-gate depth polish (quick-check count, graded exercise progression) where still thin.
+  4. Optionally begin Unit 11 bridge planning only after Unit 1-8 structural consistency reaches full pass.
+- **Blockers / risks**:
+  - Remaining units use a repeated legacy heading pattern (`Core Concept`, `Practice Exercises`, `Lesson Summary`, `Next Lesson`) that requires careful non-destructive normalization.
+  - Quick mechanical heading migration is safe, but over-editing narrative content during normalization could introduce unintended pedagogy drift.
+  - `npm run dev` smoke check was validated by successful startup; command intentionally stopped via timeout for non-interactive CI flow.
+- **Suggested next prompt**:
+  - "Continue the Units 1-8 consistency migration by applying minimal heading/order fixes to `unit-4` through `unit-8` so they match `content/lesson-template.md` exactly; keep edits incremental (no rewrites), re-run canonical pass/fail checklist across Units 1-8, run `npm run build`, and append a dated HANDOFF section with final alignment results and any deferred quality-depth notes."
+
+## Session 2026-03-28 (Instruction Validity Review + Audit Execution Plan)
+- **What changed**:
+  - Re-checked `README.md`, `HANDOFF.md`, and `content/lesson-template.md` to validate the newly provided Grok instruction block against current repository reality.
+  - Ran a quick structural scan of Units 1-8 for canonical heading presence/order to verify whether the proposed consistency-audit task is still necessary.
+  - Added an execution-ready, minimal-scope plan for the next implementation pass.
+- **Decisions made**:
+  - The instruction set is **valid and high priority**: it matches the latest `HANDOFF.md` direction and addresses confirmed early-template drift in Units 1-8.
+  - Keep scope tightly incremental: heading alignment audit + minimal corrective edits only; no rewrites, no schema/UI/folder changes, no dependency additions.
+  - Record per-unit pass/fail checklist directly in `HANDOFF.md` during execution for traceability and continuity.
+- **What’s next**:
+  1. Audit `content/units/unit-1` through `unit-8` against exact canonical headings/order from `content/lesson-template.md`.
+  2. Apply minimal targeted edits only where drift is obvious (prefer short bridging text/placeholders over deep rewrites).
+  3. If any unit status meaningfully improves, minimally sync status notes in `content/index.md` and `curriculum/index.md`.
+  4. Run `npm run build` (and `npm run dev` smoke check if practical), then append audit checklist results + risk notes to a new same-day handoff subsection.
+- **Blockers / risks**:
+  - Drift is broad across early units, so strict minimal-edit boundaries are required to avoid accidental full rewrites in one session.
+  - Some units may pass heading alignment after fixes but still need later pedagogical depth polish; capture as deferred follow-up, not same-session scope expansion.
+- **Suggested next prompt**:
+  - "Execute the Units 1-8 consistency audit against `content/lesson-template.md`: produce a per-unit pass/fail checklist, apply only minimal heading/section-order fixes, sync any impacted index status notes, run `npm run build`, and append a new 2026-03-28 handoff section with checklist outcomes, deferrals, risks, and next-step recommendations."
+
 
 ## Session 2026-03-27 (Unit 10 Quality Polish + Ready Promotion)
 - **What changed**:
