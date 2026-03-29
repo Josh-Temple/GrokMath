@@ -12,7 +12,8 @@ tags:
 
 # Unit 5: Introduction to Fractions
 
-## Core Concept (Intuitive Layer)
+## Concept Map
+
 ### Learning Goals
 - Understand a fraction as equal parts of one whole.
 - Identify the numerator and denominator and explain their roles.
@@ -20,7 +21,8 @@ tags:
 - Compare basic fractions visually (such as $\frac{1}{2}$, $\frac{1}{3}$, and $\frac{3}{4}$).
 - Find a fraction of a group in everyday contexts.
 
-### Intuitive Explanation
+## Intuitive Explanation
+
 Fractions are used when one whole thing is split into equal parts. If you cut a pizza into 4 equal slices and eat 1 slice, you ate $\frac{1}{4}$ of the pizza. If you eat 3 slices, you ate $\frac{3}{4}$. Fractions help us describe amounts that are less than 1 whole, equal to 1 whole, or even more than 1 whole.
 
 A helpful picture is a chocolate bar. Suppose the bar has 8 equal pieces. If you eat 5 pieces, that is $\frac{5}{8}$ of the bar. The key word is equal. If pieces are different sizes, the fraction model breaks. Fractions are always about equal-sized parts.
@@ -35,7 +37,8 @@ Fractions also explain why bigger denominators do not always mean bigger values.
 
 Learning fractions is a major step from whole-number thinking to flexible number sense. With models, language, and practice, fractions become clear and useful in daily life, science, cooking, and later algebra.
 
-## Formal Definition / Theorem
+## Formal Definition
+
 A **fraction** is a number written in the form
 $$
 \frac{a}{b}
@@ -59,6 +62,7 @@ Basic examples:
 - $\frac{6}{4} = 1 + \frac{2}{4} = 1 + \frac{1}{2}$: more than one whole.
 
 ## Worked Examples
+
 ### Example 1: Shade $\frac{3}{4}$ of a Rectangle
 A rectangle is split into 4 equal parts. Shade 3 parts.
 
@@ -86,7 +90,40 @@ Step 3: Numerator 1 means take 1 of those groups.
 
 So $\frac{1}{3}$ of 24 is 8.
 
-## Practice Exercises
+## Common Mistakes and How to Avoid Them
+
+- **Mistake 1: Confusing numerator and denominator.**  
+  Why wrong: This swaps “parts taken” and “parts in the whole.”  
+  Correct view: Top number = selected parts, bottom number = equal parts in one whole.
+
+- **Mistake 2: Thinking a larger denominator means a larger fraction.**  
+  Why wrong: With the same numerator, more pieces means each piece is smaller.  
+  Correct view: $\frac{1}{8} < \frac{1}{4} < \frac{1}{2}$.
+
+- **Mistake 3: Ignoring the word equal in equal parts.**  
+  Why wrong: Unequal pieces cannot represent correct fractions of a whole.  
+  Correct view: Fractions require the whole to be split into equal-sized parts.
+
+- **Mistake 4: Comparing fractions only by denominator or only by numerator.**  
+  Why wrong: Both numbers matter unless one part is fixed (same numerator or same denominator).  
+  Correct view: Use a model, common denominator, or number line.
+
+## Quick Checks
+
+1. What does $\frac{4}{7}$ mean in words?  
+   **Answer:** 4 equal parts out of 7 equal parts in one whole.
+
+2. True or false: $\frac{2}{8} > \frac{2}{4}$.  
+   **Answer:** False. Same numerator, larger denominator gives smaller fraction.
+
+3. Fill in the blank: $\frac{3}{3} = \underline{\hspace{1cm}}$.  
+   **Answer:** 1.
+
+4. Find $\frac{1}{2}$ of 14.  
+   **Answer:** 7.
+
+## Graded Exercises
+
 ### Easy (Tier A)
 - **A1.** A circle is divided into 6 equal slices. 2 slices are shaded. Write the shaded fraction.
 - **A2.** In $\frac{5}{9}$, what is the numerator? What is the denominator?
@@ -124,37 +161,8 @@ So $\frac{1}{3}$ of 24 is 8.
 
 </details>
 
-## Common Mistakes & Pitfalls
-- **Mistake 1: Confusing numerator and denominator.**  
-  Why wrong: This swaps “parts taken” and “parts in the whole.”  
-  Correct view: Top number = selected parts, bottom number = equal parts in one whole.
+## Summary and Key Takeaways
 
-- **Mistake 2: Thinking a larger denominator means a larger fraction.**  
-  Why wrong: With the same numerator, more pieces means each piece is smaller.  
-  Correct view: $\frac{1}{8} < \frac{1}{4} < \frac{1}{2}$.
-
-- **Mistake 3: Ignoring the word equal in equal parts.**  
-  Why wrong: Unequal pieces cannot represent correct fractions of a whole.  
-  Correct view: Fractions require the whole to be split into equal-sized parts.
-
-- **Mistake 4: Comparing fractions only by denominator or only by numerator.**  
-  Why wrong: Both numbers matter unless one part is fixed (same numerator or same denominator).  
-  Correct view: Use a model, common denominator, or number line.
-
-## Quick Check / Self-Test
-1. What does $\frac{4}{7}$ mean in words?  
-   **Answer:** 4 equal parts out of 7 equal parts in one whole.
-
-2. True or false: $\frac{2}{8} > \frac{2}{4}$.  
-   **Answer:** False. Same numerator, larger denominator gives smaller fraction.
-
-3. Fill in the blank: $\frac{3}{3} = \underline{\hspace{1cm}}$.  
-   **Answer:** 1.
-
-4. Find $\frac{1}{2}$ of 14.  
-   **Answer:** 7.
-
-## Lesson Summary
 - A fraction represents equal parts of a whole or a set.
 - In $\frac{a}{b}$, the numerator counts selected parts and the denominator counts total equal parts.
 - Fractions can be shown with area models, sets, and number lines.
@@ -162,5 +170,6 @@ So $\frac{1}{3}$ of 24 is 8.
 - The size of parts depends on the denominator: more equal parts means smaller pieces.
 - Fractions are foundational for ratios, decimals, and later algebra.
 
-## Next Lesson
+## Next Steps / Connections
+
 Next, study **Equivalent Fractions and Comparing Fractions** to deepen visual reasoning and prepare for fraction operations.

@@ -74,5 +74,5 @@ After stabilizing the starter spine, likely next additions include:
 ## Near-Term Planning Notes
 
 - Keep `content/index.md` and this roadmap synchronized for starter-spine naming.
-- Run periodic audits of Units 1-8 against the canonical lesson template to prevent drift.
+- Units 1-8 now pass the structural heading-order alignment check as of 2026-03-29; subsequent passes should focus on quality depth, not heading migration.
 - Unit 10 has passed the planned polish/review step and is now synchronized as `Ready` with the publishable index.

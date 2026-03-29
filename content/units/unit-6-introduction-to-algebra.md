@@ -13,7 +13,8 @@ tags:
 
 # Unit 6: Introduction to Algebra
 
-## Core Concept (Intuitive Layer)
+## Concept Map
+
 ### Learning Goals
 - Understand a variable as a symbol that represents a number.
 - Translate words into algebraic expressions.
@@ -21,7 +22,8 @@ tags:
 - Solve one-step equations using inverse operations.
 - Interpret simple linear relationships in tables and coordinate pairs.
 
-### Intuitive Explanation
+## Intuitive Explanation
+
 Arithmetic often asks for one answer. Algebra asks for a rule that works for many answers.
 
 If a taxi costs a base fee plus the same amount per kilometer, the total cost changes with distance. Instead of writing a new calculation every time, we use a variable. For example, if the base fee is 300 yen and each kilometer adds 120 yen, then total cost can be written as:
@@ -40,7 +42,8 @@ When solving equations, think of a balance scale. Both sides must stay equal. If
 
 Linear thinking appears when change is constant. If points in a table increase by +3 in $y$ every time $x$ increases by 1, that is a linear pattern. Recognizing these patterns prepares students for formal functions in later units.
 
-## Formal Definition / Theorem
+## Formal Definition
+
 - A **variable** is a symbol (usually a letter) representing a number.
 - An **algebraic expression** is a combination of numbers, variables, and operations (e.g., $3x + 7$).
 - An **equation** is a statement that two expressions are equal (e.g., $2x + 1 = 11$).
@@ -55,6 +58,7 @@ Inverse-operation principle for one-step equations:
 - If $\frac{x}{a} = b$, then $x = ab$ with $a \neq 0$.
 
 ## Worked Examples
+
 ### Example 1: Translate Words to an Expression
 "A number increased by 9" can be written as:
 
@@ -95,7 +99,36 @@ $$
 
 Check: $22 - 7 = 15$ (true), so the solution is $x = 22$.
 
-## Practice Exercises
+## Common Mistakes and How to Avoid Them
+
+- **Mistake 1: Treating a variable as a fixed label instead of a number.**  
+  **Fix:** Always test by substituting different values.
+
+- **Mistake 2: Combining unlike terms incorrectly (e.g., $3x + 2 \to 5x$).**  
+  **Fix:** Only combine terms with the same variable part.
+
+- **Mistake 3: Doing an operation on only one side of an equation.**  
+  **Fix:** Keep equations balanced by applying the same operation to both sides.
+
+- **Mistake 4: Forgetting to check solutions.**  
+  **Fix:** Substitute the result back into the original equation.
+
+## Quick Checks
+
+1. What is a variable in one sentence?  
+   **Answer:** A symbol that represents a number.
+
+2. Evaluate $x + 12$ when $x = 5$.  
+   **Answer:** 17.
+
+3. Solve $x - 4 = 13$.  
+   **Answer:** $x = 17$.
+
+4. True or false: In an equation, you may multiply one side by 2 and leave the other side unchanged.  
+   **Answer:** False.
+
+## Graded Exercises
+
 ### Easy (Tier A)
 - **A1.** Write an expression for "a number $n$ plus 6."  
 - **A2.** Evaluate $5x - 2$ when $x = 3$.  
@@ -133,38 +166,14 @@ Check: $22 - 7 = 15$ (true), so the solution is $x = 22$.
 
 </details>
 
-## Common Mistakes & Pitfalls
-- **Mistake 1: Treating a variable as a fixed label instead of a number.**  
-  **Fix:** Always test by substituting different values.
+## Summary and Key Takeaways
 
-- **Mistake 2: Combining unlike terms incorrectly (e.g., $3x + 2 \to 5x$).**  
-  **Fix:** Only combine terms with the same variable part.
-
-- **Mistake 3: Doing an operation on only one side of an equation.**  
-  **Fix:** Keep equations balanced by applying the same operation to both sides.
-
-- **Mistake 4: Forgetting to check solutions.**  
-  **Fix:** Substitute the result back into the original equation.
-
-## Quick Check / Self-Test
-1. What is a variable in one sentence?  
-   **Answer:** A symbol that represents a number.
-
-2. Evaluate $x + 12$ when $x = 5$.  
-   **Answer:** 17.
-
-3. Solve $x - 4 = 13$.  
-   **Answer:** $x = 17$.
-
-4. True or false: In an equation, you may multiply one side by 2 and leave the other side unchanged.  
-   **Answer:** False.
-
-## Lesson Summary
 - Algebra describes patterns and unknowns using symbols.
 - Expressions represent quantities; equations compare quantities.
 - Substitution helps evaluate expressions.
 - One-step equations are solved with inverse operations while preserving balance.
 - Linear patterns involve constant change and prepare learners for formal function study.
 
-## Next Lesson
+## Next Steps / Connections
+
 Next, study **Simplifying Expressions and Solving Two-Step Equations** to extend algebra fluency and model richer problem situations.

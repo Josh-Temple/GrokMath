@@ -1,3 +1,56 @@
+## Session 2026-03-29 (Units 4-8 Canonical Heading Alignment Execution)
+- **What changed**:
+  - Applied minimal heading-name and section-order normalization to:
+    - `content/units/unit-4-multiplication-and-division.md`
+    - `content/units/unit-5-introduction-to-fractions.md`
+    - `content/units/unit-6-introduction-to-algebra.md`
+    - `content/units/unit-7-geometry-foundations.md`
+    - `content/units/unit-8-proportional-reasoning-and-percentages.md`
+  - Brought all five files to the exact canonical H2 sequence from `content/lesson-template.md`:
+    `Concept Map` -> `Intuitive Explanation` -> `Formal Definition` -> `Worked Examples` -> `Common Mistakes and How to Avoid Them` -> `Quick Checks` -> `Graded Exercises` -> `Summary and Key Takeaways` -> `Next Steps / Connections`.
+  - Added only short bridging/placeholding text where a required section was absent (no broad content rewrites).
+  - Synced lightweight alignment notes in `content/index.md` and `curriculum/index.md`.
+- **Checklist summary (Units 1-8 canonical heading alignment)**:
+  - Unit 1: **PASS**
+  - Unit 2: **PASS**
+  - Unit 3: **PASS**
+  - Unit 4: **PASS** (after 2026-03-29 normalization)
+  - Unit 5: **PASS** (after 2026-03-29 normalization)
+  - Unit 6: **PASS** (after 2026-03-29 normalization)
+  - Unit 7: **PASS** (after 2026-03-29 normalization)
+  - Unit 8: **PASS** (after 2026-03-29 normalization)
+- **Decisions made**:
+  - Enforced a strict minimal-edit rule: preserve existing pedagogy, normalize only headings/order, and avoid structural or stack-level repository changes.
+  - Deferred quality-depth improvements (exercise richness/pacing refinements) to subsequent targeted passes.
+- **What’s next**:
+  1. Run a quality-depth pass on the highest-drift Units 4-8 (quick-check quality, graded progression, and concise misconception repairs) without changing canonical heading order.
+  2. Optionally prepare a light Unit 11 bridge planning stub only after quality-depth priorities are triaged.
+- **Blockers / risks**:
+  - Some normalized sections are intentionally thin placeholders and should be expanded in a pedagogical polish session.
+  - Unit-level status labels (`Started` vs `Ready`) still reflect overall lesson maturity, not just structural alignment.
+- **Suggested next prompt**:
+  - "Run a focused quality-depth polish on Units 4-8 now that heading alignment is complete: improve quick checks, graded exercise progression, and common-mistake clarity without changing canonical section order; then re-verify build, update index maturity notes if warranted, and append a dated HANDOFF summary with residual risks."
+
+## Session 2026-03-29 (Instruction Validity Review + Execution Plan for Units 4-8)
+- **What changed**:
+  - Re-checked `README.md`, `HANDOFF.md`, `content/lesson-template.md`, `content/index.md`, and `curriculum/index.md` against the newly provided Grok instruction block.
+  - Verified Units 4-8 still contain non-canonical heading schemas and require a dedicated minimal normalization pass.
+  - Added an execution-ready plan with strict scope boundaries for the next implementation session.
+- **Decisions made**:
+  - The Grok instruction set is **valid** and aligned with the active project trajectory documented on 2026-03-28.
+  - Keep edits strictly minimal and non-destructive: heading-name/order normalization only for Units 4-8, plus small bridge text only when a required section is completely missing.
+  - Do not introduce new files, routing changes, schema/frontmatter changes, dependency changes, or deep pedagogical rewrites during the normalization pass.
+- **What’s next**:
+  1. Normalize Units 4-8 headings/order to exactly match `content/lesson-template.md` (`Concept Map` -> `Intuitive Explanation` -> `Formal Definition` -> `Worked Examples` -> `Common Mistakes and How to Avoid Them` -> `Quick Checks` -> `Graded Exercises` -> `Summary and Key Takeaways` -> `Next Steps / Connections`).
+  2. Re-run and record a per-unit alignment checklist for Units 1-8 in this handoff section after edits (target: all PASS structurally).
+  3. Apply minimal status-note sync in `content/index.md` and `curriculum/index.md` if unit alignment status messaging improves (for example, mark Units 4-8 as aligned draft/started where appropriate without changing unit descriptions).
+  4. Run `npm run build` and a short `npm run dev` startup smoke check, then append execution outcomes and any residual risks.
+- **Blockers / risks**:
+  - Legacy section names in Units 4-7 and partial-template drift in Unit 8 increase risk of accidental over-editing if scope is not tightly controlled.
+  - Section-order corrections may reveal thin content in newly inserted headings; keep placeholder/bridge text concise and defer quality-depth rewrites.
+- **Suggested next prompt**:
+  - "Execute the Units 4-8 canonical alignment pass: minimally normalize headings and order in `content/units/unit-4` through `unit-8` to match `content/lesson-template.md` exactly, keep content rewrites out of scope, update the Units 1-8 pass/fail checklist and light index status notes, run `npm run build` plus a short `npm run dev` smoke check, and append a dated HANDOFF summary with results, residual risks, and next-step recommendations."
+
 ## Session 2026-03-28 (Units 1-8 Consistency Audit + Minimal Fix Pass)
 - **What changed**:
   - Audited Units 1-8 against canonical `content/lesson-template.md` headings/order and recorded a per-unit pass/fail checklist.

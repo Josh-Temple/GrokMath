@@ -14,7 +14,8 @@ tags:
 
 # Unit 7: Geometry Foundations
 
-## Core Concept (Intuitive Layer)
+## Concept Map
+
 ### Learning Goals
 - Classify common 2D and 3D shapes using defining properties.
 - Find perimeter and area of rectangles, triangles, and parallelograms.
@@ -22,7 +23,8 @@ tags:
 - Use angle facts and triangle properties to justify geometric conclusions.
 - Apply the Pythagorean theorem to right triangles in practical contexts.
 
-### Intuitive Explanation
+## Intuitive Explanation
+
 Geometry is the mathematics of shape, space, and measurement. When we tile a floor, wrap a box, build a ramp, or read a map, we are using geometric ideas.
 
 A shape is not just a picture. It has properties we can describe and measure. A rectangle has four right angles. A triangle has three sides. A prism has faces, edges, and vertices. Geometry asks: how are these shapes built, how can we compare them, and how can we measure them accurately?
@@ -39,7 +41,8 @@ $$
 
 This rule helps us find distances that are hard to measure directly. For example, if a ladder leans against a wall, the height, ground distance, and ladder length form a right triangle. Geometry turns that real-world situation into a solvable problem.
 
-## Formal Definition / Theorem
+## Formal Definition
+
 - A **polygon** is a closed 2D figure made from straight line segments.
 - A **triangle** has 3 sides; a **quadrilateral** has 4 sides.
 - The **perimeter** of a 2D figure is the sum of all side lengths.
@@ -62,6 +65,7 @@ $$
 where $c$ is the side opposite the right angle.
 
 ## Worked Examples
+
 ### Example 1: Perimeter and Area of a Rectangle
 A classroom bulletin board is 8 m long and 3 m wide.
 
@@ -120,7 +124,36 @@ $$
 
 So the hypotenuse is **10 cm**.
 
-## Practice Exercises
+## Common Mistakes and How to Avoid Them
+
+- **Mistake 1: Confusing perimeter and area.**  
+  **Fix:** Ask whether you are measuring the boundary around a figure or the surface inside it.
+
+- **Mistake 2: Forgetting the $\frac{1}{2}$ in the triangle area formula.**  
+  **Fix:** Remember that many triangles are half of a matching rectangle or parallelogram.
+
+- **Mistake 3: Mixing square units and cubic units.**  
+  **Fix:** Area uses square units because it covers a surface; volume uses cubic units because it fills space.
+
+- **Mistake 4: Using the Pythagorean theorem on triangles that are not right triangles.**  
+  **Fix:** First check that the triangle contains a right angle.
+
+## Quick Checks
+
+1. What is the difference between perimeter and area?  
+   **Answer:** Perimeter measures distance around a figure, while area measures the surface inside it.
+
+2. Find the area of a rectangle with side lengths 9 cm and 4 cm.  
+   **Answer:** $36$ square centimeters.
+
+3. A right triangle has legs 9 and 12. What is the hypotenuse?  
+   **Answer:** $15$.
+
+4. What is the volume of a prism with dimensions 3, 4, and 10?  
+   **Answer:** $120$ cubic units.
+
+## Graded Exercises
+
 ### Easy (Tier A)
 - **A1.** Classify each shape as 2D or 3D: rectangle, cube, triangle, sphere.
 - **A2.** Find the perimeter of a rectangle with length 9 cm and width 2 cm.
@@ -164,38 +197,14 @@ So the hypotenuse is **10 cm**.
 
 </details>
 
-## Common Mistakes & Pitfalls
-- **Mistake 1: Confusing perimeter and area.**  
-  **Fix:** Ask whether you are measuring the boundary around a figure or the surface inside it.
+## Summary and Key Takeaways
 
-- **Mistake 2: Forgetting the $\frac{1}{2}$ in the triangle area formula.**  
-  **Fix:** Remember that many triangles are half of a matching rectangle or parallelogram.
-
-- **Mistake 3: Mixing square units and cubic units.**  
-  **Fix:** Area uses square units because it covers a surface; volume uses cubic units because it fills space.
-
-- **Mistake 4: Using the Pythagorean theorem on triangles that are not right triangles.**  
-  **Fix:** First check that the triangle contains a right angle.
-
-## Quick Check / Self-Test
-1. What is the difference between perimeter and area?  
-   **Answer:** Perimeter measures distance around a figure, while area measures the surface inside it.
-
-2. Find the area of a rectangle with side lengths 9 cm and 4 cm.  
-   **Answer:** $36$ square centimeters.
-
-3. A right triangle has legs 9 and 12. What is the hypotenuse?  
-   **Answer:** $15$.
-
-4. What is the volume of a prism with dimensions 3, 4, and 10?  
-   **Answer:** $120$ cubic units.
-
-## Lesson Summary
 - Geometry describes shapes using properties, measurements, and spatial reasoning.
 - Perimeter, area, and volume answer different measurement questions.
 - Triangle angle sums and shape properties help us justify conclusions.
 - The Pythagorean theorem connects side lengths in right triangles.
 - Geometric models help solve practical problems involving distance, space, and design.
 
-## Next Lesson
+## Next Steps / Connections
+
 Next, study **Proportional Reasoning and Percentages** to connect geometric measurements with scaling, similarity, rates, and real-world comparisons.
