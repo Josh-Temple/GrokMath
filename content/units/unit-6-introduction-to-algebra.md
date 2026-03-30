@@ -124,45 +124,48 @@ Check: $22 - 7 = 15$ (true), so the solution is $x = 22$.
 3. Solve $x - 4 = 13$.  
    **Answer:** $x = 17$.
 
-4. True or false: In an equation, you may multiply one side by 2 and leave the other side unchanged.  
+4. Simplify: $4y + 3y$.  
+   **Answer:** $7y$.
+
+5. True or false: In an equation, you may multiply one side by 2 and leave the other side unchanged.  
    **Answer:** False.
 
 ## Graded Exercises
 
-### Easy (Tier A)
-- **A1.** Write an expression for "a number $n$ plus 6."  
-- **A2.** Evaluate $5x - 2$ when $x = 3$.  
-- **A3.** Solve $x + 11 = 20$.  
-- **A4.** Solve $x/4 = 6$.
+### Level 1 - Warm-up
+1. Write an expression for "a number $n$ plus 6."
+2. Evaluate $5x - 2$ when $x = 3$.
+3. Solve $x + 11 = 20$.
 
-### Medium (Tier B)
-- **B1.** Translate: "Twice a number decreased by 5" into an expression.
-- **B2.** Evaluate $3a + 2b$ for $a = 2$, $b = 5$.
-- **B3.** Solve $9 + x = 31$.
-- **B4.** Solve $7x = 56$.
+### Level 2 - Core Practice
+4. Solve $x/4 = 6$.
+5. Translate: "Twice a number decreased by 5" into an expression.
+6. Evaluate $3a + 2b$ for $a = 2$, $b = 5$.
+7. Solve $9 + x = 31$.
 
-### Challenge (Tier C)
-- **C1.** A movie ticket costs 1200 yen and popcorn costs 450 yen per bag. Write an expression for total cost with $p$ bags of popcorn.
-- **C2.** The perimeter of a square is 36 cm. Write and solve an equation to find the side length $s$.
-- **C3.** A table of values starts $(1, 4), (2, 7), (3, 10), (4, 13)$. Describe the linear pattern in words and write an expression for $y$ in terms of $x$.
-- **C4.** Solve and check: $x/5 + 3 = 11$.
+### Level 3 - Challenge
+8. Solve $7x = 56$.
+9. A movie ticket costs 1200 yen and popcorn costs 450 yen per bag. Write an expression for total cost with $p$ bags of popcorn.
+10. The perimeter of a square is 36 cm. Write and solve an equation to find the side length $s$.
+11. A table of values starts $(1, 4), (2, 7), (3, 10), (4, 13)$. Describe the linear pattern and write an expression for $y$ in terms of $x$.
+12. Solve and check: $x/5 + 3 = 11$.
 
-### Answers
+### Solutions
 <details>
-<summary>Show answers</summary>
+<summary>Show solutions</summary>
 
-- **A1:** $n + 6$  
-- **A2:** $5(3) - 2 = 13$  
-- **A3:** $x = 9$  
-- **A4:** $x = 24$  
-- **B1:** $2x - 5$  
-- **B2:** $3(2) + 2(5) = 16$  
-- **B3:** $x = 22$  
-- **B4:** $x = 8$  
-- **C1:** $1200 + 450p$  
-- **C2:** Equation: $4s = 36$, so $s = 9$ cm  
-- **C3:** $y$ increases by 3 each time; one valid rule is $y = 3x + 1$  
-- **C4:** $x/5 = 8$, so $x = 40$; check: $40/5 + 3 = 8 + 3 = 11$
+1. $n + 6$
+2. $5(3) - 2 = 13$
+3. $x = 9$
+4. $x = 24$
+5. $2x - 5$
+6. $3(2) + 2(5) = 16$
+7. $x = 22$
+8. $x = 8$
+9. $1200 + 450p$
+10. Equation: $4s = 36$, so $s = 9$ cm
+11. $y$ increases by 3 each time; one valid rule is $y = 3x + 1$
+12. $x/5 = 8$, so $x = 40$; check: $40/5 + 3 = 11$
 
 </details>
 

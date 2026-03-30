@@ -152,48 +152,45 @@ So the hypotenuse is **10 cm**.
 4. What is the volume of a prism with dimensions 3, 4, and 10?  
    **Answer:** $120$ cubic units.
 
+5. A triangle has angles $40^\circ$ and $65^\circ$. What is the third angle?  
+   **Answer:** $75^\circ$.
+
 ## Graded Exercises
 
-### Easy (Tier A)
-- **A1.** Classify each shape as 2D or 3D: rectangle, cube, triangle, sphere.
-- **A2.** Find the perimeter of a rectangle with length 9 cm and width 2 cm.
-- **A3.** Find the area of a rectangle with length 7 m and width 5 m.
-- **A4.** Find the area of a triangle with base 12 cm and height 5 cm.
-- **A5.** Find the volume of a rectangular prism with dimensions 2 cm, 3 cm, and 8 cm.
+### Level 1 - Warm-up
+1. Classify each shape as 2D or 3D: rectangle, cube, triangle, sphere.
+2. Find the perimeter of a rectangle with length 9 cm and width 2 cm.
+3. Find the area of a rectangle with length 7 m and width 5 m.
 
-### Medium (Tier B)
-- **B1.** A parallelogram has base 11 cm and height 7 cm. Find its area.
-- **B2.** One angle in a triangle is $48^\circ$ and another is $67^\circ$. Find the third angle.
-- **B3.** A rectangular garden is 14 m by 9 m. Find both the perimeter and the area.
-- **B4.** A right triangle has legs 5 and 12. Find the hypotenuse.
-- **B5.** A box has volume 96 cubic units, length 8 units, and width 3 units. Find the height.
+### Level 2 - Core Practice
+4. Find the area of a triangle with base 12 cm and height 5 cm.
+5. Find the volume of a rectangular prism with dimensions 2 cm, 3 cm, and 8 cm.
+6. A parallelogram has base 11 cm and height 7 cm. Find its area.
+7. One angle in a triangle is $48^\circ$ and another is $67^\circ$. Find the third angle.
 
-### Challenge (Tier C)
-- **C1.** A right triangle has hypotenuse 13 cm and one leg 5 cm. Find the other leg.
-- **C2.** A rectangular room is 6 m by 4 m. A diagonal wire stretches from one corner of the floor to the opposite corner. Find the wire length.
-- **C3.** A composite figure is made of two rectangles: one is $8 \times 3$ and the other is $5 \times 2$. If they do not overlap, what is the total area?
-- **C4.** A tent-shaped cross section is a triangle with base 10 ft and height 4 ft. If the tent is 12 ft long, find the area of the triangular cross section and the volume of a matching triangular prism.
-- **C5.** Explain why a triangle with side lengths 2, 3, and 6 cannot exist.
+### Level 3 - Challenge
+8. A rectangular garden is 14 m by 9 m. Find both the perimeter and the area.
+9. A right triangle has legs 5 and 12. Find the hypotenuse.
+10. A box has volume 96 cubic units, length 8 units, and width 3 units. Find the height.
+11. A right triangle has hypotenuse 13 cm and one leg 5 cm. Find the other leg.
+12. Explain why a triangle with side lengths 2, 3, and 6 cannot exist.
 
-### Answers
+### Solutions
 <details>
-<summary>Show answers</summary>
+<summary>Show solutions</summary>
 
-- **A1:** 2D: rectangle, triangle. 3D: cube, sphere.
-- **A2:** $2(9) + 2(2) = 22$ cm.
-- **A3:** $7 \times 5 = 35$ square meters.
-- **A4:** $\frac{1}{2}(12)(5) = 30$ square centimeters.
-- **A5:** $2 \times 3 \times 8 = 48$ cubic centimeters.
-- **B1:** $11 \times 7 = 77$ square centimeters.
-- **B2:** $180 - 48 - 67 = 65^\circ$.
-- **B3:** Perimeter $= 2(14) + 2(9) = 46$ m; area $= 14 \times 9 = 126$ square meters.
-- **B4:** $5^2 + 12^2 = c^2$, so $25 + 144 = 169$ and $c = 13$.
-- **B5:** $96 = 8 \times 3 \times h$, so $96 = 24h$ and $h = 4$ units.
-- **C1:** $5^2 + b^2 = 13^2$, so $25 + b^2 = 169$, $b^2 = 144$, and $b = 12$ cm.
-- **C2:** $6^2 + 4^2 = d^2$, so $36 + 16 = 52$ and $d = \sqrt{52} = 2\sqrt{13}$ m (about $7.2$ m).
-- **C3:** $8 \times 3 + 5 \times 2 = 24 + 10 = 34$ square units.
-- **C4:** Triangle area $= \frac{1}{2}(10)(4) = 20$ square feet; prism volume $= 20 \times 12 = 240$ cubic feet.
-- **C5:** The sum of the two shorter sides must be greater than the longest side, but $2 + 3 = 5 < 6$.
+1. 2D: rectangle, triangle. 3D: cube, sphere.
+2. $2(9) + 2(2) = 22$ cm.
+3. $7 \times 5 = 35$ square meters.
+4. $\frac{1}{2}(12)(5) = 30$ square centimeters.
+5. $2 \times 3 \times 8 = 48$ cubic centimeters.
+6. $11 \times 7 = 77$ square centimeters.
+7. $180 - 48 - 67 = 65^\circ$.
+8. Perimeter $= 2(14) + 2(9) = 46$ m; area $= 14 \times 9 = 126$ square meters.
+9. $5^2 + 12^2 = c^2$, so $c = 13$.
+10. $96 = 8 \times 3 \times h$, so $h = 4$ units.
+11. $5^2 + b^2 = 13^2$, so $b = 12$ cm.
+12. Triangle inequality fails because $2 + 3 = 5 < 6$.
 
 </details>
 
