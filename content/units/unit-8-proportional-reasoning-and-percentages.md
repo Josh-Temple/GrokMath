@@ -175,71 +175,73 @@ So the final price is **66 dollars**.
 
 ## Common Mistakes and How to Avoid Them
 
-- **Confusing part and whole:** If 15 students out of 25 wear glasses, then 15 is the part and 25 is the whole. Use the whole in the denominator when finding a percent.
-- **Reversing a ratio:** A ratio of boys to girls is not the same as girls to boys. Always keep the order consistent with the question.
-- **Using cross-multiplication without checking meaning:** Cross-multiplication is useful only when the ratios represent equal relationships.
-- **Adding or subtracting percentages carelessly:** A 20% discount followed by a 20% increase does not return to the original amount, because the second percent is taken from a different base.
+- **Mistake 1: Mixing up the part and the whole in percent problems.**  
+  **How to avoid it:** Label each value first (part, whole, percent) before writing any equation.
+
+- **Mistake 2: Reversing ratio order.**  
+  **How to avoid it:** Keep the ratio wording from the prompt (for example, boys:girls is not girls:boys).
+
+- **Mistake 3: Cross-multiplying without checking if ratios are comparable.**  
+  **How to avoid it:** Use cross-multiplication only when both ratios describe the same relationship.
+
+- **Mistake 4: Assuming opposite percentages cancel each other.**  
+  **How to avoid it:** Track the changing base value; a 20% decrease then 20% increase does not return to the original amount.
 
 ## Quick Checks
 
-1. What does $15\%$ mean as a fraction out of 100?
-2. If 5 notebooks cost 20 dollars, what is the cost per notebook?
-3. Solve:
-
-$$
-\frac{2}{7} = \frac{6}{x}
-$$
-
-4. A 200-dollar bicycle is on sale for 15\% off. How much is the discount?
-
-### Quick Check Answers
-1. $\frac{15}{100}$.
-2. $\frac{20}{5} = 4$, so the cost is 4 dollars per notebook.
-3. $2x = 42$, so $x = 21$.
-4. $0.15 \times 200 = 30$, so the discount is 30 dollars.
+1. What does $15\%$ mean as a fraction out of 100?  
+   **Answer:** $\frac{15}{100}$ (equivalent to $\frac{3}{20}$).
+2. If 5 notebooks cost 20 dollars, what is the cost per notebook?  
+   **Answer:** $20 \div 5 = 4$ dollars per notebook.
+3. Solve: $\frac{2}{7} = \frac{6}{x}$.  
+   **Answer:** $2x = 42$, so $x = 21$.
+4. A 200-dollar bicycle is on sale for 15% off. How much is the discount?  
+   **Answer:** $0.15 \times 200 = 30$ dollars.
+5. Is the relationship proportional? Table: $(2, 10), (4, 20), (7, 35)$.  
+   **Answer:** Yes, because $y/x = 5$ for each pair.
 
 ## Graded Exercises
 
-### A) Guided Practice
+### Level 1 - Warm-up
 1. Write the ratio of 8 red marbles to 12 blue marbles in simplest form.
 2. Find the unit rate: 45 kilometers in 3 hours.
 3. Find $20\%$ of 90.
+
+### Level 2 - Core Practice
 4. A shirt costs 24 dollars after a 6-dollar discount. What was the original price?
-
-### B) Medium Practice
-5. Solve the proportion:
-
-$$
-\frac{3}{4} = \frac{x}{20}
-$$
-
+5. Solve the proportion: $\frac{3}{4} = \frac{x}{20}$.
 6. A recipe uses 2 cups of flour for 5 servings. How many cups are needed for 20 servings?
 7. 18 is what percent of 60?
 8. A school has 240 students, and $35\%$ of them are in the music program. How many students are in the music program?
 
-### C) Challenge Practice
+### Level 3 - Challenge
 9. A car travels 156 miles using 6 gallons of fuel. Find the unit rate in miles per gallon.
 10. On a map, 3 cm represents 18 km. If two villages are 11 cm apart on the map, what is the real distance?
-11. A store increases a price of 50 dollars by 8\%, then later gives a 10\% discount on the new price. What is the final price?
+11. A store increases a price of 50 dollars by 8%, then later gives a 10% discount on the new price. What is the final price?
 12. Multiple choice: Which statement must be true in a proportional relationship?
    - A. The difference between the two quantities is always the same.
    - B. The sum of the two quantities is always the same.
    - C. The ratio between corresponding quantities is always the same.
    - D. One quantity is always exactly 10 more than the other.
 
-### Exercise Answers
+### Solutions
+<details>
+<summary>Show solutions</summary>
+
 1. $8:12 = 2:3$.
-2. $\frac{45}{3} = 15$ km/h.
+2. $45 \div 3 = 15$ km/h.
 3. $0.20 \times 90 = 18$.
 4. $24 + 6 = 30$, so the original price was 30 dollars.
 5. $4x = 60$, so $x = 15$.
 6. 20 servings is 4 times as many as 5 servings, so $2 \times 4 = 8$ cups.
 7. $\frac{18}{60} \times 100\% = 30\%$.
 8. $0.35 \times 240 = 84$ students.
-9. $\frac{156}{6} = 26$ miles per gallon.
+9. $156 \div 6 = 26$ miles per gallon.
 10. Since 3 cm corresponds to 18 km, 1 cm corresponds to 6 km. Then $11 \times 6 = 66$ km.
 11. First increase: $50 \times 1.08 = 54$. Then discount: $54 \times 0.90 = 48.6$. Final price: **48.60 dollars**.
 12. **C**.
+
+</details>
 
 ## Summary and Key Takeaways
 

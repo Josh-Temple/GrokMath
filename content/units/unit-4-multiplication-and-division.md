@@ -124,47 +124,69 @@ Interpretation: 10 full packs and 3 markers left.
 
 ## Common Mistakes and How to Avoid Them
 
-- **Mistake 1: Mixing up multiplication and addition in equal-groups problems.**
-  - Why it is wrong: Equal groups require repeated addition, which is multiplication.
-  - Correct way: Identify group count and group size, then multiply.
+- **Mistake 1: Treating equal-groups stories as repeated addition forever instead of multiplication.**
+  - Why it is wrong: Repeated addition works, but it hides structure and becomes inefficient.
+  - How to avoid it: Ask, "How many groups? How many in each group?" then write a multiplication sentence.
 
-- **Mistake 2: Reversing division meaning without checking context.**
-  - Why it is wrong: "$24 \div 6$" can mean finding group size or number of groups depending on the story.
-  - Correct way: Write a sentence about what the quotient represents before calculating.
+- **Mistake 2: Solving a division story without deciding what the quotient means.**
+  - Why it is wrong: The same numbers can represent group size or number of groups.
+  - How to avoid it: Write a short unit sentence first (for example, "quotient = number of boxes").
 
-- **Mistake 3: Place-value errors in multi-digit multiplication.**
-  - Why it is wrong: Treating tens as ones changes the value.
-  - Correct way: Decompose numbers (for example, $23 = 20 + 3$) and multiply each part.
+- **Mistake 3: Place-value drift in multi-digit multiplication.**
+  - Why it is wrong: Ignoring tens and hundreds changes the value of every partial product.
+  - How to avoid it: Decompose numbers (for example, $23 = 20 + 3$) and label each step with units.
 
-- **Mistake 4: Ignoring remainders in real contexts.**
-  - Why it is wrong: The remainder can affect decisions (leftovers, extra trips, extra boxes).
-  - Correct way: Interpret the remainder using the units in the problem.
+- **Mistake 4: Dropping remainders without interpretation.**
+  - Why it is wrong: Real problems may require rounding up, rounding down, or keeping a remainder.
+  - How to avoid it: After dividing, answer in words with units (left over, extra trip, extra box, etc.).
 
 ## Quick Checks
 
-1. What does $5 \times 4$ mean in words? **Answer:** 5 equal groups of 4 (or 4 groups of 5).
-2. True or false: If $9 \times 7 = 63$, then $63 \div 9 = 7$. **Answer:** True.
-3. Compute mentally: $8 \times 25$. **Answer:** 200.
-4. Compute mentally: $81 \div 9$. **Answer:** 9.
-5. A box holds 6 bottles. If you have 31 bottles, how many full boxes can you fill? **Answer:** 5 full boxes (1 bottle left).
+1. Write in words: $6 \times 4$.  
+   **Answer:** 6 groups of 4 (or 4 groups of 6).
+2. Fill in the blank: If $8 \times 9 = 72$, then $72 \div 8 = \underline{\hspace{0.7cm}}$.  
+   **Answer:** 9.
+3. Compute mentally: $25 \times 12$.  
+   **Answer:** 300.
+4. Compute mentally: $144 \div 12$.  
+   **Answer:** 12.
+5. A van holds 8 students. If 67 students are going on a trip, how many full vans and how many students left over?  
+   **Answer:** 8 full vans, 3 students left over.
 
 ## Graded Exercises
 
-### Easy
-- **A1.** Compute $6 \times 9$.
-- **A2.** Compute $45 \div 5$.
-- **A3.** Compute $12 \times 4$.
+### Level 1 - Warm-up
+1. Compute $7 \times 8$.
+2. Compute $54 \div 6$.
+3. Compute $13 \times 5$.
 
-### Medium
-- **A4.** Compute $27 \times 3$ using a clear method.
-- **A5.** Compute $96 \div 8$.
-- **A6.** A bakery makes 8 trays with 14 muffins each. How many muffins total?
-- **A7.** A rope of length 84 meters is cut into pieces of 7 meters. How many pieces?
+### Level 2 - Core Practice
+4. Compute $36 \times 4$ using decomposition.
+5. Compute $132 \div 11$.
+6. A library has 9 shelves with 18 books on each shelf. How many books are there in total?
+7. 95 apples are packed equally into bags of 6. How many full bags can be made, and how many apples remain?
 
-### Hard
-- **A8.** Compute $34 \times 18$ using decomposition.
-- **A9.** A school buys 7 boxes of pencils with 24 pencils per box. Then it shares all pencils equally among 12 classes. How many pencils per class?
-- **A10.** Error-spotting: A student writes $72 \div 9 = 6$. Explain the mistake and correct it.
+### Level 3 - Challenge
+8. Compute $27 \times 34$ using the distributive property.
+9. A school buys 8 boxes of pencils with 25 pencils per box, then gives them equally to 10 classrooms. How many pencils per classroom?
+10. Error analysis: A student says $84 \div 7 = 14$ because "$7 \times 14 = 84$" and then claims $84 \div 14 = 14$. Identify the incorrect claim and correct it.
+
+### Solutions
+<details>
+<summary>Show solutions</summary>
+
+1. $56$
+2. $9$
+3. $65$
+4. $36(4)= (30+6)4 = 120+24 = 144$
+5. $12$
+6. $9 \times 18 = 162$ books
+7. $95 \div 6 = 15$ remainder $5$ so 15 full bags and 5 apples remain
+8. $(20+7)(30+4)=600+80+210+28=918$
+9. Total pencils $=8 \times 25=200$, then $200 \div 10 = 20$ pencils per classroom
+10. The second claim is incorrect; since $84 \div 14 = 6$, not 14
+
+</details>
 
 ## Summary and Key Takeaways
 

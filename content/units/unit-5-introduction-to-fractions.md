@@ -122,42 +122,45 @@ So $\frac{1}{3}$ of 24 is 8.
 4. Find $\frac{1}{2}$ of 14.  
    **Answer:** 7.
 
+5. Which is greater: $\frac{5}{6}$ or $\frac{5}{8}$?  
+   **Answer:** $\frac{5}{6}$, because with the same numerator, the smaller denominator gives larger parts.
+
 ## Graded Exercises
 
-### Easy (Tier A)
-- **A1.** A circle is divided into 6 equal slices. 2 slices are shaded. Write the shaded fraction.
-- **A2.** In $\frac{5}{9}$, what is the numerator? What is the denominator?
-- **A3.** Write a fraction for: 7 selected items out of 12 total items.
-- **A4.** Which is larger: $\frac{1}{2}$ or $\frac{1}{4}$? Explain briefly.
+### Level 1 - Warm-up
+1. A circle is divided into 6 equal slices. 2 slices are shaded. Write the shaded fraction.
+2. In $\frac{5}{9}$, what is the numerator? What is the denominator?
+3. Write a fraction for: 7 selected items out of 12 total items.
 
-### Medium (Tier B)
-- **B1.** A strip from 0 to 1 is divided into 8 equal parts. What fraction is the 5th tick mark?
-- **B2.** Out of 15 students, 9 bring lunch from home. What fraction of students bring lunch from home?
-- **B3.** Find $\frac{1}{4}$ of 20.
-- **B4.** Are $\frac{2}{6}$ and $\frac{1}{3}$ equivalent? Explain using multiplication or division.
+### Level 2 - Core Practice
+4. Which is larger: $\frac{1}{2}$ or $\frac{1}{4}$? Explain briefly.
+5. A strip from 0 to 1 is divided into 8 equal parts. What fraction is the 5th tick mark?
+6. Out of 15 students, 9 bring lunch from home. What fraction of students bring lunch from home?
+7. Find $\frac{1}{4}$ of 20.
 
-### Challenge (Tier C)
-- **C1.** A recipe uses $\frac{3}{4}$ cup of water. You only have a $\frac{1}{4}$-cup scoop. How many scoops do you need?
-- **C2.** A class has 18 students. $\frac{2}{3}$ join the science club. How many students join?
-- **C3.** Compare $\frac{3}{8}$ and $\frac{3}{4}$ using a model or reasoning. Which is greater?
-- **C4.** Write an improper fraction greater than 1 with denominator 5, then express it as “1 and some fraction.”
+### Level 3 - Challenge
+8. Are $\frac{2}{6}$ and $\frac{1}{3}$ equivalent? Explain using multiplication or division.
+9. A recipe uses $\frac{3}{4}$ cup of water. You only have a $\frac{1}{4}$-cup scoop. How many scoops do you need?
+10. A class has 18 students. $\frac{2}{3}$ join the science club. How many students join?
+11. Compare $\frac{3}{8}$ and $\frac{3}{4}$ using a model or reasoning. Which is greater?
+12. Write an improper fraction greater than 1 with denominator 5, then express it as “1 and some fraction.”
 
-### Answers
+### Solutions
 <details>
-<summary>Show answers</summary>
+<summary>Show solutions</summary>
 
-- **A1:** $\frac{2}{6}$
-- **A2:** Numerator = 5, denominator = 9
-- **A3:** $\frac{7}{12}$
-- **A4:** $\frac{1}{2}$ is larger
-- **B1:** $\frac{5}{8}$
-- **B2:** $\frac{9}{15}$ (equivalent to $\frac{3}{5}$)
-- **B3:** $20 \div 4 = 5$, so answer is 5
-- **B4:** Yes, $\frac{2}{6} = \frac{1}{3}$ because both numerator and denominator divide by 2
-- **C1:** 3 scoops
-- **C2:** $18 \div 3 = 6$, then $6 \times 2 = 12$, so 12 students
-- **C3:** $\frac{3}{4}$ is greater
-- **C4:** Example: $\frac{8}{5} = 1\frac{3}{5}$
+1. $\frac{2}{6}$
+2. Numerator = 5, denominator = 9
+3. $\frac{7}{12}$
+4. $\frac{1}{2}$ is larger
+5. $\frac{5}{8}$
+6. $\frac{9}{15}$ (equivalent to $\frac{3}{5}$)
+7. $20 \div 4 = 5$, so answer is 5
+8. Yes, $\frac{2}{6} = \frac{1}{3}$ because both numerator and denominator divide by 2
+9. 3 scoops
+10. $18 \div 3 = 6$, then $6 \times 2 = 12$, so 12 students
+11. $\frac{3}{4}$ is greater
+12. Example: $\frac{8}{5} = 1\frac{3}{5}$
 
 </details>
 

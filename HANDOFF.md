@@ -1,3 +1,57 @@
+## Session 2026-03-30 (Units 4-8 Quality-Depth Polish Execution)
+- **What changed**:
+  - Polished the target pedagogical-depth sections in Units 4-8 without changing canonical H2 order:
+    - `content/units/unit-4-multiplication-and-division.md`
+    - `content/units/unit-5-introduction-to-fractions.md`
+    - `content/units/unit-6-introduction-to-algebra.md`
+    - `content/units/unit-7-geometry-foundations.md`
+    - `content/units/unit-8-proportional-reasoning-and-percentages.md`
+  - Expanded/standardized **Quick Checks** to 3-5 items with direct answers in each unit.
+  - Reworked **Graded Exercises** into explicit canonical progression labels:
+    - `Level 1 - Warm-up`
+    - `Level 2 - Core Practice`
+    - `Level 3 - Challenge`
+  - Added or strengthened solution keys (notably Unit 4, which previously lacked a full graded-exercise solutions block).
+  - Strengthened **Common Mistakes and How to Avoid Them** language to better target realistic misconceptions and prevention cues.
+- **Decisions made**:
+  - Kept scope strictly additive and section-local to avoid drift: no heading migration, no new files/folders, no frontend/routing/schema/dependency edits.
+  - Did **not** promote additional unit status labels in index files this pass; preserved conservative maturity signaling until another cross-unit quality sweep confirms consistency end-to-end.
+- **What’s next**:
+  1. Run a focused quality-depth pass on Units 1-3 to reduce early-unit pacing/feedback asymmetry with Units 4-8.
+  2. Perform a light rubric-based review across Units 4-8 for answer-key style consistency (notation, units, explanation density).
+  3. If quality consistency is confirmed, update `content/index.md` / `curriculum/index.md` maturity notes in one synchronized pass.
+  4. After early-unit polish, consider controlled Unit 11 bridge planning stub creation.
+- **Blockers / risks**:
+  - Unit depth is improved, but answer style and explanation granularity can still vary slightly across units.
+  - Unit 4 frontmatter still lacks explicit status metadata used in some later units; this is non-blocking but may affect status-governance clarity.
+- **Suggested next prompt**:
+  - "Polish Units 1-3 with the same quality-depth standard now applied to Units 4-8: strengthen common mistakes, ensure 3-5 quick checks with answers, enforce Level 1/2/3 graded exercise progression with solutions, keep canonical heading order unchanged, run `npm run build`, then append a dated HANDOFF summary including any maturity-note sync recommendations."
+
+## Session 2026-03-30 (Grok Instruction Validity Review + Execution Plan for Units 4-8 Quality-Depth Polish)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md`, then validated the new Grok instruction block against current repository state.
+  - Re-checked canonical template requirements in `content/lesson-template.md` and current status notes in `content/index.md` + `curriculum/index.md`.
+  - Confirmed Units 4-8 already match canonical heading order, so today’s scope should remain content-depth-only inside existing sections.
+- **Decisions made**:
+  - The Grok plan is **valid** and aligned with the latest explicit next step from the 2026-03-29 handoff: pedagogical depth polish for Units 4-8.
+  - Keep scope strict: no heading/order edits, no new files/folders, no routing/schema/frontend/dependency changes.
+  - Apply depth targets per unit:
+    - Quick Checks: 3-5 clear formative items with immediate answers.
+    - Graded Exercises: 8-12 total with explicit Level 1/2/3 progression and solutions.
+    - Common Mistakes: 3-4 realistic misconceptions with practical prevention/correction cues.
+  - Allow only minimal index-note sync (`content/index.md`, `curriculum/index.md`) if any unit maturity signal clearly improves.
+- **What’s next**:
+  1. Polish `content/units/unit-4-multiplication-and-division.md` through `unit-8-proportional-reasoning-and-percentages.md` one file at a time, editing only `Common Mistakes`, `Quick Checks`, and `Graded Exercises` content depth.
+  2. Normalize graded exercise labeling in those units to canonical level naming (`Level 1 - Warm-up`, `Level 2 - Core Practice`, `Level 3 - Challenge`) while preserving existing explanatory narrative text outside target sections.
+  3. Add/complete answer keys where still thin (especially Unit 4) and keep wording clear, concise, and English-only.
+  4. Run `npm run build` plus a short `npm run dev` smoke start, then update maturity notes only if quality uplift materially justifies status-note adjustments.
+- **Blockers / risks**:
+  - Existing section content quality varies by unit; uneven depth can create pacing inconsistency unless each unit is brought to the same exercise-answer standard.
+  - Unit 4 currently appears under-specified on exercise solutions compared with Units 5-8, increasing learner self-check risk.
+  - Over-edit risk: expanding too aggressively could shift tone/length; mitigate by additive, section-local refinements only.
+- **Suggested next prompt**:
+  - "Execute a strict quality-depth polish for Units 4-8: improve only `Common Mistakes and How to Avoid Them`, `Quick Checks`, and `Graded Exercises` in each file; enforce 3-5 quick checks with answers, 8-12 leveled exercises (Level 1/2/3) with solutions, keep canonical heading order unchanged, run `npm run build` + short `npm run dev` smoke check, lightly sync index maturity notes if warranted, and append a new HANDOFF section dated 2026-03-30 with outcomes/risks/next steps."
+
 ## Session 2026-03-29 (Units 4-8 Canonical Heading Alignment Execution)
 - **What changed**:
   - Applied minimal heading-name and section-order normalization to:
