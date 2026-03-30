@@ -9,12 +9,19 @@ tags: [ratios, proportions, percent, scale]
 
 # Unit 8: Proportional Reasoning and Percentages
 
-## Motivation
+## Concept Map
+
+- Ratios and rates compare quantities and units.
+- Proportions preserve multiplicative relationships.
+- Percent means "per hundred" and links fractions/decimals.
+- Proportional reasoning supports scale, pricing, and real-world modeling.
+
+## Intuitive Explanation
+
 Proportional reasoning helps us compare quantities fairly and predict what happens when values scale up or down. If a recipe for 4 people uses 3 cups of rice, how much rice is needed for 10 people? If a jacket is marked 25% off, how much money do you actually pay? If a map says 1 cm represents 5 km, how far apart are two cities that appear 7 cm apart?
 
 These questions all share the same idea: relationships matter more than raw numbers. Ratios, rates, proportions, and percentages help us describe those relationships clearly.
 
-## Intuitive Explanation
 A **ratio** compares two quantities. For example, if a class has 12 girls and 8 boys, the ratio of girls to boys is $12:8$, which can be simplified to $3:2$.
 
 A **rate** is a ratio comparing quantities with different units, such as 60 miles per hour or 3 dollars per pound.
@@ -38,6 +45,7 @@ The pattern is proportional because each time the number of notebooks is multipl
 Percentages are another way to express ratios. The word **percent** means “per hundred.” So $35\%$ means $35$ out of $100$, or $\frac{35}{100} = 0.35$.
 
 ## Formal Definition
+
 - A **ratio** compares two quantities: $a:b$ or $\frac{a}{b}$, where $b \neq 0$.
 - A **rate** is a ratio with different units, such as miles per hour.
 - A **proportion** is an equation stating that two ratios are equal:
@@ -75,6 +83,7 @@ $$
 For scale drawings and similar situations, proportional reasoning often uses a constant multiplier called a **scale factor**.
 
 ## Worked Examples
+
 ### Example 1: Find the Part When the Whole and Percent Are Known
 What is $30\%$ of 50?
 
@@ -164,13 +173,33 @@ $$
 
 So the final price is **66 dollars**.
 
-## Common Mistakes
+## Common Mistakes and How to Avoid Them
+
 - **Confusing part and whole:** If 15 students out of 25 wear glasses, then 15 is the part and 25 is the whole. Use the whole in the denominator when finding a percent.
 - **Reversing a ratio:** A ratio of boys to girls is not the same as girls to boys. Always keep the order consistent with the question.
 - **Using cross-multiplication without checking meaning:** Cross-multiplication is useful only when the ratios represent equal relationships.
 - **Adding or subtracting percentages carelessly:** A 20% discount followed by a 20% increase does not return to the original amount, because the second percent is taken from a different base.
 
-## Exercises
+## Quick Checks
+
+1. What does $15\%$ mean as a fraction out of 100?
+2. If 5 notebooks cost 20 dollars, what is the cost per notebook?
+3. Solve:
+
+$$
+\frac{2}{7} = \frac{6}{x}
+$$
+
+4. A 200-dollar bicycle is on sale for 15\% off. How much is the discount?
+
+### Quick Check Answers
+1. $\frac{15}{100}$.
+2. $\frac{20}{5} = 4$, so the cost is 4 dollars per notebook.
+3. $2x = 42$, so $x = 21$.
+4. $0.15 \times 200 = 30$, so the discount is 30 dollars.
+
+## Graded Exercises
+
 ### A) Guided Practice
 1. Write the ratio of 8 red marbles to 12 blue marbles in simplest form.
 2. Find the unit rate: 45 kilometers in 3 hours.
@@ -212,26 +241,8 @@ $$
 11. First increase: $50 \times 1.08 = 54$. Then discount: $54 \times 0.90 = 48.6$. Final price: **48.60 dollars**.
 12. **C**.
 
+## Summary and Key Takeaways
 
-## Quick Checks
-1. What does $15\%$ mean as a fraction out of 100?
-2. If 5 notebooks cost 20 dollars, what is the cost per notebook?
-3. Solve:
-
-$$
-\frac{2}{7} = \frac{6}{x}
-$$
-
-4. A 200-dollar bicycle is on sale for 15\% off. How much is the discount?
-
-### Quick Check Answers
-1. $\frac{15}{100}$.
-2. $\frac{20}{5} = 4$, so the cost is 4 dollars per notebook.
-3. $2x = 42$, so $x = 21$.
-4. $0.15 \times 200 = 30$, so the discount is 30 dollars.
-
-
-## Summary
 - Ratios compare quantities, and rates compare quantities with different units.
 - Proportions show that two ratios are equal and often model scaling situations.
 - Percent means “per hundred,” so percent problems can be solved by identifying the part, whole, and percent.
@@ -244,3 +255,8 @@ $$
 - **Proportions -> Percentages:** percentages are proportions with denominator 100.
 - **Percentages -> Real-world applications:** discounts, tax, tips, maps, and recipes all use proportional reasoning.
 - **This unit -> Functions:** proportional relationships prepare you for graphs of linear functions such as $y = kx$.
+
+## Next Steps / Connections
+
+- Connect proportional reasoning to linear functions and slope in Unit 9.
+- Reuse percent and rate models for probability and statistics contexts in Unit 10.

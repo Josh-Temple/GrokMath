@@ -9,7 +9,8 @@ tags:
 
 # Unit 4: Multiplication and Division
 
-## Core Concept (Intuitive Layer)
+## Concept Map
+
 ### Learning Goals
 - Understand multiplication as equal groups, repeated addition, and area.
 - Understand division as sharing equally and finding how many groups fit.
@@ -17,7 +18,8 @@ tags:
 - Check answers using inverse operations and estimation.
 - Explain reasoning clearly using words, equations, and units.
 
-### Intuitive Explanation
+## Intuitive Explanation
+
 Multiplication and division are two of the most useful tools in mathematics because they help us handle many things quickly and clearly. If addition combines groups one at a time, multiplication combines many equal groups at once. If subtraction removes one group at a time, division helps us split or measure groups efficiently.
 
 Imagine a classroom where each table has 6 students, and there are 4 tables. You could count students by adding $6 + 6 + 6 + 6$, but multiplication gives a shorter way: $4 \times 6 = 24$. So multiplication is like a "fast add" when groups are equal.
@@ -36,7 +38,8 @@ As numbers get larger, place value matters. In $23 \times 4$, the 2 means 2 tens
 
 In real life, multiplication and division appear everywhere: buying several identical items, planning seats in rows, sharing snacks, finding speed, and converting units. Learning these operations deeply is not only about getting answers. It is about understanding structure, checking reasonableness, and choosing efficient strategies.
 
-## Formal Definition / Theorem
+## Formal Definition
+
 Let $a$, $b$, and $c$ be whole numbers.
 
 - **Multiplication:** $a \times b = c$ means $a$ equal groups of size $b$ have total $c$.
@@ -70,6 +73,7 @@ Division notes:
 - For whole numbers, some divisions have remainders.
 
 ## Worked Examples
+
 ### Example 1: Multiplication as Equal Groups
 A music club has 7 rows with 8 chairs in each row. How many chairs are there?
 
@@ -118,24 +122,8 @@ $$
 $$
 Interpretation: 10 full packs and 3 markers left.
 
-## Practice Exercises
-### Easy
-- **A1.** Compute $6 \times 9$.
-- **A2.** Compute $45 \div 5$.
-- **A3.** Compute $12 \times 4$.
+## Common Mistakes and How to Avoid Them
 
-### Medium
-- **A4.** Compute $27 \times 3$ using a clear method.
-- **A5.** Compute $96 \div 8$.
-- **A6.** A bakery makes 8 trays with 14 muffins each. How many muffins total?
-- **A7.** A rope of length 84 meters is cut into pieces of 7 meters. How many pieces?
-
-### Hard
-- **A8.** Compute $34 \times 18$ using decomposition.
-- **A9.** A school buys 7 boxes of pencils with 24 pencils per box. Then it shares all pencils equally among 12 classes. How many pencils per class?
-- **A10.** Error-spotting: A student writes $72 \div 9 = 6$. Explain the mistake and correct it.
-
-## Common Mistakes & Pitfalls
 - **Mistake 1: Mixing up multiplication and addition in equal-groups problems.**
   - Why it is wrong: Equal groups require repeated addition, which is multiplication.
   - Correct way: Identify group count and group size, then multiply.
@@ -152,19 +140,40 @@ Interpretation: 10 full packs and 3 markers left.
   - Why it is wrong: The remainder can affect decisions (leftovers, extra trips, extra boxes).
   - Correct way: Interpret the remainder using the units in the problem.
 
-## Quick Check / Self-Test
+## Quick Checks
+
 1. What does $5 \times 4$ mean in words? **Answer:** 5 equal groups of 4 (or 4 groups of 5).
 2. True or false: If $9 \times 7 = 63$, then $63 \div 9 = 7$. **Answer:** True.
 3. Compute mentally: $8 \times 25$. **Answer:** 200.
 4. Compute mentally: $81 \div 9$. **Answer:** 9.
 5. A box holds 6 bottles. If you have 31 bottles, how many full boxes can you fill? **Answer:** 5 full boxes (1 bottle left).
 
-## Lesson Summary
+## Graded Exercises
+
+### Easy
+- **A1.** Compute $6 \times 9$.
+- **A2.** Compute $45 \div 5$.
+- **A3.** Compute $12 \times 4$.
+
+### Medium
+- **A4.** Compute $27 \times 3$ using a clear method.
+- **A5.** Compute $96 \div 8$.
+- **A6.** A bakery makes 8 trays with 14 muffins each. How many muffins total?
+- **A7.** A rope of length 84 meters is cut into pieces of 7 meters. How many pieces?
+
+### Hard
+- **A8.** Compute $34 \times 18$ using decomposition.
+- **A9.** A school buys 7 boxes of pencils with 24 pencils per box. Then it shares all pencils equally among 12 classes. How many pencils per class?
+- **A10.** Error-spotting: A student writes $72 \div 9 = 6$. Explain the mistake and correct it.
+
+## Summary and Key Takeaways
+
 - Multiplication combines equal groups efficiently.
 - Division splits totals into equal groups or counts how many groups fit.
 - Multiplication and division are inverse operations and can check each other.
 - Visual models (arrays, area) make operation meanings clearer.
 - Estimation and unit-based interpretation improve accuracy and reasoning.
 
-## Next Lesson
+## Next Steps / Connections
+
 Next, study **Fractions as Parts of a Whole and on the Number Line** to extend multiplication and division thinking beyond whole numbers.
