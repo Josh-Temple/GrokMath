@@ -138,45 +138,60 @@ $$
 $$
 
 ## Common Mistakes and How to Avoid Them
-- **Using the wrong operation in word problems.**  
-  **How to avoid it:** Ask what the question is really asking: combine, compare, equal groups, or sharing.
+- **Mistake 1: Choosing an operation from a keyword only.**  
+  **How to avoid it:** Read the whole question and decide whether it asks to combine, compare, repeat equal groups, or share equally.
 
-- **Forgetting regrouping/carrying.**  
-  **How to avoid it:** Write carries and regrouped values clearly above the place-value columns.
+- **Mistake 2: Dropping a carry or regrouped value.**  
+  **How to avoid it:** Write regrouping marks clearly and do a quick inverse-operation check after solving.
 
-- **Treating multiplication as repeated addition without recognizing place value.**  
-  **How to avoid it:** In multi-digit multiplication, track tens and hundreds carefully.
+- **Mistake 3: Losing place value in multiplication.**  
+  **How to avoid it:** Label partial products (ones row, tens row, etc.) so each row starts in the correct column.
 
-- **Ignoring remainders in context.**  
-  **How to avoid it:** Decide whether to keep remainder, round up, or convert based on the real situation.
+- **Mistake 4: Treating a remainder the same way in every word problem.**  
+  **How to avoid it:** Ask what the context needs: exact remainder, rounded-up groups, or leftover items.
 
 ## Quick Checks
 1. Which operation fits: "equal groups of 9"?
 2. True or false: if \(64 - 19 = 45\), then \(45 + 19 = 64\).
 3. Estimate \(5{,}098 + 2{,}941\) to the nearest hundred before finding the exact sum.
 4. Compute \(84 \div 7\).
+5. A bakery packs 53 muffins into boxes of 6. Do you expect a remainder? (yes/no)
 
 **Quick Check Answers**
 1. Multiplication
 2. True
 3. Estimate: \(5{,}100 + 2{,}900 = 8{,}000\); exact: \(8{,}039\)
 4. 12
+5. Yes
 
 ## Graded Exercises
-1. **Easy:** Compute \(2{,}459 + 3{,}786\).
-2. **Easy:** Compute \(7{,}200 - 2{,}845\).
-3. **Medium:** Compute \(48 \times 37\) using a clear method.
-4. **Medium:** Compute \(945 \div 9\).
-5. **Medium:** A store packs 126 pencils into boxes of 8. How many full boxes and how many pencils remain?
-6. **Hard:** A class buys 24 notebooks at \(\$7\) each and 15 pens at \(\$3\) each. Find the total cost.
+### Level 1 - Warm-up
+1. Compute \(2{,}459 + 3{,}786\).
+2. Compute \(7{,}200 - 2{,}845\).
+3. Compute \(84 \div 7\).
+
+### Level 2 - Core Practice
+4. Compute \(48 \times 37\) using a clear method.
+5. Compute \(945 \div 9\).
+6. A store packs 126 pencils into boxes of 8. How many full boxes and how many pencils remain?
+7. Estimate first, then compute exactly: \(6{,}309 + 2{,}788\).
+
+### Level 3 - Challenge
+8. A class buys 24 notebooks at \(\$7\) each and 15 pens at \(\$3\) each. Find the total cost.
+9. A bus has 56 seats. For a trip with 417 students, how many full buses are needed?
+10. Write and solve an equation for: “A number is multiplied by 9, then 27 is added to get 144.”
 
 ### Exercise Solutions
 1. \(2{,}459 + 3{,}786 = 6{,}245\)
 2. \(7{,}200 - 2{,}845 = 4{,}355\)
-3. \(48 \times 37 = 1{,}776\)
-4. \(945 \div 9 = 105\)
-5. \(126 \div 8 = 15\) remainder \(6\): 15 full boxes, 6 pencils remain
-6. \((24 \times 7) + (15 \times 3) = 168 + 45 = 213\), total \(\$213\)
+3. \(84 \div 7 = 12\)
+4. \(48 \times 37 = 1{,}776\)
+5. \(945 \div 9 = 105\)
+6. \(126 \div 8 = 15\) remainder \(6\): 15 full boxes, 6 pencils remain
+7. Estimate: \(6{,}300 + 2{,}800 = 9{,}100\); exact: \(9{,}097\)
+8. \((24 \times 7) + (15 \times 3) = 168 + 45 = 213\), total \(\$213\)
+9. \(417 \div 56 = 7\) remainder \(25\), so 8 full buses are needed.
+10. \(9x + 27 = 144 \Rightarrow 9x = 117 \Rightarrow x = 13\).
 
 ## Summary and Key Takeaways
 - Choose operations based on the meaning of the situation.

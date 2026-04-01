@@ -1,3 +1,56 @@
+## Session 2026-03-31 (Units 1-3 Quality-Depth Polish Execution)
+- **What changed**:
+  - Polished the target depth sections in the three early units without changing canonical heading order:
+    - `content/units/unit-1-whole-numbers-and-place-value.md`
+    - `content/units/unit-2-operations-with-whole-numbers.md`
+    - `content/units/unit-3-addition-and-subtraction.md`
+  - Strengthened `## Common Mistakes and How to Avoid Them` in Units 1-3 with realistic early-learner pitfalls and concrete prevention cues.
+  - Expanded/standardized `## Quick Checks` to 3-5 items with immediate answer keys in each unit.
+  - Reorganized `## Graded Exercises` into explicit progression labels in each unit:
+    - `Level 1 - Warm-up`
+    - `Level 2 - Core Practice`
+    - `Level 3 - Challenge`
+  - Ensured solutions are available for graded exercise sets (added full solutions block for Unit 1 and expanded Unit 2 solution coverage while preserving Unit 3 answer key).
+  - Verified local quality gates with `npm run build` and a short `npm run dev` smoke start.
+- **Decisions made**:
+  - Matched the pedagogical depth target used on Units 4-8 while preserving Unit 1-3 tone by keeping edits strictly additive and section-local.
+  - Deferred index maturity-note synchronization (`content/index.md`, `curriculum/index.md`) per prior decision; this session focused only on unit-section quality improvements.
+- **What’s next**:
+  1. Run a light rubric review across Units 1-8 for answer-key consistency (notation style, explanation granularity, and context wording).
+  2. If consistency is acceptable, perform one minimal synchronized maturity-note update in `content/index.md` and `curriculum/index.md`.
+  3. If both layers are clean after sync, evaluate whether to draft a small Unit 11 bridge stub.
+- **Blockers / risks**:
+  - Residual variation may remain in explanation granularity between early units (1-3) and later polished units (4-8).
+  - Unit 1-3 pacing may still feel slightly gentler than later units; this is intentional for accessibility but should be rechecked during the consistency sweep.
+- **Suggested next prompt**:
+  - "Run a focused answer-key consistency sweep across Units 1-8 (especially notation, wording density, and multi-step solution clarity), apply only minimal section-local edits where mismatches are clear, then synchronize maturity notes in `content/index.md` and `curriculum/index.md` in one pass if quality is consistent. After verification (`npm run build` + short `npm run dev` smoke start), append a dated HANDOFF summary with concrete consistency findings, sync decisions, and any residual risks."
+
+## Session 2026-03-31 (Grok Instruction Validity Review + Execution Plan for Units 1-3)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md`, then validated the new Grok instruction block against current repository state and the latest handoff priorities.
+  - Re-checked `content/lesson-template.md` canonical heading order and verified Units 1-3 still have shallower depth than the polished Units 4-8 in the target sections (`Common Mistakes`, `Quick Checks`, `Graded Exercises`).
+  - Prepared an execution-ready, scope-locked implementation plan for a strict additive polish pass on Units 1-3.
+- **Decisions made**:
+  - The Grok instruction set is **valid** and matches the explicit next step recorded on 2026-03-30: improve pedagogical depth for Units 1-3 only.
+  - Keep edits strictly section-local and additive: no heading/frontmatter/schema/routing changes, no new files, no stack changes, and no index-file edits in this pass.
+  - Maintain canonical H2 order exactly as `content/lesson-template.md`; only deepen content quality inside existing target sections.
+- **What’s next**:
+  1. Edit these files one by one:
+     - `content/units/unit-1-whole-numbers-and-place-value.md`
+     - `content/units/unit-2-operations-with-whole-numbers.md`
+     - `content/units/unit-3-addition-and-subtraction.md`
+  2. In each file, enhance only:
+     - `## Common Mistakes and How to Avoid Them` to 3-4 realistic misconceptions with prevention guidance.
+     - `## Quick Checks` to 3-5 formative items with immediate answers.
+     - `## Graded Exercises` to explicit `Level 1 - Warm-up`, `Level 2 - Core Practice`, `Level 3 - Challenge`, totaling 8-12 items with solutions.
+  3. Run verification (`npm run build`, plus short `npm run dev` smoke start if environment permits) and confirm rendering remains intact.
+  4. Append a new execution handoff section summarizing concrete edits, rationale for deferred index sync, and residual risks.
+- **Blockers / risks**:
+  - Main risk is over-editing early-unit tone/pacing; mitigate with additive-only edits and no changes outside the three target sections.
+  - Secondary risk is cross-unit answer-key style drift; capture any residual variance for a follow-up consistency sweep.
+- **Suggested next prompt**:
+  - "Execute the Units 1-3 quality-depth polish only within `Common Mistakes and How to Avoid Them`, `Quick Checks`, and `Graded Exercises`: enforce 3-5 quick checks with answers, 8-12 leveled exercises (`Level 1/2/3`) with solutions, keep canonical heading order unchanged, run `npm run build` plus a short `npm run dev` smoke check, and append a new dated `HANDOFF.md` execution summary with decisions, risks, and next steps."
+
 ## Session 2026-03-30 (Units 4-8 Quality-Depth Polish Execution)
 - **What changed**:
   - Polished the target pedagogical-depth sections in Units 4-8 without changing canonical H2 order:
