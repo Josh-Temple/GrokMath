@@ -124,17 +124,17 @@ $$
 The exact answer $3{,}422$ is close to $3{,}400$, so it is reasonable.
 
 ## Common Mistakes and How to Avoid Them
-- **Misaligned place values** (for example, writing tens under hundreds).
-  - **How to avoid it:** Always line up digits by place before calculating.
+- **Mistake 1: Misaligned place values** (for example, writing tens under hundreds).
+  - **How to avoid it:** Use vertical format and check each column before computing.
 
-- **Forgetting carried digits in addition**.
-  - **How to avoid it:** Write carry marks clearly above the next column.
+- **Mistake 2: Forgetting a carried 1 in addition**.
+  - **How to avoid it:** Circle each carry mark and cross it out only after using it.
 
-- **Incorrect borrowing/regrouping in subtraction across zeros**.
-  - **How to avoid it:** Regroup one column at a time and rewrite each changed digit.
+- **Mistake 3: Incomplete regrouping across zeros in subtraction**.
+  - **How to avoid it:** Rewrite the full row after regrouping so each changed digit is visible.
 
-- **Using subtraction when addition is needed in word problems**.
-  - **How to avoid it:** Ask whether the situation is combining amounts, finding a difference, or finding what remains.
+- **Mistake 4: Choosing subtraction for every “more” sentence in word problems**.
+  - **How to avoid it:** First decide whether the problem is combine, compare, or remove, then pick the operation.
 
 ## Quick Checks
 1. Which operation matches: "How many more stickers does Mia have than Leo"?
@@ -151,18 +151,23 @@ The exact answer $3{,}422$ is close to $3{,}400$, so it is reasonable.
 5. $8{,}000$.
 
 ## Graded Exercises
+### Level 1 - Warm-up
 1. Compute $2{,}748 + 1{,}569$.
 2. Compute $4{,}906 + 2{,}187$.
 3. Compute $8{,}403 - 2{,}978$.
+
+### Level 2 - Core Practice
 4. Compute $7{,}000 - 3{,}456$.
 5. Compute $9{,}215 - 4{,}789$.
 6. A shop sold 386 notebooks on Monday and 459 on Tuesday. How many in total?
 7. A tank holds 1,200 liters and currently has 845 liters. How many more liters are needed to fill it?
 8. A school collected 2,375 cans in Week 1 and 1,968 cans in Week 2. Then 725 cans were recycled. How many cans remain stored?
+
+### Level 3 - Challenge
 9. Estimate and then compute: $6{,}487 + 2{,}394$.
 10. Estimate and then compute: $9{,}002 - 3{,}517$.
-11. Challenge: Find a number $x$ such that $x + 2{,}759 = 5{,}000$.
-12. Challenge: Find a number $y$ such that $8{,}400 - y = 3{,}965$.
+11. Find a number $x$ such that $x + 2{,}759 = 5{,}000$.
+12. Find a number $y$ such that $8{,}400 - y = 3{,}965$.
 
 ### Answer Key
 1. $4{,}317$

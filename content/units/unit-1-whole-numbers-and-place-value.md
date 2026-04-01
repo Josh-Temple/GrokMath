@@ -99,45 +99,60 @@ Round 48,650 to the nearest thousand.
 - `48,650 ≈ 49,000` (to the nearest thousand)
 
 ## Common Mistakes and How to Avoid Them
-- **Mistake 1: “A bigger digit always means a bigger number.”**  
-  Why it is wrong: Place matters more than digit size in smaller places.  
-  Correction: Compare from the leftmost (greatest) place first.
+- **Mistake 1: “The number with the biggest single digit is always greater.”**  
+  **How to avoid it:** Compare from the leftmost place first. In 64,091 and 64,199, the first two places are equal, so the hundreds place decides.
 
-- **Mistake 2: Reading 405 as “forty-five.”**  
-  Why it is wrong: The 0 is a placeholder showing there are no tens.  
-  Correction: Read it as “four hundred five.”
+- **Mistake 2: Ignoring zero as a placeholder (for example, reading 405 as 45).**  
+  **How to avoid it:** Say each place value out loud: 4 hundreds, 0 tens, 5 ones.
 
-- **Mistake 3: In 3,241, saying the 2 is worth 2.**  
-  Why it is wrong: The 2 is in the hundreds place, so it is 200.  
-  Correction: Multiply each digit by its place value.
+- **Mistake 3: Giving a digit its face value instead of its place value.**  
+  **How to avoid it:** Use the sentence frame “digit × place value.” In 3,241, the 2 is \(2 \times 100 = 200\).
 
-- **Mistake 4: Rounding based on the wrong digit.**  
-  Why it is wrong: Students sometimes look two places right instead of one place right.  
-  Correction: Always look exactly one place to the right of the target place.
+- **Mistake 4: Looking at the wrong digit when rounding.**  
+  **How to avoid it:** Circle the target place, then check exactly one place to the right before deciding up or down.
 
 ## Quick Checks
 1. What is the value of the digit 9 in 29,304?
 2. Write 7,050 in expanded form.
-3. Compare using `>`, `<`, or `=`: 64,199 ___ 64,091
+3. Compare using `>`, `<`, or `=`: 64,199 ___ 64,091.
 4. Round 12,489 to the nearest hundred.
-5. Round 305,001 to the nearest thousand.
+5. Which is greater: 402,119 or 399,999?
 
 **Quick Check Answers**
 1. 9,000
 2. `7,000 + 50`
 3. `>`
 4. 12,500
-5. 305,000
+5. 402,119
 
 ## Graded Exercises
-1. **Easy:** Write 56,203 in word form and expanded form.
-2. **Easy:** What is the value of the underlined digit in 81,476: _4_?
-3. **Medium:** Order these numbers from least to greatest: 209,450; 290,405; 204,950; 294,005.
-4. **Medium:** Use `>`, `<`, or `=`: 700,090 ___ 699,999.
-5. **Medium:** Round 93,449 to the nearest ten and to the nearest hundred.
-6. **Hard:** A school has 18,495 books. About how many books is this to the nearest thousand? Explain your rounding decision.
-7. **Hard:** Create a 6-digit number where the digit 7 has value 70,000 and the digit 3 has value 30. Write your number in expanded form.
-8. **Hard:** Two numbers both have 5 in the ten-thousands place and 2 in the hundreds place. Make one number greater than the other by changing only the tens and ones digits.
+### Level 1 - Warm-up
+1. Write 56,203 in word form and expanded form.
+2. What is the value of the underlined digit in 81,476: _4_?
+3. Round 7,842 to the nearest ten.
+
+### Level 2 - Core Practice
+4. Order these numbers from least to greatest: 209,450; 290,405; 204,950; 294,005.
+5. Use `>`, `<`, or `=`: 700,090 ___ 699,999.
+6. Round 93,449 to the nearest ten and to the nearest hundred.
+7. Write a six-digit number with 6 in the hundred-thousands place, 0 in the thousands place, and 8 in the ones place.
+
+### Level 3 - Challenge
+8. A school has 18,495 books. About how many books is this to the nearest thousand? Explain your rounding decision.
+9. Create a 6-digit number where the digit 7 has value 70,000 and the digit 3 has value 30. Write your number in expanded form.
+10. Two numbers both have 5 in the ten-thousands place and 2 in the hundreds place. Make one number greater than the other by changing only the tens and ones digits.
+
+### Exercise Solutions
+1. Word form: fifty-six thousand two hundred three; expanded form: \(50{,}000 + 6{,}000 + 200 + 3\).
+2. 400.
+3. 7,840.
+4. 204,950; 209,450; 290,405; 294,005.
+5. `>`.
+6. Nearest ten: 93,450; nearest hundred: 93,400.
+7. One valid answer: 603,018.
+8. 18,000 (because the hundreds digit is 4, so round down).
+9. One valid answer: 274,530; expanded form: \(200{,}000 + 70{,}000 + 4{,}000 + 500 + 30\).
+10. One valid pair: 50,290 and 50,201, and \(50{,}290 > 50{,}201\).
 
 ## Summary and Key Takeaways
 - A digit’s value depends on its place, not only on the digit itself.
