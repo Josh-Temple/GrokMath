@@ -1,3 +1,52 @@
+## Session 2026-04-02 (Units 1-8 Answer-Key Consistency Sweep Execution)
+- **What changed**:
+  - Reviewed Units 1-8 answer keys in `Quick Checks` and `Graded Exercises` for notation, wording density, and multi-step clarity with strict minimal-edit scope.
+  - Applied section-local consistency fixes only where mismatch was clear:
+    - `content/units/unit-1-whole-numbers-and-place-value.md`: normalized answer-key notation from inline code style to KaTeX for expanded form and comparison symbols.
+    - `content/units/unit-4-multiplication-and-division.md`: clarified multi-step solution notation (explicit multiplication symbols/spacing) and tightened one error-analysis answer sentence.
+  - Synchronized maturity notes with one-pass minimal updates in:
+    - `content/index.md`
+    - `curriculum/index.md`
+    (added a dated note that Units 1-8 completed a light answer-key consistency sweep; no status-label promotion performed).
+  - Ran `npm run build` and a short `npm run dev` smoke start for verification.
+- **Decisions made**:
+  - Consistency criteria applied: preserve existing pedagogy and problem sets, edit only clear notation/clarity mismatches in answer keys, and avoid structural/heading/frontmatter changes.
+  - Chose note-level index synchronization instead of status promotion because improvements were micro-consistency refinements rather than maturity-threshold jumps.
+  - Kept scope tightly bounded to Units 1-8 answer-key sections plus minimal index-note sync.
+- **What’s next**:
+  1. Run a light follow-up review on Units 9-10 against the same answer-key consistency rubric (notation, concise wording, multi-step clarity).
+  2. If Units 9-10 are clean, decide between:
+     - a controlled Unit 11 bridge stub draft, or
+     - another micro-pass on lingering tone/pacing differences between early and mid units.
+  3. Continue daily verification discipline (`npm run build` + short `npm run dev` smoke start) and append execution outcomes in each session handoff.
+- **Blockers / risks**:
+  - Residual pacing/tone differences may remain between Units 1-3 and Units 4-8 despite answer-key normalization.
+  - KaTeX style is now more consistent in touched sections, but edge-case notation drift can still appear in untouched explanatory paragraphs.
+- **Suggested next prompt**:
+  - "Run a light answer-key consistency check on Units 9-10 using the same minimal-edit rubric (notation, wording density, multi-step clarity), apply only section-local fixes if needed, verify with `npm run build` and short `npm run dev` smoke start, then append a dated HANDOFF execution summary. If Units 9-10 are already consistent, propose a tightly scoped Unit 11 bridge stub plan without structural changes."
+
+## Session 2026-04-01 (Grok Instruction Validity Review + Execution Plan for Units 1-8 Answer-Key Consistency Sweep)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md`, then validated the proposed Grok instruction block against the latest recorded next action from 2026-03-31.
+  - Confirmed the requested scope is correctly constrained to a minimal answer-key consistency sweep in Units 1-8 (`Quick Checks` and `Graded Exercises`) with optional maturity-note sync only after quality-gate pass.
+  - Prepared a strict, execution-ready plan that preserves canonical template order, section integrity, and repository structure.
+- **Decisions made**:
+  - The instruction set is **valid** and should be executed as the top priority because it directly matches the explicit next step in the latest handoff entry.
+  - Apply edits as minimal, section-local adjustments only (notation consistency, wording density, multi-step clarity); avoid rewrites, new problems, or heading/frontmatter/schema changes.
+  - Update `content/index.md` and `curriculum/index.md` only if the Unit 1-8 sweep demonstrates clear consistency improvement that justifies maturity-note synchronization.
+- **What’s next**:
+  1. Reference `content/lesson-template.md` and establish a compact consistency rubric for answer keys (notation style, concise wording, explicit intermediate steps).
+  2. Sweep Units 1-8 answer keys in `Quick Checks` and `Graded Exercises`, applying only minimal wording/notation fixes where mismatches are clear.
+  3. Spot-check 3-4 units for cross-unit answer-key uniformity and KaTeX readability.
+  4. If quality gates pass, perform one-pass minimal maturity-note sync in `content/index.md` and `curriculum/index.md` without altering existing unit descriptions.
+  5. Run `npm run build` and a short `npm run dev` smoke start, then append an execution-focused handoff summary with concrete file-level outcomes and residual risks.
+- **Blockers / risks**:
+  - Over-editing risk: changing tone/pacing while normalizing answers; mitigate by limiting edits to clearly inconsistent local phrasing/notation only.
+  - Residual granularity variance may remain between Units 1-3 and Units 4-8 even after a light pass; capture explicitly as follow-up, not same-session scope expansion.
+  - KaTeX notation edge cases may appear in mixed inline/display expressions; verify with targeted rendering checks during smoke test.
+- **Suggested next prompt**:
+  - "Execute a strict minimal answer-key consistency sweep across Units 1-8 (`Quick Checks` and `Graded Exercises`) using `content/lesson-template.md` as style guardrails: normalize notation, tighten wording density, and clarify ambiguous multi-step reasoning without rewrites or structural changes. If consistency gates pass, apply a one-pass maturity-note sync in `content/index.md` and `curriculum/index.md`, run `npm run build` plus short `npm run dev` smoke start, and append a dated execution summary to `HANDOFF.md` with exact edits, decisions, risks, and next-step recommendation."
+
 ## Session 2026-03-31 (Units 1-3 Quality-Depth Polish Execution)
 - **What changed**:
   - Polished the target depth sections in the three early units without changing canonical heading order:

@@ -178,13 +178,13 @@ Interpretation: 10 full packs and 3 markers left.
 1. $56$
 2. $9$
 3. $65$
-4. $36(4)= (30+6)4 = 120+24 = 144$
+4. $36 \times 4 = (30 + 6)\times 4 = 120 + 24 = 144$
 5. $12$
 6. $9 \times 18 = 162$ books
 7. $95 \div 6 = 15$ remainder $5$ so 15 full bags and 5 apples remain
-8. $(20+7)(30+4)=600+80+210+28=918$
+8. $(20 + 7)(30 + 4) = 600 + 80 + 210 + 28 = 918$
 9. Total pencils $=8 \times 25=200$, then $200 \div 10 = 20$ pencils per classroom
-10. The second claim is incorrect; since $84 \div 14 = 6$, not 14
+10. The second claim is incorrect: $84 \div 14 = 6$, not 14.
 
 </details>
 

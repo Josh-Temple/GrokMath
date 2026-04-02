@@ -120,8 +120,8 @@ Round 48,650 to the nearest thousand.
 
 **Quick Check Answers**
 1. 9,000
-2. `7,000 + 50`
-3. `>`
+2. \(7{,}000 + 50\)
+3. \(>\)
 4. 12,500
 5. 402,119
 
@@ -147,7 +147,7 @@ Round 48,650 to the nearest thousand.
 2. 400.
 3. 7,840.
 4. 204,950; 209,450; 290,405; 294,005.
-5. `>`.
+5. \(>\).
 6. Nearest ten: 93,450; nearest hundred: 93,400.
 7. One valid answer: 603,018.
 8. 18,000 (because the hundreds digit is 4, so round down).
