@@ -29,4 +29,5 @@ This starter index defines the first 10 core units from elementary arithmetic to
 - Units 1-10 align with existing lesson files in `content/units/`.
 - Unit 10 has completed the polish pass and is now marked `Ready` in the publishable layer.
 - Units 4-8 completed a 2026-03-29 structural alignment pass and now match canonical heading names/order (content depth polish can proceed separately).
+- Units 1-8 completed a light 2026-04-02 answer-key consistency sweep (notation, wording density, and multi-step clarity) with minimal section-local edits only.
 - Status meanings: `Ready` = lesson file exists and is publishable, `Started` = partial progress, `Draft` = lesson file exists but may still need review, `Placeholder` = roadmap placeholder only.
