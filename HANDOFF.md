@@ -1,3 +1,33 @@
+## Session 2026-04-03 (Unit 11 Bridge Stub Execution)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md`, then executed the previously approved scoped plan for Unit 11.
+  - Added exactly one new file:
+    - `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`
+  - Implemented canonical template scaffolding with minimal placeholder content only:
+    - frontmatter included (`title`, `order`, `level`, `status`, `description`, `tags`)
+    - canonical H2 sequence preserved exactly:
+      `Concept Map` -> `Intuitive Explanation` -> `Formal Definition` -> `Worked Examples` -> `Common Mistakes and How to Avoid Them` -> `Quick Checks` -> `Graded Exercises` -> `Summary and Key Takeaways` -> `Next Steps / Connections`
+  - Performed technical verification:
+    - `npm run build` succeeded.
+    - short `npm run dev` smoke check succeeded and the new route returned 200:
+      `/units/unit-11-bridge-to-fractions-and-rational-numbers`
+- **Decisions made**:
+  - Finalized canonical filename as `unit-11-bridge-to-fractions-and-rational-numbers.md` to remove prior naming ambiguity.
+  - Kept strict placeholder-only scope to avoid premature content expansion.
+  - Deferred index synchronization (`content/index.md`, `curriculum/index.md`) intentionally in this pass to preserve minimal-change discipline.
+- **What’s next**:
+  1. Run a light template-fidelity review of the new Unit 11 stub (headings/frontmatter/route naming consistency).
+  2. Choose one strictly bounded follow-up:
+     - begin incremental population of Unit 11 sections (starting with Concept Map + Intuitive Explanation), or
+     - return to a micro-pass on tone/pacing consistency in Units 1-3.
+  3. Keep verification discipline (`npm run build` + short `npm run dev` smoke check) and append concrete outcomes in each handoff entry.
+- **Blockers / risks**:
+  - Main risk remains scope creep from scaffold to full lesson authoring in one pass.
+  - Sequence risk: unit-index metadata can lag behind newly added unit files if sync is deferred too long.
+  - Dev smoke scripts that rely on background process handling can be shell-sensitive; keep checks short and explicit.
+- **Suggested next prompt**:
+  - "Perform a strict template-fidelity review of `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`, then incrementally populate only `## Concept Map` and `## Intuitive Explanation` with pedagogically clear draft content (leave other sections as placeholders), run `npm run build` + short `npm run dev` smoke check, and append a dated HANDOFF execution summary."
+
 ## Session 2026-04-03 (Units 9-10 Answer-Key Consistency Follow-up Execution)
 - **What changed**:
   - Re-read `README.md` and `HANDOFF.md`, then executed the planned light consistency follow-up for Units 9-10 answer keys.
@@ -26,6 +56,37 @@
   - KaTeX edge-case style drift may still appear in untouched explanatory paragraphs outside answer-key scope.
 - **Suggested next prompt**:
   - "Now that Units 1-10 answer-key consistency is complete, run a tightly scoped micro-pass on tone/pacing drift between early units (1-3) and mid units (4-8), applying only minimal section-local wording refinements with no structural changes, then verify with `npm run build` + short `npm run dev` smoke start and append a dated HANDOFF execution summary."
+
+## Session 2026-04-03 (Grok Instruction Validity Review + Execution Plan for Unit 11 Bridge Stub)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md`, then validated the proposed Grok instruction block (A-H) against the current repository state and latest completed session scope.
+  - Confirmed the proposal is directionally aligned with the explicit next-option track already recorded on 2026-04-02/2026-04-03: a controlled Unit 11 bridge stub with no disruption to Units 1-10.
+  - Identified one naming inconsistency to resolve before execution:
+    - Task C references `unit-11-fractions-and-rational-numbers.md` as an example.
+    - Task D mandates `unit-11-bridge-to-fractions-and-rational-numbers.md`.
+    - Execution should choose **one** canonical filename and keep it consistent across frontmatter title, route expectations, and handoff logging.
+- **Decisions made**:
+  - The instruction set is **valid with minor normalization** and safe to execute under strict scope controls.
+  - Preserve hard boundaries for the next implementation pass:
+    - create exactly one new unit file in `content/units/`,
+    - follow `content/lesson-template.md` heading order exactly,
+    - add placeholder-only content,
+    - do not edit Units 1-10, template files, or index files in this pass.
+  - Defer index synchronization intentionally unless a hard runtime/routing requirement is discovered during verification.
+- **Execution plan (next implementation session)**:
+  1. Reconfirm canonical section order from `content/lesson-template.md`.
+  2. Create one new file with finalized kebab-case naming (recommended: `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`).
+  3. Add standard frontmatter (`title`, `order`, `level`, `tags`) and all required H2 sections in exact canonical order.
+  4. Insert only 1-2 neutral placeholder lines per section (no full lesson authoring).
+  5. Run `npm run build`.
+  6. Run short `npm run dev` smoke start and verify the new `/units/<slug>` page renders with expected structure.
+  7. Append a dated execution summary in `HANDOFF.md` with files touched, verification outcomes, and residual risks.
+- **Blockers / risks**:
+  - Main risk: scope creep into full content authoring; mitigate via strict placeholder-only policy.
+  - Secondary risk: filename/topic ambiguity if the C vs D naming mismatch is not normalized first.
+  - Operational risk: local dev-server smoke checks can be environment-sensitive; treat startup verification as short, bounded confirmation only.
+- **Suggested next prompt**:
+  - "Execute a strict Unit 11 bridge-stub pass: create exactly one file at `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`, copy the canonical H2 order from `content/lesson-template.md`, add placeholder-only text (1-2 short lines per section), run `npm run build` and a short `npm run dev` smoke start, then append a dated HANDOFF execution summary. Do not edit Units 1-10, indexes, or templates."
 
 ## Session 2026-04-02 (Grok Instruction Validity Review + Execution Plan for Units 9-10)
 - **What changed**:
