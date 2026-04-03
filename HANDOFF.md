@@ -1,3 +1,53 @@
+## Session 2026-04-03 (Units 9-10 Answer-Key Consistency Follow-up Execution)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md`, then executed the planned light consistency follow-up for Units 9-10 answer keys.
+  - Reviewed `## Quick Checks` and `## Graded Exercises` in:
+    - `content/units/unit-9-functions-and-basic-graphing.md`
+    - `content/units/unit-10-elementary-probability-and-statistics.md`
+  - Applied minimal section-local refinements in existing solution keys only:
+    - Unit 9: clarified multi-step reasoning and standardized notation density in the `### Solutions` block.
+    - Unit 10: tightened notation consistency and probability-expression labeling in selected solution lines.
+  - Added minimal dated consistency-note sync entries in:
+    - `content/index.md`
+    - `curriculum/index.md`
+    confirming the Units 9-10 follow-up and completion of the Units 1-10 starter-spine consistency cycle.
+  - Ran verification via `npm run build` and a short `npm run dev` smoke start.
+- **Decisions made**:
+  - Preserved strict minimal-edit scope: no heading/frontmatter/schema changes, no problem-statement rewrites, no structural/file-layout modifications.
+  - Applied edits only where notation clarity or multi-step readability materially improved answer-key consistency with prior Units 1-8 sweep standards.
+  - Kept index updates as note-level synchronization only (no status-label promotion).
+- **What’s next**:
+  1. Choose one tightly scoped follow-up:
+     - a light tone/pacing micro-pass across selected early vs mid units, or
+     - a controlled planning stub for Unit 11 bridge content (no structural changes).
+  2. Keep daily verification discipline (`npm run build` + short `npm run dev` smoke start) and append concrete outcomes to handoff.
+- **Blockers / risks**:
+  - Minor phrasing/pacing variance can still remain across units even after answer-key consistency completion.
+  - KaTeX edge-case style drift may still appear in untouched explanatory paragraphs outside answer-key scope.
+- **Suggested next prompt**:
+  - "Now that Units 1-10 answer-key consistency is complete, run a tightly scoped micro-pass on tone/pacing drift between early units (1-3) and mid units (4-8), applying only minimal section-local wording refinements with no structural changes, then verify with `npm run build` + short `npm run dev` smoke start and append a dated HANDOFF execution summary."
+
+## Session 2026-04-02 (Grok Instruction Validity Review + Execution Plan for Units 9-10)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md`, then validated the new Grok instruction block against the latest executed session scope and repository constraints.
+  - Confirmed the proposed work is aligned with the explicit next action already recorded on 2026-04-02: a light consistency follow-up on Units 9-10 answer keys using the same rubric from the Units 1-8 pass.
+  - Prepared a scope-locked implementation plan that keeps edits minimal, section-local, and restricted to answer-key clarity/notation consistency.
+- **Decisions made**:
+  - The instruction set is **valid** and should be executed as the immediate next implementation task.
+  - Preserve strict boundaries: no heading/frontmatter/schema/routing/template changes; no new units/files; no content rewrites outside answer keys in `## Quick Checks` and `## Graded Exercises`.
+  - Update `content/index.md` and `curriculum/index.md` only if post-check evidence supports a small dated consistency note (not status promotion).
+- **What’s next**:
+  1. Review `content/units/unit-9-functions-and-basic-graphing.md` and `content/units/unit-10-elementary-probability-and-statistics.md` answer keys against the established rubric (KaTeX-friendly notation consistency, concise wording, explicit multi-step reasoning where needed).
+  2. Apply only minimal, local edits where clear mismatches exist; leave all problem statements and non-answer-key narrative untouched.
+  3. Run verification commands: `npm run build` and a short `npm run dev` smoke start.
+  4. If verification passes and edits were meaningful, append a minimal dated sweep-completion note to `content/index.md` and `curriculum/index.md`.
+  5. Append an execution-focused handoff entry with exact files touched, test outcomes, residual risks, and next-step recommendation.
+- **Blockers / risks**:
+  - Units 9-10 may already be highly consistent; risk is over-editing stylistic nuances without pedagogical benefit.
+  - Minor KaTeX edge-case drift may still exist in isolated answer lines; should be corrected only when clearly inconsistent with prior sweep style.
+- **Suggested next prompt**:
+  - "Execute the Units 9-10 light answer-key consistency sweep using the established minimal-edit rubric (notation, wording density, multi-step clarity), apply only section-local fixes in Quick Checks and Graded Exercises if needed, run `npm run build` + short `npm run dev` smoke start, then append a dated HANDOFF execution summary and add minimal consistency notes to `content/index.md` and `curriculum/index.md` only when warranted."
+
 ## Session 2026-04-02 (Units 1-8 Answer-Key Consistency Sweep Execution)
 - **What changed**:
   - Reviewed Units 1-8 answer keys in `Quick Checks` and `Graded Exercises` for notation, wording density, and multi-step clarity with strict minimal-edit scope.
