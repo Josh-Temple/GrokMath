@@ -156,16 +156,16 @@ Phone cost: base fee 15 dollars plus 8 dollars per extra GB.
 
 ### Solutions
 
-1. $8$
-2. $(4,12)$
-3. $5$
-4. Outputs: $-1,1,3,5$
-5. $m=2$
-6. $y=2x+9$
-7. Yes, because it has form $y=kx$.
-8. $h=1.5w+10$, so $h(8)=22$ cm.
-9. Linear; slope $2$; equation $y=2x+2$.
-10. Same slope (parallel lines); $y=3x+5$ is shifted up by 5.
+1. $y = x + 6 \Rightarrow y = 2 + 6 = 8$.
+2. For $x = 4$, $y = 3x = 12$, so the pair is $(4, 12)$.
+3. In $(5, 12)$, the input is the first coordinate, so input $= 5$.
+4. For $x = 0, 1, 2, 3$, outputs are $-1, 1, 3, 5$.
+5. $m = \frac{12 - 4}{5 - 1} = \frac{8}{4} = 2$.
+6. Let $x$ = rentals and $y$ = total cost, so $y = 2x + 9$.
+7. Yes. It has the form $y = kx$ with $k = 4$.
+8. Height equation: $h = 1.5w + 10$, so $h(8) = 1.5(8) + 10 = 22$ cm.
+9. Linear (constant increase of 4 in $y$ for increase of 2 in $x$), so slope $m = 2$ and equation $y = 2x + 2$.
+10. Both have slope $3$ (parallel lines); $y = 3x + 5$ is shifted up by 5 units from $y = 3x$.
 
 ## Summary and Key Takeaways
 

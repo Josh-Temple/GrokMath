@@ -185,13 +185,13 @@ $$
 2. $\frac{3}{8}$
 3. $\frac{2+5+7+10}{4}=6$
 4. Sample space: $\{HH,HT,TH,TT\}$, so $P(\text{at least one head})=1-P(TT)=1-\frac14=\frac34$.
-5. Multiples of 3 are $3,6$, so $\frac{2}{8}=\frac{1}{4}$
-6. Sorted: $2,4,5,5,8,9$ so median $=\frac{5+5}{2}=5$, range $=9-2=7$
-7. Mode $=6$, mean $=\frac{3+3+5+6+6+6+8}{7}=\frac{37}{7}\approx 5.29$
+5. Multiples of 3 are $3, 6$, so $P(\text{multiple of }3)=\frac{2}{8}=\frac{1}{4}$.
+6. Sorted: $2, 4, 5, 5, 8, 9$, so median $=\frac{5+5}{2}=5$ and range $=9-2=7$.
+7. Mode $=6$, mean $=\frac{3+3+5+6+6+6+8}{7}=\frac{37}{7}\approx 5.29$.
 8. Experimental probability $=\frac{15}{20}=0.75$ (or 75%).
 9. Mean $=\frac{125}{6}\approx 20.83$, median $=16.5$; median is more typical because 45 is an outlier.
 10. Experimental: $\frac{6}{60}=0.10$, theoretical: $\frac{1}{6}\approx 0.167$; random variation in limited trials can cause differences, and 60 trials may still be too small for close agreement.
-11. Favorable pairs: $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$, so $\frac{6}{36}=\frac{1}{6}$
+11. Favorable pairs: $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)$, so $P(\text{sum }=7)=\frac{6}{36}=\frac{1}{6}$.
 12. Mean increases noticeably because 40 is far above current average; median may stay similar unless middle positions shift.
 
 ## Summary and Key Takeaways

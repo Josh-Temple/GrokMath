@@ -76,4 +76,5 @@ After stabilizing the starter spine, likely next additions include:
 - Keep `content/index.md` and this roadmap synchronized for starter-spine naming.
 - Units 1-8 now pass the structural heading-order alignment check as of 2026-03-29; subsequent passes should focus on quality depth, not heading migration.
 - Units 1-8 also completed a light answer-key consistency sweep on 2026-04-02; remaining work is targeted micro-polish rather than structural or scope expansion.
+- Units 9-10 completed a light answer-key consistency follow-up on 2026-04-03 with minimal section-local solution-key clarity/notation refinements, completing the starter-spine (Units 1-10) consistency sweep cycle.
 - Unit 10 has passed the planned polish/review step and is now synchronized as `Ready` with the publishable index.
