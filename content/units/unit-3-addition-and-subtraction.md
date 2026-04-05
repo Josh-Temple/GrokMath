@@ -14,9 +14,9 @@ description: Building fluency with addition and subtraction, including regroupin
 - This unit supports later multiplication, division, and algebra balancing.
 
 ## Intuitive Explanation
-Addition and subtraction are the core tools for tracking change. We use them when we combine quantities, compare amounts, and decide what remains after something is removed. Whether we plan a budget, count inventory, or solve a story problem, we rely on these two operations every day.
+Addition and subtraction are core tools for tracking change. We use them when we combine quantities, compare amounts, and decide what remains after something is removed. Whether we plan a budget, count inventory, or solve a story problem, these two operations appear every day.
 
-Strong addition and subtraction skills also support later topics. Multi-digit multiplication uses repeated addition ideas, and algebra depends on balancing by adding or subtracting the same amount on both sides.
+Strong addition and subtraction skills also support later topics. Multi-digit multiplication builds on repeated addition ideas, and algebra depends on balancing by adding or subtracting the same amount on both sides.
 
 ### Place-Value View
 Think about a school fundraiser.
@@ -25,7 +25,7 @@ Think about a school fundraiser.
 
 Place value is the key. In $248, the 2 means 200, the 4 means 40, and the 8 means 8. Addition and subtraction work best when we line up ones with ones, tens with tens, and hundreds with hundreds.
 
-Regrouping (sometimes called carrying/borrowing) is just exchanging place values:
+Regrouping (sometimes called carrying/borrowing) is an exchange of place values:
 - 10 ones = 1 ten
 - 10 tens = 1 hundred
 
@@ -65,6 +65,8 @@ Standard algorithm reminders:
 ### Example 1: Multi-digit Addition with Regrouping
 Compute $3{,}487 + 2{,}956$.
 
+Set a quick estimate first: $3{,}500 + 3{,}000 \approx 6{,}500$.
+
 1. Ones: $7 + 6 = 13$ → write 3, carry 1.
 2. Tens: $8 + 5 + 1 = 14$ → write 4, carry 1.
 3. Hundreds: $4 + 9 + 1 = 14$ → write 4, carry 1.
@@ -73,6 +75,7 @@ Compute $3{,}487 + 2{,}956$.
 $$
 3{,}487 + 2{,}956 = 6{,}443
 $$
+The exact answer is close to the estimate, so the result is reasonable.
 
 ### Example 2: Subtraction with Regrouping Across Zero
 Compute $6{,}002 - 1{,}785$.
@@ -187,7 +190,7 @@ The exact answer $3{,}422$ is close to $3{,}400$, so it is reasonable.
 - Addition combines quantities; subtraction finds differences or what remains.
 - Place-value alignment is essential for accurate multi-digit computation.
 - Regrouping is an exchange of place values, not a trick.
-- Estimation helps catch mistakes quickly.
+- Estimation sets a target and helps catch mistakes quickly.
 - Addition and subtraction are inverse operations and support later algebraic thinking.
 
 ## Next Steps / Connections

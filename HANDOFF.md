@@ -1,3 +1,57 @@
+## Session 2026-04-04 (Units 1-3 Tone/Pacing Micro-pass Execution)
+- **What changed**:
+  - Executed a strict, section-local tone/pacing micro-pass in exactly three files:
+    - `content/units/unit-1-whole-numbers-and-place-value.md`
+    - `content/units/unit-2-operations-with-whole-numbers.md`
+    - `content/units/unit-3-addition-and-subtraction.md`
+  - Applied minimal wording refinements only (no heading, frontmatter, schema, or structure changes), with focus on:
+    - smoother intuitive-to-formal flow in `## Intuitive Explanation`,
+    - clearer progression cues in selected `## Worked Examples` steps,
+    - tighter phrasing in `## Summary and Key Takeaways` to match mid-unit pacing.
+  - Verified locally:
+    - `npm run build` passed.
+    - short `npm run dev` smoke check passed with 200 responses on Unit 1-3 routes.
+- **Decisions made**:
+  - Focused exclusively on the early-unit micro-pass option already listed in prior handoff entries, and intentionally deferred Unit 11 content population to avoid mixed scope.
+  - Enforced minimal-edit discipline to preserve all canonical headings and existing explanatory substance while improving readability cadence.
+  - Kept index files untouched today (`content/index.md`, `curriculum/index.md`) per strict no-expansion boundary.
+- **What’s next**:
+  1. Perform one light verification read-through of Units 1-3 against Unit 4/5 to confirm the micro-pass impact is consistent but still minimal.
+  2. Choose one bounded follow-up for the next session:
+     - controlled incremental authoring of the first 1-2 sections in Unit 11 bridge stub, or
+     - a final lightweight tone harmonization spot-check across the full starter spine.
+  3. Maintain daily verification routine (`npm run build` + short `npm run dev` smoke check) and append concrete outcomes in handoff.
+- **Blockers / risks**:
+  - Subtle residual variance may remain in some early-unit example transitions.
+  - Over-refinement risk remains if future passes become stylistic rewrites; mitigation is to continue strict minimal, additive, section-local edits only.
+- **Suggested next prompt**:
+  - "Run a focused post-pass verification of tone/pacing across Units 1-3 against Unit 4-5 (no structural edits), then either (A) incrementally populate only `## Concept Map` and `## Intuitive Explanation` in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` or (B) execute a final full-spine tone consistency spot-check across Units 1-10. In either path, keep edits minimal, preserve canonical headings/substance, run `npm run build` plus a short `npm run dev` smoke check, and append a dated HANDOFF execution summary with decisions and risks."
+
+## Session 2026-04-04 (Grok Instruction Validity Review + Execution Plan for Units 1-3 Tone/Pacing Micro-pass)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` and validated the provided Grok instruction block (A-H) against the current repository state.
+  - Confirmed repository reality claims are accurate for this date: Units 1-11 exist, Unit 11 is currently a placeholder bridge stub, and the latest handoff entries list the two expected next tracks (early-unit tone/pacing micro-pass vs controlled Unit 11 population).
+  - Confirmed required scope is feasible without structural risk: edit only Units 1-3, keep canonical headings unchanged, avoid index updates, and preserve narrative substance.
+- **Decisions made**:
+  - The instruction set is **valid** and should be executed as the next implementation task with strict minimal-edit discipline.
+  - Keep changes section-local in Units 1-3 (especially `Intuitive Explanation`, `Worked Examples`, `Summary and Key Takeaways`) and avoid any heading/frontmatter/schema/file-structure changes.
+  - Defer Unit 11 content population to a later session to prevent scope mixing and maintain daily cadence reliability.
+- **Execution plan (next implementation session)**:
+  1. Reconfirm canonical section order from `content/lesson-template.md`.
+  2. Compare tone/pacing in Units 1-3 against a representative mid-unit style baseline (Unit 4 or 5).
+  3. Apply minimal wording refinements only in:
+     - `content/units/unit-1-whole-numbers-and-place-value.md`
+     - `content/units/unit-2-operations-with-whole-numbers.md`
+     - `content/units/unit-3-addition-and-subtraction.md`
+  4. Keep edits additive and local; no new sections, no section moves, no index/template edits.
+  5. Run verification: `npm run build` and short `npm run dev` smoke test.
+  6. Append an execution-focused handoff entry with exact wording-tune scope, verification outcomes, and residual risks.
+- **Blockers / risks**:
+  - Risk of over-refinement in foundational units; mitigate by preserving all original explanatory substance and limiting edits to pacing/clarity wording.
+  - Minor residual tone variance may remain after a micro-pass; capture explicitly as optional follow-up rather than widening same-session scope.
+- **Suggested next prompt**:
+  - "Execute a strict tone/pacing micro-pass on Units 1-3 only (`unit-1`, `unit-2`, `unit-3`) with minimal, section-local wording refinements aligned to mid-unit style (Units 4-8), preserving all canonical headings and explanatory substance. Run `npm run build` plus a short `npm run dev` smoke test, then append a dated HANDOFF execution summary including decisions, risks, and suggested next step (either Unit 11 first-section population or a final full-spine tone check)."
+
 ## Session 2026-04-03 (Unit 11 Bridge Stub Execution)
 - **What changed**:
   - Re-read `README.md` and `HANDOFF.md`, then executed the previously approved scoped plan for Unit 11.
