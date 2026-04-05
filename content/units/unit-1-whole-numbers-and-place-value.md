@@ -18,9 +18,9 @@ Think of place value like seats in a stadium. If one person sits in the “ones�
 
 You can also think of money. One dollar bill and one hundred-dollar bill both show a “1,” but they are not worth the same amount. In numbers, place value works the same way. In the number 4,582, the digit 5 means 500 because it is in the hundreds place. The digit 8 means 80 because it is in the tens place.
 
-A place value chart helps us see this clearly. Imagine columns labeled: thousands, hundreds, tens, ones. When we place digits into those columns, we can read the number correctly and understand how big it is. This matters for almost every topic in math, because adding, subtracting, multiplying, dividing, estimating, and even working with decimals later all depend on strong place value understanding.
+A place value chart helps us see this clearly. Imagine columns labeled: thousands, hundreds, tens, ones. When we place digits into those columns, we can read the number correctly and understand how big it is. This foundation supports almost every later topic in math, from operations and estimation to decimals.
 
-Place value also helps us compare numbers quickly. If two numbers have different digits in the largest place, that place decides which number is bigger. For example, 9,245 is greater than 8,999 because 9 thousands is more than 8 thousands, even though 999 looks “big.”
+Place value also helps us compare numbers efficiently. If two numbers have different digits in the largest place, that place decides which number is bigger. For example, 9,245 is greater than 8,999 because 9 thousands is more than 8 thousands, even though 999 looks “big.”
 
 Finally, place value makes rounding useful. When we round, we decide which place is most important right now, then look one place to the right to choose whether to keep or increase the digit. Rounding helps us estimate and check if detailed answers are reasonable.
 
@@ -74,7 +74,7 @@ Write 63,418 in expanded form, and state the value of the digit 3.
 ### Example 2: Comparing Whole Numbers
 Which is greater: 507,092 or 570,209?
 
-**Step 1:** Compare from the largest place.
+**Step 1:** Compare from the largest place and move right.
 - Hundred-thousands: both are 5.
 - Ten-thousands: first number has 0, second number has 7.
 
@@ -158,8 +158,8 @@ Round 48,650 to the nearest thousand.
 - A digit’s value depends on its place, not only on the digit itself.
 - Base-10 place values grow by factors of 10 as you move left.
 - Expanded form shows the true value of each digit clearly.
-- To compare whole numbers, start at the greatest place and move right.
-- To round correctly, look one place to the right of the target place.
+- To compare whole numbers, start at the greatest place and stop at the first difference.
+- To round correctly, choose the target place, then check one place to the right.
 
 ## Next Steps / Connections
 - Next, connect place-value fluency to multi-step operation work in Unit 2.

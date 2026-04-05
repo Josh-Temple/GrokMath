@@ -25,7 +25,7 @@ Think about a school event:
 - You multiply if each table has the same number of students.
 - You divide to share supplies equally.
 
-Before doing any detailed calculation, we can estimate. For example, if we compute \(398 + 205\), we can estimate \(400 + 200 = 600\). If an exact answer is far from 600, we should re-check our work.
+Before doing a detailed calculation, estimate first. For example, if we compute \(398 + 205\), we can estimate \(400 + 200 = 600\). If an exact answer is far from 600, that is a signal to re-check the work.
 
 ### Operation Meanings and Inverse Relationships
 Each operation answers a different kind of question.
@@ -42,7 +42,7 @@ We can also view operations as pairs:
 If \(27 + 15 = 42\), then \(42 - 15 = 27\).  
 If \(8 \times 6 = 48\), then \(48 \div 6 = 8\).
 
-These inverse relationships help us check answers quickly.
+These inverse relationships give a fast and reliable answer check.
 
 ## Formal Definition
 Let \(a\), \(b\), and \(c\) be whole numbers.
@@ -66,7 +66,7 @@ Order of operations reminder:
 ### Example 1: Addition with Regrouping
 Compute \(4{,}786 + 2{,}597\).
 
-Estimate first:
+Estimate first to set a reasonableness target:
 $$
 4{,}786 \approx 4{,}800,\quad 2{,}597 \approx 2{,}600,\quad 4{,}800 + 2{,}600 = 7{,}400
 $$
@@ -86,7 +86,7 @@ The exact answer \(7{,}383\) is close to the estimate \(7{,}400\), so it is reas
 ### Example 2: Subtraction with Regrouping
 Compute \(9{,}002 - 3{,}748\).
 
-1. Ones: need \(2 - 8\), regroup from tens/hundreds/thousands.
+1. Ones: need \(2 - 8\), so regroup from tens/hundreds/thousands.
 2. After regrouping across zeros, ones become 12 and thousands decrease appropriately.
 3. Ones: \(12 - 8 = 4\)
 4. Tens: \(9 - 4 = 5\)
@@ -98,7 +98,7 @@ $$
 9{,}002 - 3{,}748 = 5{,}254
 $$
 
-Check with inverse operation:
+Check with the inverse operation:
 $$
 5{,}254 + 3{,}748 = 9{,}002
 $$
@@ -198,7 +198,7 @@ $$
 - Use place value carefully when regrouping in addition and subtraction.
 - Use properties like distributive property to simplify multiplication.
 - Use inverse operations and estimation to verify answers.
-- Interpret division remainders in context, not just as a leftover number.
+- Interpret division remainders in context, not just as leftover digits.
 
 ## Next Steps / Connections
 - Next, deepen operation fluency by focusing on addition and subtraction structure in Unit 3.
