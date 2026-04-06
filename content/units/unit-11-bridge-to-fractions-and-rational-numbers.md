@@ -14,13 +14,20 @@ tags:
 
 ## Concept Map
 
-- This section will map how prior fraction skills connect to rational numbers.
-- It will highlight prerequisite ideas and the next algebra-facing connections.
+- **Whole numbers and place value (Unit 1):** Numbers represent quantity and size on a number line.
+- **Operations with whole numbers (Unit 2):** Addition/subtraction/multiplication/division describe combining, separating, grouping, and sharing.
+- **Addition and subtraction structure (Unit 3):** We reason about changes, differences, and direction in context.
+- **Multiplication and division fluency (Unit 4):** Equal groups and scaling prepare us to interpret numerator/denominator meaning.
+- **Fractions foundation (Unit 5):** A fraction is one value with many equivalent names (for example, $\frac{1}{2}=\frac{2}{4}$).
+- **This bridge (Unit 11):** Extend fraction thinking to signed rational numbers, order them on the full number line, and prepare for rational operations and early algebra.
 
 ## Intuitive Explanation
 
-This section will introduce the bridge idea using familiar fraction and sharing contexts.
-It will emphasize why signed values and direction matter in real situations.
+Think about a hiking trail marker where the parking lot is labeled as 0 miles. If you walk 2 miles east, you are at +2. If you walk 2 miles west, you are at -2. Fractions work the same way: +$\frac{1}{2}$ and -$\frac{1}{2}$ are equal distances from 0, just in opposite directions.
+
+Now imagine sharing a pizza. You already know that $\frac{1}{2}$, $\frac{2}{4}$, and $\frac{3}{6}$ can name the same amount. Rational-number thinking keeps that idea, but adds direction: owing half a dollar (-$\frac{1}{2}$) is not the same situation as having half a dollar (+$\frac{1}{2}$), even though the size is the same.
+
+So this unit is a bridge: we keep familiar fraction size ideas, then add sign and position on the number line. Once those two ideas feel natural, later rules for comparing and operating with rational numbers make much more sense instead of feeling like isolated formulas.
 
 ## Formal Definition
 
