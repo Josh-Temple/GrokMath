@@ -1,3 +1,47 @@
+## Session 2026-04-07 (Unit 11 Formal Definition + Worked Examples Bounded Population)
+- **What changed**:
+  - Populated exactly two sections in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`:
+    - `## Formal Definition`
+    - `## Worked Examples`
+  - Kept all other Unit 11 sections unchanged as placeholders.
+  - Completed verification with `npm run build` and a short `npm run dev` smoke check on `/units/unit-11-bridge-to-fractions-and-rational-numbers`.
+- **Decisions made**:
+  - Enforced strict two-section scope inside Unit 11 content authoring.
+  - Kept new material concise and progressive from intuition -> formal notation -> solved examples.
+  - Deferred all index/template/other-unit edits to avoid scope creep.
+- **What’s next**:
+  1. Continue incremental Unit 11 population with `## Common Mistakes and How to Avoid Them` and `## Quick Checks`.
+  2. Optionally run a light tone/pacing spot-check across Units 1-5 to keep bridge continuity smooth.
+  3. If needed, perform a notation normalization micro-pass for signed-fraction expression consistency.
+- **Blockers / risks**:
+  - Depth can become uneven if later Unit 11 sections lag behind formal/examples completeness.
+  - Minor notation normalization may still be needed when subsequent units add rational operations.
+- **Suggested next prompt**:
+  - "Continue Unit 11 with a strict bounded pass: populate only `## Common Mistakes and How to Avoid Them` and `## Quick Checks` in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`, keep all remaining sections unchanged, run `npm run build` plus a short `npm run dev` smoke check for the Unit 11 route, and append a dated HANDOFF execution summary with decisions/risks."
+
+## Session 2026-04-06 (Grok Instruction Validity Review + Execution Plan for Unit 11 Formal/Examples Pass)
+- **What changed**:
+  - Re-read `README.md`, `HANDOFF.md`, and `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` to validate the newly provided Grok instruction block.
+  - Confirmed the repository state matches the instruction assumptions: Unit 11 has populated `Concept Map` + `Intuitive Explanation`, while `Formal Definition` and `Worked Examples` are still placeholders.
+  - Produced a scope-locked execution plan for the next implementation pass.
+- **Decisions made**:
+  - The instruction set is **mostly valid** and aligned with the latest handoff direction.
+  - Noted one scope contradiction to resolve before execution: the block says “edit only Unit 11” but also requires a `HANDOFF.md` update. Execution should explicitly allow two files:
+    1. `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` (content edits in exactly two sections), and
+    2. `HANDOFF.md` (session log update only).
+  - Keep all other files untouched (including indexes/templates), preserve canonical heading order/frontmatter, and leave non-target Unit 11 sections as placeholders.
+- **What’s next (implementation checklist)**:
+  1. Edit only `## Formal Definition` and `## Worked Examples` in Unit 11 with concise, accurate, progressive draft content tied to existing intuition.
+  2. Keep every other Unit 11 section exactly as-is.
+  3. Run `npm run build`.
+  4. Run a short `npm run dev` smoke check and confirm `/units/unit-11-bridge-to-fractions-and-rational-numbers` renders with KaTeX.
+  5. Append a new top handoff entry for the execution session (date to match actual execution day).
+- **Blockers / risks**:
+  - Risk of accidental scope drift into adjacent sections; mitigate with section-bound editing only.
+  - Minor notation normalization may be needed later if future units adopt tighter rational-number conventions.
+- **Suggested next prompt**:
+  - "Execute a strict bounded Unit 11 pass: populate only `## Formal Definition` and `## Worked Examples` in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`, keep all other sections unchanged, run `npm run build` + short `npm run dev` route smoke test, and append a dated `HANDOFF.md` execution summary. Do not edit indexes/templates/other units."
+
 ## Session 2026-04-06 (Post-micro-pass Verification + Unit 11 Early-Section Population)
 - **What changed**:
   - Completed a focused verification read-through of Units 1-3 against Units 4-5 for tone/pacing alignment with **no edits** to Units 1-5.

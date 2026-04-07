@@ -31,13 +31,61 @@ So this unit is a bridge: we keep familiar fraction size ideas, then add sign an
 
 ## Formal Definition
 
-This section will state the formal meaning of rational numbers and core equivalence rules.
-It will also define notation conventions that will be used in later units.
+A **rational number** is any number that can be written as
+$$
+\frac{a}{b}
+$$
+where $a$ and $b$ are integers and $b \neq 0$.
+
+Equivalent fractions represent the same rational number when we multiply or divide numerator and denominator by the same nonzero integer:
+$$
+\frac{a}{b}=\frac{ka}{kb}\quad (k\neq 0).
+$$
+
+Sign conventions:
+$$
+-\frac{a}{b}=\frac{-a}{b}=\frac{a}{-b},\qquad \frac{-a}{-b}=\frac{a}{b}.
+$$
+So a rational number has a **size** (absolute value) and a **direction** (sign).
+
+On the number line:
+- Positive rational numbers are to the right of 0.
+- Negative rational numbers are to the left of 0.
+- If two numbers have different signs, the positive number is greater.
+- If two numbers have the same sign, compare their values (for example by using equivalent fractions with a common denominator).
 
 ## Worked Examples
 
-- Placeholder examples will cover foundational, standard, and edge-case transitions.
-- Full step-by-step solutions will be added in a later content pass.
+### Example 1: Recognize and rewrite equivalent rational numbers
+Show that $\frac{3}{4}$ and $\frac{9}{12}$ are the same value.
+
+Step 1: Multiply numerator and denominator of $\frac{3}{4}$ by 3.
+$$
+\frac{3}{4}=\frac{3\cdot 3}{4\cdot 3}=\frac{9}{12}.
+$$
+Step 2: Since both parts were multiplied by the same nonzero number, the value is unchanged.
+
+So $\frac{3}{4}$ and $\frac{9}{12}$ name the same rational number.
+
+### Example 2: Place signed fractions on a number line
+Order $-\frac{1}{2},\ \frac{3}{4},\ -\frac{5}{4}$ from least to greatest.
+
+Step 1: Numbers with negative sign are left of 0, so they are smaller than $\frac{3}{4}$.
+Step 2: Compare the two negative numbers: $-\frac{5}{4}=-1.25$ and $-\frac{1}{2}=-0.5$.
+Step 3: The number farther left is smaller.
+
+Therefore, from least to greatest: $-\frac{5}{4}, -\frac{1}{2}, \frac{3}{4}$.
+
+### Example 3: Compare same-sign rational numbers with a common denominator
+Which is greater: $\frac{2}{3}$ or $\frac{3}{5}$?
+
+Step 1: Use a common denominator of 15.
+$$
+\frac{2}{3}=\frac{10}{15},\qquad \frac{3}{5}=\frac{9}{15}.
+$$
+Step 2: Compare numerators because denominators match: 10 is greater than 9.
+
+So $\frac{2}{3}$ is greater than $\frac{3}{5}$.
 
 ## Common Mistakes and How to Avoid Them
 
