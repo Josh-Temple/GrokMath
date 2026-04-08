@@ -1,3 +1,47 @@
+## Session 2026-04-07 (Unit 11 Common Mistakes + Quick Checks Bounded Population)
+- **What changed**:
+  - Populated exactly two sections in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`:
+    - `## Common Mistakes and How to Avoid Them`
+    - `## Quick Checks`
+  - Kept all remaining Unit 11 sections unchanged (including `## Graded Exercises` onward placeholders).
+  - Ran `npm run build` successfully and completed a short `npm run dev` smoke check with HTTP 200 on `/units/unit-11-bridge-to-fractions-and-rational-numbers`.
+- **Decisions made**:
+  - Enforced strict two-section scope to avoid drift into additional authoring layers.
+  - Kept new content diagnostic/formative, concise, and directly connected to the already-populated formal/examples sections.
+  - Deferred all index/template/other-unit edits for bounded incremental delivery.
+- **What’s next**:
+  1. Continue incremental Unit 11 population with `## Graded Exercises` and `## Summary and Key Takeaways` in another strict bounded pass.
+  2. Optionally run a light tone/pacing spot-check between Units 1-5 and Unit 11 for continuity.
+  3. If needed, run a micro-pass on notation consistency after additional Unit 11 sections are drafted.
+- **Blockers / risks**:
+  - Remaining placeholder sections can create temporary depth imbalance until subsequent passes are completed.
+  - Minor tone/notation alignment adjustments may still be needed after the next content layers are added.
+- **Suggested next prompt**:
+  - "Continue Unit 11 with a strict bounded pass: populate only `## Graded Exercises` and `## Summary and Key Takeaways` in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`, keep all other sections unchanged, run `npm run build` plus a short `npm run dev` smoke check, and append a dated HANDOFF execution summary."
+
+## Session 2026-04-07 (Grok Instruction Validity Review + Execution Plan for Unit 11 Common-Mistakes/Quick-Checks Pass)
+- **What changed**:
+  - Re-read `README.md`, `HANDOFF.md`, `content/lesson-template.md`, and `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` to validate the newly provided Grok instruction block.
+  - Confirmed the repository state matches the proposal: Unit 11 has populated sections through `## Worked Examples`, while `## Common Mistakes and How to Avoid Them` and `## Quick Checks` are still placeholder-level.
+  - Produced a scope-locked execution plan for the next implementation pass.
+- **Decisions made**:
+  - The instruction set is **strongly aligned** with the latest handoff trajectory and is appropriate as the immediate next execution task.
+  - Corrected one date detail for execution hygiene: since this session date is **2026-04-07**, the required handoff append date should be `2026-04-07` (not `2026-04-08`, which is in the future at execution time).
+  - Clarified one practical scope note: the instruction says “no other files edited,” but also requires a `HANDOFF.md` update. Execution should therefore explicitly allow two touched files only:
+    1. `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` (only the two target sections),
+    2. `HANDOFF.md` (session log append only).
+- **Execution plan (next implementation session)**:
+  1. Edit only `## Common Mistakes and How to Avoid Them` and `## Quick Checks` in Unit 11 with concise, learner-facing draft content directly tied to earlier populated sections.
+  2. Leave all other Unit 11 sections unchanged as placeholders.
+  3. Run `npm run build`.
+  4. Run a short `npm run dev` smoke check and verify `/units/unit-11-bridge-to-fractions-and-rational-numbers` renders (including math formatting).
+  5. Append a dated execution summary to `HANDOFF.md` describing files touched, decisions, risks, and next bounded step.
+- **Blockers / risks**:
+  - Main risk is scope drift into neighboring sections; mitigate via strict section-bound editing.
+  - Minor tone/notation alignment may still need a later micro-pass after additional Unit 11 sections are populated.
+- **Suggested next prompt**:
+  - "Execute a strict bounded Unit 11 pass: populate only `## Common Mistakes and How to Avoid Them` and `## Quick Checks` in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`, keep all other sections unchanged, run `npm run build` plus a short `npm run dev` smoke check on the Unit 11 route, and append a dated `HANDOFF.md` execution summary. Do not edit indexes/templates/other units."
+
 ## Session 2026-04-07 (Unit 11 Formal Definition + Worked Examples Bounded Population)
 - **What changed**:
   - Populated exactly two sections in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`:

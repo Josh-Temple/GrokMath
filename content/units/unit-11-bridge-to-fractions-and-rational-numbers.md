@@ -89,13 +89,34 @@ So $\frac{2}{3}$ is greater than $\frac{3}{5}$.
 
 ## Common Mistakes and How to Avoid Them
 
-- Learners may confuse fraction simplification with value change; this will be clarified.
-- Learners may misread negative signs in fractions; correction cues will be included.
+- **Mistake:** Thinking a simplified fraction has a different value (for example, believing $\frac{2}{4}$ is “smaller” than $\frac{1}{2}$ because 2 is bigger than 1).  
+  **How to avoid it:** Reuse the equivalence rule from the formal section: multiplying or dividing numerator and denominator by the same nonzero integer keeps the value unchanged.
+
+- **Mistake:** Treating the negative sign as attached to only one part of the fraction in inconsistent ways.  
+  **How to avoid it:** Rewrite with one clear sign location each time (for example, $-\frac{3}{5}=\frac{-3}{5}=\frac{3}{-5}$) before comparing or ordering.
+
+- **Mistake:** Assuming the fraction with the larger denominator is always larger.  
+  **How to avoid it:** Compare same-sign fractions using a common denominator (as in Worked Example 3), then compare numerators.
+
+- **Mistake:** Ordering negative fractions by absolute value only (for example, saying $-\frac{1}{2}< -\frac{5}{4}$ because $\frac{1}{2}<\frac{5}{4}$).  
+  **How to avoid it:** Place both numbers on a number line idea first: farther left means smaller, so $-\frac{5}{4}< -\frac{1}{2}$.
 
 ## Quick Checks
 
-- Short formative checks will verify readiness for rational-number operations.
-- Immediate answers will be provided after each prompt in the full draft.
+1. Are $\frac{4}{6}$ and $\frac{2}{3}$ equal rational numbers?  
+   - **Check:** Yes. Divide numerator and denominator of $\frac{4}{6}$ by 2 to get $\frac{2}{3}$.
+
+2. Which is greater: $-\frac{2}{7}$ or $\frac{1}{7}$?  
+   - **Check:** $\frac{1}{7}$ is greater because any positive rational number is greater than any negative rational number.
+
+3. Rewrite $-\frac{5}{8}$ in two equivalent signed forms.  
+   - **Check:** Example answers: $\frac{-5}{8}$ and $\frac{5}{-8}$.
+
+4. Put in order from least to greatest: $\frac{3}{4},\ -\frac{1}{4},\ \frac{1}{2}$.  
+   - **Check:** $-\frac{1}{4},\ \frac{1}{2},\ \frac{3}{4}$.
+
+5. Which is greater: $\frac{5}{6}$ or $\frac{7}{9}$?  
+   - **Check:** Use denominator 18: $\frac{5}{6}=\frac{15}{18}$ and $\frac{7}{9}=\frac{14}{18}$, so $\frac{5}{6}$ is greater.
 
 ## Graded Exercises
 
