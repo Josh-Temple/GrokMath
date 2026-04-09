@@ -1,3 +1,51 @@
+## Session 2026-04-09 (Unit 11 Graded Exercises + Summary Bounded Population)
+- **What changed**:
+  - Populated exactly two sections in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`:
+    - `## Graded Exercises`
+    - `## Summary and Key Takeaways`
+  - Added 9 progressive graded exercises (Level 1 -> Level 3) plus a concise hints/solutions block tied to prior Unit 11 concepts (equivalence, sign, ordering, number-line interpretation).
+  - Replaced summary placeholders with a concise key-takeaways recap that bridges into upcoming rational-number operations.
+  - Ran `npm run build` successfully and completed a short `npm run dev` smoke check with HTTP 200 on `/units/unit-11-bridge-to-fractions-and-rational-numbers`.
+- **Decisions made**:
+  - Enforced strict section-bound scope inside Unit 11 and left all other Unit 11 sections unchanged.
+  - Kept exercises concise, supportive, and progressively challenging to maintain the unit’s intuitive-to-formal flow.
+  - Did not edit indexes, templates, or any other unit files in this pass.
+- **What’s next**:
+  1. Populate any remaining placeholder sections in Unit 11 (especially `## Next Steps / Connections`) in a bounded follow-up.
+  2. Run a light notation/tone consistency micro-pass for Unit 11 against Units 8-10 after remaining placeholders are resolved.
+  3. Optionally perform index synchronization only if/when Unit 11 is considered sufficiently complete for status tracking updates.
+- **Blockers / risks**:
+  - Minor pedagogical depth imbalance can persist until final placeholder sections are completed.
+  - A brief later polish pass may still be needed for final wording/notation smoothness across Unit 11.
+- **Suggested next prompt**:
+  - "Run a strict bounded Unit 11 completion pass: populate only the remaining placeholder section(s) (starting with `## Next Steps / Connections`) in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`, keep all other files unchanged, run `npm run build` plus a short `npm run dev` smoke check, and append a dated HANDOFF execution summary."
+
+## Session 2026-04-08 (Grok Instruction Validity Review + Execution Plan for Unit 11 Graded/Summary Pass)
+- **What changed**:
+  - Re-read `README.md`, `HANDOFF.md`, and `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` to validate the new Grok instruction block.
+  - Confirmed repository state matches the proposal: Unit 11 is populated through `## Quick Checks`, while `## Graded Exercises` and `## Summary and Key Takeaways` remain placeholders.
+  - Produced a strict, scope-locked implementation plan for the next execution pass.
+- **Decisions made**:
+  - The instruction set is **highly valid** and directly aligned with the latest explicit next step from the 2026-04-07 handoff.
+  - Scope guardrail clarified: although the block says “no other files edited,” this project requires a `HANDOFF.md` session update each run. Practical execution scope should therefore allow two touched files only:
+    1. `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` (only `## Graded Exercises` and `## Summary and Key Takeaways`),
+    2. `HANDOFF.md` (session log append only).
+  - Date check normalized for this session: appending under `2026-04-08` is correct for today.
+- **Execution plan (next implementation session)**:
+  1. Edit exactly one lesson file: `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`.
+  2. Populate only:
+     - `## Graded Exercises` with 4-6 progressively difficult items plus concise hints/solutions style support.
+     - `## Summary and Key Takeaways` with a concise recap linked to upcoming rational-number operations.
+  3. Leave every other Unit 11 section unchanged.
+  4. Run `npm run build`.
+  5. Run a short `npm run dev` smoke test and verify `/units/unit-11-bridge-to-fractions-and-rational-numbers` returns successfully.
+  6. Append an execution entry to `HANDOFF.md` with outcomes, decisions, and residual risks.
+- **Blockers / risks**:
+  - Temporary depth imbalance remains until remaining Unit 11 placeholder sections are completed.
+  - Minor notation/tone alignment may require a later micro-pass after final section population.
+- **Suggested next prompt**:
+  - "Execute a strict bounded Unit 11 pass: populate only `## Graded Exercises` and `## Summary and Key Takeaways` in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`, keep all other sections unchanged, run `npm run build` plus a short `npm run dev` smoke check for the Unit 11 route, and append a dated HANDOFF execution summary. Do not edit indexes/templates/other units."
+
 ## Session 2026-04-07 (Unit 11 Common Mistakes + Quick Checks Bounded Population)
 - **What changed**:
   - Populated exactly two sections in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`:
