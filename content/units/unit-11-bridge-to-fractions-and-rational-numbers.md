@@ -120,13 +120,47 @@ So $\frac{2}{3}$ is greater than $\frac{3}{5}$.
 
 ## Graded Exercises
 
-- Level 1 to Level 3 exercise sets will be added with increasing difficulty.
-- A concise solutions block will be included when the unit is populated.
+### Level 1 - Warm-up
+
+1. Rewrite each as an equivalent rational number:
+   - $\frac{3}{5}$ with denominator 20,
+   - $-\frac{2}{3}$ with denominator 12.
+2. Which is greater: $-\frac{1}{6}$ or $\frac{1}{6}$? Explain with a number-line idea.
+3. Put in order from least to greatest: $-\frac{3}{4},\ \frac{1}{2},\ -\frac{1}{4}$.
+
+### Level 2 - Core Practice
+
+4. Compare without decimals by using a common denominator: $\frac{5}{8}$ or $\frac{2}{3}$.
+5. Compare and justify: $-\frac{7}{10}$ or $-\frac{3}{5}$.
+6. Write two different fractions equivalent to $-\frac{4}{9}$, then state whether each is less than or greater than $-\frac{1}{2}$.
+
+### Level 3 - Challenge
+
+7. A hiker starts at 0 on a trail marker line. They move $+\frac{3}{2}$ miles, then $-\frac{5}{4}$ miles. What is their final position? Is it to the left or right of 0?
+8. A student claims: “If two fractions have the same numerator, the one with the larger denominator is always larger, even for negatives.” Give one counterexample and explain.
+9. Place these numbers on a number line from least to greatest, showing your comparison method: $-\frac{11}{12},\ -1,\ -\frac{5}{6},\ \frac{1}{3}$.
+
+### Hints / Solutions (concise)
+
+1. $\frac{3}{5}=\frac{12}{20}$ and $-\frac{2}{3}=-\frac{8}{12}$.
+2. $\frac{1}{6}$ is greater because any positive rational number is greater than any negative rational number.
+3. $-\frac{3}{4} < -\frac{1}{4} < \frac{1}{2}$.
+4. Common denominator 24: $\frac{5}{8}=\frac{15}{24}$ and $\frac{2}{3}=\frac{16}{24}$, so $\frac{2}{3}$ is greater.
+5. Rewrite $-\frac{3}{5}$ as $-\frac{6}{10}$. Then $-\frac{7}{10} < -\frac{6}{10}$, so $-\frac{3}{5}$ is greater.
+6. Example: $-\frac{4}{9}= -\frac{8}{18}= -\frac{12}{27}$; since $-\frac{1}{2}=-\frac{9}{18}$ and $-\frac{8}{18}>-\frac{9}{18}$, the value is greater than $-\frac{1}{2}$.
+7. $+\frac{3}{2}-\frac{5}{4}=\frac{6}{4}-\frac{5}{4}=\frac{1}{4}$, so final position is right of 0.
+8. Counterexample: $-\frac{1}{2}$ and $-\frac{1}{5}$. Here denominator 5 is larger, but $-\frac{1}{5}$ is greater (closer to 0), so the claim is false.
+9. Use denominator 12: $-\frac{11}{12},\ -1=-\frac{12}{12},\ -\frac{5}{6}=-\frac{10}{12},\ \frac{1}{3}=\frac{4}{12}$. Order: $-1,\ -\frac{11}{12},\ -\frac{5}{6},\ \frac{1}{3}$.
 
 ## Summary and Key Takeaways
 
-- This section will restate the bridge from elementary fractions to rational numbers.
-- It will list the few highest-priority ideas to retain before the next unit.
+- Rational numbers extend fraction ideas by adding **sign** and **position** on the full number line.
+- Equivalent fractions still represent the same value; rewriting forms is a key tool for clear comparison.
+- To compare signed rational numbers reliably:
+  - first check sign (positive vs negative),
+  - then compare same-sign values using equivalent fractions/common denominators.
+- Number-line thinking prevents common ordering mistakes, especially with negatives.
+- This bridge prepares you for the next step: operating with rational numbers (addition, subtraction, multiplication, and division) with conceptual understanding, not memorized rules.
 
 ## Next Steps / Connections
 
