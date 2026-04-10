@@ -1,3 +1,53 @@
+## Session 2026-04-09 (Unit 11 Next Steps / Connections Final Placeholder Completion)
+- **What changed**:
+  - Populated only `## Next Steps / Connections` in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` with concise forward links to upcoming rational-number operations, real-world applications, and targeted follow-up practice.
+  - Ran `npm run build` successfully.
+  - Ran a short `npm run dev` smoke test and verified HTTP 200 at `/units/unit-11-bridge-to-fractions-and-rational-numbers`.
+  - Unit 11 is now fully drafted (all canonical sections populated).
+- **Decisions made**:
+  - Enforced strict single-section lesson edit scope for Unit 11 completion.
+  - Kept added language connective and forward-looking to bridge this unit into the next rational-number workflow.
+  - Date normalization note: prior external instruction requested a `2026-04-10` handoff header, but this execution occurred on **2026-04-09**, so the handoff date reflects actual execution day.
+- **What’s next**:
+  1. Run a lightweight notation/tone consistency micro-pass across Unit 11.
+  2. Optionally extend that micro-pass to Units 8-10 for bridge-flow continuity.
+  3. Optionally review whether index synchronization should mark Unit 11 status progress.
+- **Blockers / risks**:
+  - Minor wording/notation alignment with neighboring units may still benefit from a focused polish pass.
+  - Over-polish risk remains; mitigate by keeping the next pass strictly lightweight and bounded.
+- **Suggested next prompt**:
+  - "Run a targeted consistency micro-pass on Unit 11 only (optionally Units 8-10): keep headings/frontmatter unchanged, apply minimal wording/notation harmonization, run `npm run build` and a short `npm run dev` smoke check on key unit routes, then append a dated HANDOFF summary with decisions and residual risks."
+
+## Session 2026-04-09 (Grok Instruction Validity Review + Execution Plan for Unit 11 Final Section)
+- **What changed**:
+  - Re-read `README.md`, `HANDOFF.md`, `content/lesson-template.md`, and `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` to validate the newly provided Grok instruction block for the final Unit 11 placeholder.
+  - Confirmed current repo reality matches the proposal: Unit 11 is fully populated through `## Summary and Key Takeaways`, and only `## Next Steps / Connections` remains placeholder-level.
+  - Produced a strict, execution-ready plan that preserves heading order, frontmatter integrity, and bounded single-section editing.
+- **Decisions made**:
+  - The instruction set is **valid and high-priority aligned** with the latest handoff trajectory.
+  - Identified one scope contradiction and resolved it explicitly for execution hygiene:
+    - The block says “no other files edited,”
+    - but repository operating rules require a `HANDOFF.md` update every session.
+    - Practical execution scope should therefore permit exactly two touched files in the implementation run:
+      1. `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` (edit only `## Next Steps / Connections`),
+      2. `HANDOFF.md` (append session summary only).
+  - Date normalization: because this validation session is on **2026-04-09**, any required future execution handoff entry should use its real execution date (for example, `2026-04-10` only if work actually runs that day).
+- **Execution plan (next implementation session)**:
+  1. Edit exactly one lesson section in Unit 11: replace only the placeholder in `## Next Steps / Connections`.
+  2. Add concise forward links (3-5 bullets/short lines) connecting this bridge to:
+     - rational-number operations,
+     - real-world interpretation contexts,
+     - practical follow-up/review targets.
+  3. Leave every other Unit 11 section unchanged; do not edit indexes/templates/other units.
+  4. Run `npm run build`.
+  5. Run a short `npm run dev` smoke test and verify `/units/unit-11-bridge-to-fractions-and-rational-numbers` responds successfully.
+  6. Append a dated execution summary to `HANDOFF.md` with outcomes, decisions, and residual risks.
+- **Blockers / risks**:
+  - Main risk is accidental scope drift into nearby sections during finalization; mitigate with section-locked editing.
+  - Minor wording/notation harmonization may still be needed in a later lightweight consistency pass.
+- **Suggested next prompt**:
+  - "Execute a strict bounded Unit 11 completion pass: populate only `## Next Steps / Connections` in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`, keep all other lesson/index/template files unchanged, run `npm run build` plus a short `npm run dev` smoke check for the Unit 11 route, and append a dated HANDOFF execution summary."
+
 ## Session 2026-04-09 (Unit 11 Graded Exercises + Summary Bounded Population)
 - **What changed**:
   - Populated exactly two sections in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`:
