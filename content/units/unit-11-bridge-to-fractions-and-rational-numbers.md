@@ -164,5 +164,8 @@ So $\frac{2}{3}$ is greater than $\frac{3}{5}$.
 
 ## Next Steps / Connections
 
-- The next unit can extend this foundation into operations with rational numbers.
-- Optional connections to coordinate plane interpretation can be added later.
+- Next, you will use these sign-and-size ideas to add, subtract, multiply, and divide rational numbers with meaning, not just rules.
+- Keep using number-line reasoning to predict whether answers should be positive, negative, or zero before calculating.
+- Connect this unit to real contexts such as temperature change, elevation above/below sea level, and financial gain/loss.
+- For extra practice, revisit comparison and ordering problems, then explain each decision using sign first and equivalence/common denominators second.
+- This bridge also prepares you for coordinate-plane work and early algebra, where signed rational values appear in tables, graphs, and equations.
