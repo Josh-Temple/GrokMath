@@ -23,9 +23,9 @@ tags:
 
 ## Intuitive Explanation
 
-Think about a hiking trail marker where the parking lot is labeled as 0 miles. If you walk 2 miles east, you are at +2. If you walk 2 miles west, you are at -2. Fractions work the same way: +$\frac{1}{2}$ and -$\frac{1}{2}$ are equal distances from 0, just in opposite directions.
+Think about a hiking trail marker where the parking lot is labeled as 0 miles. If you walk 2 miles east, you are at $+2$. If you walk 2 miles west, you are at $-2$. Fractions work the same way: $+\frac{1}{2}$ and $-\frac{1}{2}$ are equal distances from 0, just in opposite directions.
 
-Now imagine sharing a pizza. You already know that $\frac{1}{2}$, $\frac{2}{4}$, and $\frac{3}{6}$ can name the same amount. Rational-number thinking keeps that idea, but adds direction: owing half a dollar (-$\frac{1}{2}$) is not the same situation as having half a dollar (+$\frac{1}{2}$), even though the size is the same.
+Now imagine sharing a pizza. You already know that $\frac{1}{2}$, $\frac{2}{4}$, and $\frac{3}{6}$ can name the same amount. Rational-number thinking keeps that idea, but adds direction: owing half a dollar ($-\frac{1}{2}$) is not the same situation as having half a dollar ($+\frac{1}{2}$), even though the size is the same.
 
 So this unit is a bridge: we keep familiar fraction size ideas, then add sign and position on the number line. Once those two ideas feel natural, later rules for comparing and operating with rational numbers make much more sense instead of feeling like isolated formulas.
 
@@ -142,13 +142,13 @@ So $\frac{2}{3}$ is greater than $\frac{3}{5}$.
 
 ### Hints / Solutions (concise)
 
-1. $\frac{3}{5}=\frac{12}{20}$ and $-\frac{2}{3}=-\frac{8}{12}$.
+1. $\frac{3}{5}=\frac{12}{20}$ and $-\frac{2}{3}=\frac{-8}{12}$.
 2. $\frac{1}{6}$ is greater because any positive rational number is greater than any negative rational number.
 3. $-\frac{3}{4} < -\frac{1}{4} < \frac{1}{2}$.
 4. Common denominator 24: $\frac{5}{8}=\frac{15}{24}$ and $\frac{2}{3}=\frac{16}{24}$, so $\frac{2}{3}$ is greater.
 5. Rewrite $-\frac{3}{5}$ as $-\frac{6}{10}$. Then $-\frac{7}{10} < -\frac{6}{10}$, so $-\frac{3}{5}$ is greater.
-6. Example: $-\frac{4}{9}= -\frac{8}{18}= -\frac{12}{27}$; since $-\frac{1}{2}=-\frac{9}{18}$ and $-\frac{8}{18}>-\frac{9}{18}$, the value is greater than $-\frac{1}{2}$.
-7. $+\frac{3}{2}-\frac{5}{4}=\frac{6}{4}-\frac{5}{4}=\frac{1}{4}$, so final position is right of 0.
+6. Example: $-\frac{4}{9}=\frac{-8}{18}=\frac{-12}{27}$; since $-\frac{1}{2}=\frac{-9}{18}$ and $\frac{-8}{18}>\frac{-9}{18}$, the value is greater than $-\frac{1}{2}$.
+7. $\frac{3}{2}-\frac{5}{4}=\frac{6}{4}-\frac{5}{4}=\frac{1}{4}$, so the final position is to the right of 0.
 8. Counterexample: $-\frac{1}{2}$ and $-\frac{1}{5}$. Here denominator 5 is larger, but $-\frac{1}{5}$ is greater (closer to 0), so the claim is false.
 9. Use denominator 12: $-\frac{11}{12},\ -1=-\frac{12}{12},\ -\frac{5}{6}=-\frac{10}{12},\ \frac{1}{3}=\frac{4}{12}$. Order: $-1,\ -\frac{11}{12},\ -\frac{5}{6},\ \frac{1}{3}$.
 

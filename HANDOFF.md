@@ -1,3 +1,50 @@
+## Session 2026-04-11 (Unit 11 Lightweight Notation/Tone Micro-pass Execution)
+- **What changed**:
+  - Applied a lightweight notation/tone/consistency micro-pass to `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` only, with minimal wording and KaTeX harmonization.
+  - Standardized inline signed-number formatting in the intuitive section (for example, `$+2$`, `$-2$`, `$+\frac{1}{2}$`, `$-\frac{1}{2}$`) for consistent math rendering.
+  - Harmonized a few hints/solutions expressions to keep signed-fraction notation consistent (for example, `\frac{-8}{12}`, `\frac{-8}{18}`, `\frac{-12}{27}`) while preserving meaning and structure.
+  - Ran `npm run build` successfully.
+  - Ran a short `npm run dev` smoke test and confirmed HTTP 200 for `/units/unit-11-bridge-to-fractions-and-rational-numbers`.
+- **Decisions made**:
+  - Kept scope strictly bounded to Unit 11 harmonization plus mandatory `HANDOFF.md` update.
+  - Preserved frontmatter, heading order, section order, and content depth; no structural edits or index/template changes.
+  - Chose minimal normalization over stylistic rewriting to avoid over-polish risk.
+- **What’s next**:
+  1. Optionally extend the same lightweight notation/tone micro-pass to Units 8-10 for bridge-flow continuity.
+  2. Optionally perform index synchronization if/when Unit 11 should be marked as polished in tracking views.
+  3. Or start a bounded first pass on the next unit while preserving the same minimal-scope execution discipline.
+- **Blockers / risks**:
+  - Minor residual phrasing inconsistencies may still exist across the broader unit spine.
+  - Mitigation remains lightweight, focused passes with strict file and section boundaries.
+- **Suggested next prompt**:
+  - "Choose one bounded follow-up: (A) extend the same lightweight notation/tone micro-pass to Units 8-10 only, or (B) start the next unit with 1-2 sections populated from the canonical template. In either case, keep edits minimal, run `npm run build` and a short `npm run dev` smoke check, then append a dated HANDOFF execution summary with decisions and risks."
+
+## Session 2026-04-10 (Grok Instruction Validity Review + Execution Plan for Unit 11 Micro-pass)
+- **What changed**:
+  - Re-read `README.md`, `HANDOFF.md`, and the provided Grok instruction block (A-H) to validate scope, constraints, and feasibility.
+  - Verified the instruction’s main direction is aligned with the latest handoff priority: a lightweight notation/tone consistency micro-pass focused on Unit 11.
+  - Produced a strict execution plan with guardrails to prevent scope drift and protect build/routing integrity.
+- **Decisions made**:
+  - The instruction set is **mostly valid** and high-priority aligned with the current repository trajectory.
+  - Scope contradiction resolved for operational compliance:
+    - The Grok block says “edit exactly one file,”
+    - but repository operating rules require updating `HANDOFF.md` every session.
+    - Practical implementation scope should therefore allow exactly two touched files in execution runs:
+      1. `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` (minimal harmonization only),
+      2. `HANDOFF.md` (session log append only).
+  - Keep all Unit 11 headings/frontmatter/section order unchanged; no index/template/other-unit edits.
+- **Execution plan (next implementation session)**:
+  1. Open Unit 11 and perform a micro-pass limited to minimal wording and notation/KaTeX harmonization.
+  2. Preserve all structure and content depth (no section additions/removals, no heading edits, no frontmatter changes).
+  3. Run `npm run build`.
+  4. Run a short `npm run dev` smoke test and verify `/units/unit-11-bridge-to-fractions-and-rational-numbers` responds successfully.
+  5. Append an execution-focused handoff entry with exact changes, verification outcomes, and residual risks.
+- **Blockers / risks**:
+  - Primary risk is over-editing during a polish pass; mitigation is strict minimal-change discipline.
+  - Minor residual consistency variance across neighboring units may remain; defer to optional follow-up passes rather than expanding scope today.
+- **Suggested next prompt**:
+  - "Execute a strict, lightweight Unit 11 micro-pass: apply only minimal wording and KaTeX/notation harmonization in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`, preserve headings/frontmatter/order/content depth, run `npm run build` plus a short `npm run dev` smoke check on the Unit 11 route, then append a dated HANDOFF execution summary. Do not edit indexes/templates/other units."
+
 ## Session 2026-04-09 (Unit 11 Next Steps / Connections Final Placeholder Completion)
 - **What changed**:
   - Populated only `## Next Steps / Connections` in `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` with concise forward links to upcoming rational-number operations, real-world applications, and targeted follow-up practice.
