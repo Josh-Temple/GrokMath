@@ -1,3 +1,64 @@
+## Session 2026-04-12 (Units 8-10 Lightweight Notation/Tone Micro-pass Execution)
+- **What changed**:
+  - Executed a lightweight notation/tone/consistency micro-pass on exactly these lesson files:
+    - `content/units/unit-8-proportional-reasoning-and-percentages.md`
+    - `content/units/unit-9-functions-and-basic-graphing.md`
+    - `content/units/unit-10-elementary-probability-and-statistics.md`
+  - Kept edits minimal and meaning-preserving (supportive phrasing and small notation normalization only), with no heading/frontmatter/section-order changes.
+  - Ran `npm run build` successfully.
+  - Ran a short `npm run dev` smoke test and confirmed HTTP 200 for:
+    - `/units/unit-8-proportional-reasoning-and-percentages`
+    - `/units/unit-9-functions-and-basic-graphing`
+    - `/units/unit-10-elementary-probability-and-statistics`
+    - `/units/unit-11-bridge-to-fractions-and-rational-numbers`
+- **Decisions made**:
+  - Scope was limited to bridge Units 8-10 for continuity with Unit 11, per the latest handoff direction.
+  - Enforced minimal-edit discipline to avoid over-polish and preserve original instructional intent.
+  - Left indexes/templates and all non-target units unchanged.
+- **What’s next**:
+  1. Optionally synchronize index/status views if Unit 11 completion state should now be reflected explicitly.
+  2. Or start a bounded first pass on Unit 12 (for example, rational-number operations) using the canonical template sequence.
+  3. Or run a targeted dependency/ESLint stability check if local environment reliability becomes a workflow blocker.
+- **Blockers / risks**:
+  - Minor residual phrasing/notation inconsistencies may still exist across the full curriculum spine.
+  - Dependency-install reliability can vary by environment; keep verification steps explicit in each session.
+  - Mitigation remains strict bounded passes plus build/smoke checks.
+- **Suggested next prompt**:
+  - "Choose one bounded follow-up for today: (A) sync `content/index.md` and `curriculum/index.md` to reflect Unit 11 completion status, or (B) start Unit 12 with only 1-2 canonical sections populated, or (C) run a focused dependency/ESLint stability pass if local workflow blockers appear. In all cases, keep scope tight, run `npm run build` plus a short `npm run dev` smoke check on affected routes, then append a dated HANDOFF execution summary."
+
+## Session 2026-04-11 (Grok Instruction Validity Review + Execution Plan for Units 8–10 Micro-pass)
+- **What changed**:
+  - Re-read `README.md`, `HANDOFF.md`, and the provided Grok instruction block to validate scope, constraints, and feasibility.
+  - Confirmed target lesson filenames for the proposed bounded edit set:
+    - `content/units/unit-8-proportional-reasoning-and-percentages.md`
+    - `content/units/unit-9-functions-and-basic-graphing.md`
+    - `content/units/unit-10-elementary-probability-and-statistics.md`
+  - Produced a strict implementation plan for a minimal harmonization pass plus local verification.
+- **Decisions made**:
+  - The instruction is **largely valid** and aligns with the latest handoff direction to optionally extend the Unit 11 micro-pass to Units 8–10.
+  - Date normalization applied: this planning session runs on **2026-04-11**, so any execution handoff entry should use the actual execution date (for example, `2026-04-12` only if work is actually executed on April 12, 2026).
+  - Scope contradiction resolved for repository policy compliance:
+    - Grok block says lesson edits should be limited to Units 8–10 only,
+    - while repository operating rules require `HANDOFF.md` updates every session.
+    - Practical implementation scope should therefore allow exactly four touched files in the execution run:
+      1. the three target unit lesson files (minimal wording/notation harmonization only), and
+      2. `HANDOFF.md` (session summary append only).
+- **Execution plan (next implementation session)**:
+  1. Apply a lightweight notation/tone/consistency micro-pass only in Units 8–10 (no heading/frontmatter/order/template/index changes).
+  2. Keep edits minimal and meaning-preserving: supportive phrasing consistency, KaTeX/notation normalization, and sentence-flow smoothing only.
+  3. Run `npm run build`.
+  4. Run a short `npm run dev` smoke test and confirm HTTP 200 for:
+     - `/units/unit-8-proportional-reasoning-and-percentages`
+     - `/units/unit-9-functions-and-basic-graphing`
+     - `/units/unit-10-elementary-probability-and-statistics`
+     - `/units/unit-11-bridge-to-fractions-and-rational-numbers` (continuity spot-check)
+  5. Append an execution-focused handoff entry with exact changes, decisions, and residual risks.
+- **Blockers / risks**:
+  - Main risk is over-editing during micro-pass; mitigation is strict minimal-change discipline and pre/post comparison.
+  - Minor residual inconsistencies may remain outside Units 8–11 and should be deferred to separate bounded passes.
+- **Suggested next prompt**:
+  - "Execute a strict, lightweight micro-pass on Units 8–10 only: apply minimal tone/notation harmonization in the three unit files, preserve headings/frontmatter/section order/content depth, run `npm run build` and a short `npm run dev` smoke test on Units 8–11 routes, then append a dated HANDOFF execution summary. Do not edit Unit 11 content, indexes, or templates."
+
 ## Session 2026-04-11 (Unit 11 Lightweight Notation/Tone Micro-pass Execution)
 - **What changed**:
   - Applied a lightweight notation/tone/consistency micro-pass to `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` only, with minimal wording and KaTeX harmonization.

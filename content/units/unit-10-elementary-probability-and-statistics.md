@@ -60,7 +60,7 @@ $$
 0 \le P(A) \le 1,
 $$
 
-with $P(A)=0$ impossible and $P(A)=1$ certain.
+with $P(A) = 0$ impossible and $P(A) = 1$ certain.
 
 - For a data set $x_1, x_2, \dots, x_n$, the **mean** is
 
@@ -114,7 +114,7 @@ $$
 
 2. Sort values: $6,7,8,9,10$.
 3. Median is the middle value: $8$.
-4. Interpretation: both mean and median are 8, so the center of the data is stable around 8.
+4. Interpretation: both mean and median are $8$, so the center of the data is stable around $8$.
 
 ### Example 4 - Extension / Edge Case: Outlier Effect on Mean vs Median
 
@@ -128,11 +128,11 @@ $$
 
 2. Sorted data is already listed; median is the 4th value: $2$.
 3. Compare results: the large value 10 pulls the mean upward more than the median.
-4. Conclusion: with outliers, median often represents the "typical" value better.
+4. Conclusion: with outliers, the median often represents the "typical" value better.
 
 ## Common Mistakes and How to Avoid Them
 
-- **Mistake:** Writing a probability bigger than 1.
+- **Mistake:** Writing a probability greater than 1.
   **How to avoid it:** Always check that probability stays between 0 and 1.
 - **Mistake:** Forgetting to list the full sample space before counting favorable outcomes.
   **How to avoid it:** Start every probability problem by explicitly listing or describing all possible outcomes.
