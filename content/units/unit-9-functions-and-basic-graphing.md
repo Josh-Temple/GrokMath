@@ -47,7 +47,7 @@ A smooth progression is:
 3. Name that constant change the **slope**.
 4. Then graph points to see why constant slope makes a straight line.
 
-This pacing helps avoid jumping too quickly from arithmetic tables to formal graph equations.
+This pacing helps you avoid jumping too quickly from arithmetic tables to formal graph equations.
 
 ## Formal Definition
 
@@ -85,7 +85,7 @@ Given $y = 2x + 1$, find outputs for $x = 0, 3, 5$.
 
 1. Substitute each input.
 2. Compute outputs: $1, 7, 11$.
-3. Write ordered pairs: $(0,1)$, $(3,7)$, $(5,11)$.
+3. Write ordered pairs: $(0, 1)$, $(3, 7)$, $(5, 11)$.
 
 ### Example 2 - Standard Variation: Build a Linear Table
 
@@ -109,7 +109,7 @@ Phone cost: base fee 15 dollars plus 8 dollars per extra GB.
 
 1. Let $x$ = extra GB, $y$ = total cost.
 2. Equation: $y = 8x + 15$.
-3. Interpret $b=15$: cost is 15 dollars even when $x=0$.
+3. Interpret $b = 15$: cost is 15 dollars even when $x = 0$.
 
 ## Common Mistakes and How to Avoid Them
 
@@ -120,7 +120,7 @@ Phone cost: base fee 15 dollars plus 8 dollars per extra GB.
 - **Mistake:** Confusing slope and intercept.
   **How to avoid it:** Slope = change rate; intercept = output when input is 0.
 - **Mistake:** Thinking every linear function is proportional.
-  **How to avoid it:** Proportional means $b=0$ and graph goes through origin.
+  **How to avoid it:** Proportional means $b = 0$ and the graph goes through the origin.
 
 ## Quick Checks
 

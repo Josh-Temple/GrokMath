@@ -20,7 +20,7 @@ tags: [ratios, proportions, percent, scale]
 
 Proportional reasoning helps us compare quantities fairly and predict what happens when values scale up or down. If a recipe for 4 people uses 3 cups of rice, how much rice is needed for 10 people? If a jacket is marked 25% off, how much money do you actually pay? If a map says 1 cm represents 5 km, how far apart are two cities that appear 7 cm apart?
 
-These questions all share the same idea: relationships matter more than raw numbers. Ratios, rates, proportions, and percentages help us describe those relationships clearly.
+These questions all share the same idea: relationships matter more than raw numbers. Ratios, rates, proportions, and percentages help you describe those relationships clearly.
 
 A **ratio** compares two quantities. For example, if a class has 12 girls and 8 boys, the ratio of girls to boys is $12:8$, which can be simplified to $3:2$.
 
@@ -40,9 +40,9 @@ For example, if 1 notebook costs 3 dollars, then a ratio table looks like this:
 |---|---:|---:|---:|---:|
 | Cost ($) | 3 | 6 | 9 | 12 |
 
-The pattern is proportional because each time the number of notebooks is multiplied by a factor, the cost is multiplied by the same factor.
+This pattern is proportional because each time the number of notebooks is multiplied by a factor, the cost is multiplied by the same factor.
 
-Percentages are another way to express ratios. The word **percent** means “per hundred.” So $35\%$ means $35$ out of $100$, or $\frac{35}{100} = 0.35$.
+Percentages are another way to express ratios. The word **percent** means "per hundred." So $35\%$ means $35$ out of $100$, or $\frac{35}{100} = 0.35$.
 
 ## Formal Definition
 
