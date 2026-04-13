@@ -33,7 +33,7 @@ Every mature unit should eventually include:
 - Use `curriculum/_templates/lesson-template.md` for sequencing notes and scope sketches.
 - Keep naming aligned with the published lesson inventory in `content/index.md`.
 
-## Starter Spine (Units 1-10)
+## Starter Spine (Units 1-11)
 
 1. Whole Numbers and Place Value
 2. Operations with Whole Numbers
@@ -45,6 +45,7 @@ Every mature unit should eventually include:
 8. Proportional Reasoning and Percentages
 9. Functions and Basic Graphing
 10. Elementary Probability and Statistics
+11. Bridge to Fractions and Rational Numbers
 
 ## Sequencing Rationale
 
@@ -52,6 +53,7 @@ Every mature unit should eventually include:
 - Units 6-8 shift learners into algebraic, geometric, and proportional structures.
 - Unit 9 introduces function representation and graph interpretation as a bridge into secondary mathematics.
 - Unit 10 introduces uncertainty models, descriptive statistics, and foundational data interpretation.
+- Unit 11 consolidates rational-number prerequisites (signed values, equivalence, ordering, and number-line interpretation) before full operations.
 
 ## Longer-Term Expansion Candidates
 
@@ -77,4 +79,5 @@ After stabilizing the starter spine, likely next additions include:
 - Units 1-8 now pass the structural heading-order alignment check as of 2026-03-29; subsequent passes should focus on quality depth, not heading migration.
 - Units 1-8 also completed a light answer-key consistency sweep on 2026-04-02; remaining work is targeted micro-polish rather than structural or scope expansion.
 - Units 9-10 completed a light answer-key consistency follow-up on 2026-04-03 with minimal section-local solution-key clarity/notation refinements, completing the starter-spine (Units 1-10) consistency sweep cycle.
-- Unit 10 has passed the planned polish/review step and is now synchronized as `Ready` with the publishable index.
+- Unit 10 has passed the planned polish/review step and is synchronized as `Ready` with the publishable index.
+- Unit 11 is fully drafted and lightly polished (micro-pass completed on 2026-04-11) and is synchronized as `Ready` with the publishable index.

@@ -1,8 +1,8 @@
 # GrokMath Curriculum Index
 
-This starter index defines the first 10 core units from elementary arithmetic to a proof-aware bridge toward university foundations.
+This starter index defines the first 11 core units from elementary arithmetic to a proof-aware bridge toward university foundations.
 
-## Starter Spine (Units 1-10)
+## Starter Spine (Units 1-11)
 
 | Unit | Title | Audience / Grade Band | Description | Status |
 |---|---|---|---|---|
@@ -16,6 +16,7 @@ This starter index defines the first 10 core units from elementary arithmetic to
 | 8 | Proportional Reasoning and Percentages | Grades 6-9 | Builds ratios, rates, proportions, and percentage applications for real-world numeracy and model-based reasoning. | Ready |
 | 9 | Functions and Basic Graphing | Grades 8-10 | Develops function thinking through tables, rules, coordinate graphs, slope, and linear representations. | Ready |
 | 10 | Elementary Probability and Statistics | Grades 8-11 | Introduces chance models, data summaries, and introductory statistical reasoning as the bridge after function graph literacy. | Ready |
+| 11 | Bridge to Fractions and Rational Numbers | Grades 6-8 | Consolidates signed numbers, fraction equivalence, ordering, and number-line reasoning as a bridge into full rational-number operations. | Ready |
 
 ## Sequencing Rationale
 
@@ -23,11 +24,13 @@ This starter index defines the first 10 core units from elementary arithmetic to
 - Units 6-8 transition learners from arithmetic to structural reasoning through algebra, geometry, and proportionality.
 - Unit 9 introduces function-based modeling and graph interpretation as a high-school bridge.
 - Unit 10 shifts from deterministic function rules to uncertainty, data interpretation, and early statistical reasoning.
+- Unit 11 consolidates signed fractions and ordering on the number line before full operations with rational numbers.
 
 ## Notes
 
-- Units 1-10 align with existing lesson files in `content/units/`.
-- Unit 10 has completed the polish pass and is now marked `Ready` in the publishable layer.
+- Units 1-11 align with existing lesson files in `content/units/`.
+- Unit 10 has completed the polish pass and is marked `Ready` in the publishable layer.
+- Unit 11 is fully drafted and lightly polished (notation/tone micro-pass complete as of 2026-04-11) and is now marked `Ready`.
 - Units 4-8 completed a 2026-03-29 structural alignment pass and now match canonical heading names/order (content depth polish can proceed separately).
 - Units 1-8 completed a light 2026-04-02 answer-key consistency sweep (notation, wording density, and multi-step clarity) with minimal section-local edits only.
 - Units 9-10 completed a light 2026-04-03 answer-key consistency follow-up using the same minimal rubric; edits stayed section-local to solution clarity/notation in existing answer-key sections.
