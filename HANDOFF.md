@@ -1,3 +1,52 @@
+## Session 2026-04-13 (Unit 11 Index Synchronization Execution)
+- **What changed**:
+  - Updated Unit 11 status alignment in both index layers:
+    - `content/index.md`
+    - `curriculum/index.md`
+  - Marked Unit 11 (Bridge to Fractions and Rational Numbers) as fully drafted and lightly polished, synchronized as `Ready` in both files.
+  - Expanded starter-spine references from Units 1-10 to Units 1-11 where needed so status metadata matches the current lesson inventory.
+  - Ran `npm run build` successfully.
+  - Ran a short `npm run dev` smoke test and confirmed HTTP 200 for:
+    - `/units`
+    - `/units/unit-11-bridge-to-fractions-and-rational-numbers`
+- **Decisions made**:
+  - Executed the bounded index-synchronization follow-up suggested in the latest handoff as the highest-leverage documentation update.
+  - Kept edits minimal and documentation-only (no unit content/template changes) to preserve lesson stability and avoid scope creep.
+- **What’s next**:
+  1. Begin a bounded first pass for the next starter unit (for example, Unit 12 on rational-number operations) with only 1-2 canonical sections populated.
+  2. Or run a lightweight dependency/ESLint stability check first if environment reliability becomes a blocker.
+  3. In either path, keep scope tight, run build + short smoke verification, then append a dated execution handoff.
+- **Blockers / risks**:
+  - Minor planning/publishable drift can recur if future unit-status changes are applied to only one index layer.
+  - Environment-dependent install/runtime variability can still affect repeatability of local verification steps.
+  - Mitigation remains strict scope control plus mandatory dual-index sync checks.
+- **Suggested next prompt**:
+  - "Start a strict bounded Unit 12 kickoff pass: populate only 1-2 canonical sections in the new unit file (or, if environment reliability is the blocker, run a focused dependency/ESLint stability check first), keep all existing units/indexes/templates unchanged otherwise, run `npm run build` and a short `npm run dev` smoke test on affected routes, then append a dated HANDOFF execution summary with decisions, risks, and the next bounded step."
+
+## Session 2026-04-12 (Grok Index-Sync Instruction Validity Review + Execution Plan)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md`, then reviewed the newly provided Grok instruction block (A-H) for scope, sequencing, constraints, and verification requirements.
+  - Confirmed the proposal is aligned with the latest handoff option from 2026-04-12 to synchronize Unit 11 status in both planning/publishable index layers.
+  - Produced a bounded implementation plan centered on two index files plus build/smoke verification.
+- **Decisions made**:
+  - The instruction set is **valid and high-leverage** for today because it improves curriculum visibility without touching lesson content structure.
+  - Scope note resolved for repository continuity rules: while Grok says to edit exactly two index files, this project also requires a `HANDOFF.md` update each session; practical execution should therefore allow three touched files in the execution run:
+    1. `content/index.md`
+    2. `curriculum/index.md`
+    3. `HANDOFF.md` (append-only session summary)
+  - Keep all unit files, templates, ordering, and route behavior unchanged.
+- **Execution plan (next implementation session)**:
+  1. Update only the Unit 11 status/wording in `content/index.md` and `curriculum/index.md` to reflect “fully drafted + lightweight polish complete” with minimal wording changes.
+  2. Preserve unit order, headings, and surrounding entries; do not edit any `content/units/*.md` files.
+  3. Run `npm run build`.
+  4. Run a short `npm run dev` smoke test and verify HTTP 200 for `/units` and `/units/unit-11-bridge-to-fractions-and-rational-numbers`.
+  5. Append an execution-focused HANDOFF entry with exact edits, results, decisions, and residual risks.
+- **Blockers / risks**:
+  - Minor wording drift can still occur between planning and publishable layers if only one index is updated in future sessions.
+  - Environment-specific dependency/runtime variability can affect repeatability of local verification steps.
+- **Suggested next prompt**:
+  - "Execute a strict index synchronization pass: update Unit 11 completion status in `content/index.md` and `curriculum/index.md` only (plus mandatory `HANDOFF.md` append), run `npm run build` and a short `npm run dev` smoke test for `/units` and Unit 11 route, then summarize decisions, risks, and next bounded step."
+
 ## Session 2026-04-12 (Units 8-10 Lightweight Notation/Tone Micro-pass Execution)
 - **What changed**:
   - Executed a lightweight notation/tone/consistency micro-pass on exactly these lesson files:
