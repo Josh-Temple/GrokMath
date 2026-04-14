@@ -1,3 +1,58 @@
+## Session 2026-04-14 (Unit 12 Bounded Kickoff Execution)
+- **What changed**:
+  - Created `content/units/unit-12-operations-with-rational-numbers.md`.
+  - Populated only the bounded initial authoring targets:
+    - frontmatter (`order: 12`, title/metadata/tags),
+    - `## Concept Map`,
+    - `## Intuitive Explanation`.
+  - Kept all remaining canonical sections in template order as explicit placeholders.
+  - Ran `npm run build` successfully.
+  - Ran a short `npm run dev` smoke verification and confirmed HTTP 200 for:
+    - `/units`
+    - `/units/unit-12-operations-with-rational-numbers`
+    - `/units/unit-11-bridge-to-fractions-and-rational-numbers` (continuity spot-check)
+- **Decisions made**:
+  - Enforced strict bounded scope for this session: new Unit 12 file creation plus mandatory `HANDOFF.md` append only.
+  - Chose concise conceptual framing tied directly to Unit 11 bridge outcomes (sign + size + operation meaning) to preserve continuity and avoid premature depth.
+  - Left indexes/templates/other unit files unchanged.
+- **What’s next**:
+  1. Continue bounded Unit 12 population by filling exactly the next 1-2 canonical sections (`## Formal Definition`, then `## Worked Examples`) in order.
+  2. Keep placeholder structure intact for all later sections until their dedicated sessions.
+  3. Re-run `npm run build` and short route smoke checks after each bounded pass.
+- **Blockers / risks**:
+  - Temporary pedagogical incompleteness is expected while placeholders remain; mitigated by strict section-by-section completion in canonical order.
+  - Minor tone alignment adjustments may still be needed once adjacent sections are filled; mitigated by referencing Unit 8-11 voice each pass.
+  - Dev-process lifecycle commands can vary by shell context; mitigate by using explicit process checks after smoke runs.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 12 pass: populate only `## Formal Definition` and `## Worked Examples` in `content/units/unit-12-operations-with-rational-numbers.md`, keep all other sections/placeholders/files unchanged, run `npm run build` and short `npm run dev` smoke checks for `/units` and Unit 12 route, then append a dated HANDOFF execution summary."
+
+## Session 2026-04-13 (Grok Unit 12 Kickoff Instruction Validity Review + Execution Plan)
+- **What changed**:
+  - Re-read `README.md`, `HANDOFF.md`, `content/lesson-template.md`, and `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md` to validate the provided Grok instruction block for a bounded Unit 12 kickoff.
+  - Confirmed repository reality is consistent with the proposal: Units 1-11 exist, Unit 11 is fully drafted, canonical section order is defined in `content/lesson-template.md`, and Unit 12 file is not yet present.
+  - Produced a strict execution plan for creating Unit 12 with only the first 1-2 canonical sections populated.
+- **Decisions made**:
+  - The instruction set is **valid and high-priority aligned** with the latest handoff direction from 2026-04-13.
+  - Scope guardrail refined for continuity policy: execution should touch exactly two files:
+    1. `content/units/unit-12-operations-with-rational-numbers.md` (new file, bounded section population),
+    2. `HANDOFF.md` (mandatory append-only session log).
+  - Keep all existing units (1-11), indexes, and templates unchanged during execution.
+- **Execution plan (next implementation session)**:
+  1. Create `content/units/unit-12-operations-with-rational-numbers.md` with valid frontmatter (`order: 12`, title, level/status/description/tags) and canonical top heading.
+  2. Populate only `## Concept Map` and `## Intuitive Explanation` with concise draft content connected to Unit 11 rational-number bridge.
+  3. Keep all remaining canonical sections present in exact template order as explicit placeholders.
+  4. Run `npm run build`.
+  5. Run a short `npm run dev` smoke check and confirm HTTP 200 for:
+     - `/units`
+     - `/units/unit-12-operations-with-rational-numbers`
+     - optional continuity spot-check: `/units/unit-11-bridge-to-fractions-and-rational-numbers`
+  6. Append an execution-focused 2026-04-14 handoff entry with changes, decisions, risks, and next bounded step.
+- **Blockers / risks**:
+  - Minor tone/notation drift is possible while Unit 12 remains partially populated; mitigate by anchoring all future additions to the canonical template and Unit 8-11 voice.
+  - Local dev smoke verification may vary by environment; mitigate with mandatory `npm run build` plus route-level HTTP checks.
+- **Suggested next prompt**:
+  - "Execute a strict bounded Unit 12 kickoff: create `content/units/unit-12-operations-with-rational-numbers.md`, populate only frontmatter + `## Concept Map` + `## Intuitive Explanation`, leave all later sections as placeholders in canonical order, run `npm run build` and short `npm run dev` smoke checks for `/units` and the Unit 12 route, then append a dated execution HANDOFF summary."
+
 ## Session 2026-04-13 (Unit 11 Index Synchronization Execution)
 - **What changed**:
   - Updated Unit 11 status alignment in both index layers:
