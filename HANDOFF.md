@@ -1,3 +1,53 @@
+## Session 2026-04-14 (Unit 12 Formal Definition + Worked Examples Execution)
+- **What changed**:
+  - Updated only `content/units/unit-12-operations-with-rational-numbers.md` to populate the next two canonical sections:
+    - `## Formal Definition`
+    - `## Worked Examples`
+  - Kept frontmatter, heading order, Concept Map, Intuitive Explanation, and all later sections unchanged.
+  - Added concise formal rules for rational-number operations (closure, sign handling, and nonzero divisor condition).
+  - Replaced placeholders with four step-by-step worked examples (addition, subtraction, multiplication, division) using KaTeX-compatible delimiters.
+  - Ran `npm run build` successfully.
+  - Ran a short `npm run dev` smoke test and confirmed HTTP 200 for:
+    - `/units`
+    - `/units/unit-12-operations-with-rational-numbers`
+    - `/units/unit-11-bridge-to-fractions-and-rational-numbers` (continuity spot-check)
+- **Decisions made**:
+  - Enforced strict bounded scope: no index/template/other-unit edits.
+  - Kept tone concise and supportive to align with Units 8-11 while preserving mathematical precision.
+  - Included 4 examples (instead of 2-3) to cover all core operations without expanding beyond this pass.
+- **What’s next**:
+  1. Continue bounded population of the next 1-2 sections in Unit 12 (recommended: `## Common Mistakes and How to Avoid Them`, then `## Quick Checks`).
+  2. Preserve strict section-order progression from the canonical template and avoid cross-file scope creep.
+  3. Re-run `npm run build` and short route smoke checks after the next bounded pass.
+- **Blockers / risks**:
+  - Minor notation/tone harmonization may still be needed after adjacent sections are drafted.
+  - Environment-level npm warnings (for example, config deprecation notices) may appear but currently do not block successful builds.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 12 pass: populate only `## Common Mistakes and How to Avoid Them` and `## Quick Checks` in `content/units/unit-12-operations-with-rational-numbers.md`, keep all other sections/files unchanged except mandatory `HANDOFF.md` append, run `npm run build` and short `npm run dev` smoke checks for `/units` and Unit 12 route, then record outcomes and next step."
+
+## Session 2026-04-14 (Instruction Validity Check + Execution Plan for Unit 12 Next Pass)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` per repository operating rules, then validated the newly provided Grok instruction block (A-H) against current repository state.
+  - Verified that `content/units/unit-12-operations-with-rational-numbers.md` currently has `Concept Map` and `Intuitive Explanation` drafted, while `Formal Definition` and `Worked Examples` remain placeholders.
+  - Prepared a bounded execution plan for the next implementation pass focused only on those two sections plus mandatory verification.
+- **Decisions made**:
+  - The instruction set is **largely valid** and aligned with the latest 2026-04-13/2026-04-14 handoff cadence for incremental Unit 12 authoring.
+  - Scope guardrail for the *execution* session should be: edit `content/units/unit-12-operations-with-rational-numbers.md` for the two target sections, then append `HANDOFF.md` (mandatory continuity rule). No other content/app files should change.
+  - Clarified one wording issue in the provided block: acceptance criteria should require a successful build (not necessarily “without warnings”), because warning-free output can vary by environment.
+- **Execution plan (next implementation session)**:
+  1. Edit only `content/units/unit-12-operations-with-rational-numbers.md`.
+  2. Replace placeholder text in `## Formal Definition` with concise, precise operation rules for rational numbers (closure and operation semantics, including sign behavior and division by nonzero rationals).
+  3. Replace placeholder `## Worked Examples` content with 2-4 step-by-step examples using valid KaTeX delimiters (`$...$`/`$$...$$`) across addition/subtraction/multiplication/division.
+  4. Leave all other sections/headings/frontmatter unchanged and in canonical template order.
+  5. Run `npm run build`.
+  6. Run short `npm run dev` smoke checks for `/units` and `/units/unit-12-operations-with-rational-numbers` (optionally Unit 11 continuity spot-check), then stop dev server cleanly.
+  7. Append a dated execution summary to `HANDOFF.md` with outcomes, decisions, risks, and next bounded step.
+- **Blockers / risks**:
+  - Minor tone/notation drift can still occur while Unit 12 is partially drafted; mitigated by anchoring wording to Unit 8-11 voice and canonical template structure.
+  - Local warning patterns can vary across environments; mitigated by treating `npm run build` success and route-level render checks as primary gates.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 12 pass: populate only `## Formal Definition` and `## Worked Examples` in `content/units/unit-12-operations-with-rational-numbers.md`, keep all other sections/files unchanged except mandatory `HANDOFF.md` append, run `npm run build` and short `npm run dev` smoke checks for `/units` and Unit 12 route, then record results and next step."
+
 ## Session 2026-04-14 (Unit 12 Bounded Kickoff Execution)
 - **What changed**:
   - Created `content/units/unit-12-operations-with-rational-numbers.md`.

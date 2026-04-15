@@ -35,27 +35,59 @@ In this unit, the main goal is to make each operation feel meaningful first. Onc
 
 ## Formal Definition
 
-[State the exact mathematical definition, property, or rule with precise language.]
+A **rational number** is any number that can be written as $\frac{a}{b}$ where $a, b \in \mathbb{Z}$ and $b \ne 0$.
+
+For rational numbers $x, y$:
+
+- **Closure:** $x + y$, $x - y$, and $x \cdot y$ are rational.
+- **Division rule:** $\frac{x}{y}$ is rational when $y \ne 0$.
+- **Add/subtract with signs:** combine signed values; same signs add magnitudes, different signs subtract magnitudes and keep the sign of the greater magnitude.
+- **Multiply/divide with signs:** same signs give a positive result, different signs give a negative result.
+
+Equivalent forms represent the same value, so we may rewrite before computing:
+
+$$
+\frac{a}{b} = \frac{ka}{kb} \quad (k \ne 0)
+$$
+
+This supports common denominators in addition/subtraction and simplification in multiplication/division.
 
 ## Worked Examples
 
-### Example 1 - Foundational
+### Example 1 - Add rational numbers with unlike denominators
 
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
+Compute $\frac{3}{4} + \left(-\frac{1}{2}\right)$.
 
-### Example 2 - Standard Variation
+1. Rewrite with a common denominator: $-\frac{1}{2} = -\frac{2}{4}$.
+2. Add numerators: $\frac{3}{4} + \left(-\frac{2}{4}\right) = \frac{1}{4}$.
+3. Interpret the sign and size: the result is positive, so the net change is a gain of $\frac{1}{4}$.
 
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
+### Example 2 - Subtract a negative rational number
 
-### Example 3 - Extension / Edge Case
+Compute $-\frac{5}{6} - \left(-\frac{1}{3}\right)$.
 
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
+1. Convert subtraction of a negative to addition: $-\frac{5}{6} + \frac{1}{3}$.
+2. Use denominator 6: $\frac{1}{3} = \frac{2}{6}$, so $-\frac{5}{6} + \frac{2}{6} = -\frac{3}{6}$.
+3. Simplify: $-\frac{3}{6} = -\frac{1}{2}$.
+
+### Example 3 - Multiply signed rational numbers
+
+Compute $\left(-\frac{2}{3}\right)\left(\frac{9}{10}\right)$.
+
+1. Determine sign first: negative times positive gives a negative result.
+2. Multiply and simplify: $\frac{2\cdot 9}{3\cdot 10} = \frac{18}{30} = \frac{3}{5}$.
+3. Attach the sign: $\left(-\frac{2}{3}\right)\left(\frac{9}{10}\right) = -\frac{3}{5}$.
+
+### Example 4 - Divide by a rational number
+
+Compute $\frac{3}{8} \div \left(-\frac{9}{16}\right)$.
+
+1. Rewrite division as multiplication by the reciprocal:
+   $$
+   \frac{3}{8} \cdot \left(-\frac{16}{9}\right)
+   $$
+2. Simplify across factors: $\frac{3}{9} = \frac{1}{3}$ and $\frac{16}{8} = 2$.
+3. Multiply remaining factors and apply sign: $\frac{1\cdot 2}{1\cdot 3} = \frac{2}{3}$, so the result is $-\frac{2}{3}$.
 
 ## Common Mistakes and How to Avoid Them
 
