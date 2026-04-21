@@ -1,3 +1,30 @@
+## Session 2026-04-20 (Unit 13 Bounded Kickoff Execution)
+- **What changed**:
+  - Created `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md`.
+  - Populated only the bounded initial targets:
+    - frontmatter (`order: 13`, title/metadata/tags),
+    - `## Concept Map`,
+    - `## Intuitive Explanation`.
+  - Kept all remaining canonical sections as explicit placeholders in template order.
+  - Ran `npm run build` successfully.
+  - Ran a short `npm run dev` smoke test and confirmed HTTP 200 for:
+    - `/units`
+    - `/units/unit-13-advanced-rational-applications-and-mixed-operations`
+    - `/units/unit-12-operations-with-rational-numbers` (continuity spot-check)
+- **Decisions made**:
+  - Chose **Advanced Rational Applications and Mixed Operations** as the next logical continuation of Unit 12.
+  - Enforced strict bounded scope: only the first 1-2 canonical sections were drafted.
+  - Kept indexes/templates/other unit files unchanged to prevent scope creep.
+- **What’s next**:
+  1. Continue bounded Unit 13 population with the next 1-2 sections (`## Formal Definition` and `## Worked Examples`).
+  2. Keep placeholder structure intact for all later sections until their dedicated sessions.
+  3. Re-run `npm run build` and short route smoke checks after each bounded pass.
+- **Blockers / risks**:
+  - Tone harmonization may still be needed once adjacent Unit 13 sections are drafted.
+  - Environment-level variability can affect dev-smoke timing, even when build succeeds.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 13 pass: populate only `## Formal Definition` and `## Worked Examples` in `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md`, keep all other sections/files unchanged except mandatory `HANDOFF.md` append, run `npm run build` and short `npm run dev` smoke checks for `/units`, Unit 13, and optional Unit 12 continuity, then record outcomes and next step."
+
 ## Session 2026-04-14 (Unit 12 Formal Definition + Worked Examples Execution)
 - **What changed**:
   - Updated only `content/units/unit-12-operations-with-rational-numbers.md` to populate the next two canonical sections:
