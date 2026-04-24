@@ -1,3 +1,55 @@
+## Session 2026-04-24 (Unit 13 Formal Definition + Worked Examples Execution)
+- **What changed**:
+  - Updated only `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md` to populate the next two canonical sections:
+    - `## Formal Definition`
+    - `## Worked Examples`
+  - Kept frontmatter, heading order, `Concept Map`, `Intuitive Explanation`, and all later sections unchanged.
+  - Added concise formal rules for mixed rational applications (operation mapping, operation order, equivalent forms, division constraints, and sign interpretation).
+  - Replaced placeholders with four step-by-step worked examples (net change, percent chain, signed-fraction/division case, and mixed-sign financial adjustment) using KaTeX-safe inline notation.
+  - Ran `npm run build` successfully.
+  - Ran a short `npm run dev` smoke test and confirmed HTTP 200 for:
+    - `/units`
+    - `/units/unit-13-advanced-rational-applications-and-mixed-operations`
+    - `/units/unit-12-operations-with-rational-numbers` (continuity spot-check)
+- **Decisions made**:
+  - Followed strict bounded scope for content edits: only the two target sections in Unit 13 were populated.
+  - Preserved all non-target Unit 13 placeholders and avoided changes to indexes/templates/other units.
+  - Chose clear inline KaTeX expressions in examples to keep rendering stable and readable within list-based markdown.
+- **What’s next**:
+  1. Continue bounded Unit 13 population with the next 1-2 sections (`## Common Mistakes and How to Avoid Them`, then `## Quick Checks`).
+  2. Keep canonical section order and placeholder discipline for later sections.
+  3. Re-run `npm run build` and short route smoke checks after the next bounded pass.
+- **Blockers / risks**:
+  - Minor tone/notation harmonization may still be needed after adjacent Unit 13 sections are drafted.
+  - Environment-level npm warnings (for example, config deprecation notices) may appear but currently do not block successful builds.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 13 pass: populate only `## Common Mistakes and How to Avoid Them` and `## Quick Checks` in `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md`, keep all other unit/template/index files unchanged except mandatory `HANDOFF.md` append, run `npm run build` and short `npm run dev` smoke checks for `/units` and Unit 13 (optionally Unit 12), then record outcomes and next step."
+
+## Session 2026-04-23 (Grok Unit 13 Instruction Validity Review + Execution Plan)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` per repository rules, then validated the provided Grok instruction block (A-H) against the current repository state.
+  - Confirmed Unit 13 continuity context: the file exists with `Concept Map` and `Intuitive Explanation` drafted, and the next canonical targets are `## Formal Definition` and `## Worked Examples`.
+  - Produced a bounded execution plan for the next implementation pass focused on the two target sections plus local verification.
+- **Decisions made**:
+  - The instruction set is **mostly valid** and aligned with the latest Unit 13 handoff direction from 2026-04-20.
+  - Clarified two policy conflicts to resolve before execution:
+    1. Scope text saying “no other files touched” must still allow mandatory `HANDOFF.md` update per `README.md`.
+    2. The requested handoff date `2026-04-22` should be normalized to the actual execution date (today is 2026-04-23 UTC in this session).
+  - Kept the recommended implementation scope strict: `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md` + append-only `HANDOFF.md`.
+- **Execution plan (next implementation session)**:
+  1. Edit only `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md`.
+  2. Populate `## Formal Definition` with concise, precise definitions/rules for mixed rational operations using KaTeX-safe notation.
+  3. Populate `## Worked Examples` with 3-4 step-by-step examples spanning standard and edge-case forms.
+  4. Leave frontmatter, section order, placeholders after Worked Examples, and all other files unchanged.
+  5. Run `npm run build`.
+  6. Run a short `npm run dev` smoke check and verify route rendering for `/units`, Unit 13, and optional Unit 12 continuity.
+  7. Append an execution-focused handoff entry dated with the actual execution day.
+- **Blockers / risks**:
+  - Minor notation/tone harmonization may still be needed after adjacent Unit 13 sections are drafted.
+  - Environment-level warnings may appear during npm tasks; treat successful build and route rendering as primary technical gates.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 13 pass: populate only `## Formal Definition` and `## Worked Examples` in `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md`, keep all other unit/template/index files unchanged, run `npm run build` and short `npm run dev` smoke checks for `/units` and Unit 13 (optionally Unit 12), then append a dated execution HANDOFF summary."
+
 ## Session 2026-04-20 (Unit 13 Bounded Kickoff Execution)
 - **What changed**:
   - Created `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md`.
