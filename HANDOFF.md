@@ -1,3 +1,28 @@
+## Session 2026-04-24 (Grok Unit 13 Common Mistakes + Quick Checks Instruction Validity Review + Execution Plan)
+- **What changed**:
+  - Re-read `README.md`, `HANDOFF.md`, `content/lesson-template.md`, and `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md` to validate the newly provided Grok instruction block (A-H).
+  - Confirmed repository state matches the core objective: Unit 13 still has placeholders in `## Common Mistakes and How to Avoid Them` and `## Quick Checks`, and canonical section order remains intact.
+  - Produced a strict bounded execution plan for the next implementation pass focused on those two sections plus required verification.
+- **Decisions made**:
+  - The instruction set is **largely valid** and aligned with the latest 2026-04-24 Unit 13 handoff direction.
+  - Resolved two wording conflicts before execution:
+    1. “No other files touched” must still allow mandatory `HANDOFF.md` append per repository operating rules.
+    2. The required handoff date should match the actual execution date (use 2026-04-24 for this cycle, not 2026-04-23).
+  - Retained strict scope guardrail for the execution session: edit only Unit 13 target sections, then append `HANDOFF.md`; no index/template/other unit edits.
+- **Execution plan (next implementation session)**:
+  1. Edit only `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md`.
+  2. Replace placeholders in `## Common Mistakes and How to Avoid Them` with 3-5 concise misconception/correction pairs tied to mixed rational operations and sign-aware reasoning.
+  3. Replace placeholders in `## Quick Checks` with 3-4 short formative items (conceptual + computational) with concise answers, plus a brief synthesis paragraph.
+  4. Leave frontmatter, heading order, existing drafted sections, and later placeholders unchanged.
+  5. Run `npm run build`.
+  6. Run a short `npm run dev` smoke test and verify HTTP 200 for `/units`, Unit 13 route, and optional Unit 12 continuity spot-check.
+  7. Append an execution-focused handoff entry with concrete results and the next bounded step.
+- **Blockers / risks**:
+  - Minor tone/notation harmonization may still be needed once Unit 13 is fully drafted.
+  - Environment-level npm warnings may appear during local checks, but successful build and route rendering remain the primary gates.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 13 pass: populate only `## Common Mistakes and How to Avoid Them` and `## Quick Checks` in `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md`, keep all other sections/files unchanged except mandatory `HANDOFF.md` append, run `npm run build` and short `npm run dev` smoke checks for `/units` and Unit 13 (optionally Unit 12), then record outcomes and next step."
+
 ## Session 2026-04-24 (Unit 13 Formal Definition + Worked Examples Execution)
 - **What changed**:
   - Updated only `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md` to populate the next two canonical sections:
