@@ -1,3 +1,30 @@
+## Session 2026-04-25 (Unit 13 Common Mistakes + Quick Checks Execution)
+- **What changed**:
+  - Updated only `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md` to populate:
+    - `## Common Mistakes and How to Avoid Them`
+    - `## Quick Checks`
+  - Replaced placeholders with concise, supportive misconception-prevention guidance (5 items) focused on operation order, sign handling, percent multipliers, reciprocal division, and context interpretation.
+  - Added four short formative Quick Checks with concise answers (conceptual + computational), followed by a brief synthesis paragraph.
+  - Kept frontmatter, canonical heading order, and all other Unit 13 sections unchanged.
+  - Ran `npm run build` successfully.
+  - Ran a short `npm run dev` smoke test and confirmed HTTP 200 for:
+    - `/units`
+    - `/units/unit-13-advanced-rational-applications-and-mixed-operations`
+    - `/units/unit-12-operations-with-rational-numbers` (continuity spot-check)
+- **Decisions made**:
+  - Followed strict bounded scope for this execution: only the two target sections in Unit 13 were edited.
+  - Preserved all non-target content and avoided index/template/other-unit edits.
+  - Kept language concise and supportive to match the existing tone of Units 11-13.
+- **What’s next**:
+  1. Continue Unit 13 completion with the next 1-2 canonical sections (`## Graded Exercises`, then `## Summary and Key Takeaways` or `## Next Steps / Connections`) in strict order.
+  2. After core sections are complete, run a lightweight notation/tone harmonization micro-pass if needed.
+  3. Re-run `npm run build` and short route smoke checks after each bounded pass.
+- **Blockers / risks**:
+  - Minor notation/tone harmonization may still be needed once the final Unit 13 sections are drafted.
+  - Environment-level npm warnings (for example, unknown env config notices) may appear but currently do not block build or route verification.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 13 pass: populate only `## Graded Exercises` and `## Summary and Key Takeaways` (or `## Next Steps / Connections` if you choose a different 1-2 section pair) in `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md`, keep all other files unchanged except mandatory `HANDOFF.md` append, run `npm run build` and short `npm run dev` smoke checks for `/units` and Unit 13, then record outcomes and next step."
+
 ## Session 2026-04-24 (Grok Unit 13 Common Mistakes + Quick Checks Instruction Validity Review + Execution Plan)
 - **What changed**:
   - Re-read `README.md`, `HANDOFF.md`, `content/lesson-template.md`, and `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md` to validate the newly provided Grok instruction block (A-H).

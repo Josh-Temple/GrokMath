@@ -84,19 +84,29 @@ A balance change is modeled by $12.5 - (-3.75) - 4.5$. Evaluate and interpret.
 
 ## Common Mistakes and How to Avoid Them
 
-- **Mistake:** [Common misconception].
-  **How to avoid it:** [Correction strategy].
-- **Mistake:** [Second misconception].
-  **How to avoid it:** [Correction strategy].
+- **Mistake:** Doing operations in story order instead of expression order.
+  **How to avoid it:** Translate the story first, then apply order of operations (parentheses, multiplication/division, addition/subtraction) before computing.
+- **Mistake:** Losing the sign when combining changes (especially with subtraction of negatives).
+  **How to avoid it:** Rewrite each step with explicit signs, for example $a - (-b) = a + b$, and interpret whether the quantity should increase or decrease.
+- **Mistake:** Mixing percent language with add/subtract rules incorrectly.
+  **How to avoid it:** Convert each percent action to a multiplier first (for example, $-25\% \rightarrow \times 0.75$, $+8\% \rightarrow \times 1.08$), then multiply in sequence.
+- **Mistake:** Dividing by a rational number without using its reciprocal.
+  **How to avoid it:** Replace division with multiplication by the reciprocal: $r \div s = r \cdot \frac{1}{s}$ for $s \ne 0$, then simplify carefully.
+- **Mistake:** Reporting a numerically correct value with an incorrect context meaning.
+  **How to avoid it:** Add a short interpretation sentence at the end (for example, "negative means below sea level" or "positive means net gain").
 
 ## Quick Checks
 
-1. [Question 1]
-   - **Answer:** [Short answer]
-2. [Question 2]
-   - **Answer:** [Short answer]
-3. [Question 3]
-   - **Answer:** [Short answer]
+1. Evaluate and interpret: $-6.5 + 2.25 - 1.75$.
+   - **Answer:** $-6.0$. The final value is still negative, so the quantity remains below zero.
+2. True or false: applying a $20\%$ discount and then a $10\%$ tax is equivalent to multiplying by $0.9$ then $1.1$.
+   - **Answer:** True. The combined multiplier is $0.9 \times 1.1 = 0.99$.
+3. Compute: $3 - (-\frac{5}{4})$.
+   - **Answer:** $3 + \frac{5}{4} = \frac{12}{4} + \frac{5}{4} = \frac{17}{4}$.
+4. Compute: $\frac{7}{3} \div \left(-\frac{14}{9}\right)$.
+   - **Answer:** $\frac{7}{3} \cdot \left(-\frac{9}{14}\right) = -\frac{63}{42} = -\frac{3}{2}$.
+
+These checks reinforce the same core habits from this unit: map context to operations, keep sign meaning visible, use operation order consistently, and verify that your final interpretation matches the situation.
 
 ## Graded Exercises
 
