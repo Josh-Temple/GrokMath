@@ -112,28 +112,42 @@ These checks reinforce the same core habits from this unit: map context to opera
 
 ### Level 1 - Warm-up
 
-1. [Exercise 1]
-2. [Exercise 2]
-3. [Exercise 3]
+1. Evaluate: $-4.5 + 1.2 - 0.7$.
+   - **Answer:** $-4.0$.
+2. Compute: $\frac{5}{6} - \left(-\frac{1}{3}\right)$.
+   - **Answer:** $\frac{5}{6} + \frac{2}{6} = \frac{7}{6}$.
+3. Compute: $\frac{9}{10} \div \left(-\frac{3}{5}\right)$.
+   - **Answer:** $\frac{9}{10} \cdot \left(-\frac{5}{3}\right) = -\frac{45}{30} = -\frac{3}{2}$.
 
 ### Level 2 - Core Practice
 
-4. [Exercise 4]
-5. [Exercise 5]
-6. [Exercise 6]
-7. [Exercise 7]
+4. A hiking elevation is $-120.5$ m relative to sea level. The group climbs $35.25$ m, then descends $18.75$ m. Find the final elevation.
+   - **Answer:** $-120.5 + 35.25 - 18.75 = -104.0$ m.
+5. A jacket costs $80$ dollars. It is discounted by $15\%$, then taxed by $6\%$. Find the final price.
+   - **Answer:** $80 \cdot 0.85 \cdot 1.06 = 72.08$ dollars.
+6. Simplify and interpret sign: $-2.4 - (-1.1) + 0.3$.
+   - **Answer:** $-2.4 + 1.1 + 0.3 = -1.0$; final value is negative.
+7. A tank is filled by $\frac{3}{4}$ liter each minute for $6$ minutes, then $\frac{5}{2}$ liters are removed. How much water remains from this process?
+   - **Answer:** Total added $= 6 \cdot \frac{3}{4} = \frac{18}{4} = \frac{9}{2}$. Remaining $= \frac{9}{2} - \frac{5}{2} = \frac{4}{2} = 2$ liters.
 
 ### Level 3 - Challenge
 
-8. [Exercise 8]
-9. [Exercise 9]
-10. [Exercise 10]
+8. Evaluate: $\left(-\frac{7}{3}\right) + \frac{5}{6} \cdot \left(\frac{9}{5}\right) - \left(-\frac{1}{2}\right)$.
+   - **Answer:** $\frac{5}{6} \cdot \frac{9}{5} = \frac{3}{2}$, so expression is $-\frac{7}{3} + \frac{3}{2} + \frac{1}{2} = -\frac{7}{3} + 2 = -\frac{1}{3}$.
+9. A value decreases by $20\%$, then increases by $25\%$. Starting from $240$, find the final value and net percent change.
+   - **Answer:** $240 \cdot 0.8 \cdot 1.25 = 240$. Net change is $0\%$.
+10. A submarine at $-42$ m rises at a constant rate of $\frac{9}{4}$ m/min for $8$ minutes, then descends $3.5$ m. Find the final depth.
+   - **Answer:** Rise $= 8 \cdot \frac{9}{4} = 18$ m, so depth becomes $-42 + 18 = -24$ m. After descending $3.5$ m: $-24 - 3.5 = -27.5$ m.
 
 ## Summary and Key Takeaways
 
-- [Key idea 1]
-- [Key idea 2]
-- [Key idea 3]
+This unit extends rational-number skills from single-operation practice to multi-step decision making. The main goal is not just to calculate correctly, but to map context to operations, keep signs meaningful, and apply operation order reliably.
+
+- Mixed rational applications require both **operation choice** and **operation order**.
+- Sign interpretation is part of the mathematics: negative values and subtraction of negatives must match context meaning.
+- Percent and scale problems are safest when rewritten as multipliers (for example, $\times 0.85$, then $\times 1.06$).
+- Division by a rational is multiplication by its reciprocal, with nonzero divisor checks.
+- This connects directly to Unit 12 operation fluency and prepares for equation modeling and linear relationships in later units.
 
 ## Next Steps / Connections
 
