@@ -24,7 +24,7 @@ tags:
 
 In Unit 12, you practiced each operation with rational numbers one at a time. In this unit, the challenge changes: many problems mix operations, context clues, and multiple representations.
 
-Think of tracking money in an account over a week. A refund might add a positive amount, a purchase might subtract, a discount might scale a value by a fraction, and splitting a bill might require division. You are still using the same four operations, but now you must choose and sequence them correctly.
+Think of tracking money in an account over a week. A refund adds a positive amount, a purchase subtracts, a discount scales a value by a rational multiplier, and splitting a bill uses division. You are still using the same four operations, but now you must choose and sequence them correctly.
 
 A helpful mindset is: first understand the story, then map each action to an operation, and only then compute. When you keep sign meaning and operation meaning connected to the context, mixed-operation problems become much more manageable.
 
@@ -38,8 +38,8 @@ In mixed-operation expressions over $\mathbb{Q}$:
    - combine/net total $\rightarrow$ addition or subtraction,
    - repeated scaling $\rightarrow$ multiplication,
    - equal sharing or unit rate $\rightarrow$ division.
-2. **Order of operations** is preserved exactly as in whole-number algebra: $\text{Parentheses} \to \text{Multiplication/Division} \to \text{Addition/Subtraction}$.
-3. **Equivalent-form flexibility**: a rational value may be rewritten as a fraction, decimal, or signed mixed form when it makes structure clearer, without changing value.
+2. **Order of operations** is preserved exactly as in whole-number algebra: $\text{Parentheses} \rightarrow \text{Multiplication/Division} \rightarrow \text{Addition/Subtraction}$.
+3. **Equivalent-form flexibility**: a rational value may be rewritten as a fraction or decimal form when it makes structure clearer, without changing value.
 4. **Division restriction**: for $r, s \in \mathbb{Q}$, $r \div s = r \cdot \frac{1}{s}$ with $s \ne 0$.
 5. **Sign consistency rule**: signs must be interpreted through both the operation and context meaning (for example, subtracting a negative value represents an increase).
 
@@ -53,7 +53,7 @@ A city starts at $-3.5^\circ\mathrm{C}$. During the day, temperature rises by $2
 
 1. Map the context to operations: $-3.5 + 2.25 - 1.75$.
 2. Add first two values: $-3.5 + 2.25 = -1.25$.
-3. Subtract the last change: $-1.25 - 1.75 = -3.0$.
+3. Subtract the last change: $-1.25 - 1.75 = -3$.
 4. Final answer: $-3^\circ\mathrm{C}$, which matches a net return to a colder value.
 
 ### Example 2 - Standard Variation (discount then tax)
@@ -63,7 +63,7 @@ An item costs $48$ dollars. A store gives a $25\%$ discount, then applies $8\%$ 
 1. Convert rates to rational multipliers: $25\% = 0.25$ and $8\% = 0.08$.
 2. Apply discount (keep $75\%$ of price): $48 \cdot (1 - 0.25) = 48 \cdot 0.75 = 36$.
 3. Apply tax to discounted price: $36 \cdot (1 + 0.08) = 36 \cdot 1.08 = 38.88$.
-4. Final answer: $38.88$ dollars. (Order matters: discount then tax is not the same as tax then discount on the original list price.)
+4. Final answer: $38.88$ dollars. Order matters: discount then tax is not the same as tax then discount on the original list price.
 
 ### Example 3 - Extension / Edge Case (subtracting a negative and dividing)
 
@@ -89,7 +89,7 @@ A balance change is modeled by $12.5 - (-3.75) - 4.5$. Evaluate and interpret.
 - **Mistake:** Losing the sign when combining changes (especially with subtraction of negatives).
   **How to avoid it:** Rewrite each step with explicit signs, for example $a - (-b) = a + b$, and interpret whether the quantity should increase or decrease.
 - **Mistake:** Mixing percent language with add/subtract rules incorrectly.
-  **How to avoid it:** Convert each percent action to a multiplier first (for example, $-25\% \rightarrow \times 0.75$, $+8\% \rightarrow \times 1.08$), then multiply in sequence.
+  **How to avoid it:** Convert each percent action to a multiplier first (for example, discount by $25\% \rightarrow \times 0.75$, increase by $8\% \rightarrow \times 1.08$), then multiply in sequence.
 - **Mistake:** Dividing by a rational number without using its reciprocal.
   **How to avoid it:** Replace division with multiplication by the reciprocal: $r \div s = r \cdot \frac{1}{s}$ for $s \ne 0$, then simplify carefully.
 - **Mistake:** Reporting a numerically correct value with an incorrect context meaning.
@@ -98,7 +98,7 @@ A balance change is modeled by $12.5 - (-3.75) - 4.5$. Evaluate and interpret.
 ## Quick Checks
 
 1. Evaluate and interpret: $-6.5 + 2.25 - 1.75$.
-   - **Answer:** $-6.0$. The final value is still negative, so the quantity remains below zero.
+   - **Answer:** $-6$. The final value is still negative, so the quantity remains below zero.
 2. True or false: applying a $20\%$ discount and then a $10\%$ tax is equivalent to multiplying by $0.9$ then $1.1$.
    - **Answer:** True. The combined multiplier is $0.9 \times 1.1 = 0.99$.
 3. Compute: $3 - (-\frac{5}{4})$.
@@ -113,7 +113,7 @@ These checks reinforce the same core habits from this unit: map context to opera
 ### Level 1 - Warm-up
 
 1. Evaluate: $-4.5 + 1.2 - 0.7$.
-   - **Answer:** $-4.0$.
+   - **Answer:** $-4$.
 2. Compute: $\frac{5}{6} - \left(-\frac{1}{3}\right)$.
    - **Answer:** $\frac{5}{6} + \frac{2}{6} = \frac{7}{6}$.
 3. Compute: $\frac{9}{10} \div \left(-\frac{3}{5}\right)$.
@@ -126,7 +126,7 @@ These checks reinforce the same core habits from this unit: map context to opera
 5. A jacket costs $80$ dollars. It is discounted by $15\%$, then taxed by $6\%$. Find the final price.
    - **Answer:** $80 \cdot 0.85 \cdot 1.06 = 72.08$ dollars.
 6. Simplify and interpret sign: $-2.4 - (-1.1) + 0.3$.
-   - **Answer:** $-2.4 + 1.1 + 0.3 = -1.0$; final value is negative.
+   - **Answer:** $-2.4 + 1.1 + 0.3 = -1$; final value is negative.
 7. A tank is filled by $\frac{3}{4}$ liter each minute for $6$ minutes, then $\frac{5}{2}$ liters are removed. How much water remains from this process?
    - **Answer:** Total added $= 6 \cdot \frac{3}{4} = \frac{18}{4} = \frac{9}{2}$. Remaining $= \frac{9}{2} - \frac{5}{2} = \frac{4}{2} = 2$ liters.
 
