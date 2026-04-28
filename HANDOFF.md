@@ -1,3 +1,50 @@
+## Session 2026-04-28 (Unit 13 Notation/Tone Harmonization Micro-pass Execution)
+- **What changed**:
+  - Updated only `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md` for a bounded harmonization pass.
+  - Standardized minor notation/tone details (consistent operation arrows, decimal/fraction presentation cleanup, and concise supportive phrasing) without changing headings, frontmatter, section order, or `## Next Steps / Connections` placeholders.
+  - Ran `npm run build` successfully.
+  - Ran a short `npm run dev` smoke test and confirmed HTTP 200 for:
+    - `/units`
+    - `/units/unit-13-advanced-rational-applications-and-mixed-operations`
+    - `/units/unit-12-operations-with-rational-numbers` (continuity spot-check)
+- **Decisions made**:
+  - Kept scope strictly bounded to Unit 13 harmonization plus mandatory `HANDOFF.md` append.
+  - Treated environment npm warning output as non-blocking because build and route-level render checks succeeded.
+  - Avoided any structural or pedagogical-scope edits; only local consistency polish was applied.
+- **What’s next**:
+  1. Perform a lightweight index/status synchronization to reflect Unit 13 near-complete/completion state.
+  2. Start a similarly bounded kickoff for Unit 14 (frontmatter + first 1-2 canonical sections) while preserving daily incremental cadence.
+  3. Re-run `npm run build` and short smoke checks after each bounded pass.
+- **Blockers / risks**:
+  - Small wording opportunities may still appear during future full-curriculum polish.
+  - Environment-level npm warnings may recur but are currently non-blocking.
+- **Suggested next prompt**:
+  - "Run a tight continuity pass: minimally sync index/status for Unit 13 completion state, then begin Unit 14 with only frontmatter + `## Concept Map` + `## Intuitive Explanation`, keep all template/order constraints, run `npm run build` and short `npm run dev` smoke checks, and append a dated HANDOFF summary."
+
+## Session 2026-04-27 (Grok Unit 13 Harmonization Instruction Validity Review + Execution Plan)
+- **What changed**:
+  - Re-read `README.md`, `HANDOFF.md`, `content/lesson-template.md`, and `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md`.
+  - Validated the newly provided Grok instruction block (A-H) against current repository state and canonical lesson-template order.
+  - Confirmed Unit 13 already includes all canonical sections through `## Summary and Key Takeaways`, with `## Next Steps / Connections` still intentionally placeholder text.
+  - Prepared a strict bounded execution plan for a notation/tone harmonization micro-pass.
+- **Decisions made**:
+  - The instruction set is **mostly valid** and aligned with the latest 2026-04-26 handoff direction.
+  - Resolved one scope conflict to apply during execution: statements such as “no other files edited” must still permit mandatory `HANDOFF.md` session append per `README.md` operating rules.
+  - Interpreted “harmonization only” as wording/notation consistency edits that do not alter section structure, headings, frontmatter, pedagogical scope, or placeholder status in `## Next Steps / Connections`.
+- **Execution plan (next implementation session)**:
+  1. Edit only `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md` for lightweight notation/tone harmonization.
+  2. Keep frontmatter, heading order, section boundaries, and all core mathematical meaning unchanged.
+  3. Standardize notation usage (`\mathbb{Q}`, fractions/decimals/sign formatting) and smooth minor phrasing for concise, supportive voice.
+  4. Leave `## Next Steps / Connections` placeholders unchanged.
+  5. Run `npm run build`.
+  6. Run short `npm run dev` smoke checks for `/units`, Unit 13 route, and a continuity spot-check on a prior unit route.
+  7. Append an execution-focused `HANDOFF.md` entry dated with the actual execution day.
+- **Blockers / risks**:
+  - Over-harmonization risk (style edits drifting into content rewrites); mitigate by limiting changes to local wording/notation consistency only.
+  - Environment-level npm warnings may recur; treat successful build and route rendering as primary technical gates.
+- **Suggested next prompt**:
+  - "Execute a strict Unit 13 harmonization micro-pass: edit only `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md` for notation/tone consistency, preserve headings/frontmatter/section order and `## Next Steps / Connections` placeholders, run `npm run build` and short `npm run dev` smoke checks for `/units` + Unit 13 (+ one prior unit spot-check), then append a dated execution `HANDOFF.md` summary."
+
 ## Session 2026-04-26 (Unit 13 Graded Exercises + Summary and Key Takeaways Execution)
 - **What changed**:
   - Updated only `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md` to populate:
