@@ -1,3 +1,39 @@
+## Session 2026-05-03 (Unit 14 Creation + Initial Polish Execution)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md`, then created `content/units/unit-14-linear-equations-and-inequalities-with-rational-numbers.md` as the canonical Unit 14 lesson file.
+  - Added full template-aligned Unit 14 content (Concept Map through Next Steps / Connections) with consistent KaTeX-safe notation and concise supportive tone.
+  - Ran `npm run build` and a short `npm run dev` smoke check for `/units`, Unit 14, and Unit 13 continuity.
+- **Decisions made**:
+  - Resolved the prior blocker by creating Unit 14 directly in `content/units/` using established naming/frontmatter conventions.
+  - Kept changes scoped to Unit 14 content creation plus mandatory `HANDOFF.md` update; no template/index/routing edits were made.
+- **What’s next**:
+  1. Run a lightweight notation/tone harmonization micro-pass on Unit 14 now that the canonical file exists.
+  2. Optionally sync `content/index.md` status tracking to include Units 12-14 progression states.
+  3. Continue with a bounded Unit 15 kickoff (frontmatter + first 1-2 canonical sections) after verification.
+- **Blockers / risks**:
+  - Minor phrasing and notation consistency opportunities may remain for future full-curriculum polish.
+  - Environment-level npm warnings may still appear, but successful build and route checks are currently the primary gates.
+- **Suggested next prompt**:
+  - "Run a bounded Unit 14 harmonization micro-pass (notation/tone only, no structural edits), then optionally perform minimal index status synchronization for Units 12-14, validate with `npm run build` and a short dev smoke check, and append a dated HANDOFF summary."
+
+## Session 2026-05-03 (Unit 14 Harmonization Attempt Blocked by Missing Unit File)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` before any edits, then validated the requested Unit 14 harmonization scope against the current repository state.
+  - Confirmed `content/units/` currently contains Units 1-13 only; no `unit-14-*.md` file exists yet, so the requested "edit Unit 14 only" harmonization pass could not be executed without violating scope.
+  - Performed no lesson-content edits and no routing/template/index changes.
+- **Decisions made**:
+  - Preserved strict scope control: did not create a new Unit 14 file implicitly because the request was explicitly a harmonization pass on an already drafted unit.
+  - Preserved repository continuity by recording this blocker and concrete next-step instructions here.
+- **What’s next**:
+  1. Add the canonical Unit 14 lesson file under `content/units/` (or confirm its intended filename/location if already drafted elsewhere).
+  2. Run the bounded notation/tone harmonization micro-pass on that Unit 14 file only (no structural/frontmatter/heading-order changes).
+  3. Run `npm run build` and a short `npm run dev` smoke check for `/units`, Unit 14 route, and one prior-unit continuity route.
+- **Blockers / risks**:
+  - Primary blocker: missing Unit 14 markdown file prevents a true harmonization-only pass.
+  - Secondary risk: if Unit 14 is created in a non-standard path/slug, `/units` route expectations may drift.
+- **Suggested next prompt**:
+  - "Locate or create the canonical Unit 14 markdown lesson file in `content/units/` (with template-compliant frontmatter/headings), then execute a strict notation/tone harmonization pass on that file only, run `npm run build` and a short `npm run dev` smoke check, and append a dated HANDOFF summary."
+
 ## Session 2026-04-28 (Unit 13 Notation/Tone Harmonization Micro-pass Execution)
 - **What changed**:
   - Updated only `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md` for a bounded harmonization pass.
