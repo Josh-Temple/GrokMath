@@ -1,3 +1,22 @@
+## Session 2026-05-03 (Index/Status Synchronization for Units 12-14 + Template Spot-check)
+- **What changed**:
+  - Updated `content/index.md` to synchronize the publishable starter-spine index and status tracking through Unit 14.
+  - Added Unit 12-14 rows, expanded sequencing rationale, and aligned notes to reflect current states (`Ready` for Units 12-13, `Draft` for Unit 14).
+  - Updated `curriculum/index.md` to mirror Units 12-14 in the planning-layer starter spine, sequencing rationale, and near-term status notes.
+  - Performed a template compliance spot-check on `content/units/unit-14-linear-equations-and-inequalities-with-rational-numbers.md` against `content/lesson-template.md`; no structural edits were required.
+  - Ran `npm run build` successfully as the primary non-breaking validation gate.
+- **Decisions made**:
+  - Kept scope strictly lightweight and non-breaking: synchronized indexes/status only, without touching routing, markdown pipeline, PWA configuration, or adding new units.
+  - Retained Unit 14 as `Draft` until a dedicated polish/review pass is completed, despite full template-aligned draft availability.
+- **What’s next**:
+  1. Run a bounded Unit 14 polish/review pass (notation consistency, minor wording clarity, and final status decision).
+  2. Kick off Unit 15 in strict incremental mode (frontmatter + first 1-2 canonical sections only) after Unit 14 status is finalized.
+- **Blockers / risks**:
+  - No functional blockers detected in this session; build completed successfully.
+  - Environment npm warning (`Unknown env config "http-proxy"`) persists but is currently non-blocking.
+- **Suggested next prompt**:
+  - "Execute a strict Unit 14 polish pass (no scope expansion): apply only minimal notation/tone refinements if needed, decide whether Unit 14 can move from `Draft` to `Ready`, sync any resulting status text in both indexes, run `npm run build`, and append a dated HANDOFF summary."
+
 ## Session 2026-05-03 (Unit 14 Creation + Initial Polish Execution)
 - **What changed**:
   - Re-read `README.md` and `HANDOFF.md`, then created `content/units/unit-14-linear-equations-and-inequalities-with-rational-numbers.md` as the canonical Unit 14 lesson file.

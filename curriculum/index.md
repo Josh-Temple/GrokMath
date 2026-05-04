@@ -33,7 +33,7 @@ Every mature unit should eventually include:
 - Use `curriculum/_templates/lesson-template.md` for sequencing notes and scope sketches.
 - Keep naming aligned with the published lesson inventory in `content/index.md`.
 
-## Starter Spine (Units 1-11)
+## Starter Spine (Units 1-14)
 
 1. Whole Numbers and Place Value
 2. Operations with Whole Numbers
@@ -46,6 +46,9 @@ Every mature unit should eventually include:
 9. Functions and Basic Graphing
 10. Elementary Probability and Statistics
 11. Bridge to Fractions and Rational Numbers
+12. Operations with Rational Numbers
+13. Advanced Rational Applications and Mixed Operations
+14. Linear Equations and Inequalities with Rational Numbers
 
 ## Sequencing Rationale
 
@@ -54,6 +57,9 @@ Every mature unit should eventually include:
 - Unit 9 introduces function representation and graph interpretation as a bridge into secondary mathematics.
 - Unit 10 introduces uncertainty models, descriptive statistics, and foundational data interpretation.
 - Unit 11 consolidates rational-number prerequisites (signed values, equivalence, ordering, and number-line interpretation) before full operations.
+- Unit 12 establishes full rational-number operation fluency (including signs and mixed forms) as a computation core.
+- Unit 13 shifts from pure computation toward multi-step application and operation-selection strategy.
+- Unit 14 converts rational fluency into one-variable linear equation and inequality solving as a direct pre-function algebra bridge.
 
 ## Longer-Term Expansion Candidates
 
@@ -81,3 +87,6 @@ After stabilizing the starter spine, likely next additions include:
 - Units 9-10 completed a light answer-key consistency follow-up on 2026-04-03 with minimal section-local solution-key clarity/notation refinements, completing the starter-spine (Units 1-10) consistency sweep cycle.
 - Unit 10 has passed the planned polish/review step and is synchronized as `Ready` with the publishable index.
 - Unit 11 is fully drafted and lightly polished (micro-pass completed on 2026-04-11) and is synchronized as `Ready` with the publishable index.
+- Unit 12 is synchronized as `Ready` with the publishable index.
+- Unit 13 is synchronized as `Ready` after exercises/summary completion and a notation/tone harmonization micro-pass.
+- Unit 14 is synchronized as `Draft` (full template-aligned draft present; dedicated polish/review remains next).
