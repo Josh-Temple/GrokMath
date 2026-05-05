@@ -108,7 +108,7 @@ A savings balance after a fee is modeled by $s = 1.2x - 4.5$, where $x$ is weekl
    $$
    x \ge \frac{13.5}{1.2} = 11.25.
    $$
-3. Interpretation: deposits must be at least $11.25$ dollars.
+3. Interpretation: deposits must be at least $11.25$.
 
 ## Common Mistakes and How to Avoid Them
 
@@ -117,7 +117,7 @@ A savings balance after a fee is modeled by $s = 1.2x - 4.5$, where $x$ is weekl
 - **Mistake:** Forgetting to reverse an inequality after multiplying or dividing by a negative value.
   **How to avoid it:** Mark the negative operation step explicitly and immediately flip the symbol.
 - **Mistake:** Arithmetic slips with fractions/decimals while solving.
-  **How to avoid it:** Convert to consistent forms (fraction or decimal) before combining terms and check each intermediate step.
+  **How to avoid it:** Convert to a consistent form (fraction or decimal) before combining terms and check each intermediate step.
 - **Mistake:** Stopping after finding a value without checking.
   **How to avoid it:** Substitute the candidate solution into the original equation/inequality to verify correctness.
 
@@ -170,7 +170,7 @@ These checks reinforce the core routine: isolate the variable using valid invers
 
 ## Summary and Key Takeaways
 
-Unit 14 translates rational-operation fluency into algebraic solving habits. The central idea is structural: use inverse operations to isolate the variable while preserving truth on both sides.
+Unit 14 translates rational-operation fluency into algebraic solving habits. The central idea is structural: use inverse operations to isolate the variable while preserving a true statement on both sides.
 
 - Linear equations give exact solution values; linear inequalities give sets of values.
 - Equation-solving steps must preserve balance by acting on both sides equally.

@@ -89,4 +89,4 @@ After stabilizing the starter spine, likely next additions include:
 - Unit 11 is fully drafted and lightly polished (micro-pass completed on 2026-04-11) and is synchronized as `Ready` with the publishable index.
 - Unit 12 is synchronized as `Ready` with the publishable index.
 - Unit 13 is synchronized as `Ready` after exercises/summary completion and a notation/tone harmonization micro-pass.
-- Unit 14 is synchronized as `Draft` (full template-aligned draft present; dedicated polish/review remains next).
+- Unit 14 is synchronized as `Ready` after a bounded notation/tone/KaTeX safety polish pass.

@@ -19,7 +19,7 @@ This starter index defines the first 14 core units from elementary arithmetic th
 | 11 | Bridge to Fractions and Rational Numbers | Grades 6-8 | Consolidates signed numbers, fraction equivalence, ordering, and number-line reasoning as a bridge into full rational-number operations. | Ready |
 | 12 | Operations with Rational Numbers | Grades 6-8 | Builds fluent, sign-aware computation with rational numbers across all four operations in numeric and contextual settings. | Ready |
 | 13 | Advanced Rational Applications and Mixed Operations | Grades 7-9 | Extends rational fluency to multi-step contexts, mixed forms, and operation-selection reasoning with stronger modeling habits. | Ready |
-| 14 | Linear Equations and Inequalities with Rational Numbers | Grades 7-9 | Applies rational-number fluency to solving and interpreting one-variable linear equations and inequalities. | Draft |
+| 14 | Linear Equations and Inequalities with Rational Numbers | Grades 7-9 | Applies rational-number fluency to solving and interpreting one-variable linear equations and inequalities. | Ready |
 
 ## Sequencing Rationale
 
@@ -39,7 +39,7 @@ This starter index defines the first 14 core units from elementary arithmetic th
 - Unit 11 is fully drafted and lightly polished (notation/tone micro-pass complete as of 2026-04-11) and is now marked `Ready`.
 - Unit 12 is fully drafted and treated as `Ready` in the publishable layer.
 - Unit 13 now includes Graded Exercises and Summary plus a notation/tone harmonization micro-pass, and is marked `Ready`.
-- Unit 14 has a full template-aligned draft and is currently marked `Draft` pending a later polish/review pass.
+- Unit 14 completed a bounded notation/tone/KaTeX safety polish pass and is now marked `Ready`.
 - Units 4-8 completed a 2026-03-29 structural alignment pass and now match canonical heading names/order (content depth polish can proceed separately).
 - Units 1-8 completed a light 2026-04-02 answer-key consistency sweep (notation, wording density, and multi-step clarity) with minimal section-local edits only.
 - Units 9-10 completed a light 2026-04-03 answer-key consistency follow-up using the same minimal rubric; edits stayed section-local to solution clarity/notation in existing answer-key sections.

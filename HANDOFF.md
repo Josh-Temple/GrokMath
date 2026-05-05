@@ -1,3 +1,21 @@
+## Session 2026-05-05 (Unit 14 Ready Polish + Index Synchronization)
+- **What changed**:
+  - Applied a bounded polish pass to `content/units/unit-14-linear-equations-and-inequalities-with-rational-numbers.md` with notation consistency and KaTeX-safe expression cleanup only (no frontmatter or section-order changes).
+  - Updated `content/index.md` to mark Unit 14 as `Ready` and synchronized the status notes with the completed polish pass.
+  - Updated `curriculum/index.md` to mirror Unit 14 as `Ready` and keep planning-layer status aligned with the publishable index.
+  - Ran `npm run build` successfully and completed a short `npm run dev` smoke test for `/units`, Unit 14, and Unit 13 routes (HTTP 200).
+- **Decisions made**:
+  - Kept scope strictly incremental and non-breaking: only Unit 14 notation/tone/KaTeX safety refinements plus index synchronization, with no routing, template, dependency, or structural changes.
+  - Promoted Unit 14 to `Ready` because the lesson already had full template-aligned coverage and only targeted polish remained.
+- **What’s next**:
+  1. Start a bounded Unit 15 kickoff in strict incremental mode (frontmatter + `## Concept Map` + `## Intuitive Explanation` only).
+  2. Keep `content/index.md` and `curriculum/index.md` synchronized immediately after each new Unit 15 increment.
+- **Blockers / risks**:
+  - No functional blockers detected; build and route checks passed.
+  - Minor environment npm warning (`Unknown env config "http-proxy"`) persists but remains non-blocking.
+- **Suggested next prompt**:
+  - "Begin Unit 15 with a strict bounded pass: create frontmatter plus `## Concept Map` and `## Intuitive Explanation` only, preserve canonical template order, run `npm run build` and a short `/units` + Unit 14 continuity smoke check, then append a dated HANDOFF summary."
+
 ## Session 2026-05-03 (Index/Status Synchronization for Units 12-14 + Template Spot-check)
 - **What changed**:
   - Updated `content/index.md` to synchronize the publishable starter-spine index and status tracking through Unit 14.
