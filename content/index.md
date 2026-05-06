@@ -1,8 +1,8 @@
 # GrokMath Curriculum Index
 
-This starter index defines the first 14 core units from elementary arithmetic through early algebraic modeling with rational equations and inequalities.
+This starter index defines the first 15 core units from elementary arithmetic through early system-solving with linear equations over rational numbers.
 
-## Starter Spine (Units 1-14)
+## Starter Spine (Units 1-15)
 
 | Unit | Title | Audience / Grade Band | Description | Status |
 |---|---|---|---|---|
@@ -20,6 +20,7 @@ This starter index defines the first 14 core units from elementary arithmetic th
 | 12 | Operations with Rational Numbers | Grades 6-8 | Builds fluent, sign-aware computation with rational numbers across all four operations in numeric and contextual settings. | Ready |
 | 13 | Advanced Rational Applications and Mixed Operations | Grades 7-9 | Extends rational fluency to multi-step contexts, mixed forms, and operation-selection reasoning with stronger modeling habits. | Ready |
 | 14 | Linear Equations and Inequalities with Rational Numbers | Grades 7-9 | Applies rational-number fluency to solving and interpreting one-variable linear equations and inequalities. | Ready |
+| 15 | Systems of Linear Equations with Rational Coefficients | Grades 8-10 | Extends one-variable linear solving to two-equation systems using substitution, elimination, and intersection interpretation. | Draft |
 
 ## Sequencing Rationale
 
@@ -31,6 +32,7 @@ This starter index defines the first 14 core units from elementary arithmetic th
 - Unit 12 develops reliable operation fluency over rational numbers, including sign logic and mixed forms.
 - Unit 13 extends that fluency into multi-step applications and operation-selection strategy.
 - Unit 14 transitions from rational computation into equation/inequality solving as an algebra bridge.
+- Unit 15 extends linear solving to systems, coordinating algebraic methods with intersection-based interpretation.
 
 ## Notes
 
@@ -40,6 +42,7 @@ This starter index defines the first 14 core units from elementary arithmetic th
 - Unit 12 is fully drafted and treated as `Ready` in the publishable layer.
 - Unit 13 now includes Graded Exercises and Summary plus a notation/tone harmonization micro-pass, and is marked `Ready`.
 - Unit 14 completed a bounded notation/tone/KaTeX safety polish pass and is now marked `Ready`.
+- Unit 15 has been kicked off with frontmatter + Concept Map + Intuitive Explanation and is currently marked `Draft`.
 - Units 4-8 completed a 2026-03-29 structural alignment pass and now match canonical heading names/order (content depth polish can proceed separately).
 - Units 1-8 completed a light 2026-04-02 answer-key consistency sweep (notation, wording density, and multi-step clarity) with minimal section-local edits only.
 - Units 9-10 completed a light 2026-04-03 answer-key consistency follow-up using the same minimal rubric; edits stayed section-local to solution clarity/notation in existing answer-key sections.
