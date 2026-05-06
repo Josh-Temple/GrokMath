@@ -1,3 +1,23 @@
+## Session 2026-05-06 (Unit 15 Bounded Kickoff + Index Synchronization)
+- **What changed**:
+  - Added `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md` with strict bounded coverage only: frontmatter, `## Concept Map`, and `## Intuitive Explanation`.
+  - Preserved canonical lesson-template heading order by keeping all later sections as placeholders for subsequent bounded passes.
+  - Updated `content/index.md` from Units 1-14 to Units 1-15, added Unit 15 in `Draft` status, and appended a one-line rationale note for the kickoff state.
+  - Updated `curriculum/index.md` from Units 1-14 to Units 1-15, added Unit 15 in the starter spine and sequencing rationale, and synchronized planning-layer status as `Draft`.
+  - Ran `npm run build` successfully and a short `npm run dev` smoke test confirming HTTP 200 for `/units`, Unit 14 continuity, and the new Unit 15 route.
+- **Decisions made**:
+  - Followed strict incremental scope: no changes to framework code, routing logic, markdown pipeline, template files, or prior unit content.
+  - Chose Unit 15 status `Draft` because only kickoff sections are intentionally populated in this pass.
+- **What’s next**:
+  1. Populate `## Formal Definition` and `## Worked Examples` for Unit 15 in a bounded next pass.
+  2. Keep `content/index.md` and `curriculum/index.md` synchronized immediately after each Unit 15 increment.
+  3. Re-run `npm run build` plus short `/units` + Unit 14/15 continuity smoke checks.
+- **Blockers / risks**:
+  - No functional blockers detected.
+  - Minor environment npm warning (`Unknown env config "http-proxy"`) persists but remains non-blocking.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 15 pass: populate only `## Formal Definition` and `## Worked Examples` in `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md`, preserve heading order and all placeholders outside those sections, run `npm run build` and short `/units` + Unit 14/15 smoke checks, then append a dated HANDOFF summary."
+
 ## Session 2026-05-05 (Unit 14 Ready Polish + Index Synchronization)
 - **What changed**:
   - Applied a bounded polish pass to `content/units/unit-14-linear-equations-and-inequalities-with-rational-numbers.md` with notation consistency and KaTeX-safe expression cleanup only (no frontmatter or section-order changes).

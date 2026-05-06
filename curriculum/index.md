@@ -33,7 +33,7 @@ Every mature unit should eventually include:
 - Use `curriculum/_templates/lesson-template.md` for sequencing notes and scope sketches.
 - Keep naming aligned with the published lesson inventory in `content/index.md`.
 
-## Starter Spine (Units 1-14)
+## Starter Spine (Units 1-15)
 
 1. Whole Numbers and Place Value
 2. Operations with Whole Numbers
@@ -49,6 +49,7 @@ Every mature unit should eventually include:
 12. Operations with Rational Numbers
 13. Advanced Rational Applications and Mixed Operations
 14. Linear Equations and Inequalities with Rational Numbers
+15. Systems of Linear Equations with Rational Coefficients
 
 ## Sequencing Rationale
 
@@ -60,6 +61,7 @@ Every mature unit should eventually include:
 - Unit 12 establishes full rational-number operation fluency (including signs and mixed forms) as a computation core.
 - Unit 13 shifts from pure computation toward multi-step application and operation-selection strategy.
 - Unit 14 converts rational fluency into one-variable linear equation and inequality solving as a direct pre-function algebra bridge.
+- Unit 15 advances to two-variable linear systems, connecting substitution/elimination procedures with graph intersections.
 
 ## Longer-Term Expansion Candidates
 
@@ -90,3 +92,4 @@ After stabilizing the starter spine, likely next additions include:
 - Unit 12 is synchronized as `Ready` with the publishable index.
 - Unit 13 is synchronized as `Ready` after exercises/summary completion and a notation/tone harmonization micro-pass.
 - Unit 14 is synchronized as `Ready` after a bounded notation/tone/KaTeX safety polish pass.
+- Unit 15 is synchronized as `Draft` after bounded kickoff coverage (frontmatter + Concept Map + Intuitive Explanation).
