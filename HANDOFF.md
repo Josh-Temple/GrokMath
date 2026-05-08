@@ -1841,3 +1841,23 @@
   - The historical top section of `HANDOFF.md` is stale relative to the current repository state; later cleanup could condense legacy notes without losing continuity.
 - **Suggested next prompt for Grok**:
   - "Audit Units 1–8 against `content/lesson-template.md`, list the strongest and weakest structural matches, then draft the next missing unit while keeping `content/` as the publishable source of truth and `curriculum/` as planning only."
+
+## Session 2026-05-08 (Canonical Lesson Template Refinement + Index Sync)
+- **What changed**:
+  - Updated `content/lesson-template.md` to strengthen author guidance while preserving canonical heading order and overall structure.
+  - Expanded frontmatter example clarity by adding explicit `slug` and `audience` fields and keeping key metadata expectations concise.
+  - Refined section-level guidance for `## Concept Map`, `## Intuitive Explanation`, `## Formal Definition`, `## Worked Examples`, `## Graded Exercises`, `## Common Mistakes and How to Avoid Them`, `## Quick Checks`, and `## Summary and Key Takeaways` to better enforce intuitive→formal progression and quality signals.
+  - Performed minimal status-note synchronization in `content/index.md` and `curriculum/index.md` to reflect Unit 15 remains `Draft` and template refinement is in place for upcoming bounded passes.
+  - Ran `npm run build` successfully and a short `npm run dev` smoke test confirming route-level continuity.
+- **Decisions made**:
+  - Kept scope strictly incremental and non-breaking: no routing, markdown pipeline, unit slug, or framework-code changes.
+  - Treated this pass as a reusable quality-leverage update to reduce authoring ambiguity before further Unit 15 section expansion.
+- **What’s next**:
+  1. Execute the next bounded Unit 15 content pass by populating only `## Formal Definition` and `## Worked Examples`.
+  2. Keep `content/index.md` and `curriculum/index.md` synchronized immediately after each Unit 15 increment.
+  3. Re-run `npm run build` plus short `/units` + Unit 14/15 smoke checks after each bounded update.
+- **Blockers / risks**:
+  - No functional blockers detected.
+  - Minor environment npm warning (`Unknown env config "http-proxy"`) may still appear but remains non-blocking when build and route checks pass.
+- **Suggested next prompt**:
+  - "Execute a strict bounded Unit 15 pass: populate only `## Formal Definition` and `## Worked Examples` in `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md`, preserve canonical heading order and all non-target placeholders, run `npm run build` and short `/units` + Unit 14/15 smoke checks, then append a dated HANDOFF summary."
