@@ -1,8 +1,10 @@
 ---
 title: "[Lesson Title]"
+slug: "[unit-x-topic-slug]"
 order: 1
-level: "[elementary|middle-school|high-school|university-foundations]"
 status: "draft"
+level: "[elementary|middle-school|high-school|university-foundations]"
+audience: "[e.g., Grades 7-9]"
 description: "[One-sentence lesson description]"
 tags:
   - "[tag-1]"
@@ -13,18 +15,22 @@ tags:
 
 ## Concept Map
 
-- [Core concept]
-- [Supporting concept]
-- [Connection to prerequisite]
-- [Connection to next topic]
+- [Core concept -> key subskills -> common representations]
+- [Prerequisite link: what students should already know]
+- [Current unit focus: what is new in this lesson]
+- [Forward link: where this lesson is used next]
+- [Optional visual note: include a small diagram/table if it improves clarity]
 
 ## Intuitive Explanation
 
-[Explain the idea in everyday language first. Start from a concrete or familiar context before symbols.]
+[Start in everyday language first, before symbols. Use one concrete scenario or analogy, then gradually bridge to mathematical language.]
+[Goal: a learner should be able to explain the big idea in words before seeing formal notation.]
 
 ## Formal Definition
 
-[State the exact mathematical definition, property, or rule with precise language.]
+[State the exact definition, property, or rule with precise language and notation.]
+[Keep this section short and unambiguous. If there are conditions/constraints, list them explicitly.]
+[Use KaTeX for notation whenever symbols or equations are central to understanding.]
 
 Example inline math: $f(x) = 2x + 1$
 
@@ -35,6 +41,9 @@ f(a + b) = f(a) + f(b)
 $$
 
 ## Worked Examples
+
+[Use a consistent structure for each example: Given -> Strategy -> Steps -> Result -> Quick reasonableness check.]
+[At least one example should connect the intuitive story to the formal procedure.]
 
 ### Example 1 - Foundational
 
@@ -56,12 +65,17 @@ $$
 
 ## Common Mistakes and How to Avoid Them
 
+[List 3-5 high-frequency mistakes. Pair each mistake with a quick correction habit or checkpoint.]
+
 - **Mistake:** [Common misconception].
   **How to avoid it:** [Correction strategy].
 - **Mistake:** [Second misconception].
   **How to avoid it:** [Correction strategy].
 
 ## Quick Checks
+
+[Include 3-5 short self-checks that can be answered in 1-3 lines each.]
+[Mix one conceptual check with computational checks where possible.]
 
 1. [Question 1]
    - **Answer:** [Short answer]
@@ -71,6 +85,9 @@ $$
    - **Answer:** [Short answer]
 
 ## Graded Exercises
+
+[Use increasing difficulty. Aim for 8-12 exercises total with concise answers or answer outlines.]
+[Suggested tiers: Easy (fluency), Medium (multi-step), Hard (transfer/challenge).]
 
 ### Level 1 - Warm-up
 
@@ -93,9 +110,9 @@ $$
 
 ## Summary and Key Takeaways
 
-- [Key idea 1]
-- [Key idea 2]
-- [Key idea 3]
+- [3-5 concise takeaways in student-friendly language]
+- [One line on when to use this idea]
+- [One line on what to review if stuck]
 
 ## Next Steps / Connections
 

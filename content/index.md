@@ -42,7 +42,7 @@ This starter index defines the first 15 core units from elementary arithmetic th
 - Unit 12 is fully drafted and treated as `Ready` in the publishable layer.
 - Unit 13 now includes Graded Exercises and Summary plus a notation/tone harmonization micro-pass, and is marked `Ready`.
 - Unit 14 completed a bounded notation/tone/KaTeX safety polish pass and is now marked `Ready`.
-- Unit 15 has been kicked off with frontmatter + Concept Map + Intuitive Explanation and is currently marked `Draft`.
+- Unit 15 remains `Draft`; template guidance was refined on 2026-05-08 to tighten intuitive→formal progression, worked-example formatting, and exercise-quality signals for upcoming bounded passes.
 - Units 4-8 completed a 2026-03-29 structural alignment pass and now match canonical heading names/order (content depth polish can proceed separately).
 - Units 1-8 completed a light 2026-04-02 answer-key consistency sweep (notation, wording density, and multi-step clarity) with minimal section-local edits only.
 - Units 9-10 completed a light 2026-04-03 answer-key consistency follow-up using the same minimal rubric; edits stayed section-local to solution clarity/notation in existing answer-key sections.
