@@ -92,4 +92,4 @@ After stabilizing the starter spine, likely next additions include:
 - Unit 12 is synchronized as `Ready` with the publishable index.
 - Unit 13 is synchronized as `Ready` after exercises/summary completion and a notation/tone harmonization micro-pass.
 - Unit 14 is synchronized as `Ready` after a bounded notation/tone/KaTeX safety polish pass.
-- Unit 15 is synchronized as `Draft` after bounded kickoff coverage (frontmatter + Concept Map + Intuitive Explanation); canonical template guidance was refined on 2026-05-08 to support the next bounded content passes.
+- Unit 15 is synchronized as `In Progress - Formal + Examples complete` after the bounded second pass adding `## Formal Definition` and `## Worked Examples`; remaining sections stay placeholder by design for incremental progression.
