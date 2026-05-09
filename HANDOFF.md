@@ -1,3 +1,25 @@
+## Session 2026-05-09 (Unit 15 Formal Definition + Worked Examples + Index Synchronization)
+- **What changed**:
+  - Updated `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md` by fully populating `## Formal Definition` and `## Worked Examples`.
+  - Preserved frontmatter and existing `## Concept Map` + `## Intuitive Explanation` content while keeping all later sections as placeholders.
+  - Added five worked examples with progressive difficulty, including one-solution systems, rational-coefficient elimination/substitution, and no-solution/infinite-solution classification.
+  - Updated `content/index.md` Unit 15 status to `In Progress - Formal + Examples complete` and aligned notes.
+  - Updated `curriculum/index.md` near-term planning note to mirror the exact Unit 15 status/state.
+  - Ran `npm run build` successfully and executed a short dev smoke check for `/units`, Unit 15, and Unit 14 continuity (HTTP 200).
+- **Decisions made**:
+  - Kept scope strictly bounded to the requested Unit 15 sections plus required publish/planning index synchronization.
+  - Maintained canonical lesson-template heading order and avoided any framework/routing/PWA changes.
+  - Left Common Mistakes, Quick Checks, Graded Exercises, Summary, and Next Steps as placeholders for the next bounded pass.
+- **What’s next**:
+  1. Populate `## Common Mistakes and How to Avoid Them` and `## Quick Checks` for Unit 15 in the next bounded session.
+  2. Re-sync `content/index.md` and `curriculum/index.md` immediately after that pass.
+  3. Re-run `npm run build` and short `/units` + Unit 14/15 smoke checks.
+- **Blockers / risks**:
+  - No functional blockers detected.
+  - Minor environment npm warning (`Unknown env config "http-proxy"`) may persist but is non-blocking when build and route checks pass.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 15 pass: populate only `## Common Mistakes and How to Avoid Them` and `## Quick Checks` in `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md`, keep frontmatter/heading order and all other sections unchanged, sync Unit 15 status text in both `content/index.md` and `curriculum/index.md`, run `npm run build` plus short `/units` + Unit 14/15 smoke checks, then append a dated HANDOFF summary."
+
 ## Session 2026-05-06 (Unit 15 Bounded Kickoff + Index Synchronization)
 - **What changed**:
   - Added `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md` with strict bounded coverage only: frontmatter, `## Concept Map`, and `## Intuitive Explanation`.
