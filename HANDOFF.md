@@ -1,3 +1,24 @@
+## Session 2026-05-11 (Unit 15 Common Mistakes + Quick Checks + Index Synchronization)
+- **What changed**:
+  - Populated `## Common Mistakes and How to Avoid Them` in `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md` with five realistic learner errors and concise prevention strategies.
+  - Populated `## Quick Checks` in the same Unit 15 file with four short formative checks including immediate answers and brief reasoning.
+  - Preserved all existing frontmatter, section order, and non-target placeholders (`## Graded Exercises`, `## Summary and Key Takeaways`, `## Next Steps / Connections`).
+  - Updated `content/index.md` Unit 15 note to `In Progress - Common Mistakes + Quick Checks complete` and clarified remaining placeholders.
+  - Updated `curriculum/index.md` near-term note to mirror the same Unit 15 progress state and remaining scope.
+  - Ran `npm run build` successfully and performed a short dev smoke test confirming HTTP 200 for `/units`, Unit 14, and Unit 15 routes.
+- **Decisions made**:
+  - Kept scope strictly bounded to the two requested Unit 15 sections plus dual-index synchronization and required handoff update.
+  - Made no routing/template/framework/PWA changes and added no new files.
+- **What’s next**:
+  1. Populate `## Graded Exercises` for Unit 15 in a bounded pass (difficulty ladder + answer key style consistent with prior ready units).
+  2. Then complete `## Summary and Key Takeaways` and `## Next Steps / Connections` in a final bounded pass.
+  3. Re-sync `content/index.md` and `curriculum/index.md` after each pass and run `npm run build` + short route smoke checks.
+- **Blockers / risks**:
+  - No functional blockers detected.
+  - Minor environment npm warning (`Unknown env config "http-proxy"`) still appears but remains non-blocking while build and route checks pass.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 15 pass: populate only `## Graded Exercises` in `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md` (with concise answers/explanations in the established style), keep all non-target sections unchanged, synchronize Unit 15 status notes in `content/index.md` and `curriculum/index.md`, run `npm run build` and a short `/units` + Unit 14/15 smoke test, then append a dated HANDOFF entry."
+
 ## Session 2026-05-09 (Unit 15 Formal Definition + Worked Examples + Index Synchronization)
 - **What changed**:
   - Updated `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md` by fully populating `## Formal Definition` and `## Worked Examples`.
