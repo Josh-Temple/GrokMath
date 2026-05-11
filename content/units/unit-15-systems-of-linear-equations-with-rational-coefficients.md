@@ -227,11 +227,70 @@ Any point that satisfies $x + 2y = 3$ also satisfies $3x + 6y = 9$.
 
 ## Common Mistakes and How to Avoid Them
 
-[Placeholder for next bounded pass.]
+1. **Solving only one equation and forgetting to verify both**  
+   - **Mistake:** A learner finds values from one transformed equation and assumes they solve the entire system.  
+   - **Avoid it:** Always substitute the final pair $(x, y)$ into **both** original equations before accepting the answer.
+
+2. **Sign errors during elimination**  
+   - **Mistake:** When adding or subtracting equations, learners drop a negative sign (for example, treating $-\frac{3}{4}y$ as $+\frac{3}{4}y$).  
+   - **Avoid it:** Rewrite each full equation with parentheses before combining:
+   $$
+   \left(\frac{1}{2}x - \frac{3}{4}y\right) + \left(-\frac{1}{2}x + \frac{1}{4}y\right).
+   $$
+   Then combine like terms slowly.
+
+3. **Incorrect distribution when scaling an equation**  
+   - **Mistake:** Multiplying one term but not every term, such as turning $2x - y = 5$ into $4x - y = 10$ instead of $4x - 2y = 10$.  
+   - **Avoid it:** Treat scaling as multiplying the **entire** equation by the same constant:
+   $$
+   2(2x - y) = 2(5) \Rightarrow 4x - 2y = 10.
+   $$
+
+4. **Fraction handling errors in substitution**  
+   - **Mistake:** Learners substitute correctly but then combine rational terms incorrectly (common denominator mistakes).  
+   - **Avoid it:** Pause and simplify arithmetic line by line; when needed, clear denominators carefully by multiplying both sides by the least common denominator.
+
+5. **Misclassifying special cases (no solution vs. infinitely many)**  
+   - **Mistake:** Seeing similar-looking equations and assuming infinitely many solutions without checking constants.  
+   - **Avoid it:** After elimination/scaling, compare resulting statements:
+   - If you get a contradiction like $0 = 3$, the system has **no solution**.
+   - If you get an identity like $0 = 0$, the system has **infinitely many solutions**.
 
 ## Quick Checks
 
-[Placeholder for next bounded pass.]
+1. Solve the system:
+   $$
+   \begin{cases}
+   y = 2x - 1 \\
+   x + y = 8
+   \end{cases}
+   $$
+   **Answer:** $(3, 5)$.  
+   **Why:** Substitute $y = 2x - 1$ into $x + y = 8$: $x + (2x - 1) = 8 \Rightarrow 3x = 9 \Rightarrow x = 3$, then $y = 5$.
+
+2. Classify the system (one solution, no solution, or infinitely many):
+   $$
+   \begin{cases}
+   3x - 6y = 9 \\
+   x - 2y = 1
+   \end{cases}
+   $$
+   **Answer:** No solution.  
+   **Why:** Multiplying the second equation by $3$ gives $3x - 6y = 3$, which conflicts with $3x - 6y = 9$.
+
+3. Solve the system:
+   $$
+   \begin{cases}
+   \frac{1}{2}x + y = 1 \\
+   \frac{1}{2}x - y = 3
+   \end{cases}
+   $$
+   **Answer:** $(4, -1)$.  
+   **Why:** Add equations to eliminate $y$: $x = 4$. Then substitute: $\frac{1}{2}(4) + y = 1 \Rightarrow y = -1$.
+
+4. True or false: If substitution leads to $0 = 0$, the system has exactly one solution.  
+   **Answer:** False.  
+   **Why:** $0 = 0$ indicates the equations are dependent (same line), so there are infinitely many solutions.
 
 ## Graded Exercises
 
