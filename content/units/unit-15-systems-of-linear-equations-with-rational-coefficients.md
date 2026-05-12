@@ -294,7 +294,89 @@ Any point that satisfies $x + 2y = 3$ also satisfies $3x + 6y = 9$.
 
 ## Graded Exercises
 
-[Placeholder for next bounded pass.]
+1. **(Foundational — substitution with integer result)** Solve:
+   $$
+   \begin{cases}
+   y = x + 2 \\
+   2x + y = 11
+   \end{cases}
+   $$
+   **Answer:** $(3, 5)$.  
+   **Key steps:** Substitute $y=x+2$ into $2x+y=11$: $2x+(x+2)=11 \Rightarrow 3x=9 \Rightarrow x=3$, then $y=5$.
+
+2. **(Foundational — elimination with easy scaling)** Solve:
+   $$
+   \begin{cases}
+   3x + 2y = 4 \\
+   3x - 2y = 8
+   \end{cases}
+   $$
+   **Answer:** $(2, -1)$.  
+   **Key steps:** Add equations to eliminate $y$: $6x=12 \Rightarrow x=2$. Substitute into $3x+2y=4$: $6+2y=4 \Rightarrow y=-1$.
+
+3. **(Core — rational coefficients via substitution)** Solve:
+   $$
+   \begin{cases}
+   y = \frac{3}{4}x - 2 \\
+   \frac{1}{2}x + y = 1
+   \end{cases}
+   $$
+   **Answer:** $\left(\frac{12}{5},-\frac{1}{5}\right)$.  
+   **Key steps:** Substitute into the second equation: $\frac{1}{2}x + \left(\frac{3}{4}x-2\right)=1$, so $\frac{5}{4}x-2=1$. Then $\frac{5}{4}x=3 \Rightarrow x=\frac{12}{5}$, and  
+   $y=\frac{3}{4}\cdot\frac{12}{5}-2=\frac{9}{5}-2=-\frac{1}{5}$.
+
+4. **(Core — clear denominators then eliminate)** Solve:
+   $$
+   \begin{cases}
+   \frac{1}{3}x + \frac{1}{2}y = 2 \\
+   \frac{1}{6}x - \frac{1}{2}y = -1
+   \end{cases}
+   $$
+   **Answer:** $\left(2, \frac{8}{3}\right)$.  
+   **Key steps:** Multiply both equations by $6$: $2x+3y=12$ and $x-3y=-6$. Add to get $3x=6 \Rightarrow x=2$. Then $2(2)+3y=12 \Rightarrow 3y=8 \Rightarrow y=\frac{8}{3}$.
+
+5. **(Core+ — classify special case)** Determine whether the system has one solution, no solution, or infinitely many:
+   $$
+   \begin{cases}
+   2x - \frac{1}{2}y = 3 \\
+   4x - y = 6
+   \end{cases}
+   $$
+   **Answer:** Infinitely many solutions.  
+   **Key steps:** Multiplying the first equation by $2$ gives exactly the second equation, so both equations represent the same line.
+
+6. **(Core+ — classify inconsistency)** Determine the number of solutions:
+   $$
+   \begin{cases}
+   x + \frac{2}{3}y = 5 \\
+   3x + 2y = 12
+   \end{cases}
+   $$
+   **Answer:** No solution.  
+   **Key steps:** Multiply the first equation by $3$: $3x+2y=15$, which contradicts $3x+2y=12$.
+
+7. **(Challenge — parameter check for a target solution)** Find $k$ so that $(2,-1)$ solves:
+   $$
+   \begin{cases}
+   kx + y = 5 \\
+   2x - \frac{1}{2}y = \frac{9}{2}
+   \end{cases}
+   $$
+   **Answer:** $k=3$.  
+   **Key steps:** Substitute $(2,-1)$ into first equation: $2k-1=5 \Rightarrow 2k=6 \Rightarrow k=3$. (Second equation checks: $4+\frac{1}{2}=\frac{9}{2}$.)
+
+8. **(Challenge — modeling and solving with rationals)** A school club sells smoothie cups: small cups cost $\$\frac{5}{2}$ each and large cups cost $\$\frac{7}{2}$ each. They sell $18$ cups total for $\$56$ in revenue. Let $s$ be small cups and $\ell$ be large cups. Find $(s,\ell)$.
+
+   Model:
+   $$
+   \begin{cases}
+   s + \ell = 18 \\
+   \frac{5}{2}s + \frac{7}{2}\ell = 56
+   \end{cases}
+   $$
+   **Answer:** $(s,\ell)=(7,11)$.  
+   **Key steps:** Multiply the revenue equation by $2$: $5s+7\ell=112$. From $s=18-\ell$, substitute:  
+   $5(18-\ell)+7\ell=112 \Rightarrow 90+2\ell=112 \Rightarrow \ell=11$, so $s=7$.
 
 ## Summary and Key Takeaways
 
