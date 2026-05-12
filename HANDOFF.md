@@ -1904,3 +1904,23 @@
   - Minor environment npm warning (`Unknown env config "http-proxy"`) may still appear but remains non-blocking when build and route checks pass.
 - **Suggested next prompt**:
   - "Execute a strict bounded Unit 15 pass: populate only `## Formal Definition` and `## Worked Examples` in `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md`, preserve canonical heading order and all non-target placeholders, run `npm run build` and short `/units` + Unit 14/15 smoke checks, then append a dated HANDOFF summary."
+
+## Session 2026-05-12 (Unit 15 Graded Exercises + Index Synchronization)
+- **What changed**:
+  - Populated `## Graded Exercises` in `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md` with 8 progressive exercises spanning substitution, elimination, denominator-clearing, classification of special cases, parameter solving, and a short modeling context.
+  - Preserved Unit 15 frontmatter, heading order, and non-target placeholders (`## Summary and Key Takeaways`, `## Next Steps / Connections`) unchanged.
+  - Updated Unit 15 status text in `content/index.md` to `In Progress - Graded Exercises complete` and aligned notes to reflect newly completed scope.
+  - Updated `curriculum/index.md` with the same synchronized Unit 15 status and near-term note wording.
+  - Ran `npm run build` successfully and performed a short dev smoke check confirming HTTP 200 for `/units`, Unit 14, and Unit 15 routes.
+- **Decisions made**:
+  - Kept scope strictly bounded to the requested Unit 15 `## Graded Exercises` pass plus dual-index synchronization and mandatory handoff update.
+  - Avoided routing/template/framework/PWA/dependency changes and created no new files.
+- **What’s next**:
+  1. Populate `## Summary and Key Takeaways` for Unit 15 in the next bounded pass.
+  2. Populate `## Next Steps / Connections` for Unit 15 in a final bounded pass and then evaluate `Ready` promotion criteria.
+  3. Re-sync `content/index.md` and `curriculum/index.md` after each pass and rerun `npm run build` + short route smoke checks.
+- **Blockers / risks**:
+  - No functional blockers detected.
+  - Environment npm warning (`Unknown env config "http-proxy"`) persists but remains non-blocking while build and route checks pass.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 15 pass: populate only `## Summary and Key Takeaways` in `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md`, keep all non-target sections unchanged, synchronize Unit 15 status text in both `content/index.md` and `curriculum/index.md`, run `npm run build` and a short `/units` + Unit 14/15 smoke test, then append a dated HANDOFF summary."
