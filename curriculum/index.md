@@ -92,4 +92,4 @@ After stabilizing the starter spine, likely next additions include:
 - Unit 12 is synchronized as `Ready` with the publishable index.
 - Unit 13 is synchronized as `Ready` after exercises/summary completion and a notation/tone harmonization micro-pass.
 - Unit 14 is synchronized as `Ready` after a bounded notation/tone/KaTeX safety polish pass.
-- Unit 15 is synchronized as `In Progress - Graded Exercises complete` after the bounded fourth pass adding `## Graded Exercises`; `## Summary and Key Takeaways` and `## Next Steps / Connections` remain placeholder by design for incremental progression.
+- Unit 15 is synchronized as `Ready` after the bounded completion pass adding `## Summary and Key Takeaways` and `## Next Steps / Connections`, closing the initial Units 1-15 starter spine.
