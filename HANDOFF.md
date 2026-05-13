@@ -1,3 +1,24 @@
+## Session 2026-05-13 (Unit 15 Completion + Index Synchronization)
+- **What changed**:
+  - Completed the remaining Unit 15 canonical sections in `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md`:
+    - `## Summary and Key Takeaways`
+    - `## Next Steps / Connections`
+  - Kept all prior Unit 15 sections, frontmatter, heading order, and route-impacting structure unchanged.
+  - Updated `content/index.md` to mark Unit 15 as `Ready`.
+  - Updated `curriculum/index.md` to mirror Unit 15 as `Ready` and aligned near-term planning note text.
+  - Ran `npm run build` successfully and executed short dev smoke checks (HTTP 200) for `/units`, Unit 14, and Unit 15 routes.
+- **Decisions made**:
+  - Maintained strict bounded scope: no framework, routing, dependency, template, or PWA changes.
+  - Chose concise synthesis bullets for summary and explicit prerequisite/forward links in next-step connections to match prior ready-unit style.
+- **What’s next**:
+  1. Run a light cross-unit notation consistency sweep for Units 11-15 (KaTeX-safe formatting and equation punctuation only).
+  2. Start Unit 16 kickoff in strict bounded mode (frontmatter + `## Concept Map` + `## Intuitive Explanation`).
+- **Blockers / risks**:
+  - No functional blockers detected.
+  - Minor environment npm warning (`Unknown env config "http-proxy"`) may still appear but remains non-blocking while build and route checks pass.
+- **Suggested next prompt**:
+  - "Run a strict post-completion continuity pass: perform only a minimal notation/KaTeX consistency sweep across Units 11-15 (no structural edits), sync any resulting status wording only if needed, run `npm run build` and short `/units` + Unit 15 smoke checks, then append a dated HANDOFF summary."
+
 ## Session 2026-05-11 (Unit 15 Common Mistakes + Quick Checks + Index Synchronization)
 - **What changed**:
   - Populated `## Common Mistakes and How to Avoid Them` in `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md` with five realistic learner errors and concise prevention strategies.

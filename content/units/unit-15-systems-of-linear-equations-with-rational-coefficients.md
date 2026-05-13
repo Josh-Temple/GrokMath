@@ -380,8 +380,20 @@ Any point that satisfies $x + 2y = 3$ also satisfies $3x + 6y = 9$.
 
 ## Summary and Key Takeaways
 
-[Placeholder for next bounded pass.]
+- A system of linear equations asks for values of $(x,y)$ that satisfy **both** equations simultaneously.
+- Substitution is efficient when one variable is already isolated (or can be isolated quickly).
+- Elimination is efficient when coefficients can cancel directly or after simple scaling.
+- Rational coefficients do not change the logic of solving; they increase the need for careful arithmetic and sign control.
+- Always verify a proposed solution in both original equations, especially after multiple transformations.
+- Special outcomes matter conceptually:
+  - contradiction (for example, $0=4$) means **no solution**,
+  - identity (for example, $0=0$) means **infinitely many solutions**,
+  - a single ordered pair means **one solution**.
+- Algebra and graph views are equivalent: solving a system algebraically finds the same intersection behavior seen on coordinate graphs.
 
 ## Next Steps / Connections
 
-[Placeholder for next bounded pass.]
+- **Back link (Unit 14):** Keep using equation-balance skills from one-variable solving; they are the engine behind substitution and elimination.
+- **Near extension:** Represent each equation in slope-intercept form and connect algebraic outcomes to graph intersections (one, none, infinitely many).
+- **Modeling bridge:** Use systems to solve contextual comparisons (cost plans, mixture problems, distance-rate-time comparisons).
+- **Forward preview:** Future units can generalize this work to linear function systems, inequality regions, and eventually matrices as an organized solving framework.
