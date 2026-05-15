@@ -1945,3 +1945,45 @@
   - Environment npm warning (`Unknown env config "http-proxy"`) persists but remains non-blocking while build and route checks pass.
 - **Suggested next prompt**:
   - "Execute the next strict bounded Unit 15 pass: populate only `## Summary and Key Takeaways` in `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md`, keep all non-target sections unchanged, synchronize Unit 15 status text in both `content/index.md` and `curriculum/index.md`, run `npm run build` and a short `/units` + Unit 14/15 smoke test, then append a dated HANDOFF summary."
+
+## Session 2026-05-13 (Grok Unit 15 Completion Instruction Validity Review + Execution Plan)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` completely before planning.
+  - Reviewed the provided Grok instruction block (A-H) against current repository state.
+  - Confirmed Unit 15 is already marked completed in the most recent handoff entry and that requested scope is structurally valid for a bounded pass.
+  - Prepared a concrete execution plan focused on validation-first checks and minimal synchronization edits only if drift is detected.
+- **Decisions made**:
+  - Treat the instruction set as **valid in intent**, but likely **already executed** based on the existing 2026-05-13 completion record.
+  - Apply a verify-before-edit rule: only edit Unit 15 or indexes if an actual mismatch with template/order/status is found.
+  - Preserve strict scope boundaries (no framework/routing/template/PWA/dependency changes).
+- **What’s next**:
+  1. Verify Unit 15 section completeness and heading order against `content/lesson-template.md`.
+  2. Verify `content/index.md` and `curriculum/index.md` still both show Unit 15 as `Ready` with aligned notes.
+  3. Run `npm run build` and short route smoke checks for `/units` and Unit 15.
+  4. If all checks pass, perform no content edits and proceed to next bounded task (Unit 16 kickoff or Unit 11-15 notation sweep).
+- **Blockers / risks**:
+  - No functional blockers expected.
+  - Main risk is redundant edits causing churn despite already-synchronized status.
+- **Suggested next prompt**:
+  - "Run a strict validation pass only: confirm Unit 15 template coverage/order and dual-index Ready synchronization, run `npm run build` + short `/units` and Unit 15 smoke checks, and edit files only if drift is found; then append a dated HANDOFF summary."
+
+## Session 2026-05-14 (Unit 15 Validation-First Execution)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` before execution.
+  - Executed the planned validation-first pass for Unit 15 without content rewrites.
+  - Verified canonical heading coverage/order between `content/lesson-template.md` and `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md`.
+  - Verified `content/index.md` and `curriculum/index.md` both remain synchronized with Unit 15 marked `Ready`.
+  - Ran `npm run build` successfully.
+  - Ran a short `npm run dev` smoke check and confirmed HTTP 200 for `/units` and Unit 15 route.
+- **Decisions made**:
+  - No curriculum-content or index edits were needed because no drift was detected.
+  - Preserved strict bounded scope (no routing/template/PWA/dependency changes).
+- **What’s next**:
+  1. Start Unit 16 in strict bounded mode (`frontmatter` + `## Concept Map` + `## Intuitive Explanation`).
+  2. Keep `content/index.md` and `curriculum/index.md` synchronized immediately after each Unit 16 increment.
+  3. Continue build + short route smoke checks at the end of each bounded pass.
+- **Blockers / risks**:
+  - No functional blockers detected.
+  - Minor shell-process cleanup caution: ensure dev-server PID capture/termination is explicit to avoid noisy `kill` usage warnings.
+- **Suggested next prompt**:
+  - "Begin Unit 16 with a strict bounded kickoff: add frontmatter plus `## Concept Map` and `## Intuitive Explanation` only, keep canonical template order for remaining placeholders, synchronize status notes in `content/index.md` and `curriculum/index.md`, run `npm run build` and short `/units` + Unit 15/16 smoke checks, then append a dated HANDOFF summary."
