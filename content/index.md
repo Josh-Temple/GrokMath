@@ -1,8 +1,8 @@
 # GrokMath Curriculum Index
 
-This starter index defines the first 15 core units from elementary arithmetic through early system-solving with linear equations over rational numbers.
+This starter index defines the first 16 core units from elementary arithmetic through early system-solving with linear equations over rational numbers.
 
-## Starter Spine (Units 1-15)
+## Starter Spine (Units 1-16)
 
 | Unit | Title | Audience / Grade Band | Description | Status |
 |---|---|---|---|---|
@@ -21,6 +21,7 @@ This starter index defines the first 15 core units from elementary arithmetic th
 | 13 | Advanced Rational Applications and Mixed Operations | Grades 7-9 | Extends rational fluency to multi-step contexts, mixed forms, and operation-selection reasoning with stronger modeling habits. | Ready |
 | 14 | Linear Equations and Inequalities with Rational Numbers | Grades 7-9 | Applies rational-number fluency to solving and interpreting one-variable linear equations and inequalities. | Ready |
 | 15 | Systems of Linear Equations with Rational Coefficients | Grades 8-10 | Extends one-variable linear solving to two-equation systems using substitution, elimination, and intersection interpretation. | Ready |
+| 16 | Introductory Quadratic Relations and Parabolas | Grades 8-10 | Introduces quadratic relations and parabola structure as the first step beyond linear-system methods into curved-function behavior. | Draft |
 
 ## Sequencing Rationale
 
@@ -33,16 +34,18 @@ This starter index defines the first 15 core units from elementary arithmetic th
 - Unit 13 extends that fluency into multi-step applications and operation-selection strategy.
 - Unit 14 transitions from rational computation into equation/inequality solving as an algebra bridge.
 - Unit 15 extends linear solving to systems, coordinating algebraic methods with intersection-based interpretation.
+- Unit 16 introduces quadratic relations and parabola behavior as the first structured move from linear to curved models.
 
 ## Notes
 
-- Units 1-14 align with existing lesson files in `content/units/`.
+- Units 1-16 align with existing lesson files in `content/units/`.
 - Unit 10 has completed the polish pass and is marked `Ready` in the publishable layer.
 - Unit 11 is fully drafted and lightly polished (notation/tone micro-pass complete as of 2026-04-11) and is now marked `Ready`.
 - Unit 12 is fully drafted and treated as `Ready` in the publishable layer.
 - Unit 13 now includes Graded Exercises and Summary plus a notation/tone harmonization micro-pass, and is marked `Ready`.
 - Unit 14 completed a bounded notation/tone/KaTeX safety polish pass and is now marked `Ready`.
 - Unit 15 is now `Ready`; all canonical sections are populated, including `## Graded Exercises`, `## Summary and Key Takeaways`, and `## Next Steps / Connections`, and publishable/planning indexes are synchronized.
+- Unit 16 is in strict bounded kickoff state (`Draft`): frontmatter plus `## Concept Map` and `## Intuitive Explanation` are populated, while later canonical sections remain placeholders.
 - Units 4-8 completed a 2026-03-29 structural alignment pass and now match canonical heading names/order (content depth polish can proceed separately).
 - Units 1-8 completed a light 2026-04-02 answer-key consistency sweep (notation, wording density, and multi-step clarity) with minimal section-local edits only.
 - Units 9-10 completed a light 2026-04-03 answer-key consistency follow-up using the same minimal rubric; edits stayed section-local to solution clarity/notation in existing answer-key sections.
