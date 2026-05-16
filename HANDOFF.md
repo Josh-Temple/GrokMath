@@ -1987,3 +1987,42 @@
   - Minor shell-process cleanup caution: ensure dev-server PID capture/termination is explicit to avoid noisy `kill` usage warnings.
 - **Suggested next prompt**:
   - "Begin Unit 16 with a strict bounded kickoff: add frontmatter plus `## Concept Map` and `## Intuitive Explanation` only, keep canonical template order for remaining placeholders, synchronize status notes in `content/index.md` and `curriculum/index.md`, run `npm run build` and short `/units` + Unit 15/16 smoke checks, then append a dated HANDOFF summary."
+
+## Session 2026-05-16 (Grok Unit 16 Kickoff Instruction Validity Review + Execution Plan)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` fully before planning.
+  - Reviewed the provided Grok instruction block (A-H) for repository fit, scope safety, and process compliance.
+  - Produced a validation-first execution plan for a strict Unit 16 bounded kickoff, with synchronized index updates and non-breaking verification gates.
+- **Decisions made**:
+  - The instruction set is **valid and actionable** for the current repository state.
+  - Keep scope strictly bounded to: one new Unit 16 lesson file (frontmatter + `## Concept Map` + `## Intuitive Explanation` populated, remaining canonical headings preserved as placeholders), plus synchronized updates in `content/index.md` and `curriculum/index.md`.
+  - Preserve all non-negotiables: no routing/template/dependency/framework changes; maintain slug/frontmatter conventions; keep English-only content and canonical heading order.
+- **What’s next**:
+  1. Confirm the exact canonical heading order from `content/lesson-template.md` and copy it into the new Unit 16 file.
+  2. Create `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md` with `Draft` status and bounded content population.
+  3. Update `content/index.md` and `curriculum/index.md` so Unit 16 status wording is synchronized.
+  4. Run `npm run build` and short `npm run dev` smoke checks for `/units` and `/units/unit-16-introductory-quadratic-relations-and-parabolas` (HTTP 200).
+- **Blockers / risks**:
+  - No functional blockers expected for this bounded pass.
+  - Minor environment warning (`Unknown env config "http-proxy"`) may still appear but has historically been non-blocking when build and route checks pass.
+- **Suggested next prompt**:
+  - "Execute the strict Unit 16 bounded kickoff now: add `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md` with canonical frontmatter and only `## Concept Map` + `## Intuitive Explanation` populated, keep all later sections as placeholders in exact template order, synchronize Unit 16 `Draft` status in both `content/index.md` and `curriculum/index.md`, run `npm run build` and a short `/units` + Unit 16 smoke check, then append a dated HANDOFF summary."
+
+## Session 2026-05-16 (Unit 16 Bounded Kickoff + Index Synchronization)
+- **What changed**:
+  - Added `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md` with canonical frontmatter and strict bounded content: populated only `## Concept Map` and `## Intuitive Explanation`; preserved all later canonical sections as placeholders in template order.
+  - Updated `content/index.md` to expand starter-spine coverage from Units 1-15 to Units 1-16, add Unit 16 as `Draft`, and align sequencing/notes text with the new kickoff state.
+  - Updated `curriculum/index.md` to mirror Unit 16 in the planning-layer starter spine and near-term synchronization notes with status `Draft`.
+  - Ran `npm run build` successfully and a short `npm run dev` smoke check confirming HTTP 200 for `/units` and `/units/unit-16-introductory-quadratic-relations-and-parabolas`.
+- **Decisions made**:
+  - Kept scope strictly non-breaking and incremental: no frontend routing, dependency, framework, template, or PWA changes.
+  - Chose `level: "high-school"` and `audience: "Grades 8-10"` for Unit 16 to match the transition from linear systems into introductory quadratic modeling.
+- **What’s next**:
+  1. Populate `## Formal Definition` and `## Worked Examples` for Unit 16 in the next bounded pass.
+  2. Re-sync `content/index.md` and `curriculum/index.md` immediately after that pass.
+  3. Re-run `npm run build` and short `/units` + Unit 16 route smoke checks.
+- **Blockers / risks**:
+  - No functional blockers detected.
+  - Minor environment npm warning (`Unknown env config "http-proxy"`) persists but remains non-blocking while build and route checks pass.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 16 pass: populate only `## Formal Definition` and `## Worked Examples` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`, keep all non-target sections unchanged, synchronize Unit 16 status wording in both `content/index.md` and `curriculum/index.md`, run `npm run build` and a short `/units` + Unit 16 smoke test, then append a dated HANDOFF summary."

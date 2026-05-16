@@ -33,7 +33,7 @@ Every mature unit should eventually include:
 - Use `curriculum/_templates/lesson-template.md` for sequencing notes and scope sketches.
 - Keep naming aligned with the published lesson inventory in `content/index.md`.
 
-## Starter Spine (Units 1-15)
+## Starter Spine (Units 1-16)
 
 1. Whole Numbers and Place Value
 2. Operations with Whole Numbers
@@ -50,6 +50,7 @@ Every mature unit should eventually include:
 13. Advanced Rational Applications and Mixed Operations
 14. Linear Equations and Inequalities with Rational Numbers
 15. Systems of Linear Equations with Rational Coefficients
+16. Introductory Quadratic Relations and Parabolas
 
 ## Sequencing Rationale
 
@@ -62,6 +63,7 @@ Every mature unit should eventually include:
 - Unit 13 shifts from pure computation toward multi-step application and operation-selection strategy.
 - Unit 14 converts rational fluency into one-variable linear equation and inequality solving as a direct pre-function algebra bridge.
 - Unit 15 advances to two-variable linear systems, connecting substitution/elimination procedures with graph intersections.
+- Unit 16 transitions from linear models to introductory quadratic relations and parabola interpretation.
 
 ## Longer-Term Expansion Candidates
 
@@ -92,4 +94,5 @@ After stabilizing the starter spine, likely next additions include:
 - Unit 12 is synchronized as `Ready` with the publishable index.
 - Unit 13 is synchronized as `Ready` after exercises/summary completion and a notation/tone harmonization micro-pass.
 - Unit 14 is synchronized as `Ready` after a bounded notation/tone/KaTeX safety polish pass.
-- Unit 15 is synchronized as `Ready` after the bounded completion pass adding `## Summary and Key Takeaways` and `## Next Steps / Connections`, closing the initial Units 1-15 starter spine.
+- Unit 15 is synchronized as `Ready` after the bounded completion pass adding `## Summary and Key Takeaways` and `## Next Steps / Connections`.
+- Unit 16 is synchronized as `Draft` in bounded kickoff mode (frontmatter + `## Concept Map` + `## Intuitive Explanation` populated).
