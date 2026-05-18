@@ -47,7 +47,7 @@ For rational numbers $x, y$:
 Equivalent forms represent the same value, so we may rewrite before computing:
 
 $$
-\frac{a}{b} = \frac{ka}{kb} \quad (k \ne 0)
+\frac{a}{b} = \frac{ka}{kb} \quad (k \neq 0)
 $$
 
 This supports common denominators in addition/subtraction and simplification in multiplication/division.

@@ -30,7 +30,7 @@ A helpful mindset is: first understand the story, then map each action to an ope
 
 ## Formal Definition
 
-Let $\mathbb{Q}$ be the set of rational numbers, where each value can be written as $\frac{a}{b}$ with integers $a, b$ and $b \ne 0$.
+Let $\mathbb{Q}$ be the set of rational numbers, where each value can be written as $\frac{a}{b}$ with integers $a, b$ and $b \neq 0$.
 
 In mixed-operation expressions over $\mathbb{Q}$:
 
@@ -40,7 +40,7 @@ In mixed-operation expressions over $\mathbb{Q}$:
    - equal sharing or unit rate $\rightarrow$ division.
 2. **Order of operations** is preserved exactly as in whole-number algebra: $\text{Parentheses} \rightarrow \text{Multiplication/Division} \rightarrow \text{Addition/Subtraction}$.
 3. **Equivalent-form flexibility**: a rational value may be rewritten as a fraction or decimal form when it makes structure clearer, without changing value.
-4. **Division restriction**: for $r, s \in \mathbb{Q}$, $r \div s = r \cdot \frac{1}{s}$ with $s \ne 0$.
+4. **Division restriction**: for $r, s \in \mathbb{Q}$, $r \div s = r \cdot \frac{1}{s}$ with $s \neq 0$.
 5. **Sign consistency rule**: signs must be interpreted through both the operation and context meaning (for example, subtracting a negative value represents an increase).
 
 A complete solution is valid only when the chosen operations, operation order, and final sign all match the original context.
@@ -72,7 +72,7 @@ A diver is at $-18$ meters relative to sea level and rises by $\frac{9}{2}$ mete
 1. New depth expression: $-18 + \frac{9}{2} = -\frac{36}{2} + \frac{9}{2} = -\frac{27}{2} = -13.5$.
 2. Interpret sign: $-13.5$ m means still below sea level, but less deep than before.
 3. Average change per minute: $\frac{\frac{9}{2}}{3} = \frac{9}{2} \cdot \frac{1}{3} = \frac{9}{6} = \frac{3}{2} = 1.5$.
-4. Final answers: new depth $=-13.5$ m, average rise rate $=1.5$ m/min upward.
+4. Final answers: new depth $ = -13.5$ m, average rise rate $ = 1.5$ m/min upward.
 
 ### Example 4 - Mixed signs in a financial adjustment
 
@@ -91,7 +91,7 @@ A balance change is modeled by $12.5 - (-3.75) - 4.5$. Evaluate and interpret.
 - **Mistake:** Mixing percent language with add/subtract rules incorrectly.
   **How to avoid it:** Convert each percent action to a multiplier first (for example, discount by $25\% \rightarrow \times 0.75$, increase by $8\% \rightarrow \times 1.08$), then multiply in sequence.
 - **Mistake:** Dividing by a rational number without using its reciprocal.
-  **How to avoid it:** Replace division with multiplication by the reciprocal: $r \div s = r \cdot \frac{1}{s}$ for $s \ne 0$, then simplify carefully.
+  **How to avoid it:** Replace division with multiplication by the reciprocal: $r \div s = r \cdot \frac{1}{s}$ for $s \neq 0$, then simplify carefully.
 - **Mistake:** Reporting a numerically correct value with an incorrect context meaning.
   **How to avoid it:** Add a short interpretation sentence at the end (for example, "negative means below sea level" or "positive means net gain").
 

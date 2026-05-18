@@ -96,3 +96,4 @@ After stabilizing the starter spine, likely next additions include:
 - Unit 14 is synchronized as `Ready` after a bounded notation/tone/KaTeX safety polish pass.
 - Unit 15 is synchronized as `Ready` after the bounded completion pass adding `## Summary and Key Takeaways` and `## Next Steps / Connections`.
 - Unit 16 is synchronized as `Draft` in bounded kickoff mode (frontmatter + `## Concept Map` + `## Intuitive Explanation` populated).
+- Units 11-15 completed a light notation/KaTeX consistency sweep on 2026-05-18 (formatting safety only; no structural or semantic lesson changes).

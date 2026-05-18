@@ -36,7 +36,7 @@ $$
 ax + b = c,
 $$
 
-where $a, b, c \in \mathbb{Q}$ and $a \ne 0$. A value of $x$ is a solution if substituting it makes both sides equal.
+where $a, b, c \in \mathbb{Q}$ and $a \neq 0$. A value of $x$ is a solution if substituting it makes both sides equal.
 
 A **linear inequality in one variable** has the form
 

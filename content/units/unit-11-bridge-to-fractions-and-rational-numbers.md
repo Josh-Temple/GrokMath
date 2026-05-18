@@ -39,12 +39,12 @@ where $a$ and $b$ are integers and $b \neq 0$.
 
 Equivalent fractions represent the same rational number when we multiply or divide numerator and denominator by the same nonzero integer:
 $$
-\frac{a}{b}=\frac{ka}{kb}\quad (k\neq 0).
+\frac{a}{b} = \frac{ka}{kb} \quad (k \neq 0).
 $$
 
 Sign conventions:
 $$
--\frac{a}{b}=\frac{-a}{b}=\frac{a}{-b},\qquad \frac{-a}{-b}=\frac{a}{b}.
+-\frac{a}{b} = \frac{-a}{b} = \frac{a}{-b}, \qquad \frac{-a}{-b} = \frac{a}{b}.
 $$
 So a rational number has a **size** (absolute value) and a **direction** (sign).
 
@@ -61,7 +61,7 @@ Show that $\frac{3}{4}$ and $\frac{9}{12}$ are the same value.
 
 Step 1: Multiply numerator and denominator of $\frac{3}{4}$ by 3.
 $$
-\frac{3}{4}=\frac{3\cdot 3}{4\cdot 3}=\frac{9}{12}.
+\frac{3}{4} = \frac{3 \cdot 3}{4 \cdot 3} = \frac{9}{12}.
 $$
 Step 2: Since both parts were multiplied by the same nonzero number, the value is unchanged.
 
@@ -81,7 +81,7 @@ Which is greater: $\frac{2}{3}$ or $\frac{3}{5}$?
 
 Step 1: Use a common denominator of 15.
 $$
-\frac{2}{3}=\frac{10}{15},\qquad \frac{3}{5}=\frac{9}{15}.
+\frac{2}{3} = \frac{10}{15}, \qquad \frac{3}{5} = \frac{9}{15}.
 $$
 Step 2: Compare numerators because denominators match: 10 is greater than 9.
 
