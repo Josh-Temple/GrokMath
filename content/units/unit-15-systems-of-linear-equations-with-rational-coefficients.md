@@ -189,7 +189,7 @@ Compare equations by scaling the first equation.
    4x - 2y = 2
    $$
 2. Compare with the second equation $4x - 2y = 5$.
-3. The left sides are identical but constants differ ($2 \ne 5$), which is impossible.
+3. The left sides are identical but constants differ ($2 \neq 5$), which is impossible.
 
 **Result**  
 No solution.

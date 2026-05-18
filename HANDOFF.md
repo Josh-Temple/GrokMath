@@ -1,3 +1,30 @@
+## Session 2026-05-18 (Units 11-15 Notation Sweep + Unit 16 Continuity Verification)
+- **What changed**:
+  - Applied a light cross-unit notation/KaTeX consistency sweep across Units 11-15 with minimal non-semantic edits only (operator spacing and `\\neq` normalization) in:
+    - `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`
+    - `content/units/unit-12-operations-with-rational-numbers.md`
+    - `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md`
+    - `content/units/unit-14-linear-equations-and-inequalities-with-rational-numbers.md`
+    - `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md`
+  - Confirmed Unit 16 kickoff file remains in strict bounded state (frontmatter + `## Concept Map` + `## Intuitive Explanation` populated, later sections still placeholders) with no scope expansion.
+  - Updated both indexes to record the 2026-05-18 notation-sweep completion note:
+    - `content/index.md`
+    - `curriculum/index.md`
+  - Ran `npm run build` successfully and executed short `npm run dev` route smoke checks with HTTP 200 for `/units`, Unit 15, and Unit 16.
+- **Decisions made**:
+  - Preserved strict bounded scope: no framework/routing/template/dependency/PWA changes.
+  - Kept sweep edits formatting-only to avoid pedagogical or structural drift.
+  - Kept Unit 16 status as `Draft` and did not populate additional sections in this pass.
+- **What’s next**:
+  1. Populate only `## Formal Definition` and `## Worked Examples` for Unit 16 in the next bounded session.
+  2. Synchronize Unit 16 progress wording in both indexes immediately after that pass.
+  3. Re-run `npm run build` and short `/units` + Unit 16 smoke checks.
+- **Blockers / risks**:
+  - No functional blockers detected.
+  - Minor environment warning (`Unknown env config "http-proxy"`) persists but remains non-blocking while build and route checks pass.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 16 pass: populate only `## Formal Definition` and `## Worked Examples` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`, keep all non-target sections unchanged, synchronize Unit 16 status wording in both `content/index.md` and `curriculum/index.md`, run `npm run build` and short `/units` + Unit 16 smoke checks, then append a dated HANDOFF summary."
+
 ## Session 2026-05-13 (Unit 15 Completion + Index Synchronization)
 - **What changed**:
   - Completed the remaining Unit 15 canonical sections in `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md`:
@@ -2026,3 +2053,23 @@
   - Minor environment npm warning (`Unknown env config "http-proxy"`) persists but remains non-blocking while build and route checks pass.
 - **Suggested next prompt**:
   - "Execute the next strict bounded Unit 16 pass: populate only `## Formal Definition` and `## Worked Examples` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`, keep all non-target sections unchanged, synchronize Unit 16 status wording in both `content/index.md` and `curriculum/index.md`, run `npm run build` and a short `/units` + Unit 16 smoke test, then append a dated HANDOFF summary."
+
+## Session 2026-05-17 (Grok Unit 11-16 Instruction Validity Review + Execution Plan)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` and validated the newly provided Grok instruction block (A-H) against the current repository state and daily operating rules.
+  - Confirmed instruction alignment with the current incremental loop: bounded continuity sweep, Unit 16 kickoff, dual-index synchronization, build/smoke checks, and mandatory handoff update.
+  - Prepared an execution-ready bounded plan for the next implementation pass without making lesson-content changes in this review-only session.
+- **Decisions made**:
+  - Instruction set is **valid overall** and can be executed as-is with one operational clarification: wording such as "no other files" should still allow required `HANDOFF.md` session append per repo rules.
+  - Unit 16 slug choice accepted as `unit-16-introductory-quadratic-relations-and-parabolas.md` unless a stronger naming convention conflict is discovered during implementation.
+  - Sweep scope locked to non-semantic math-notation/KaTeX safety edits only for Units 11-15.
+- **What’s next**:
+  1. Execute Step 1 notation sweep for Units 11-15 (formatting/readability only, no structural or meaning changes).
+  2. Create Unit 16 kickoff file with frontmatter + `## Concept Map` + `## Intuitive Explanation`, keeping remaining template sections as placeholders.
+  3. Synchronize Unit 16 status in both `content/index.md` and `curriculum/index.md`.
+  4. Run `npm run build` and short `npm run dev` route smoke checks for `/units`, Unit 15, and Unit 16.
+- **Blockers / risks**:
+  - Main risk is over-editing during the sweep; mitigate via minimal diff discipline and section-boundary preservation.
+  - Environment warning (`Unknown env config "http-proxy"`) may recur but is non-blocking if build and route checks pass.
+- **Suggested next prompt**:
+  - "Execute the validated bounded pass: perform a minimal notation/KaTeX consistency sweep across Units 11-15 (no semantic rewrites), create `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md` with frontmatter + `## Concept Map` + `## Intuitive Explanation` only (rest placeholders), sync Unit 16 status in `content/index.md` and `curriculum/index.md`, run `npm run build` plus short `/units` + Unit 15/16 smoke checks, then append a dated HANDOFF execution summary."
