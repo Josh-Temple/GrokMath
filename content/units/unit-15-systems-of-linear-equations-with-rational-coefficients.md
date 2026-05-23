@@ -2,7 +2,7 @@
 title: Systems of Linear Equations with Rational Coefficients
 order: 15
 level: middle-school
-status: draft
+status: "Ready"
 description: Extends one-variable solving to pairs of linear equations and interprets shared solutions in algebraic and contextual forms.
 tags:
   - systems-of-equations
