@@ -1,3 +1,24 @@
+## Session 2026-05-22 (Validation-First Continuity Pass + Unit 15 Metadata Sync)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` before execution and validated the incoming Grok plan against current repository state.
+  - Confirmed Unit 16 remains correctly bounded to kickoff scope (frontmatter + `## Concept Map` + `## Intuitive Explanation` populated; later canonical sections preserved as placeholders) in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`.
+  - Updated Unit 15 frontmatter status in `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md` from `draft` to `Ready` to match its already-complete lesson body and the synchronized index state.
+  - Verified `content/index.md` and `curriculum/index.md` still mirror Units 15-16 status (`Ready` / `Draft`) and sequencing notes.
+  - Ran `npm run build` for a clean production validation.
+- **Decisions made**:
+  - Followed a verify-before-edit approach to avoid redundant curriculum rewrites.
+  - Kept scope strictly bounded: no routing/template/framework/dependency/PWA changes.
+  - Applied only one functional content metadata correction (Unit 15 frontmatter status alignment).
+- **What’s next**:
+  1. Execute the next bounded Unit 16 pass by populating only `## Formal Definition` and `## Worked Examples`.
+  2. Re-sync Unit 16 progress wording in both indexes immediately after that pass.
+  3. Re-run `npm run build` and short `/units` + Unit 16 smoke checks.
+- **Blockers / risks**:
+  - No functional blockers detected.
+  - Minor environment npm warning (`Unknown env config "http-proxy"`) may still appear but remains non-blocking if build succeeds.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 16 pass: populate only `## Formal Definition` and `## Worked Examples` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`, keep all non-target sections unchanged, synchronize Unit 16 status wording in both `content/index.md` and `curriculum/index.md`, run `npm run build` and a short `/units` + Unit 16 smoke test, then append a dated HANDOFF summary."
+
 ## Session 2026-05-18 (Units 11-15 Notation Sweep + Unit 16 Continuity Verification)
 - **What changed**:
   - Applied a light cross-unit notation/KaTeX consistency sweep across Units 11-15 with minimal non-semantic edits only (operator spacing and `\\neq` normalization) in:
