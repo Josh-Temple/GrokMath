@@ -1,3 +1,25 @@
+## Session 2026-05-24 (Unit 16 Formal Definition + Worked Examples Pass)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` before editing, then executed the planned bounded Unit 16 increment.
+  - Populated only `## Formal Definition` and `## Worked Examples` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`.
+  - Added formal quadratic definitions (standard form, vertex form, parameter meanings, domain/range by opening direction) and four step-structured worked examples (graph features, form conversion, vertex/range reading, projectile context).
+  - Updated Unit 16 progress notes in both indexes:
+    - `content/index.md`
+    - `curriculum/index.md`
+  - Ran `npm run build` successfully.
+- **Decisions made**:
+  - Kept strict scope: no frontmatter edits, no heading-order changes, no template/routing/framework/dependency changes.
+  - Kept Unit 16 status as `Draft` because later canonical sections remain placeholders.
+- **What’s next**:
+  1. Populate `## Common Mistakes and How to Avoid Them` and `## Quick Checks` for Unit 16 in the next bounded pass.
+  2. Synchronize Unit 16 progress wording in `content/index.md` and `curriculum/index.md` immediately after that pass.
+  3. Re-run `npm run build` and short `/units` + Unit 16 smoke checks.
+- **Blockers / risks**:
+  - No functional blockers detected in this pass.
+  - Minor environment npm warning (`Unknown env config "http-proxy"`) may still appear but remains non-blocking if build passes.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 16 pass: populate only `## Common Mistakes and How to Avoid Them` and `## Quick Checks` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`, keep all non-target sections unchanged, synchronize Unit 16 progress notes in `content/index.md` and `curriculum/index.md`, run `npm run build` and short `/units` + Unit 16 smoke checks, then append a dated HANDOFF summary."
+
 ## Session 2026-05-22 (Validation-First Continuity Pass + Unit 15 Metadata Sync)
 - **What changed**:
   - Re-read `README.md` and `HANDOFF.md` before execution and validated the incoming Grok plan against current repository state.
