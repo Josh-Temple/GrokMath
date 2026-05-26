@@ -32,32 +32,130 @@ A quadratic relation captures that curved pattern. Its graph is called a **parab
 
 ## Formal Definition
 
-[State the exact definition, property, or rule with precise language and notation.]
-[Keep this section short and unambiguous. If there are conditions/constraints, list them explicitly.]
-[Use KaTeX for notation whenever symbols or equations are central to understanding.]
+A **quadratic relation** in two variables is a relation that can be written so the highest power of the variable is 2. In this unit, we focus on quadratic relations expressed as functions of the form
+
+$$
+y=ax^2+bx+c, \quad a,b,c\in\mathbb{R}, \ a\neq 0.
+$$
+
+- This is the **standard form**.
+- The graph of any quadratic function is a **parabola**.
+
+An equivalent and often more informative form is the **vertex form**:
+
+$$
+y=a(x-h)^2+k,
+$$
+
+where:
+
+- $(h,k)$ is the **vertex** of the parabola,
+- $x=h$ is the **axis of symmetry**,
+- $a>0$ means the parabola opens upward, and $a<0$ means it opens downward,
+- larger $|a|$ gives a narrower parabola, while $0<|a|<1$ gives a wider parabola.
+
+For real coefficients:
+
+- **Domain** is all real numbers, $x\in\mathbb{R}$.
+- **Range** depends on the vertex and opening direction:
+  - if $a>0$, then $y\ge k$,
+  - if $a<0$, then $y\le k$.
 
 ## Worked Examples
 
-[Use a consistent structure for each example: Given -> Strategy -> Steps -> Result -> Quick reasonableness check.]
-[At least one example should connect the intuitive story to the formal procedure.]
+### Example 1 - Graph features from standard form
 
-### Example 1 - Foundational
+**Given:** $y=2x^2-8x+6$.
 
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
+**Strategy:** Convert to vertex form to read the vertex and axis quickly.
 
-### Example 2 - Standard Variation
+**Steps:**
 
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
+1. Factor the quadratic and linear part coefficient from the first two terms:
+   $$
+   y=2(x^2-4x)+6.
+   $$
+2. Complete the square inside parentheses:
+   $$
+   y=2\big[(x^2-4x+4)-4\big]+6.
+   $$
+3. Rewrite:
+   $$
+   y=2(x-2)^2-8+6=2(x-2)^2-2.
+   $$
 
-### Example 3 - Extension / Edge Case
+**Result:** Vertex is $(2,-2)$, axis is $x=2$, and since $a=2>0$, the parabola opens upward.
 
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
+**Quick check:** Substitute $x=2$: $y=2(0)^2-2=-2$, which matches the vertex $y$-value.
+
+### Example 2 - Convert standard form to vertex form
+
+**Given:** $y=-x^2+6x-5$.
+
+**Strategy:** Complete the square after factoring out the negative from the $x^2$ and $x$ terms.
+
+**Steps:**
+
+1. Group and factor:
+   $$
+   y=-(x^2-6x)-5.
+   $$
+2. Complete the square:
+   $$
+   y=-\big[(x^2-6x+9)-9\big]-5.
+   $$
+3. Simplify:
+   $$
+   y=-(x-3)^2+9-5=-(x-3)^2+4.
+   $$
+
+**Result:** Vertex form is $y=-(x-3)^2+4$, so vertex $(3,4)$ and axis $x=3$.
+
+**Quick check:** At $x=3$, $y=4$ is the maximum value because the parabola opens downward.
+
+### Example 3 - Find vertex and range directly
+
+**Given:** $y=-\frac{1}{2}(x+4)^2+7$.
+
+**Strategy:** Use vertex form parameters immediately.
+
+**Steps:**
+
+1. Compare with $y=a(x-h)^2+k$.
+2. Identify $a=-\frac{1}{2}$, $h=-4$, $k=7$.
+3. Determine shape: $a<0$ so opening is downward.
+
+**Result:** Vertex is $(-4,7)$, axis is $x=-4$, domain is $\mathbb{R}$, and range is $y\le 7$.
+
+**Quick check:** Because $(x+4)^2\ge 0$, the term $-\frac{1}{2}(x+4)^2\le 0$, so adding 7 gives values at most 7.
+
+### Example 4 - Real-world quadratic model (projectile)
+
+**Given:** A ball's height (meters) after $t$ seconds is
+
+$$
+h(t)=-5t^2+20t+1.
+$$
+
+Find the time and height at the highest point.
+
+**Strategy:** Use the vertex time formula for standard form, $t=-\frac{b}{2a}$.
+
+**Steps:**
+
+1. Identify coefficients: $a=-5$, $b=20$, $c=1$.
+2. Compute vertex time:
+   $$
+   t_{\text{max}}=-\frac{20}{2(-5)}=2.
+   $$
+3. Evaluate height:
+   $$
+   h(2)=-5(2^2)+20(2)+1=-20+40+1=21.
+   $$
+
+**Result:** The ball reaches its maximum height of $21\,\text{m}$ at $t=2\,\text{s}$.
+
+**Quick check:** Since $a<0$, the parabola opens downward, so the vertex is a maximum point.
 
 ## Common Mistakes and How to Avoid Them
 
