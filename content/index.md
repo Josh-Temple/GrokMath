@@ -45,7 +45,7 @@ This starter index defines the first 16 core units from elementary arithmetic th
 - Unit 13 now includes Graded Exercises and Summary plus a notation/tone harmonization micro-pass, and is marked `Ready`.
 - Unit 14 completed a bounded notation/tone/KaTeX safety polish pass and is now marked `Ready`.
 - Unit 15 is now `Ready`; all canonical sections are populated, including `## Graded Exercises`, `## Summary and Key Takeaways`, and `## Next Steps / Connections`, and publishable/planning indexes are synchronized.
-- Unit 16 remains `Draft` after the second bounded pass: `## Formal Definition` and `## Worked Examples` are now populated in addition to kickoff sections, while later canonical sections remain placeholders.
+- Unit 16 remains `Draft` after the third bounded pass: `## Common Mistakes and How to Avoid Them` and `## Quick Checks` are now populated in addition to prior completed sections, while `## Graded Exercises`, `## Summary and Key Takeaways`, and `## Next Steps / Connections` remain placeholders.
 - Units 11-15 completed a light notation/KaTeX consistency sweep on 2026-05-18 (delimiter/spacing/symbol normalization only; no structural or semantic lesson changes).
 - Units 4-8 completed a 2026-03-29 structural alignment pass and now match canonical heading names/order (content depth polish can proceed separately).
 - Units 1-8 completed a light 2026-04-02 answer-key consistency sweep (notation, wording density, and multi-step clarity) with minimal section-local edits only.

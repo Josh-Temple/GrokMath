@@ -159,24 +159,46 @@ Find the time and height at the highest point.
 
 ## Common Mistakes and How to Avoid Them
 
-[List 3-5 high-frequency mistakes. Pair each mistake with a quick correction habit or checkpoint.]
+- **Mistake 1: Confusing the sign of $a$ with left/right direction.**
+  Learners sometimes think $a>0$ means the graph moves right and $a<0$ means left.
+  **How to avoid it:** First decide opening direction only: $a>0$ opens up, $a<0$ opens down. Then find left/right location from the vertex value $h$ in $y=a(x-h)^2+k$.
 
-- **Mistake:** [Common misconception].
-  **How to avoid it:** [Correction strategy].
-- **Mistake:** [Second misconception].
-  **How to avoid it:** [Correction strategy].
+- **Mistake 2: Reading the vertex incorrectly from vertex form.**
+  In $y=(x-3)^2+2$, a common error is writing vertex $(-3,2)$.
+  **How to avoid it:** Use the template match habit: compare to $y=a(x-h)^2+k$ and copy $(h,k)$ directly. Here, $h=3$ and $k=2$, so vertex is $(3,2)$.
+
+- **Mistake 3: Using the axis of symmetry formula incorrectly.**
+  In standard form $y=ax^2+bx+c$, students may use $x=\frac{b}{2a}$ and miss the negative sign.
+  **How to avoid it:** Memorize and checkpoint with a substitution test: axis is always
+  $$
+  x=-\frac{b}{2a}.
+  $$
+  After computing, plug that $x$ into the equation to verify it matches the vertex's $x$-coordinate.
+
+- **Mistake 4: Assuming every quadratic has range $y\ge 0$.**
+  This confusion comes from overgeneralizing from $y=x^2$.
+  **How to avoid it:** Determine opening and vertex first. If $a>0$, range is $y\ge k$; if $a<0$, range is $y\le k$, where $(h,k)$ is the vertex.
+
+- **Mistake 5: Plotting too few points and drawing an unsymmetrical parabola.**
+  Learners may plot one side accurately but not reflect points across the axis.
+  **How to avoid it:** Use a symmetry checklist: plot the vertex, choose one point on each side of the axis at equal horizontal distance, and confirm equal $y$-values.
 
 ## Quick Checks
 
-[Include 3-5 short self-checks that can be answered in 1-3 lines each.]
-[Mix one conceptual check with computational checks where possible.]
+1. **Concept check:** Why is $y=x^2+4x+7$ not linear?
+   - **Answer:** Because the highest power of $x$ is $2$, so it is quadratic, not linear.
 
-1. [Question 1]
-   - **Answer:** [Short answer]
-2. [Question 2]
-   - **Answer:** [Short answer]
-3. [Question 3]
-   - **Answer:** [Short answer]
+2. Find the vertex of $y=(x+1)^2-5$.
+   - **Answer:** Compare with $y=a(x-h)^2+k$: $h=-1$, $k=-5$. Vertex is $(-1,-5)$.
+
+3. For $y=-2(x-4)^2+3$, state the opening direction and range.
+   - **Answer:** Since $a=-2<0$, it opens downward. Vertex is $(4,3)$, so range is $y\le 3$.
+
+4. Find the axis of symmetry of $y=x^2-6x+1$.
+   - **Answer:** $x=-\frac{b}{2a}=-\frac{-6}{2\cdot 1}=3$, so the axis is $x=3$.
+
+5. A ball's height is modeled by $h(t)=-5t^2+10t+2$. At what time is the maximum height reached?
+   - **Answer:** Use $t=-\frac{b}{2a}=-\frac{10}{2(-5)}=1$. The maximum occurs at $t=1$ second.
 
 ## Graded Exercises
 
