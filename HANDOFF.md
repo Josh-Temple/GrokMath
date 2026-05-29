@@ -2139,3 +2139,47 @@
   - Minor environment npm warning (`Unknown env config "http-proxy"`) may still appear but remains non-blocking if build passes.
 - **Suggested next prompt**:
   - "Execute the next strict bounded Unit 16 pass: populate only `## Graded Exercises` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md` (with concise answers/explanations in the established style), keep all non-target sections unchanged, synchronize Unit 16 progress notes in `content/index.md` and `curriculum/index.md`, run `npm run build` and short `/units` + Unit 16 smoke checks, then append a dated HANDOFF entry."
+
+## Session 2026-05-29 (Grok Unit 16 Instruction Validity Review + Updated Plan)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` before making any repository changes, following the mandatory continuity rules.
+  - Reviewed the provided Grok instruction block for the proposed Unit 16 `## Common Mistakes and How to Avoid Them` + `## Quick Checks` pass against the current repository state.
+  - Confirmed that the requested Unit 16 sections are already populated and that both `content/index.md` and `curriculum/index.md` already describe Unit 16 as `Draft` after the third bounded pass.
+  - Appended this handoff-only review entry; no lesson files, indexes, templates, routing, dependencies, or UI components were changed.
+- **Decisions made**:
+  - Do **not** execute the provided Grok instruction block as-is because it is stale: repeating it would risk unnecessary churn in already-completed Unit 16 sections.
+  - Keep Unit 16 status as `Draft` because `## Graded Exercises`, `## Summary and Key Takeaways`, and `## Next Steps / Connections` are still the remaining bounded completion targets.
+  - The next implementation pass should follow the latest existing handoff direction: populate only `## Graded Exercises` first, then reserve summary/connections for a later pass.
+- **What’s next**:
+  1. Populate only `## Graded Exercises` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md` with a difficulty ladder and concise answer outlines.
+  2. Synchronize Unit 16 progress notes in both `content/index.md` and `curriculum/index.md` while keeping status as `Draft` unless all canonical sections become complete.
+  3. Run `npm run build` and short route smoke checks for `/units` and `/units/unit-16-introductory-quadratic-relations-and-parabolas`.
+  4. Append a fresh dated `HANDOFF.md` execution summary after that implementation pass.
+- **Blockers / risks**:
+  - No functional blockers detected.
+  - Main risk is following stale instructions and rewriting already-populated sections; mitigate by treating `## Common Mistakes and How to Avoid Them` and `## Quick Checks` as complete unless a specific quality-revision request is made.
+  - Minor environment npm warning (`Unknown env config "http-proxy"`) may recur during npm commands but has previously been non-blocking when builds pass.
+- **Suggested next prompt**:
+  - "Execute the next strict bounded Unit 16 pass: populate only `## Graded Exercises` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md` with a difficulty ladder and concise answer outlines in the established style, keep all non-target sections unchanged, synchronize Unit 16 progress notes in `content/index.md` and `curriculum/index.md`, run `npm run build` and short `/units` + Unit 16 route smoke checks, then append a dated HANDOFF entry."
+
+## Session 2026-05-29 (Unit 16 Graded Exercises Pass)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` before editing and proceeded with the latest bounded Unit 16 plan.
+  - Populated only `## Graded Exercises` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md` with 10 exercises across warm-up, core practice, and challenge tiers.
+  - Included concise answers and key reasoning for recognizing quadratic structure, reading vertex form, comparing width, finding axes/vertices, completing the square, interpreting maxima, using table differences, modeling projectiles, and building a vertex-form model from constraints.
+  - Updated Unit 16 progress notes in both `content/index.md` and `curriculum/index.md` to reflect the fourth bounded pass while keeping status as `Draft`.
+  - Ran `npm run build` successfully and completed short route smoke checks for `/units` and `/units/unit-16-introductory-quadratic-relations-and-parabolas` with HTTP 200 responses.
+- **Decisions made**:
+  - Kept scope strictly bounded to Unit 16 graded exercises plus synchronized index and handoff updates.
+  - Left `## Summary and Key Takeaways` and `## Next Steps / Connections` unchanged as placeholders for the final bounded Unit 16 completion pass.
+  - Kept Unit 16 status as `Draft` because the final two canonical sections are still not populated.
+- **What’s next**:
+  1. Populate only `## Summary and Key Takeaways` and `## Next Steps / Connections` in Unit 16.
+  2. Synchronize Unit 16 progress notes in `content/index.md` and `curriculum/index.md`; promote Unit 16 to `Ready` only if all canonical sections are complete and quality checks pass.
+  3. Run `npm run build` and short route smoke checks for `/units` and the Unit 16 lesson route.
+- **Blockers / risks**:
+  - No functional blockers detected.
+  - Minor environment npm warning (`Unknown env config "http-proxy"`) appeared again but remained non-blocking because build and route checks passed.
+  - Remaining risk is over-expanding the final pass; keep it limited to summary/connections and progress synchronization.
+- **Suggested next prompt**:
+  - "Execute the final strict bounded Unit 16 completion pass: populate only `## Summary and Key Takeaways` and `## Next Steps / Connections` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`, keep all non-target sections unchanged, synchronize Unit 16 status/progress notes in `content/index.md` and `curriculum/index.md` (promote to `Ready` only if appropriate), run `npm run build` and short `/units` + Unit 16 route smoke checks, then append a dated HANDOFF entry."
