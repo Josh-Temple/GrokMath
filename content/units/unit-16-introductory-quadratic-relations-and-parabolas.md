@@ -202,27 +202,60 @@ Find the time and height at the highest point.
 
 ## Graded Exercises
 
-[Use increasing difficulty. Aim for 8-12 exercises total with concise answers or answer outlines.]
-[Suggested tiers: Easy (fluency), Medium (multi-step), Hard (transfer/challenge).]
-
 ### Level 1 - Warm-up
 
-1. [Exercise 1]
-2. [Exercise 2]
-3. [Exercise 3]
+1. **(Foundational - identify quadratic structure)** Decide whether each relation is quadratic. Explain briefly.
+   - (a) $y=4x-7$
+   - (b) $y=x^2-3x+2$
+   - (c) $y=5(x+1)^2-9$
+
+   **Answer:** (a) Not quadratic; the highest power of $x$ is $1$. (b) Quadratic; it has an $x^2$ term with nonzero coefficient. (c) Quadratic; it is in vertex form with a squared expression.
+
+2. **(Foundational - read vertex form)** For $y=2(x-3)^2-5$, state the vertex, axis of symmetry, opening direction, and range.
+
+   **Answer:** Vertex $(3,-5)$; axis $x=3$; opens upward because $a=2>0$; range $y\ge -5$.
+
+3. **(Foundational - opening and width)** Compare $y=x^2$ and $y=\frac{1}{3}x^2$. Which graph is wider, and why?
+
+   **Answer:** $y=\frac{1}{3}x^2$ is wider because $0<|a|<1$, so outputs grow more slowly away from the vertex.
 
 ### Level 2 - Core Practice
 
-4. [Exercise 4]
-5. [Exercise 5]
-6. [Exercise 6]
-7. [Exercise 7]
+4. **(Core - axis from standard form)** Find the axis of symmetry of $y=x^2-8x+6$.
+
+   **Answer:** $x=-\frac{b}{2a}=-\frac{-8}{2\cdot 1}=4$, so the axis is $x=4$.
+
+5. **(Core - vertex from standard form)** Find the vertex of $y=x^2-8x+6$.
+
+   **Answer:** Use the axis $x=4$, then substitute: $y=4^2-8(4)+6=16-32+6=-10$. The vertex is $(4,-10)$.
+
+6. **(Core - convert to vertex form)** Rewrite $y=x^2+6x+11$ in vertex form, then state the vertex and range.
+
+   **Answer:** Complete the square: $y=(x^2+6x+9)+2=(x+3)^2+2$. Vertex $(-3,2)$; since it opens upward, range is $y\ge 2$.
+
+7. **(Core - downward-opening parabola)** For $y=-2(x+1)^2+8$, state the maximum value and where it occurs.
+
+   **Answer:** The vertex is $(-1,8)$. Because $a=-2<0$, the parabola opens downward, so the maximum value is $8$ at $x=-1$.
 
 ### Level 3 - Challenge
 
-8. [Exercise 8]
-9. [Exercise 9]
-10. [Exercise 10]
+8. **(Challenge - table reasoning)** A relation has values shown below.
+
+   | $x$ | $-1$ | $0$ | $1$ | $2$ | $3$ |
+   |---:|---:|---:|---:|---:|---:|
+   | $y$ | $8$ | $3$ | $0$ | $-1$ | $0$ |
+
+   Explain why a quadratic model is reasonable, and identify the axis of symmetry suggested by the table.
+
+   **Answer:** First differences are $-5,-3,-1,1$, so the second differences are $2,2,2$, which supports a quadratic model. The matching values $y=0$ at $x=1$ and $x=3$ are symmetric around $x=2$, so the axis is $x=2$.
+
+9. **(Challenge - projectile model)** A ball's height in meters is modeled by $h(t)=-4t^2+16t+1$. Find the time and height at the maximum.
+
+   **Answer:** The maximum occurs at $t=-\frac{b}{2a}=-\frac{16}{2(-4)}=2$. Then $h(2)=-4(2)^2+16(2)+1=-16+32+1=17$. The maximum height is $17$ meters at $2$ seconds.
+
+10. **(Challenge - build a vertex-form model)** Write a quadratic function with vertex $(2,-3)$ that opens upward and passes through $(4,5)$.
+
+    **Answer:** Start with $y=a(x-2)^2-3$. Substitute $(4,5)$: $5=a(4-2)^2-3=4a-3$, so $8=4a$ and $a=2$. One such function is $y=2(x-2)^2-3$.
 
 ## Summary and Key Takeaways
 
