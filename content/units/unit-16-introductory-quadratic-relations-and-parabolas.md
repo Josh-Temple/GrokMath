@@ -2,7 +2,7 @@
 title: "Introductory Quadratic Relations and Parabolas"
 slug: "unit-16-introductory-quadratic-relations-and-parabolas"
 order: 16
-status: "Draft"
+status: "Ready"
 level: "high-school"
 audience: "Grades 8-10"
 description: "Introduces quadratic relations as a next step after linear and systems work, focusing on curved growth patterns and parabola structure."
@@ -259,11 +259,26 @@ Find the time and height at the highest point.
 
 ## Summary and Key Takeaways
 
-- [3-5 concise takeaways in student-friendly language]
-- [One line on when to use this idea]
-- [One line on what to review if stuck]
+- A **quadratic relation** has a squared variable term and can often be written as $y=ax^2+bx+c$ with $a\neq 0$.
+- Quadratic graphs are **parabolas**: they open upward when $a>0$ and downward when $a<0$.
+- Vertex form, $y=a(x-h)^2+k$, makes the vertex $(h,k)$ and axis of symmetry $x=h$ easy to read.
+- The **range** depends on the vertex and opening direction: if $a>0$, then $y\ge k$; if $a<0$, then $y\le k$.
+- Use quadratic models when a situation has curved behavior, symmetry, or changing differences rather than a constant linear rate.
+
+| Big idea | What to remember | Quick example |
+|---|---|---|
+| Standard form | $y=ax^2+bx+c$, where $a\neq 0$ | $y=2x^2-3x+1$ |
+| Vertex form | $y=a(x-h)^2+k$ shows vertex $(h,k)$ | $y=3(x-2)^2-5$ has vertex $(2,-5)$ |
+| Opening direction | Sign of $a$ controls up/down | $a<0$ opens downward |
+| Axis of symmetry | The vertical mirror line through the vertex | $x=h$ in vertex form |
+| Range | Minimum or maximum comes from the vertex | $y\ge k$ if opening upward |
+
+If you are stuck, first identify the form you have, then find the vertex, opening direction, axis of symmetry, and range in that order.
 
 ## Next Steps / Connections
 
-- [How this lesson connects to the next lesson]
-- [Optional extension topic]
+- **Next algebra step:** Use parabola structure to solve quadratic equations, where solutions often correspond to $x$-intercepts of the graph.
+- **Connection to factoring:** Factored form will make it easier to see where a parabola crosses the $x$-axis.
+- **Connection to optimization:** The vertex gives a maximum or minimum value, which supports real-world questions such as highest height, least cost, or greatest area.
+- **Review if needed:** Revisit Unit 9 for function and graph language, and Unit 14 for equation-solving habits before moving deeper into quadratic equations.
+- **Optional extension:** Compare tables with constant first differences (linear) against tables with constant second differences (quadratic).
