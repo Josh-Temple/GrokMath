@@ -1,3 +1,45 @@
+## Session 2026-06-01 (Unit 16 Completion + Ready Promotion)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` before editing, then executed the final bounded Unit 16 completion pass.
+  - Populated only `## Summary and Key Takeaways` and `## Next Steps / Connections` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`.
+  - Promoted Unit 16 frontmatter status from `Draft` to `Ready` because all canonical sections are now populated.
+  - Synchronized Unit 16 status/progress notes in `content/index.md` and `curriculum/index.md`.
+  - Updated `README.md` to reflect the current Unit 1-16 rendered route/content-index reality.
+  - Ran `npm run build` successfully and completed short `/units` + Unit 16 route smoke checks with HTTP 200 responses.
+- **Decisions made**:
+  - Kept the content pass strictly bounded to Unit 16's final two canonical sections plus required status/index/handoff/README synchronization.
+  - Marked Unit 16 as `Ready` after completion because no canonical placeholders remain and verification passed.
+  - Deferred Unit 17 content creation to a future session to avoid scope creep.
+- **What’s next**:
+  1. Run a lightweight full-lesson review of Unit 16 for tone, notation, and KaTeX consistency without expanding scope.
+  2. Prepare a bounded Unit 17 kickoff plan (frontmatter + `## Concept Map` + `## Intuitive Explanation` only) after the Unit 16 review.
+  3. Keep `content/index.md`, `curriculum/index.md`, and `README.md` synchronized as the curriculum expands beyond Unit 16.
+- **Blockers / risks**:
+  - No functional blockers detected.
+  - Minor environment npm warning (`Unknown env config "http-proxy"`) may still appear but remains non-blocking while build and route checks pass.
+- **Suggested next prompt**:
+  - "Run a strict Unit 16 post-completion review pass: check tone, notation, and KaTeX rendering only in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`, avoid structural or scope expansion, run `npm run build` and short `/units` + Unit 16 smoke checks, then append a dated HANDOFF entry."
+
+## Session 2026-05-31 (Unit 16 Grok Instruction Validity Review)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` before making any edits, per repository continuity rules.
+  - Reviewed the provided Grok instruction block against the current repository state.
+  - Confirmed the instruction block is stale for the present branch: `## Common Mistakes and How to Avoid Them` and `## Quick Checks` in Unit 16 are already populated, and Unit 16 also now includes populated `## Graded Exercises`.
+  - Made no lesson-content, index, routing, framework, dependency, or UI changes in this pass.
+- **Decisions made**:
+  - Do **not** execute the provided Grok instruction block as-is, because it would repeat already-completed Unit 16 work and risk unnecessary content churn.
+  - Keep Unit 16 status as `Draft` for now because `## Summary and Key Takeaways` and `## Next Steps / Connections` remain placeholders.
+  - Treat the next appropriate bounded production pass as the final Unit 16 completion pass, not another Common Mistakes / Quick Checks pass.
+- **What’s next**:
+  1. Populate only `## Summary and Key Takeaways` and `## Next Steps / Connections` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`.
+  2. Synchronize Unit 16 progress/status notes in both `content/index.md` and `curriculum/index.md`; promote Unit 16 to `Ready` only if all canonical sections are complete and quality checks pass.
+  3. Run `npm run build` and short route smoke checks for `/units` and `/units/unit-16-introductory-quadratic-relations-and-parabolas`.
+- **Blockers / risks**:
+  - Primary risk: following the pasted Grok block literally would duplicate completed work rather than advancing the curriculum.
+  - No technical blockers detected during this review.
+- **Suggested next prompt**:
+  - "Execute the final strict bounded Unit 16 completion pass: populate only `## Summary and Key Takeaways` and `## Next Steps / Connections` in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`, keep all non-target sections unchanged, synchronize Unit 16 status/progress notes in `content/index.md` and `curriculum/index.md` (promote to `Ready` only if appropriate), run `npm run build` and short `/units` + Unit 16 route smoke checks, then append a dated HANDOFF entry."
+
 ## Session 2026-05-24 (Unit 16 Formal Definition + Worked Examples Pass)
 - **What changed**:
   - Re-read `README.md` and `HANDOFF.md` before editing, then executed the planned bounded Unit 16 increment.

@@ -146,6 +146,12 @@ Current web output now includes a basic unit navigation flow, server-side markdo
 - `/units/unit-8-proportional-reasoning-and-percentages` — rendered lesson page from `content/units/unit-8-proportional-reasoning-and-percentages.md`
 - `/units/unit-9-functions-and-basic-graphing` — rendered lesson page from `content/units/unit-9-functions-and-basic-graphing.md`
 - `/units/unit-10-elementary-probability-and-statistics` — rendered lesson page from `content/units/unit-10-elementary-probability-and-statistics.md`
+- `/units/unit-11-bridge-to-fractions-and-rational-numbers` — rendered lesson page from `content/units/unit-11-bridge-to-fractions-and-rational-numbers.md`
+- `/units/unit-12-operations-with-rational-numbers` — rendered lesson page from `content/units/unit-12-operations-with-rational-numbers.md`
+- `/units/unit-13-advanced-rational-applications-and-mixed-operations` — rendered lesson page from `content/units/unit-13-advanced-rational-applications-and-mixed-operations.md`
+- `/units/unit-14-linear-equations-and-inequalities-with-rational-numbers` — rendered lesson page from `content/units/unit-14-linear-equations-and-inequalities-with-rational-numbers.md`
+- `/units/unit-15-systems-of-linear-equations-with-rational-coefficients` — rendered lesson page from `content/units/unit-15-systems-of-linear-equations-with-rational-coefficients.md`
+- `/units/unit-16-introductory-quadratic-relations-and-parabolas` — rendered lesson page from `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`
 
 ## PWA Support
 
@@ -162,7 +168,7 @@ This is a pragmatic first PWA pass focused on installability plus offline access
 
 ## Current Content Structure
 
-- `content/index.md` — starter curriculum index with audience guidance and status tracking for Units 1–10.
+- `content/index.md` — starter curriculum index with audience guidance and status tracking for Units 1–16.
 - `content/lesson-template.md` — canonical markdown template for all lesson authoring.
 - `content/units/` — destination folder for per-unit lesson files that feed the Next.js routes.
 - `curriculum/index.md` — planning-layer curriculum roadmap used to track sequencing, level bands, and future expansion.
@@ -205,7 +211,7 @@ Near-term curriculum work should preserve alignment between the publishable `con
 - Lesson rendering now routes through a dedicated `lib/markdown.ts` pipeline with frontmatter extraction and optional `remark`/`gray-matter`/KaTeX runtime support; dependency installation constraints currently force fallback behavior in this environment.
 - KaTeX stylesheet is wired globally, and math rendering is enabled when the `katex` runtime dependency is available.
 - Keep `/units` auto-generation aligned with filename/frontmatter conventions as new lessons are added.
-- Expand beyond Units 1–10 while maintaining the same pedagogical quality bar and markdown structure consistency.
+- Continue expanding beyond Unit 16 while maintaining the same pedagogical quality bar and markdown structure consistency.
 - Next.js now uses a patched `^15.2.5` range in `package.json` to stay above the CVE-2025-66478 blocked release while allowing security patch uptake.
 - Dependency-install reliability remains a risk factor when introducing parser/rendering upgrades.
 - ESLint configuration is now checked into the repo, but environments without `npm install` on the new lint packages may need `next.config.mjs`'s build-time lint bypass until dependencies are materialized.

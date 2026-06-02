@@ -21,7 +21,7 @@ This starter index defines the first 16 core units from elementary arithmetic th
 | 13 | Advanced Rational Applications and Mixed Operations | Grades 7-9 | Extends rational fluency to multi-step contexts, mixed forms, and operation-selection reasoning with stronger modeling habits. | Ready |
 | 14 | Linear Equations and Inequalities with Rational Numbers | Grades 7-9 | Applies rational-number fluency to solving and interpreting one-variable linear equations and inequalities. | Ready |
 | 15 | Systems of Linear Equations with Rational Coefficients | Grades 8-10 | Extends one-variable linear solving to two-equation systems using substitution, elimination, and intersection interpretation. | Ready |
-| 16 | Introductory Quadratic Relations and Parabolas | Grades 8-10 | Introduces quadratic relations and parabola structure as the first step beyond linear-system methods into curved-function behavior. | Draft |
+| 16 | Introductory Quadratic Relations and Parabolas | Grades 8-10 | Introduces quadratic relations and parabola structure as the first step beyond linear-system methods into curved-function behavior. | Ready |
 
 ## Sequencing Rationale
 
@@ -45,7 +45,7 @@ This starter index defines the first 16 core units from elementary arithmetic th
 - Unit 13 now includes Graded Exercises and Summary plus a notation/tone harmonization micro-pass, and is marked `Ready`.
 - Unit 14 completed a bounded notation/tone/KaTeX safety polish pass and is now marked `Ready`.
 - Unit 15 is now `Ready`; all canonical sections are populated, including `## Graded Exercises`, `## Summary and Key Takeaways`, and `## Next Steps / Connections`, and publishable/planning indexes are synchronized.
-- Unit 16 remains `Draft` after the fourth bounded pass: `## Graded Exercises` is now populated in addition to prior completed sections, while `## Summary and Key Takeaways` and `## Next Steps / Connections` remain placeholders.
+- Unit 16 is now `Ready`; all canonical sections are populated, including `## Summary and Key Takeaways` and `## Next Steps / Connections`, and publishable/planning indexes are synchronized.
 - Units 11-15 completed a light notation/KaTeX consistency sweep on 2026-05-18 (delimiter/spacing/symbol normalization only; no structural or semantic lesson changes).
 - Units 4-8 completed a 2026-03-29 structural alignment pass and now match canonical heading names/order (content depth polish can proceed separately).
 - Units 1-8 completed a light 2026-04-02 answer-key consistency sweep (notation, wording density, and multi-step clarity) with minimal section-local edits only.
