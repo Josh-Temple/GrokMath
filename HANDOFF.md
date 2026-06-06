@@ -1,3 +1,23 @@
+## Session 2026-06-03 (Grok Unit 16 Instruction Validity Review + Updated Plan)
+- **What changed**:
+  - Re-read `README.md` and `HANDOFF.md` before making any edits, per repository continuity rules.
+  - Reviewed the provided Grok instruction block against the current repository state.
+  - Confirmed the instruction block is stale for this branch: Unit 16 is already `Ready`, and `## Common Mistakes and How to Avoid Them`, `## Quick Checks`, `## Graded Exercises`, `## Summary and Key Takeaways`, and `## Next Steps / Connections` are populated.
+  - Made no lesson-content, index, routing, framework, dependency, or UI changes in this pass.
+- **Decisions made**:
+  - Do **not** execute the provided Grok block as-is, because it targets sections that are already complete and would create unnecessary churn.
+  - Preserve Unit 16 as `Ready` and keep `content/index.md` / `curriculum/index.md` synchronized without further status edits.
+  - Treat the next appropriate production pass as either a strict Unit 16 post-completion review or a bounded Unit 17 kickoff, not another Common Mistakes / Quick Checks pass.
+- **What’s next**:
+  1. If staying on Unit 16, run only a lightweight tone/notation/KaTeX review of the completed lesson without adding new sections or changing scope.
+  2. If advancing the curriculum, start Unit 17 with frontmatter plus `## Concept Map` and `## Intuitive Explanation` only, then synchronize indexes.
+  3. Run `npm run build` after any content or index edits and complete short route smoke checks for `/units` plus the touched unit route.
+- **Blockers / risks**:
+  - Primary risk: following the pasted Grok block literally would duplicate completed Unit 16 work and could degrade a synchronized `Ready` lesson through needless rewrites.
+  - No technical blockers detected during this review.
+- **Suggested next prompt**:
+  - "Run a strict Unit 16 post-completion review pass: check tone, notation, and KaTeX rendering only in `content/units/unit-16-introductory-quadratic-relations-and-parabolas.md`, avoid structural or scope expansion, run `npm run build` and short `/units` + Unit 16 smoke checks, then append a dated HANDOFF entry."
+
 ## Session 2026-06-01 (Unit 16 Completion + Ready Promotion)
 - **What changed**:
   - Re-read `README.md` and `HANDOFF.md` before editing, then executed the final bounded Unit 16 completion pass.
