@@ -103,6 +103,7 @@ Each unit should eventually include:
 ---
 
 ## Vercel Deployment Baseline
+- Production: https://grok-math.vercel.app/
 
 A minimal Next.js App Router scaffold is included so the repository can be deployed directly on Vercel.
 
