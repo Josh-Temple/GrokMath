@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "next": "15.5.28",
-    "react": "19.3.0",
-    "react-dom": "19.3.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
     "gray-matter": "^4.0.3",
     "katex": "^0.16.11",
     "remark": "^15.0.1",
